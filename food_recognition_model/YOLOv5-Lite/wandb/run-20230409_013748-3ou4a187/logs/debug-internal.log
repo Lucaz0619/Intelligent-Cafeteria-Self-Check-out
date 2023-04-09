@@ -1,0 +1,185 @@
+2023-04-09 01:37:49,465 INFO    MainThread:7400 [internal.py:wandb_internal():92] W&B internal server running at pid: 7400, started at: 2023-04-09 01:37:49.465640
+2023-04-09 01:37:49,468 INFO    WriterThread:7400 [datastore.py:open_for_write():77] open: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/run-3ou4a187.wandb
+2023-04-09 01:37:49,470 DEBUG   SenderThread:7400 [sender.py:send():235] send: header
+2023-04-09 01:37:49,470 DEBUG   SenderThread:7400 [sender.py:send():235] send: run
+2023-04-09 01:37:49,479 INFO    SenderThread:7400 [sender.py:_maybe_setup_resume():492] checking resume status for None/YOLOv5/3ou4a187
+2023-04-09 01:37:49,889 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: check_version
+2023-04-09 01:37:49,891 INFO    SenderThread:7400 [dir_watcher.py:__init__():169] watching files in: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files
+2023-04-09 01:37:49,891 INFO    SenderThread:7400 [sender.py:_start_run_threads():812] run started: 3ou4a187 with start time 1681000668
+2023-04-09 01:37:49,891 DEBUG   SenderThread:7400 [sender.py:send():235] send: summary
+2023-04-09 01:37:49,891 INFO    SenderThread:7400 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2023-04-09 01:37:49,892 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: check_version
+2023-04-09 01:37:49,979 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: run_start
+2023-04-09 01:37:49,984 DEBUG   HandlerThread:7400 [meta.py:__init__():37] meta init
+2023-04-09 01:37:49,984 DEBUG   HandlerThread:7400 [meta.py:__init__():51] meta init done
+2023-04-09 01:37:49,984 DEBUG   HandlerThread:7400 [meta.py:probe():211] probe
+2023-04-09 01:37:49,996 DEBUG   HandlerThread:7400 [git.py:repo():33] git repository is invalid
+2023-04-09 01:37:49,997 DEBUG   HandlerThread:7400 [meta.py:_save_pip():55] save pip
+2023-04-09 01:37:49,997 DEBUG   HandlerThread:7400 [meta.py:_save_pip():69] save pip done
+2023-04-09 01:37:49,998 DEBUG   HandlerThread:7400 [meta.py:_save_conda():76] save conda
+2023-04-09 01:37:50,893 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_created():217] file/dir created: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/requirements.txt
+2023-04-09 01:37:50,893 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_created():217] file/dir created: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/wandb-summary.json
+2023-04-09 01:37:50,893 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_created():217] file/dir created: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/conda-environment.yaml
+2023-04-09 01:37:51,892 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/conda-environment.yaml
+2023-04-09 01:37:52,068 DEBUG   HandlerThread:7400 [meta.py:_save_conda():86] save conda done
+2023-04-09 01:37:52,068 DEBUG   HandlerThread:7400 [meta.py:probe():249] probe done
+2023-04-09 01:37:52,098 DEBUG   SenderThread:7400 [sender.py:send():235] send: files
+2023-04-09 01:37:52,098 INFO    SenderThread:7400 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2023-04-09 01:37:52,104 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-09 01:37:52,104 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: stop_status
+2023-04-09 01:37:52,290 DEBUG   SenderThread:7400 [sender.py:send():235] send: telemetry
+2023-04-09 01:37:52,291 DEBUG   SenderThread:7400 [sender.py:send():235] send: telemetry
+2023-04-09 01:37:52,292 DEBUG   SenderThread:7400 [sender.py:send():235] send: config
+2023-04-09 01:37:52,292 DEBUG   SenderThread:7400 [sender.py:send():235] send: config
+2023-04-09 01:37:52,670 INFO    Thread-11 :7400 [upload_job.py:push():137] Uploaded file /tmp/tmputud8rrswandb/19zmweml-wandb-metadata.json
+2023-04-09 01:37:52,892 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_created():217] file/dir created: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/wandb-metadata.json
+2023-04-09 01:37:52,892 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_created():217] file/dir created: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:37:54,893 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:37:56,895 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:00,914 DEBUG   SenderThread:7400 [sender.py:send():235] send: files
+2023-04-09 01:38:00,914 INFO    SenderThread:7400 [sender.py:_save_file():947] saving file media/images/Labels_0_0.jpg with policy now
+2023-04-09 01:38:00,915 DEBUG   SenderThread:7400 [sender.py:send():235] send: files
+2023-04-09 01:38:00,915 INFO    SenderThread:7400 [sender.py:_save_file():947] saving file media/images/Labels_0_1.jpg with policy now
+2023-04-09 01:38:01,372 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-09 01:38:01,531 INFO    Thread-12 :7400 [upload_job.py:push():137] Uploaded file /tmp/tmputud8rrswandb/a55svq3u-media/images/Labels_0_0.jpg
+2023-04-09 01:38:01,617 INFO    Thread-13 :7400 [upload_job.py:push():137] Uploaded file /tmp/tmputud8rrswandb/3cfkfsty-media/images/Labels_0_1.jpg
+2023-04-09 01:38:01,902 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_created():217] file/dir created: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/media/images/Labels_0_0.jpg
+2023-04-09 01:38:01,902 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_created():217] file/dir created: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/media/images/Labels_0_1.jpg
+2023-04-09 01:38:01,902 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_created():217] file/dir created: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/media/images
+2023-04-09 01:38:01,903 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_created():217] file/dir created: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/media
+2023-04-09 01:38:02,902 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:07,294 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: stop_status
+2023-04-09 01:38:07,295 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: stop_status
+2023-04-09 01:38:08,908 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:10,908 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:12,909 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:14,910 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:16,912 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:18,356 DEBUG   SenderThread:7400 [sender.py:send():235] send: stats
+2023-04-09 01:38:18,914 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:20,917 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/config.yaml
+2023-04-09 01:38:20,918 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:21,836 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-09 01:38:21,836 DEBUG   SenderThread:7400 [sender.py:send():235] send: telemetry
+2023-04-09 01:38:21,838 DEBUG   SenderThread:7400 [sender.py:send():235] send: history
+2023-04-09 01:38:21,838 DEBUG   SenderThread:7400 [sender.py:send():235] send: summary
+2023-04-09 01:38:21,839 INFO    SenderThread:7400 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2023-04-09 01:38:21,917 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/wandb-summary.json
+2023-04-09 01:38:22,917 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:24,319 DEBUG   SenderThread:7400 [sender.py:send():235] send: exit
+2023-04-09 01:38:24,319 INFO    SenderThread:7400 [sender.py:send_exit():371] handling exit code: 1
+2023-04-09 01:38:24,319 INFO    SenderThread:7400 [sender.py:send_exit():373] handling runtime: 34
+2023-04-09 01:38:24,319 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:24,320 INFO    SenderThread:7400 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2023-04-09 01:38:24,320 INFO    SenderThread:7400 [sender.py:send_exit():379] send defer
+2023-04-09 01:38:24,320 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:24,321 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:24,321 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 0
+2023-04-09 01:38:24,322 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:24,322 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 0
+2023-04-09 01:38:24,323 INFO    SenderThread:7400 [sender.py:transition_state():392] send defer: 1
+2023-04-09 01:38:24,323 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:24,323 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 1
+2023-04-09 01:38:24,410 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:24,410 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 1
+2023-04-09 01:38:24,410 INFO    SenderThread:7400 [sender.py:transition_state():392] send defer: 2
+2023-04-09 01:38:24,410 DEBUG   SenderThread:7400 [sender.py:send():235] send: stats
+2023-04-09 01:38:24,411 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:24,411 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 2
+2023-04-09 01:38:24,411 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:24,411 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 2
+2023-04-09 01:38:24,411 INFO    SenderThread:7400 [sender.py:transition_state():392] send defer: 3
+2023-04-09 01:38:24,412 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:24,412 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 3
+2023-04-09 01:38:24,412 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:24,412 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 3
+2023-04-09 01:38:24,412 INFO    SenderThread:7400 [sender.py:transition_state():392] send defer: 4
+2023-04-09 01:38:24,412 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:24,412 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 4
+2023-04-09 01:38:24,413 DEBUG   SenderThread:7400 [sender.py:send():235] send: summary
+2023-04-09 01:38:24,413 INFO    SenderThread:7400 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2023-04-09 01:38:24,414 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:24,414 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 4
+2023-04-09 01:38:24,414 INFO    SenderThread:7400 [sender.py:transition_state():392] send defer: 5
+2023-04-09 01:38:24,414 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:24,414 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 5
+2023-04-09 01:38:24,414 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:24,415 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 5
+2023-04-09 01:38:24,422 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:24,919 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/wandb-summary.json
+2023-04-09 01:38:24,920 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:25,084 INFO    SenderThread:7400 [sender.py:transition_state():392] send defer: 6
+2023-04-09 01:38:25,084 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:25,085 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:25,085 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 6
+2023-04-09 01:38:25,085 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:25,085 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 6
+2023-04-09 01:38:25,085 INFO    SenderThread:7400 [dir_watcher.py:finish():283] shutting down directory watcher
+2023-04-09 01:38:25,186 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:25,920 INFO    Thread-7  :7400 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/config.yaml
+2023-04-09 01:38:25,920 INFO    SenderThread:7400 [dir_watcher.py:finish():313] scan: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files
+2023-04-09 01:38:25,921 INFO    SenderThread:7400 [dir_watcher.py:finish():327] scan save: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/config.yaml config.yaml
+2023-04-09 01:38:25,921 INFO    SenderThread:7400 [dir_watcher.py:finish():327] scan save: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log output.log
+2023-04-09 01:38:25,925 INFO    SenderThread:7400 [dir_watcher.py:finish():327] scan save: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/requirements.txt requirements.txt
+2023-04-09 01:38:25,925 INFO    SenderThread:7400 [dir_watcher.py:finish():327] scan save: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/wandb-metadata.json wandb-metadata.json
+2023-04-09 01:38:25,926 INFO    SenderThread:7400 [dir_watcher.py:finish():327] scan save: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/wandb-summary.json wandb-summary.json
+2023-04-09 01:38:25,926 INFO    SenderThread:7400 [dir_watcher.py:finish():327] scan save: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/conda-environment.yaml conda-environment.yaml
+2023-04-09 01:38:25,945 INFO    SenderThread:7400 [dir_watcher.py:finish():327] scan save: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/media/images/Labels_0_1.jpg media/images/Labels_0_1.jpg
+2023-04-09 01:38:25,945 INFO    SenderThread:7400 [dir_watcher.py:finish():327] scan save: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/media/images/Labels_0_0.jpg media/images/Labels_0_0.jpg
+2023-04-09 01:38:25,946 INFO    SenderThread:7400 [sender.py:transition_state():392] send defer: 7
+2023-04-09 01:38:25,946 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:25,946 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:25,947 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 7
+2023-04-09 01:38:25,947 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:25,947 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 7
+2023-04-09 01:38:25,947 INFO    SenderThread:7400 [file_pusher.py:finish():145] shutting down file pusher
+2023-04-09 01:38:26,048 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:26,049 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:26,151 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:26,152 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:26,254 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:26,255 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:26,358 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:26,359 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:26,462 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:26,463 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:26,505 INFO    Thread-16 :7400 [upload_job.py:push():137] Uploaded file /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/requirements.txt
+2023-04-09 01:38:26,514 INFO    Thread-18 :7400 [upload_job.py:push():137] Uploaded file /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/conda-environment.yaml
+2023-04-09 01:38:26,516 INFO    Thread-15 :7400 [upload_job.py:push():137] Uploaded file /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/output.log
+2023-04-09 01:38:26,519 INFO    Thread-14 :7400 [upload_job.py:push():137] Uploaded file /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/config.yaml
+2023-04-09 01:38:26,523 INFO    Thread-17 :7400 [upload_job.py:push():137] Uploaded file /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/files/wandb-summary.json
+2023-04-09 01:38:26,565 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:26,566 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:26,669 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:26,670 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:26,726 INFO    Thread-6  :7400 [sender.py:transition_state():392] send defer: 8
+2023-04-09 01:38:26,727 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:26,728 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 8
+2023-04-09 01:38:26,728 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:26,728 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 8
+2023-04-09 01:38:26,772 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:27,267 INFO    SenderThread:7400 [sender.py:transition_state():392] send defer: 9
+2023-04-09 01:38:27,268 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:27,269 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:27,270 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 9
+2023-04-09 01:38:27,270 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:27,271 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 9
+2023-04-09 01:38:27,271 INFO    SenderThread:7400 [sender.py:transition_state():392] send defer: 10
+2023-04-09 01:38:27,273 DEBUG   SenderThread:7400 [sender.py:send():235] send: final
+2023-04-09 01:38:27,273 DEBUG   SenderThread:7400 [sender.py:send():235] send: footer
+2023-04-09 01:38:27,274 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: defer
+2023-04-09 01:38:27,274 INFO    HandlerThread:7400 [handler.py:handle_request_defer():164] handle defer: 10
+2023-04-09 01:38:27,274 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: defer
+2023-04-09 01:38:27,275 INFO    SenderThread:7400 [sender.py:send_request_defer():388] handle sender defer: 10
+2023-04-09 01:38:27,371 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-09 01:38:27,372 DEBUG   SenderThread:7400 [sender.py:send_request():249] send_request: poll_exit
+2023-04-09 01:38:27,372 INFO    SenderThread:7400 [file_pusher.py:join():150] waiting for file pusher
+2023-04-09 01:38:27,835 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: sampled_history
+2023-04-09 01:38:27,837 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: get_summary
+2023-04-09 01:38:27,840 DEBUG   HandlerThread:7400 [handler.py:handle_request():141] handle_request: shutdown
+2023-04-09 01:38:27,840 INFO    HandlerThread:7400 [handler.py:finish():778] shutting down handler
+2023-04-09 01:38:28,273 INFO    WriterThread:7400 [datastore.py:close():281] close: /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230409_013748-3ou4a187/run-3ou4a187.wandb
+2023-04-09 01:38:28,733 INFO    SenderThread:7400 [sender.py:finish():1078] shutting down sender
+2023-04-09 01:38:28,733 INFO    SenderThread:7400 [file_pusher.py:finish():145] shutting down file pusher
+2023-04-09 01:38:28,733 INFO    SenderThread:7400 [file_pusher.py:join():150] waiting for file pusher
+2023-04-09 01:38:28,737 INFO    MainThread:7400 [internal.py:handle_exit():82] Internal process exited

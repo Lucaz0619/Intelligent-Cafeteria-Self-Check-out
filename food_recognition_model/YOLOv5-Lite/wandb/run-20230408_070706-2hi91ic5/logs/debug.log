@@ -1,0 +1,147 @@
+2023-04-08 07:07:06,532 INFO    MainThread:17946 [wandb_setup.py:_flush():75] Loading settings from /home/weijian/.config/wandb/settings
+2023-04-08 07:07:06,532 INFO    MainThread:17946 [wandb_setup.py:_flush():75] Loading settings from /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/settings
+2023-04-08 07:07:06,532 INFO    MainThread:17946 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2023-04-08 07:07:06,532 INFO    MainThread:17946 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': '/home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/train.py'}
+2023-04-08 07:07:06,532 INFO    MainThread:17946 [wandb_init.py:_log_setup():405] Logging user logs to /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230408_070706-2hi91ic5/logs/debug.log
+2023-04-08 07:07:06,532 INFO    MainThread:17946 [wandb_init.py:_log_setup():406] Logging internal logs to /home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/wandb/run-20230408_070706-2hi91ic5/logs/debug-internal.log
+2023-04-08 07:07:06,532 INFO    MainThread:17946 [wandb_init.py:init():439] calling init triggers
+2023-04-08 07:07:06,532 INFO    MainThread:17946 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'weights': 'pretrained/v5lite-s.pt', 'cfg': 'models/v5Lite-s.yaml', 'data': 'data/UNIMIB2016.yaml', 'hyp': {'lr0': 0.001, 'lrf': 0.2, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 0.2, 'mixup': 0.0}, 'epochs': 100, 'batch_size': 16, 'img_size': [640, 640], 'rect': False, 'resume': False, 'nosave': False, 'notest': False, 'noautoanchor': False, 'evolve': False, 'bucket': '', 'cache_images': False, 'image_weights': False, 'device': '0', 'multi_scale': False, 'single_cls': False, 'adam': True, 'sync_bn': False, 'local_rank': -1, 'workers': 8, 'project': 'runs/train', 'entity': None, 'name': 'exp', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'upload_dataset': False, 'bbox_interval': -1, 'save_period': -1, 'artifact_alias': 'latest', 'world_size': 1, 'global_rank': -1, 'save_dir': 'runs/train/exp3', 'total_batch_size': 16}
+2023-04-08 07:07:06,532 INFO    MainThread:17946 [wandb_init.py:init():492] starting backend
+2023-04-08 07:07:06,532 INFO    MainThread:17946 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-08 07:07:06,541 INFO    MainThread:17946 [backend.py:ensure_launched():219] starting backend process...
+2023-04-08 07:07:06,546 INFO    MainThread:17946 [backend.py:ensure_launched():224] started backend process with pid: 17983
+2023-04-08 07:07:06,547 INFO    MainThread:17946 [wandb_init.py:init():501] backend started and connected
+2023-04-08 07:07:06,551 INFO    MainThread:17946 [wandb_init.py:init():565] updated telemetry
+2023-04-08 07:07:06,552 INFO    MainThread:17946 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2023-04-08 07:07:07,650 INFO    MainThread:17946 [wandb_run.py:_on_init():1759] communicating current version
+2023-04-08 07:07:07,758 INFO    MainThread:17946 [wandb_run.py:_on_init():1763] got version response upgrade_message: "wandb version 0.14.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-04-08 07:07:07,758 INFO    MainThread:17946 [wandb_init.py:init():625] starting run threads in backend
+2023-04-08 07:07:09,934 INFO    MainThread:17946 [wandb_run.py:_console_start():1733] atexit reg
+2023-04-08 07:07:09,935 INFO    MainThread:17946 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.REDIRECT
+2023-04-08 07:07:09,935 INFO    MainThread:17946 [wandb_run.py:_redirect():1611] Redirecting console.
+2023-04-08 07:07:09,942 INFO    MainThread:17946 [wandb_run.py:_redirect():1667] Redirects installed.
+2023-04-08 07:07:09,942 INFO    MainThread:17946 [wandb_init.py:init():664] run started, returning control to user process
+2023-04-08 07:07:09,942 INFO    MainThread:17946 [wandb_config.py:__setitem__():153] config set opt = {'weights': 'pretrained/v5lite-s.pt', 'cfg': 'models/v5Lite-s.yaml', 'data': 'data/UNIMIB2016.yaml', 'hyp': {'lr0': 0.001, 'lrf': 0.2, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 0.2, 'mixup': 0.0}, 'epochs': 100, 'batch_size': 16, 'img_size': [640, 640], 'rect': False, 'resume': False, 'nosave': False, 'notest': False, 'noautoanchor': False, 'evolve': False, 'bucket': '', 'cache_images': False, 'image_weights': False, 'device': '0', 'multi_scale': False, 'single_cls': False, 'adam': True, 'sync_bn': False, 'local_rank': -1, 'workers': 8, 'project': 'runs/train', 'entity': None, 'name': 'exp', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'upload_dataset': False, 'bbox_interval': -1, 'save_period': -1, 'artifact_alias': 'latest', 'world_size': 1, 'global_rank': -1, 'save_dir': 'runs/train/exp3', 'total_batch_size': 16} - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f92d13e69d0>>
+2023-04-08 07:07:09,942 INFO    MainThread:17946 [wandb_run.py:_config_callback():992] config_cb opt {'weights': 'pretrained/v5lite-s.pt', 'cfg': 'models/v5Lite-s.yaml', 'data': 'data/UNIMIB2016.yaml', 'hyp': {'lr0': 0.001, 'lrf': 0.2, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 0.2, 'mixup': 0.0}, 'epochs': 100, 'batch_size': 16, 'img_size': [640, 640], 'rect': False, 'resume': False, 'nosave': False, 'notest': False, 'noautoanchor': False, 'evolve': False, 'bucket': '', 'cache_images': False, 'image_weights': False, 'device': '0', 'multi_scale': False, 'single_cls': False, 'adam': True, 'sync_bn': False, 'local_rank': -1, 'workers': 8, 'project': 'runs/train', 'entity': None, 'name': 'exp', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'upload_dataset': False, 'bbox_interval': -1, 'save_period': -1, 'artifact_alias': 'latest', 'world_size': 1, 'global_rank': -1, 'save_dir': 'runs/train/exp3', 'total_batch_size': 16} None
+2023-04-08 07:07:09,943 INFO    MainThread:17946 [wandb_config.py:__setitem__():153] config set data_dict = {'path': '../datasets/UNIMIB2016', 'train': 'train.txt', 'val': 'test.txt', 'test': 'test.txt', 'nc': 72, 'names': ['pane', 'mandarini', 'carote', 'patate/pure', 'cotoletta', 'fagiolini', 'yogurt', 'budino', 'spinaci', 'scaloppine', 'pizza', 'pasta_sugo_vegetariano', 'mele', 'pasta_pesto_besciamella_e_cornetti', 'zucchine_umido', 'lasagna_alla_bolognese', 'arancia', 'pasta_sugo_pesce', 'patatine_fritte', 'pasta_cozze_e_vongole', 'arrosto', 'riso_bianco', 'medaglioni_di_carne', 'torta_salata_spinaci_e_ricotta', 'pasta_zafferano_e_piselli', 'patate/pure_prosciutto', 'torta_salata_rustica_(zucchine)', 'insalata_mista', 'pasta_mare_e_monti', 'polpette_di_carne', 'pasta_pancetta_e_zucchine', 'pasta_ricotta_e_salsiccia', 'orecchiette_(ragu)', 'pizzoccheri', 'finocchi_gratinati', 'pere', 'pasta_tonno', 'riso_sugo', 'pasta_tonno_e_piselli', 'piselli', 'torta_salata_3', 'torta_salata_(alla_valdostana)', 'banane', 'salmone_(da_menu_sembra_spada_in_realta)', 'pesce_2_(filetto)', 'bruscitt', 'guazzetto_di_calamari', 'pasta_e_fagioli', 'pasta_sugo', 'arrosto_di_vitello', 'stinco_di_maiale', 'minestra_lombarda', 'finocchi_in_umido', 'pasta_bianco', 'cavolfiore', 'merluzzo_alle_olive', 'zucchine_impanate', 'pesce_(filetto)', 'torta_crema_2', 'roastbeef', 'rosbeef', 'cibo_bianco_non_identificato', 'torta_crema', 'passato_alla_piemontese', 'pasta_e_ceci', 'crema_zucca_e_fagioli', 'focaccia_bianca', 'minestra', 'torta_cioccolato_e_pere', 'torta_ananas', 'rucola', 'strudel']} - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f92d13e69d0>>
+2023-04-08 07:07:09,943 INFO    MainThread:17946 [wandb_run.py:_config_callback():992] config_cb data_dict {'path': '../datasets/UNIMIB2016', 'train': 'train.txt', 'val': 'test.txt', 'test': 'test.txt', 'nc': 72, 'names': ['pane', 'mandarini', 'carote', 'patate/pure', 'cotoletta', 'fagiolini', 'yogurt', 'budino', 'spinaci', 'scaloppine', 'pizza', 'pasta_sugo_vegetariano', 'mele', 'pasta_pesto_besciamella_e_cornetti', 'zucchine_umido', 'lasagna_alla_bolognese', 'arancia', 'pasta_sugo_pesce', 'patatine_fritte', 'pasta_cozze_e_vongole', 'arrosto', 'riso_bianco', 'medaglioni_di_carne', 'torta_salata_spinaci_e_ricotta', 'pasta_zafferano_e_piselli', 'patate/pure_prosciutto', 'torta_salata_rustica_(zucchine)', 'insalata_mista', 'pasta_mare_e_monti', 'polpette_di_carne', 'pasta_pancetta_e_zucchine', 'pasta_ricotta_e_salsiccia', 'orecchiette_(ragu)', 'pizzoccheri', 'finocchi_gratinati', 'pere', 'pasta_tonno', 'riso_sugo', 'pasta_tonno_e_piselli', 'piselli', 'torta_salata_3', 'torta_salata_(alla_valdostana)', 'banane', 'salmone_(da_menu_sembra_spada_in_realta)', 'pesce_2_(filetto)', 'bruscitt', 'guazzetto_di_calamari', 'pasta_e_fagioli', 'pasta_sugo', 'arrosto_di_vitello', 'stinco_di_maiale', 'minestra_lombarda', 'finocchi_in_umido', 'pasta_bianco', 'cavolfiore', 'merluzzo_alle_olive', 'zucchine_impanate', 'pesce_(filetto)', 'torta_crema_2', 'roastbeef', 'rosbeef', 'cibo_bianco_non_identificato', 'torta_crema', 'passato_alla_piemontese', 'pasta_e_ceci', 'crema_zucca_e_fagioli', 'focaccia_bianca', 'minestra', 'torta_cioccolato_e_pere', 'torta_ananas', 'rucola', 'strudel']} None
+2023-04-08 07:07:23,456 INFO    MainThread:17946 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 1
+2023-04-08 07:07:23,457 INFO    MainThread:17946 [wandb_run.py:_restore():1674] restore
+2023-04-08 07:07:25,706 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 422726
+  total_bytes: 422726
+}
+
+2023-04-08 07:07:25,994 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 422726
+  total_bytes: 422726
+}
+
+2023-04-08 07:07:26,695 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 422726
+  total_bytes: 442770
+}
+
+2023-04-08 07:07:26,797 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 422726
+  total_bytes: 442770
+}
+
+2023-04-08 07:07:26,899 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 422726
+  total_bytes: 442770
+}
+
+2023-04-08 07:07:27,001 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 442770
+  total_bytes: 442770
+}
+
+2023-04-08 07:07:27,104 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 442770
+  total_bytes: 442770
+}
+
+2023-04-08 07:07:27,206 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 442770
+  total_bytes: 442770
+}
+
+2023-04-08 07:07:27,309 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 442770
+  total_bytes: 442770
+}
+
+2023-04-08 07:07:27,410 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 442770
+  total_bytes: 442770
+}
+
+2023-04-08 07:07:28,151 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 442770
+  total_bytes: 442770
+}
+
+2023-04-08 07:07:28,571 INFO    MainThread:17946 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 442770
+  total_bytes: 442770
+}
+local_info {
+}
+
+2023-04-08 07:07:29,780 INFO    MainThread:17946 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2023-04-08 07:07:29,780 INFO    MainThread:17946 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2023-04-08 07:07:29,782 INFO    MainThread:17946 [wandb_run.py:_footer_sync_info():2822] logging synced files

@@ -1,0 +1,30 @@
+{
+    "os": "Linux-5.4.0-125-generic-x86_64-with-glibc2.27",
+    "python": "3.9.0",
+    "heartbeatAt": "2023-04-08T06:07:07.770289",
+    "startedAt": "2023-04-08T06:07:06.530873",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--data",
+        "data/UNIMIB2016.yaml",
+        "--cfg",
+        "models/v5Lite-s.yaml",
+        "--weights",
+        "pretrained/v5lite-s.pt",
+        "--epoch",
+        "100",
+        "--batch-size",
+        "16",
+        "--adam"
+    ],
+    "state": "running",
+    "program": "/home/weijian/Deep_Learning_ws/food_recognition_model/YOLOv5-Lite/train.py",
+    "codePath": "train.py",
+    "host": "weijian-laptop",
+    "username": "weijian",
+    "executable": "/home/weijian/anaconda3/envs/PyTorch/bin/python"
+}

@@ -1,0 +1,80 @@
+# UNIMIB2016 dataset http://www.ivl.disco.unimib.it/activities/food-recognition/ (1027 available photos)
+# parent
+# ├── yolov5
+# └── datasets
+#     └── UNIMIB2016  ← downloads here
+
+
+path: ../datasets/UNIMIB2016  # dataset root dir
+train: train.txt  # train images (relative to 'path') 703 images
+val: test.txt  # val images (relative to 'path') 302 images
+test: test.txt # test images (optional) 302 images
+
+# Classes
+nc: 72  # number of classes
+names: [ 'bread', 'tangerines', 'carrots', 'schnitzel', 'potatoes/purees', 'yogurt',  'green_beans', 'pudding', 
+          'spinach', 
+          'cutlets',
+         'pizza', 
+         'pasta_sugar_vegetarian', 
+         'apples', 
+         'pesto_béchamel_pasta_and_croissants', 
+         'lasagna_bolognese',
+         'moist_courgettes', 
+         'orange', 
+         'pasta_with_fish_sauce', 
+         'chips', 
+         'roast', 
+         'pasta_mussels_and_clams',
+         'white_rice', 
+         'spinach_and_ricotta_cheese_pie',
+          'meat_medallions', 
+          'saffron_pasta_and_peas',
+         'potatoes/pure_ham', 
+         'mixed_salad', 
+         'pasta_mare_e_monti', 
+         'meatballs',
+         'rustic_savoury_pie_(courgettes)', 
+         'bacon_and_courgette_pasta,', 
+         'ricotta_and_sausage_pasta', 
+         'pizzoccheri', 
+         'fennel_gratin',
+         'orecchiette_ragu', 
+         'pears', 
+         'tuna_pasta', 
+         'gravy_rice', 
+         'tuna_and_peas_pasta', 
+         'peas', 
+         'savoury_pie_3',
+         'bananas', 
+         'savoury_pie_(Valle_dAosta_style)', 
+         'salmon_(from_the_menu_it_looks_like_swordfish_actually)', 
+         'calamari_guazzetto',
+         'fish_2_(fillet)',
+         'pasta_sauce', 
+         'bruscitt', 
+         'roast_veal', 
+         'pasta_and_beans', 
+         'pork_shank',
+         'Lombardy_soup', 
+         'stewed_fennel', 
+         'cauliflower', 
+         'white_pasta', 
+         'cod_with_olives', 
+         'breaded_courgettes',
+         'fish_(fillet)', 
+         'rosbeef', 
+         'cream_cake_2', 
+         'unidentified_white_food', 
+         'roastbeef', 
+         'cream_cake',
+         'Piedmontese_pastry', 
+         'pasta_and_chickpeas', 
+         'white_focaccia', 
+         'soup', 
+         'cream_soup_of_pumpkin_and_beans',
+         'chocolate_and_pear_cake', 
+         'pineapple_cake', 
+         'arugula', 
+         'strudel' ]  # class names
+
