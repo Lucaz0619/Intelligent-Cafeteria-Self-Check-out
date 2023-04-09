@@ -1,2 +1,0 @@
-pasta_ricotta_e_salsiccia 1964 434 2860 434 2860 1343 1964 1343
-torta_salata_spinaci_e_ricotta 943 1239 1776 1239 1776 2132 943 2132

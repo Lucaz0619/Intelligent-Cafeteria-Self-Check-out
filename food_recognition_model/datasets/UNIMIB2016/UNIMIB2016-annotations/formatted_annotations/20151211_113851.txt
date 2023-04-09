@@ -1,3 +1,0 @@
-patate/pure 701 579 1243 579 1243 1165 701 1165
-torta_salata_rustica_(zucchine) 1165 1334 1968 1334 1968 2150 1165 2150
-pasta_pesto_besciamella_e_cornetti 2015 646 2757 646 2757 1414 2015 1414

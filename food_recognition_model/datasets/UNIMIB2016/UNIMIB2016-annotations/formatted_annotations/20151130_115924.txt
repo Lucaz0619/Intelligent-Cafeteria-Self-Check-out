@@ -1,3 +1,0 @@
-pasta_ricotta_e_salsiccia 746 512 1467 512 1467 1262 746 1262
-torta_salata_spinaci_e_ricotta 1785 771 2700 771 2700 1650 1785 1650
-finocchi_in_umido 1718 1373 2492 1373 2492 1957 1718 1957
