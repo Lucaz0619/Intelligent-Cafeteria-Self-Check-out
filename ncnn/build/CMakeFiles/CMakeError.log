@@ -1,0 +1,107 @@
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX_VNNI failed with the following output:
+Change Dir: /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_378b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_378b8.dir/build.make CMakeFiles/cmTC_378b8.dir/build
+make[1]: 进入目录“/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_378b8.dir/src.cxx.o
+/usr/bin/c++    -DNCNN_COMPILER_SUPPORT_X86_AVX_VNNI -mfma -mf16c -mavx2 -mavxvnni   -o CMakeFiles/cmTC_378b8.dir/src.cxx.o -c /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option ‘-mavxvnni’; did you mean ‘-mavx’?
+CMakeFiles/cmTC_378b8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_378b8.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_378b8.dir/src.cxx.o] Error 1
+make[1]: 离开目录“/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_378b8/fast' failed
+make: *** [cmTC_378b8/fast] Error 2
+
+Source file was:
+#include <immintrin.h>
+int main() { __m256i _s, _a, _b; _s = _mm256_dpwssd_epi32(_s, _a, _b); return 0; }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX512_VNNI failed with the following output:
+Change Dir: /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9ed7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9ed7.dir/build.make CMakeFiles/cmTC_f9ed7.dir/build
+make[1]: 进入目录“/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_f9ed7.dir/src.cxx.o
+/usr/bin/c++    -DNCNN_COMPILER_SUPPORT_X86_AVX512_VNNI -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512vnni   -o CMakeFiles/cmTC_f9ed7.dir/src.cxx.o -c /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option ‘-mavx512vnni’; did you mean ‘-mavx5124vnniw’?
+CMakeFiles/cmTC_f9ed7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f9ed7.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f9ed7.dir/src.cxx.o] Error 1
+make[1]: 离开目录“/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_f9ed7/fast' failed
+make: *** [cmTC_f9ed7/fast] Error 2
+
+Source file was:
+#include <immintrin.h>
+int main() { __m512i _s, _a, _b; _s = _mm512_dpwssd_epi32(_s, _a, _b); return 0; }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX512_BF16 failed with the following output:
+Change Dir: /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f009/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f009.dir/build.make CMakeFiles/cmTC_6f009.dir/build
+make[1]: 进入目录“/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_6f009.dir/src.cxx.o
+/usr/bin/c++    -DNCNN_COMPILER_SUPPORT_X86_AVX512_BF16 -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512bf16   -o CMakeFiles/cmTC_6f009.dir/src.cxx.o -c /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option ‘-mavx512bf16’; did you mean ‘-mavx512bw’?
+CMakeFiles/cmTC_6f009.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6f009.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_6f009.dir/src.cxx.o] Error 1
+make[1]: 离开目录“/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_6f009/fast' failed
+make: *** [cmTC_6f009/fast] Error 2
+
+Source file was:
+#include <immintrin.h>
+int main() { __m256bh _s; __m512bh _a, _b; _s = _mm512_cvtneps_pbh(_mm512_dpbf16_ps(_mm512_cvtpbh_ps(_s), _a, _b)); return 0; }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX512_FP16 failed with the following output:
+Change Dir: /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07792/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07792.dir/build.make CMakeFiles/cmTC_07792.dir/build
+make[1]: 进入目录“/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_07792.dir/src.cxx.o
+/usr/bin/c++    -DNCNN_COMPILER_SUPPORT_X86_AVX512_FP16 -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512fp16   -o CMakeFiles/cmTC_07792.dir/src.cxx.o -c /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option ‘-mavx512fp16’; did you mean ‘-mavx512f’?
+CMakeFiles/cmTC_07792.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_07792.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_07792.dir/src.cxx.o] Error 1
+make[1]: 离开目录“/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_07792/fast' failed
+make: *** [cmTC_07792/fast] Error 2
+
+Source file was:
+#include <immintrin.h>
+int main() { __m512h _s, _a, _b; _s = _mm512_fmadd_ph(_s, _a, _b); __m512 _s2; _s2 = _mm512_cvtxph_ps(_mm512_cvtxps_ph(_s2)); return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97424/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97424.dir/build.make CMakeFiles/cmTC_97424.dir/build
+make[1]: 进入目录“/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_97424.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_97424.dir/CheckSymbolExists.c.o   -c /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_97424
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97424.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_97424.dir/CheckSymbolExists.c.o  -o cmTC_97424 
+CMakeFiles/cmTC_97424.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_97424.dir/build.make:97: recipe for target 'cmTC_97424' failed
+make[1]: *** [cmTC_97424] Error 1
+make[1]: 离开目录“/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_97424/fast' failed
+make: *** [cmTC_97424/fast] Error 2
+
+File /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
