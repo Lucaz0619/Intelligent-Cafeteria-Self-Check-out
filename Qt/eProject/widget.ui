@@ -218,6 +218,46 @@ p, li { white-space: pre-wrap; }
      </property>
     </widget>
    </widget>
+   <widget class="QLabel" name="tPLb">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>360</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Total Price:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="priceLb">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>360</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>xxx</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QFrame" name="frame">
    <property name="geometry">

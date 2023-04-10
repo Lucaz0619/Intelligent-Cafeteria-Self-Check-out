@@ -71,6 +71,10 @@ private slots:
     void closeFaceCamara();
     void takeFacePhoto();
 
+    void on_csvBt_clicked();
+
+    void on_csvWBt_clicked();
+
 private:
     Ui::Widget *ui;
     QTimer    *timer_dish;
