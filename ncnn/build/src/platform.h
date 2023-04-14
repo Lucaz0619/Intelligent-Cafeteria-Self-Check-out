@@ -32,20 +32,20 @@
 #define NCNN_SYSTEM_GLSLANG 0
 #define NCNN_RUNTIME_CPU 1
 #define NCNN_GNU_INLINE_ASM 1
-#define NCNN_AVX 1
-#define NCNN_XOP 1
-#define NCNN_FMA 1
-#define NCNN_F16C 1
-#define NCNN_AVX2 1
+#define NCNN_AVX 0
+#define NCNN_XOP 0
+#define NCNN_FMA 0
+#define NCNN_F16C 0
+#define NCNN_AVX2 0
 #define NCNN_AVXVNNI 0
-#define NCNN_AVX512 1
+#define NCNN_AVX512 0
 #define NCNN_AVX512VNNI 0
 #define NCNN_AVX512BF16 0
 #define NCNN_AVX512FP16 0
 #define NCNN_VFPV4 0
 #if __aarch64__
-#define NCNN_ARM82 0
-#define NCNN_ARM82DOT 0
+#define NCNN_ARM82 1
+#define NCNN_ARM82DOT 1
 #define NCNN_ARM82FP16FML 0
 #define NCNN_ARM84BF16 0
 #define NCNN_ARM84I8MM 0
@@ -63,7 +63,7 @@
 #define NCNN_BF16 1
 #define NCNN_FORCE_INLINE 1
 
-#define NCNN_VERSION_STRING "1.0.20230410"
+#define NCNN_VERSION_STRING "1.0.20230414"
 
 #include "ncnn_export.h"
 

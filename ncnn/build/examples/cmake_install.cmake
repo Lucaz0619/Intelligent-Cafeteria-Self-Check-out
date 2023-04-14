@@ -1,8 +1,8 @@
-# Install script for directory: /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples
+# Install script for directory: /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

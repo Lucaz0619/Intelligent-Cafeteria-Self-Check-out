@@ -1,8 +1,8 @@
-# Install script for directory: /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
+# Install script for directory: /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/src/cmake_install.cmake")
-  include("/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/benchmark/cmake_install.cmake")
-  include("/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples/cmake_install.cmake")
-  include("/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/cmake_install.cmake")
+  include("/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/src/cmake_install.cmake")
+  include("/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/benchmark/cmake_install.cmake")
+  include("/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples/cmake_install.cmake")
+  include("/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

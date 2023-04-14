@@ -186,9 +186,9 @@ new
 vulkan/vulkan.h
 -
 
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image.h
 stb_image.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image.h
 stdio.h
 -
 stdlib.h
@@ -218,7 +218,7 @@ intrin.h
 arm_neon.h
 -
 
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image_write.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image_write.h
 stdlib.h
 -
 stdio.h
@@ -234,27 +234,27 @@ math.h
 assert.h
 -
 
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.cpp
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.cpp
 imreadwrite.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.h
 stdio.h
 -
 ../../src/stb_image.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image.h
 ../../src/stb_image_write.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image_write.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image_write.h
 
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.h
 limits.h
 -
 string.h
 -
 allocator.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/allocator.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/allocator.h
 mat.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/mat.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/mat.h
 
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/ncnn2table.cpp
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/ncnn2table.cpp
 float.h
 -
 limits.h
@@ -270,9 +270,9 @@ stdlib.h
 string.h
 -
 simpleocv.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/simpleocv.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/simpleocv.h
 imreadwrite.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.h
 opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp
@@ -282,17 +282,17 @@ string
 vector
 -
 benchmark.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/benchmark.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/benchmark.h
 cpu.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/cpu.h
 net.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/net.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/net.h
 layer/convolution.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/layer/convolution.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/layer/convolution.h
 layer/convolutiondepthwise.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/layer/convolutiondepthwise.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/layer/convolutiondepthwise.h
 layer/innerproduct.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/layer/innerproduct.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/layer/innerproduct.h
 
 src/ncnn_export.h
 

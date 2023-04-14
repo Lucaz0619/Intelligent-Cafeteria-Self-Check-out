@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
+CMAKE_SOURCE_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build
+CMAKE_BINARY_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/CMakeFiles/progress.marks
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles 0
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/CMakeFiles/progress.marks
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/clean
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/CMakeFiles/ncnnoptimize.dir/rule:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/ncnnoptimize.dir/rule
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/ncnnoptimize.dir/rule
 .PHONY : tools/CMakeFiles/ncnnoptimize.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ncnnoptimize: tools/CMakeFiles/ncnnoptimize.dir/rule
 
 # fast build rule for target.
 ncnnoptimize/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnoptimize.dir/build.make tools/CMakeFiles/ncnnoptimize.dir/build
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnoptimize.dir/build.make tools/CMakeFiles/ncnnoptimize.dir/build
 .PHONY : ncnnoptimize/fast
 
 # Convenience name for target.
 tools/CMakeFiles/ncnnmerge.dir/rule:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/ncnnmerge.dir/rule
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/ncnnmerge.dir/rule
 .PHONY : tools/CMakeFiles/ncnnmerge.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ ncnnmerge: tools/CMakeFiles/ncnnmerge.dir/rule
 
 # fast build rule for target.
 ncnnmerge/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnmerge.dir/build.make tools/CMakeFiles/ncnnmerge.dir/build
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnmerge.dir/build.make tools/CMakeFiles/ncnnmerge.dir/build
 .PHONY : ncnnmerge/fast
 
 # Convenience name for target.
 tools/CMakeFiles/ncnn2mem.dir/rule:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/ncnn2mem.dir/rule
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/ncnn2mem.dir/rule
 .PHONY : tools/CMakeFiles/ncnn2mem.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ ncnn2mem: tools/CMakeFiles/ncnn2mem.dir/rule
 
 # fast build rule for target.
 ncnn2mem/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnn2mem.dir/build.make tools/CMakeFiles/ncnn2mem.dir/build
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnn2mem.dir/build.make tools/CMakeFiles/ncnn2mem.dir/build
 .PHONY : ncnn2mem/fast
 
 ncnn2mem.o: ncnn2mem.cpp.o
@@ -207,7 +207,7 @@ ncnn2mem.o: ncnn2mem.cpp.o
 
 # target to build an object file
 ncnn2mem.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnn2mem.dir/build.make tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnn2mem.dir/build.make tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o
 .PHONY : ncnn2mem.cpp.o
 
 ncnn2mem.i: ncnn2mem.cpp.i
@@ -216,7 +216,7 @@ ncnn2mem.i: ncnn2mem.cpp.i
 
 # target to preprocess a source file
 ncnn2mem.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnn2mem.dir/build.make tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnn2mem.dir/build.make tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.i
 .PHONY : ncnn2mem.cpp.i
 
 ncnn2mem.s: ncnn2mem.cpp.s
@@ -225,7 +225,7 @@ ncnn2mem.s: ncnn2mem.cpp.s
 
 # target to generate assembly for a file
 ncnn2mem.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnn2mem.dir/build.make tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnn2mem.dir/build.make tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.s
 .PHONY : ncnn2mem.cpp.s
 
 ncnnmerge.o: ncnnmerge.cpp.o
@@ -234,7 +234,7 @@ ncnnmerge.o: ncnnmerge.cpp.o
 
 # target to build an object file
 ncnnmerge.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnmerge.dir/build.make tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnmerge.dir/build.make tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.o
 .PHONY : ncnnmerge.cpp.o
 
 ncnnmerge.i: ncnnmerge.cpp.i
@@ -243,7 +243,7 @@ ncnnmerge.i: ncnnmerge.cpp.i
 
 # target to preprocess a source file
 ncnnmerge.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnmerge.dir/build.make tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnmerge.dir/build.make tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.i
 .PHONY : ncnnmerge.cpp.i
 
 ncnnmerge.s: ncnnmerge.cpp.s
@@ -252,7 +252,7 @@ ncnnmerge.s: ncnnmerge.cpp.s
 
 # target to generate assembly for a file
 ncnnmerge.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnmerge.dir/build.make tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnmerge.dir/build.make tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.s
 .PHONY : ncnnmerge.cpp.s
 
 ncnnoptimize.o: ncnnoptimize.cpp.o
@@ -261,7 +261,7 @@ ncnnoptimize.o: ncnnoptimize.cpp.o
 
 # target to build an object file
 ncnnoptimize.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnoptimize.dir/build.make tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnoptimize.dir/build.make tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o
 .PHONY : ncnnoptimize.cpp.o
 
 ncnnoptimize.i: ncnnoptimize.cpp.i
@@ -270,7 +270,7 @@ ncnnoptimize.i: ncnnoptimize.cpp.i
 
 # target to preprocess a source file
 ncnnoptimize.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnoptimize.dir/build.make tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnoptimize.dir/build.make tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.i
 .PHONY : ncnnoptimize.cpp.i
 
 ncnnoptimize.s: ncnnoptimize.cpp.s
@@ -279,7 +279,7 @@ ncnnoptimize.s: ncnnoptimize.cpp.s
 
 # target to generate assembly for a file
 ncnnoptimize.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnoptimize.dir/build.make tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/CMakeFiles/ncnnoptimize.dir/build.make tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.s
 .PHONY : ncnnoptimize.cpp.s
 
 # Help Target
@@ -317,6 +317,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

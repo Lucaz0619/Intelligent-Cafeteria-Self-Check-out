@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
+CMAKE_SOURCE_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build
+CMAKE_BINARY_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet/CMakeFiles/progress.marks
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/darknet/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles 0
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet/CMakeFiles/progress.marks
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/darknet/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/darknet/clean
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/darknet/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/darknet/preinstall
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/darknet/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/darknet/preinstall
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/darknet/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/darknet/CMakeFiles/darknet2ncnn.dir/rule:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/darknet/CMakeFiles/darknet2ncnn.dir/rule
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 tools/darknet/CMakeFiles/darknet2ncnn.dir/rule
 .PHONY : tools/darknet/CMakeFiles/darknet2ncnn.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ darknet2ncnn: tools/darknet/CMakeFiles/darknet2ncnn.dir/rule
 
 # fast build rule for target.
 darknet2ncnn/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make tools/darknet/CMakeFiles/darknet2ncnn.dir/build
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make tools/darknet/CMakeFiles/darknet2ncnn.dir/build
 .PHONY : darknet2ncnn/fast
 
 darknet2ncnn.o: darknet2ncnn.cpp.o
@@ -177,7 +177,7 @@ darknet2ncnn.o: darknet2ncnn.cpp.o
 
 # target to build an object file
 darknet2ncnn.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o
 .PHONY : darknet2ncnn.cpp.o
 
 darknet2ncnn.i: darknet2ncnn.cpp.i
@@ -186,7 +186,7 @@ darknet2ncnn.i: darknet2ncnn.cpp.i
 
 # target to preprocess a source file
 darknet2ncnn.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.i
 .PHONY : darknet2ncnn.cpp.i
 
 darknet2ncnn.s: darknet2ncnn.cpp.s
@@ -195,7 +195,7 @@ darknet2ncnn.s: darknet2ncnn.cpp.s
 
 # target to generate assembly for a file
 darknet2ncnn.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.s
 .PHONY : darknet2ncnn.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

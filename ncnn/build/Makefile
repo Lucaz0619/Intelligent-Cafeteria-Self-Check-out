@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
+CMAKE_SOURCE_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build
+CMAKE_BINARY_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -586,19 +586,6 @@ ncnn2mem/fast:
 .PHONY : ncnn2mem/fast
 
 #=============================================================================
-# Target rules for targets named caffe2ncnn
-
-# Build rule for target.
-caffe2ncnn: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 caffe2ncnn
-.PHONY : caffe2ncnn
-
-# fast build rule for target.
-caffe2ncnn/fast:
-	$(MAKE) -f tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make tools/caffe/CMakeFiles/caffe2ncnn.dir/build
-.PHONY : caffe2ncnn/fast
-
-#=============================================================================
 # Target rules for targets named mxnet2ncnn
 
 # Build rule for target.
@@ -610,19 +597,6 @@ mxnet2ncnn: cmake_check_build_system
 mxnet2ncnn/fast:
 	$(MAKE) -f tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build
 .PHONY : mxnet2ncnn/fast
-
-#=============================================================================
-# Target rules for targets named onnx2ncnn
-
-# Build rule for target.
-onnx2ncnn: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 onnx2ncnn
-.PHONY : onnx2ncnn
-
-# fast build rule for target.
-onnx2ncnn/fast:
-	$(MAKE) -f tools/onnx/CMakeFiles/onnx2ncnn.dir/build.make tools/onnx/CMakeFiles/onnx2ncnn.dir/build
-.PHONY : onnx2ncnn/fast
 
 #=============================================================================
 # Target rules for targets named darknet2ncnn
@@ -708,9 +682,7 @@ help:
 	@echo "... ncnnoptimize"
 	@echo "... ncnnmerge"
 	@echo "... ncnn2mem"
-	@echo "... caffe2ncnn"
 	@echo "... mxnet2ncnn"
-	@echo "... onnx2ncnn"
 	@echo "... darknet2ncnn"
 	@echo "... ncnn2int8"
 	@echo "... ncnn2table"

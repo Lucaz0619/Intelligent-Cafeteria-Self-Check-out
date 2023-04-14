@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
+CMAKE_SOURCE_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build
+CMAKE_BINARY_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/benchmark/CMakeFiles/progress.marks
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 benchmark/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles 0
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/benchmark/CMakeFiles/progress.marks
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 benchmark/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 benchmark/clean
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 benchmark/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 benchmark/preinstall
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 benchmark/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 benchmark/preinstall
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 benchmark/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 benchmark/CMakeFiles/benchncnn.dir/rule:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 benchmark/CMakeFiles/benchncnn.dir/rule
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 benchmark/CMakeFiles/benchncnn.dir/rule
 .PHONY : benchmark/CMakeFiles/benchncnn.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ benchncnn: benchmark/CMakeFiles/benchncnn.dir/rule
 
 # fast build rule for target.
 benchncnn/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f benchmark/CMakeFiles/benchncnn.dir/build.make benchmark/CMakeFiles/benchncnn.dir/build
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f benchmark/CMakeFiles/benchncnn.dir/build.make benchmark/CMakeFiles/benchncnn.dir/build
 .PHONY : benchncnn/fast
 
 benchncnn.o: benchncnn.cpp.o
@@ -177,7 +177,7 @@ benchncnn.o: benchncnn.cpp.o
 
 # target to build an object file
 benchncnn.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f benchmark/CMakeFiles/benchncnn.dir/build.make benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f benchmark/CMakeFiles/benchncnn.dir/build.make benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.o
 .PHONY : benchncnn.cpp.o
 
 benchncnn.i: benchncnn.cpp.i
@@ -186,7 +186,7 @@ benchncnn.i: benchncnn.cpp.i
 
 # target to preprocess a source file
 benchncnn.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f benchmark/CMakeFiles/benchncnn.dir/build.make benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f benchmark/CMakeFiles/benchncnn.dir/build.make benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.i
 .PHONY : benchncnn.cpp.i
 
 benchncnn.s: benchncnn.cpp.s
@@ -195,7 +195,7 @@ benchncnn.s: benchncnn.cpp.s
 
 # target to generate assembly for a file
 benchncnn.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f benchmark/CMakeFiles/benchncnn.dir/build.make benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f benchmark/CMakeFiles/benchncnn.dir/build.make benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.s
 .PHONY : benchncnn.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

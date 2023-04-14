@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
+CMAKE_SOURCE_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build
+CMAKE_BINARY_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/scrfd.dir/depend.make
@@ -59,16 +59,16 @@ include examples/CMakeFiles/scrfd.dir/flags.make
 
 examples/CMakeFiles/scrfd.dir/scrfd.cpp.o: examples/CMakeFiles/scrfd.dir/flags.make
 examples/CMakeFiles/scrfd.dir/scrfd.cpp.o: ../examples/scrfd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/scrfd.dir/scrfd.cpp.o"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scrfd.dir/scrfd.cpp.o -c /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/scrfd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/scrfd.dir/scrfd.cpp.o"
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scrfd.dir/scrfd.cpp.o -c /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/scrfd.cpp
 
 examples/CMakeFiles/scrfd.dir/scrfd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scrfd.dir/scrfd.cpp.i"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/scrfd.cpp > CMakeFiles/scrfd.dir/scrfd.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/scrfd.cpp > CMakeFiles/scrfd.dir/scrfd.cpp.i
 
 examples/CMakeFiles/scrfd.dir/scrfd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scrfd.dir/scrfd.cpp.s"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/scrfd.cpp -o CMakeFiles/scrfd.dir/scrfd.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/scrfd.cpp -o CMakeFiles/scrfd.dir/scrfd.cpp.s
 
 examples/CMakeFiles/scrfd.dir/scrfd.cpp.o.requires:
 
@@ -91,16 +91,16 @@ scrfd_EXTERNAL_OBJECTS =
 examples/scrfd: examples/CMakeFiles/scrfd.dir/scrfd.cpp.o
 examples/scrfd: examples/CMakeFiles/scrfd.dir/build.make
 examples/scrfd: src/libncnn.a
-examples/scrfd: /usr/local/lib/libopencv_highgui.so.3.4.4
-examples/scrfd: /usr/local/lib/libopencv_videoio.so.3.4.4
-examples/scrfd: /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so
-examples/scrfd: /usr/lib/x86_64-linux-gnu/libpthread.so
-examples/scrfd: /usr/local/lib/libopencv_imgcodecs.so.3.4.4
-examples/scrfd: /usr/local/lib/libopencv_imgproc.so.3.4.4
-examples/scrfd: /usr/local/lib/libopencv_core.so.3.4.4
+examples/scrfd: /usr/local/lib/libopencv_highgui.so.4.7.0
+examples/scrfd: /usr/local/lib/libopencv_videoio.so.4.7.0
+examples/scrfd: /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so
+examples/scrfd: /usr/lib/aarch64-linux-gnu/libpthread.so
+examples/scrfd: /usr/local/lib/libopencv_imgcodecs.so.4.7.0
+examples/scrfd: /usr/local/lib/libopencv_imgproc.so.4.7.0
+examples/scrfd: /usr/local/lib/libopencv_core.so.4.7.0
 examples/scrfd: examples/CMakeFiles/scrfd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable scrfd"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scrfd.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable scrfd"
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scrfd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/scrfd.dir/build: examples/scrfd
@@ -112,10 +112,10 @@ examples/CMakeFiles/scrfd.dir/requires: examples/CMakeFiles/scrfd.dir/scrfd.cpp.
 .PHONY : examples/CMakeFiles/scrfd.dir/requires
 
 examples/CMakeFiles/scrfd.dir/clean:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/scrfd.dir/cmake_clean.cmake
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/scrfd.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/scrfd.dir/clean
 
 examples/CMakeFiles/scrfd.dir/depend:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples/CMakeFiles/scrfd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples/CMakeFiles/scrfd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/scrfd.dir/depend
 

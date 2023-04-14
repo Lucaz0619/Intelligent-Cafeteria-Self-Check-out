@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
+CMAKE_SOURCE_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build
+CMAKE_BINARY_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/fasterrcnn.dir/depend.make
@@ -59,16 +59,16 @@ include examples/CMakeFiles/fasterrcnn.dir/flags.make
 
 examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o: examples/CMakeFiles/fasterrcnn.dir/flags.make
 examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o: ../examples/fasterrcnn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o -c /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/fasterrcnn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o"
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o -c /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/fasterrcnn.cpp
 
 examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.i"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/fasterrcnn.cpp > CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/fasterrcnn.cpp > CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.i
 
 examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.s"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/fasterrcnn.cpp -o CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/fasterrcnn.cpp -o CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.s
 
 examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o.requires:
 
@@ -91,16 +91,16 @@ fasterrcnn_EXTERNAL_OBJECTS =
 examples/fasterrcnn: examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o
 examples/fasterrcnn: examples/CMakeFiles/fasterrcnn.dir/build.make
 examples/fasterrcnn: src/libncnn.a
-examples/fasterrcnn: /usr/local/lib/libopencv_highgui.so.3.4.4
-examples/fasterrcnn: /usr/local/lib/libopencv_videoio.so.3.4.4
-examples/fasterrcnn: /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so
-examples/fasterrcnn: /usr/lib/x86_64-linux-gnu/libpthread.so
-examples/fasterrcnn: /usr/local/lib/libopencv_imgcodecs.so.3.4.4
-examples/fasterrcnn: /usr/local/lib/libopencv_imgproc.so.3.4.4
-examples/fasterrcnn: /usr/local/lib/libopencv_core.so.3.4.4
+examples/fasterrcnn: /usr/local/lib/libopencv_highgui.so.4.7.0
+examples/fasterrcnn: /usr/local/lib/libopencv_videoio.so.4.7.0
+examples/fasterrcnn: /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so
+examples/fasterrcnn: /usr/lib/aarch64-linux-gnu/libpthread.so
+examples/fasterrcnn: /usr/local/lib/libopencv_imgcodecs.so.4.7.0
+examples/fasterrcnn: /usr/local/lib/libopencv_imgproc.so.4.7.0
+examples/fasterrcnn: /usr/local/lib/libopencv_core.so.4.7.0
 examples/fasterrcnn: examples/CMakeFiles/fasterrcnn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fasterrcnn"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fasterrcnn.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fasterrcnn"
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fasterrcnn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/fasterrcnn.dir/build: examples/fasterrcnn
@@ -112,10 +112,10 @@ examples/CMakeFiles/fasterrcnn.dir/requires: examples/CMakeFiles/fasterrcnn.dir/
 .PHONY : examples/CMakeFiles/fasterrcnn.dir/requires
 
 examples/CMakeFiles/fasterrcnn.dir/clean:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/fasterrcnn.dir/cmake_clean.cmake
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/fasterrcnn.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/fasterrcnn.dir/clean
 
 examples/CMakeFiles/fasterrcnn.dir/depend:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples/CMakeFiles/fasterrcnn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples/CMakeFiles/fasterrcnn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/fasterrcnn.dir/depend
 

@@ -170,7 +170,7 @@ new
 vulkan/vulkan.h
 -
 
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/benchncnn.cpp
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/benchncnn.cpp
 float.h
 -
 stdio.h
@@ -186,15 +186,15 @@ unistd.h
 emscripten.h
 -
 benchmark.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/benchmark.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/benchmark.h
 cpu.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/cpu.h
 datareader.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/datareader.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/datareader.h
 net.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/net.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/net.h
 gpu.h
-/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/gpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/gpu.h
 
 src/ncnn_export.h
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
+CMAKE_SOURCE_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build
+CMAKE_BINARY_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build
 
 # Include any dependencies generated for this target.
 include tools/CMakeFiles/ncnnoptimize.dir/depend.make
@@ -59,16 +59,16 @@ include tools/CMakeFiles/ncnnoptimize.dir/flags.make
 
 tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o: tools/CMakeFiles/ncnnoptimize.dir/flags.make
 tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o: ../tools/ncnnoptimize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o -c /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnnoptimize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o"
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o -c /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnnoptimize.cpp
 
 tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.i"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnnoptimize.cpp > CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnnoptimize.cpp > CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.i
 
 tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.s"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnnoptimize.cpp -o CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnnoptimize.cpp -o CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.s
 
 tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o.requires:
 
@@ -91,11 +91,11 @@ ncnnoptimize_EXTERNAL_OBJECTS =
 tools/ncnnoptimize: tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o
 tools/ncnnoptimize: tools/CMakeFiles/ncnnoptimize.dir/build.make
 tools/ncnnoptimize: src/libncnn.a
-tools/ncnnoptimize: /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so
-tools/ncnnoptimize: /usr/lib/x86_64-linux-gnu/libpthread.so
+tools/ncnnoptimize: /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so
+tools/ncnnoptimize: /usr/lib/aarch64-linux-gnu/libpthread.so
 tools/ncnnoptimize: tools/CMakeFiles/ncnnoptimize.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ncnnoptimize"
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnnoptimize.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ncnnoptimize"
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnnoptimize.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/CMakeFiles/ncnnoptimize.dir/build: tools/ncnnoptimize
@@ -107,10 +107,10 @@ tools/CMakeFiles/ncnnoptimize.dir/requires: tools/CMakeFiles/ncnnoptimize.dir/nc
 .PHONY : tools/CMakeFiles/ncnnoptimize.dir/requires
 
 tools/CMakeFiles/ncnnoptimize.dir/clean:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools && $(CMAKE_COMMAND) -P CMakeFiles/ncnnoptimize.dir/cmake_clean.cmake
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools && $(CMAKE_COMMAND) -P CMakeFiles/ncnnoptimize.dir/cmake_clean.cmake
 .PHONY : tools/CMakeFiles/ncnnoptimize.dir/clean
 
 tools/CMakeFiles/ncnnoptimize.dir/depend:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/CMakeFiles/ncnnoptimize.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/CMakeFiles/ncnnoptimize.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/CMakeFiles/ncnnoptimize.dir/depend
 

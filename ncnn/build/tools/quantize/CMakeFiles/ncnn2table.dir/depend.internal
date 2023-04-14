@@ -7,10 +7,10 @@ tools/quantize/CMakeFiles/ncnn2table.dir/imreadwrite.cpp.o
  ../src/mat.h
  ../src/option.h
  ../src/simplestl.h
- /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image.h
- /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image_write.h
- /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.cpp
- /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.h
+ /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image.h
+ /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/stb_image_write.h
+ /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.cpp
+ /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.h
  src/ncnn_export.h
  src/platform.h
 tools/quantize/CMakeFiles/ncnn2table.dir/ncnn2table.cpp.o
@@ -33,7 +33,7 @@ tools/quantize/CMakeFiles/ncnn2table.dir/ncnn2table.cpp.o
  ../src/simpleocv.h
  ../src/simplestl.h
  ../src/vulkan_header_fix.h
- /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.h
- /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/ncnn2table.cpp
+ /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/imreadwrite.h
+ /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/ncnn2table.cpp
  src/ncnn_export.h
  src/platform.h

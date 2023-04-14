@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/scrfd_crowdhuman.cpp" "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples/CMakeFiles/scrfd_crowdhuman.dir/scrfd_crowdhuman.cpp.o"
+  "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/scrfd_crowdhuman.cpp" "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples/CMakeFiles/scrfd_crowdhuman.dir/scrfd_crowdhuman.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,15 +12,14 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../examples/../src"
   "examples/../src"
-  "/usr/local/include"
-  "/usr/local/include/opencv"
+  "/usr/local/include/opencv4"
   "../src"
   "src"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/src/CMakeFiles/ncnn.dir/DependInfo.cmake"
+  "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/src/CMakeFiles/ncnn.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

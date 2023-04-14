@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
+CMAKE_SOURCE_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build
+CMAKE_BINARY_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/src/CMakeFiles/progress.marks
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles 0
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/src/CMakeFiles/progress.marks
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/ncnn.dir/rule:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/ncnn.dir/rule
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/ncnn.dir/rule
 .PHONY : src/CMakeFiles/ncnn.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ncnn: src/CMakeFiles/ncnn.dir/rule
 
 # fast build rule for target.
 ncnn/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/build
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/build
 .PHONY : ncnn/fast
 
 # Convenience name for target.
 src/CMakeFiles/ncnn-generate-spirv.dir/rule:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/ncnn-generate-spirv.dir/rule
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/ncnn-generate-spirv.dir/rule
 .PHONY : src/CMakeFiles/ncnn-generate-spirv.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ ncnn-generate-spirv: src/CMakeFiles/ncnn-generate-spirv.dir/rule
 
 # fast build rule for target.
 ncnn-generate-spirv/fast:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn-generate-spirv.dir/build.make src/CMakeFiles/ncnn-generate-spirv.dir/build
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn-generate-spirv.dir/build.make src/CMakeFiles/ncnn-generate-spirv.dir/build
 .PHONY : ncnn-generate-spirv/fast
 
 allocator.o: allocator.cpp.o
@@ -192,7 +192,7 @@ allocator.o: allocator.cpp.o
 
 # target to build an object file
 allocator.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/allocator.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/allocator.cpp.o
 .PHONY : allocator.cpp.o
 
 allocator.i: allocator.cpp.i
@@ -201,7 +201,7 @@ allocator.i: allocator.cpp.i
 
 # target to preprocess a source file
 allocator.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/allocator.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/allocator.cpp.i
 .PHONY : allocator.cpp.i
 
 allocator.s: allocator.cpp.s
@@ -210,7 +210,7 @@ allocator.s: allocator.cpp.s
 
 # target to generate assembly for a file
 allocator.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/allocator.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/allocator.cpp.s
 .PHONY : allocator.cpp.s
 
 benchmark.o: benchmark.cpp.o
@@ -219,7 +219,7 @@ benchmark.o: benchmark.cpp.o
 
 # target to build an object file
 benchmark.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/benchmark.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/benchmark.cpp.o
 .PHONY : benchmark.cpp.o
 
 benchmark.i: benchmark.cpp.i
@@ -228,7 +228,7 @@ benchmark.i: benchmark.cpp.i
 
 # target to preprocess a source file
 benchmark.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/benchmark.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/benchmark.cpp.i
 .PHONY : benchmark.cpp.i
 
 benchmark.s: benchmark.cpp.s
@@ -237,7 +237,7 @@ benchmark.s: benchmark.cpp.s
 
 # target to generate assembly for a file
 benchmark.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/benchmark.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/benchmark.cpp.s
 .PHONY : benchmark.cpp.s
 
 blob.o: blob.cpp.o
@@ -246,7 +246,7 @@ blob.o: blob.cpp.o
 
 # target to build an object file
 blob.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/blob.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/blob.cpp.o
 .PHONY : blob.cpp.o
 
 blob.i: blob.cpp.i
@@ -255,7 +255,7 @@ blob.i: blob.cpp.i
 
 # target to preprocess a source file
 blob.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/blob.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/blob.cpp.i
 .PHONY : blob.cpp.i
 
 blob.s: blob.cpp.s
@@ -264,7 +264,7 @@ blob.s: blob.cpp.s
 
 # target to generate assembly for a file
 blob.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/blob.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/blob.cpp.s
 .PHONY : blob.cpp.s
 
 c_api.o: c_api.cpp.o
@@ -273,7 +273,7 @@ c_api.o: c_api.cpp.o
 
 # target to build an object file
 c_api.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/c_api.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/c_api.cpp.o
 .PHONY : c_api.cpp.o
 
 c_api.i: c_api.cpp.i
@@ -282,7 +282,7 @@ c_api.i: c_api.cpp.i
 
 # target to preprocess a source file
 c_api.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/c_api.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/c_api.cpp.i
 .PHONY : c_api.cpp.i
 
 c_api.s: c_api.cpp.s
@@ -291,7 +291,7 @@ c_api.s: c_api.cpp.s
 
 # target to generate assembly for a file
 c_api.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/c_api.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/c_api.cpp.s
 .PHONY : c_api.cpp.s
 
 command.o: command.cpp.o
@@ -300,7 +300,7 @@ command.o: command.cpp.o
 
 # target to build an object file
 command.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/command.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/command.cpp.o
 .PHONY : command.cpp.o
 
 command.i: command.cpp.i
@@ -309,7 +309,7 @@ command.i: command.cpp.i
 
 # target to preprocess a source file
 command.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/command.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/command.cpp.i
 .PHONY : command.cpp.i
 
 command.s: command.cpp.s
@@ -318,7 +318,7 @@ command.s: command.cpp.s
 
 # target to generate assembly for a file
 command.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/command.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/command.cpp.s
 .PHONY : command.cpp.s
 
 cpu.o: cpu.cpp.o
@@ -327,7 +327,7 @@ cpu.o: cpu.cpp.o
 
 # target to build an object file
 cpu.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/cpu.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/cpu.cpp.o
 .PHONY : cpu.cpp.o
 
 cpu.i: cpu.cpp.i
@@ -336,7 +336,7 @@ cpu.i: cpu.cpp.i
 
 # target to preprocess a source file
 cpu.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/cpu.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/cpu.cpp.i
 .PHONY : cpu.cpp.i
 
 cpu.s: cpu.cpp.s
@@ -345,7 +345,7 @@ cpu.s: cpu.cpp.s
 
 # target to generate assembly for a file
 cpu.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/cpu.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/cpu.cpp.s
 .PHONY : cpu.cpp.s
 
 datareader.o: datareader.cpp.o
@@ -354,7 +354,7 @@ datareader.o: datareader.cpp.o
 
 # target to build an object file
 datareader.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/datareader.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/datareader.cpp.o
 .PHONY : datareader.cpp.o
 
 datareader.i: datareader.cpp.i
@@ -363,7 +363,7 @@ datareader.i: datareader.cpp.i
 
 # target to preprocess a source file
 datareader.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/datareader.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/datareader.cpp.i
 .PHONY : datareader.cpp.i
 
 datareader.s: datareader.cpp.s
@@ -372,7 +372,7 @@ datareader.s: datareader.cpp.s
 
 # target to generate assembly for a file
 datareader.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/datareader.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/datareader.cpp.s
 .PHONY : datareader.cpp.s
 
 gpu.o: gpu.cpp.o
@@ -381,7 +381,7 @@ gpu.o: gpu.cpp.o
 
 # target to build an object file
 gpu.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/gpu.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/gpu.cpp.o
 .PHONY : gpu.cpp.o
 
 gpu.i: gpu.cpp.i
@@ -390,7 +390,7 @@ gpu.i: gpu.cpp.i
 
 # target to preprocess a source file
 gpu.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/gpu.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/gpu.cpp.i
 .PHONY : gpu.cpp.i
 
 gpu.s: gpu.cpp.s
@@ -399,7 +399,7 @@ gpu.s: gpu.cpp.s
 
 # target to generate assembly for a file
 gpu.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/gpu.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/gpu.cpp.s
 .PHONY : gpu.cpp.s
 
 layer.o: layer.cpp.o
@@ -408,7 +408,7 @@ layer.o: layer.cpp.o
 
 # target to build an object file
 layer.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer.cpp.o
 .PHONY : layer.cpp.o
 
 layer.i: layer.cpp.i
@@ -417,7 +417,7 @@ layer.i: layer.cpp.i
 
 # target to preprocess a source file
 layer.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer.cpp.i
 .PHONY : layer.cpp.i
 
 layer.s: layer.cpp.s
@@ -426,7 +426,7 @@ layer.s: layer.cpp.s
 
 # target to generate assembly for a file
 layer.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer.cpp.s
 .PHONY : layer.cpp.s
 
 layer/absval.o: layer/absval.cpp.o
@@ -435,7 +435,7 @@ layer/absval.o: layer/absval.cpp.o
 
 # target to build an object file
 layer/absval.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/absval.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/absval.cpp.o
 .PHONY : layer/absval.cpp.o
 
 layer/absval.i: layer/absval.cpp.i
@@ -444,7 +444,7 @@ layer/absval.i: layer/absval.cpp.i
 
 # target to preprocess a source file
 layer/absval.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/absval.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/absval.cpp.i
 .PHONY : layer/absval.cpp.i
 
 layer/absval.s: layer/absval.cpp.s
@@ -453,8 +453,2249 @@ layer/absval.s: layer/absval.cpp.s
 
 # target to generate assembly for a file
 layer/absval.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/absval.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/absval.cpp.s
 .PHONY : layer/absval.cpp.s
+
+layer/arm/absval_arm.o: layer/arm/absval_arm.cpp.o
+
+.PHONY : layer/arm/absval_arm.o
+
+# target to build an object file
+layer/arm/absval_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o
+.PHONY : layer/arm/absval_arm.cpp.o
+
+layer/arm/absval_arm.i: layer/arm/absval_arm.cpp.i
+
+.PHONY : layer/arm/absval_arm.i
+
+# target to preprocess a source file
+layer/arm/absval_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.i
+.PHONY : layer/arm/absval_arm.cpp.i
+
+layer/arm/absval_arm.s: layer/arm/absval_arm.cpp.s
+
+.PHONY : layer/arm/absval_arm.s
+
+# target to generate assembly for a file
+layer/arm/absval_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.s
+.PHONY : layer/arm/absval_arm.cpp.s
+
+layer/arm/batchnorm_arm.o: layer/arm/batchnorm_arm.cpp.o
+
+.PHONY : layer/arm/batchnorm_arm.o
+
+# target to build an object file
+layer/arm/batchnorm_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o
+.PHONY : layer/arm/batchnorm_arm.cpp.o
+
+layer/arm/batchnorm_arm.i: layer/arm/batchnorm_arm.cpp.i
+
+.PHONY : layer/arm/batchnorm_arm.i
+
+# target to preprocess a source file
+layer/arm/batchnorm_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.i
+.PHONY : layer/arm/batchnorm_arm.cpp.i
+
+layer/arm/batchnorm_arm.s: layer/arm/batchnorm_arm.cpp.s
+
+.PHONY : layer/arm/batchnorm_arm.s
+
+# target to generate assembly for a file
+layer/arm/batchnorm_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.s
+.PHONY : layer/arm/batchnorm_arm.cpp.s
+
+layer/arm/batchnorm_arm_asimdhp.o: layer/arm/batchnorm_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/batchnorm_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/batchnorm_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_asimdhp.cpp.o
+.PHONY : layer/arm/batchnorm_arm_asimdhp.cpp.o
+
+layer/arm/batchnorm_arm_asimdhp.i: layer/arm/batchnorm_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/batchnorm_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/batchnorm_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_asimdhp.cpp.i
+.PHONY : layer/arm/batchnorm_arm_asimdhp.cpp.i
+
+layer/arm/batchnorm_arm_asimdhp.s: layer/arm/batchnorm_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/batchnorm_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/batchnorm_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm_asimdhp.cpp.s
+.PHONY : layer/arm/batchnorm_arm_asimdhp.cpp.s
+
+layer/arm/bias_arm.o: layer/arm/bias_arm.cpp.o
+
+.PHONY : layer/arm/bias_arm.o
+
+# target to build an object file
+layer/arm/bias_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o
+.PHONY : layer/arm/bias_arm.cpp.o
+
+layer/arm/bias_arm.i: layer/arm/bias_arm.cpp.i
+
+.PHONY : layer/arm/bias_arm.i
+
+# target to preprocess a source file
+layer/arm/bias_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.i
+.PHONY : layer/arm/bias_arm.cpp.i
+
+layer/arm/bias_arm.s: layer/arm/bias_arm.cpp.s
+
+.PHONY : layer/arm/bias_arm.s
+
+# target to generate assembly for a file
+layer/arm/bias_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.s
+.PHONY : layer/arm/bias_arm.cpp.s
+
+layer/arm/binaryop_arm.o: layer/arm/binaryop_arm.cpp.o
+
+.PHONY : layer/arm/binaryop_arm.o
+
+# target to build an object file
+layer/arm/binaryop_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o
+.PHONY : layer/arm/binaryop_arm.cpp.o
+
+layer/arm/binaryop_arm.i: layer/arm/binaryop_arm.cpp.i
+
+.PHONY : layer/arm/binaryop_arm.i
+
+# target to preprocess a source file
+layer/arm/binaryop_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.i
+.PHONY : layer/arm/binaryop_arm.cpp.i
+
+layer/arm/binaryop_arm.s: layer/arm/binaryop_arm.cpp.s
+
+.PHONY : layer/arm/binaryop_arm.s
+
+# target to generate assembly for a file
+layer/arm/binaryop_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.s
+.PHONY : layer/arm/binaryop_arm.cpp.s
+
+layer/arm/binaryop_arm_asimdhp.o: layer/arm/binaryop_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/binaryop_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/binaryop_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_asimdhp.cpp.o
+.PHONY : layer/arm/binaryop_arm_asimdhp.cpp.o
+
+layer/arm/binaryop_arm_asimdhp.i: layer/arm/binaryop_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/binaryop_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/binaryop_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_asimdhp.cpp.i
+.PHONY : layer/arm/binaryop_arm_asimdhp.cpp.i
+
+layer/arm/binaryop_arm_asimdhp.s: layer/arm/binaryop_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/binaryop_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/binaryop_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/binaryop_arm_asimdhp.cpp.s
+.PHONY : layer/arm/binaryop_arm_asimdhp.cpp.s
+
+layer/arm/cast_arm.o: layer/arm/cast_arm.cpp.o
+
+.PHONY : layer/arm/cast_arm.o
+
+# target to build an object file
+layer/arm/cast_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o
+.PHONY : layer/arm/cast_arm.cpp.o
+
+layer/arm/cast_arm.i: layer/arm/cast_arm.cpp.i
+
+.PHONY : layer/arm/cast_arm.i
+
+# target to preprocess a source file
+layer/arm/cast_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.i
+.PHONY : layer/arm/cast_arm.cpp.i
+
+layer/arm/cast_arm.s: layer/arm/cast_arm.cpp.s
+
+.PHONY : layer/arm/cast_arm.s
+
+# target to generate assembly for a file
+layer/arm/cast_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.s
+.PHONY : layer/arm/cast_arm.cpp.s
+
+layer/arm/cast_arm_vfpv4.o: layer/arm/cast_arm_vfpv4.cpp.o
+
+.PHONY : layer/arm/cast_arm_vfpv4.o
+
+# target to build an object file
+layer/arm/cast_arm_vfpv4.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_vfpv4.cpp.o
+.PHONY : layer/arm/cast_arm_vfpv4.cpp.o
+
+layer/arm/cast_arm_vfpv4.i: layer/arm/cast_arm_vfpv4.cpp.i
+
+.PHONY : layer/arm/cast_arm_vfpv4.i
+
+# target to preprocess a source file
+layer/arm/cast_arm_vfpv4.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_vfpv4.cpp.i
+.PHONY : layer/arm/cast_arm_vfpv4.cpp.i
+
+layer/arm/cast_arm_vfpv4.s: layer/arm/cast_arm_vfpv4.cpp.s
+
+.PHONY : layer/arm/cast_arm_vfpv4.s
+
+# target to generate assembly for a file
+layer/arm/cast_arm_vfpv4.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/cast_arm_vfpv4.cpp.s
+.PHONY : layer/arm/cast_arm_vfpv4.cpp.s
+
+layer/arm/clip_arm.o: layer/arm/clip_arm.cpp.o
+
+.PHONY : layer/arm/clip_arm.o
+
+# target to build an object file
+layer/arm/clip_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o
+.PHONY : layer/arm/clip_arm.cpp.o
+
+layer/arm/clip_arm.i: layer/arm/clip_arm.cpp.i
+
+.PHONY : layer/arm/clip_arm.i
+
+# target to preprocess a source file
+layer/arm/clip_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.i
+.PHONY : layer/arm/clip_arm.cpp.i
+
+layer/arm/clip_arm.s: layer/arm/clip_arm.cpp.s
+
+.PHONY : layer/arm/clip_arm.s
+
+# target to generate assembly for a file
+layer/arm/clip_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.s
+.PHONY : layer/arm/clip_arm.cpp.s
+
+layer/arm/clip_arm_asimdhp.o: layer/arm/clip_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/clip_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/clip_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_asimdhp.cpp.o
+.PHONY : layer/arm/clip_arm_asimdhp.cpp.o
+
+layer/arm/clip_arm_asimdhp.i: layer/arm/clip_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/clip_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/clip_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_asimdhp.cpp.i
+.PHONY : layer/arm/clip_arm_asimdhp.cpp.i
+
+layer/arm/clip_arm_asimdhp.s: layer/arm/clip_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/clip_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/clip_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/clip_arm_asimdhp.cpp.s
+.PHONY : layer/arm/clip_arm_asimdhp.cpp.s
+
+layer/arm/concat_arm.o: layer/arm/concat_arm.cpp.o
+
+.PHONY : layer/arm/concat_arm.o
+
+# target to build an object file
+layer/arm/concat_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o
+.PHONY : layer/arm/concat_arm.cpp.o
+
+layer/arm/concat_arm.i: layer/arm/concat_arm.cpp.i
+
+.PHONY : layer/arm/concat_arm.i
+
+# target to preprocess a source file
+layer/arm/concat_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.i
+.PHONY : layer/arm/concat_arm.cpp.i
+
+layer/arm/concat_arm.s: layer/arm/concat_arm.cpp.s
+
+.PHONY : layer/arm/concat_arm.s
+
+# target to generate assembly for a file
+layer/arm/concat_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.s
+.PHONY : layer/arm/concat_arm.cpp.s
+
+layer/arm/convolution1d_arm.o: layer/arm/convolution1d_arm.cpp.o
+
+.PHONY : layer/arm/convolution1d_arm.o
+
+# target to build an object file
+layer/arm/convolution1d_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution1d_arm.cpp.o
+.PHONY : layer/arm/convolution1d_arm.cpp.o
+
+layer/arm/convolution1d_arm.i: layer/arm/convolution1d_arm.cpp.i
+
+.PHONY : layer/arm/convolution1d_arm.i
+
+# target to preprocess a source file
+layer/arm/convolution1d_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution1d_arm.cpp.i
+.PHONY : layer/arm/convolution1d_arm.cpp.i
+
+layer/arm/convolution1d_arm.s: layer/arm/convolution1d_arm.cpp.s
+
+.PHONY : layer/arm/convolution1d_arm.s
+
+# target to generate assembly for a file
+layer/arm/convolution1d_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution1d_arm.cpp.s
+.PHONY : layer/arm/convolution1d_arm.cpp.s
+
+layer/arm/convolution1d_arm_asimdhp.o: layer/arm/convolution1d_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/convolution1d_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/convolution1d_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution1d_arm_asimdhp.cpp.o
+.PHONY : layer/arm/convolution1d_arm_asimdhp.cpp.o
+
+layer/arm/convolution1d_arm_asimdhp.i: layer/arm/convolution1d_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/convolution1d_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/convolution1d_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution1d_arm_asimdhp.cpp.i
+.PHONY : layer/arm/convolution1d_arm_asimdhp.cpp.i
+
+layer/arm/convolution1d_arm_asimdhp.s: layer/arm/convolution1d_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/convolution1d_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/convolution1d_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution1d_arm_asimdhp.cpp.s
+.PHONY : layer/arm/convolution1d_arm_asimdhp.cpp.s
+
+layer/arm/convolution_arm.o: layer/arm/convolution_arm.cpp.o
+
+.PHONY : layer/arm/convolution_arm.o
+
+# target to build an object file
+layer/arm/convolution_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o
+.PHONY : layer/arm/convolution_arm.cpp.o
+
+layer/arm/convolution_arm.i: layer/arm/convolution_arm.cpp.i
+
+.PHONY : layer/arm/convolution_arm.i
+
+# target to preprocess a source file
+layer/arm/convolution_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.i
+.PHONY : layer/arm/convolution_arm.cpp.i
+
+layer/arm/convolution_arm.s: layer/arm/convolution_arm.cpp.s
+
+.PHONY : layer/arm/convolution_arm.s
+
+# target to generate assembly for a file
+layer/arm/convolution_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.s
+.PHONY : layer/arm/convolution_arm.cpp.s
+
+layer/arm/convolution_arm_asimddp.o: layer/arm/convolution_arm_asimddp.cpp.o
+
+.PHONY : layer/arm/convolution_arm_asimddp.o
+
+# target to build an object file
+layer/arm/convolution_arm_asimddp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_asimddp.cpp.o
+.PHONY : layer/arm/convolution_arm_asimddp.cpp.o
+
+layer/arm/convolution_arm_asimddp.i: layer/arm/convolution_arm_asimddp.cpp.i
+
+.PHONY : layer/arm/convolution_arm_asimddp.i
+
+# target to preprocess a source file
+layer/arm/convolution_arm_asimddp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_asimddp.cpp.i
+.PHONY : layer/arm/convolution_arm_asimddp.cpp.i
+
+layer/arm/convolution_arm_asimddp.s: layer/arm/convolution_arm_asimddp.cpp.s
+
+.PHONY : layer/arm/convolution_arm_asimddp.s
+
+# target to generate assembly for a file
+layer/arm/convolution_arm_asimddp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_asimddp.cpp.s
+.PHONY : layer/arm/convolution_arm_asimddp.cpp.s
+
+layer/arm/convolution_arm_asimdhp.o: layer/arm/convolution_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/convolution_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/convolution_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_asimdhp.cpp.o
+.PHONY : layer/arm/convolution_arm_asimdhp.cpp.o
+
+layer/arm/convolution_arm_asimdhp.i: layer/arm/convolution_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/convolution_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/convolution_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_asimdhp.cpp.i
+.PHONY : layer/arm/convolution_arm_asimdhp.cpp.i
+
+layer/arm/convolution_arm_asimdhp.s: layer/arm/convolution_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/convolution_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/convolution_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm_asimdhp.cpp.s
+.PHONY : layer/arm/convolution_arm_asimdhp.cpp.s
+
+layer/arm/convolutiondepthwise_arm.o: layer/arm/convolutiondepthwise_arm.cpp.o
+
+.PHONY : layer/arm/convolutiondepthwise_arm.o
+
+# target to build an object file
+layer/arm/convolutiondepthwise_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o
+.PHONY : layer/arm/convolutiondepthwise_arm.cpp.o
+
+layer/arm/convolutiondepthwise_arm.i: layer/arm/convolutiondepthwise_arm.cpp.i
+
+.PHONY : layer/arm/convolutiondepthwise_arm.i
+
+# target to preprocess a source file
+layer/arm/convolutiondepthwise_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.i
+.PHONY : layer/arm/convolutiondepthwise_arm.cpp.i
+
+layer/arm/convolutiondepthwise_arm.s: layer/arm/convolutiondepthwise_arm.cpp.s
+
+.PHONY : layer/arm/convolutiondepthwise_arm.s
+
+# target to generate assembly for a file
+layer/arm/convolutiondepthwise_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.s
+.PHONY : layer/arm/convolutiondepthwise_arm.cpp.s
+
+layer/arm/convolutiondepthwise_arm_asimdhp.o: layer/arm/convolutiondepthwise_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/convolutiondepthwise_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/convolutiondepthwise_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_asimdhp.cpp.o
+.PHONY : layer/arm/convolutiondepthwise_arm_asimdhp.cpp.o
+
+layer/arm/convolutiondepthwise_arm_asimdhp.i: layer/arm/convolutiondepthwise_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/convolutiondepthwise_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/convolutiondepthwise_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_asimdhp.cpp.i
+.PHONY : layer/arm/convolutiondepthwise_arm_asimdhp.cpp.i
+
+layer/arm/convolutiondepthwise_arm_asimdhp.s: layer/arm/convolutiondepthwise_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/convolutiondepthwise_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/convolutiondepthwise_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm_asimdhp.cpp.s
+.PHONY : layer/arm/convolutiondepthwise_arm_asimdhp.cpp.s
+
+layer/arm/crop_arm.o: layer/arm/crop_arm.cpp.o
+
+.PHONY : layer/arm/crop_arm.o
+
+# target to build an object file
+layer/arm/crop_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o
+.PHONY : layer/arm/crop_arm.cpp.o
+
+layer/arm/crop_arm.i: layer/arm/crop_arm.cpp.i
+
+.PHONY : layer/arm/crop_arm.i
+
+# target to preprocess a source file
+layer/arm/crop_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.i
+.PHONY : layer/arm/crop_arm.cpp.i
+
+layer/arm/crop_arm.s: layer/arm/crop_arm.cpp.s
+
+.PHONY : layer/arm/crop_arm.s
+
+# target to generate assembly for a file
+layer/arm/crop_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.s
+.PHONY : layer/arm/crop_arm.cpp.s
+
+layer/arm/deconvolution_arm.o: layer/arm/deconvolution_arm.cpp.o
+
+.PHONY : layer/arm/deconvolution_arm.o
+
+# target to build an object file
+layer/arm/deconvolution_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o
+.PHONY : layer/arm/deconvolution_arm.cpp.o
+
+layer/arm/deconvolution_arm.i: layer/arm/deconvolution_arm.cpp.i
+
+.PHONY : layer/arm/deconvolution_arm.i
+
+# target to preprocess a source file
+layer/arm/deconvolution_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.i
+.PHONY : layer/arm/deconvolution_arm.cpp.i
+
+layer/arm/deconvolution_arm.s: layer/arm/deconvolution_arm.cpp.s
+
+.PHONY : layer/arm/deconvolution_arm.s
+
+# target to generate assembly for a file
+layer/arm/deconvolution_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.s
+.PHONY : layer/arm/deconvolution_arm.cpp.s
+
+layer/arm/deconvolution_arm_asimdhp.o: layer/arm/deconvolution_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/deconvolution_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/deconvolution_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_asimdhp.cpp.o
+.PHONY : layer/arm/deconvolution_arm_asimdhp.cpp.o
+
+layer/arm/deconvolution_arm_asimdhp.i: layer/arm/deconvolution_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/deconvolution_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/deconvolution_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_asimdhp.cpp.i
+.PHONY : layer/arm/deconvolution_arm_asimdhp.cpp.i
+
+layer/arm/deconvolution_arm_asimdhp.s: layer/arm/deconvolution_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/deconvolution_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/deconvolution_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm_asimdhp.cpp.s
+.PHONY : layer/arm/deconvolution_arm_asimdhp.cpp.s
+
+layer/arm/deconvolutiondepthwise_arm.o: layer/arm/deconvolutiondepthwise_arm.cpp.o
+
+.PHONY : layer/arm/deconvolutiondepthwise_arm.o
+
+# target to build an object file
+layer/arm/deconvolutiondepthwise_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o
+.PHONY : layer/arm/deconvolutiondepthwise_arm.cpp.o
+
+layer/arm/deconvolutiondepthwise_arm.i: layer/arm/deconvolutiondepthwise_arm.cpp.i
+
+.PHONY : layer/arm/deconvolutiondepthwise_arm.i
+
+# target to preprocess a source file
+layer/arm/deconvolutiondepthwise_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.i
+.PHONY : layer/arm/deconvolutiondepthwise_arm.cpp.i
+
+layer/arm/deconvolutiondepthwise_arm.s: layer/arm/deconvolutiondepthwise_arm.cpp.s
+
+.PHONY : layer/arm/deconvolutiondepthwise_arm.s
+
+# target to generate assembly for a file
+layer/arm/deconvolutiondepthwise_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.s
+.PHONY : layer/arm/deconvolutiondepthwise_arm.cpp.s
+
+layer/arm/deconvolutiondepthwise_arm_asimdhp.o: layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/deconvolutiondepthwise_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.o
+.PHONY : layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.o
+
+layer/arm/deconvolutiondepthwise_arm_asimdhp.i: layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/deconvolutiondepthwise_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.i
+.PHONY : layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.i
+
+layer/arm/deconvolutiondepthwise_arm_asimdhp.s: layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/deconvolutiondepthwise_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.s
+.PHONY : layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp.s
+
+layer/arm/dequantize_arm.o: layer/arm/dequantize_arm.cpp.o
+
+.PHONY : layer/arm/dequantize_arm.o
+
+# target to build an object file
+layer/arm/dequantize_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o
+.PHONY : layer/arm/dequantize_arm.cpp.o
+
+layer/arm/dequantize_arm.i: layer/arm/dequantize_arm.cpp.i
+
+.PHONY : layer/arm/dequantize_arm.i
+
+# target to preprocess a source file
+layer/arm/dequantize_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.i
+.PHONY : layer/arm/dequantize_arm.cpp.i
+
+layer/arm/dequantize_arm.s: layer/arm/dequantize_arm.cpp.s
+
+.PHONY : layer/arm/dequantize_arm.s
+
+# target to generate assembly for a file
+layer/arm/dequantize_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.s
+.PHONY : layer/arm/dequantize_arm.cpp.s
+
+layer/arm/dequantize_arm_asimdhp.o: layer/arm/dequantize_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/dequantize_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/dequantize_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_asimdhp.cpp.o
+.PHONY : layer/arm/dequantize_arm_asimdhp.cpp.o
+
+layer/arm/dequantize_arm_asimdhp.i: layer/arm/dequantize_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/dequantize_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/dequantize_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_asimdhp.cpp.i
+.PHONY : layer/arm/dequantize_arm_asimdhp.cpp.i
+
+layer/arm/dequantize_arm_asimdhp.s: layer/arm/dequantize_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/dequantize_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/dequantize_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/dequantize_arm_asimdhp.cpp.s
+.PHONY : layer/arm/dequantize_arm_asimdhp.cpp.s
+
+layer/arm/dropout_arm.o: layer/arm/dropout_arm.cpp.o
+
+.PHONY : layer/arm/dropout_arm.o
+
+# target to build an object file
+layer/arm/dropout_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o
+.PHONY : layer/arm/dropout_arm.cpp.o
+
+layer/arm/dropout_arm.i: layer/arm/dropout_arm.cpp.i
+
+.PHONY : layer/arm/dropout_arm.i
+
+# target to preprocess a source file
+layer/arm/dropout_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.i
+.PHONY : layer/arm/dropout_arm.cpp.i
+
+layer/arm/dropout_arm.s: layer/arm/dropout_arm.cpp.s
+
+.PHONY : layer/arm/dropout_arm.s
+
+# target to generate assembly for a file
+layer/arm/dropout_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.s
+.PHONY : layer/arm/dropout_arm.cpp.s
+
+layer/arm/eltwise_arm.o: layer/arm/eltwise_arm.cpp.o
+
+.PHONY : layer/arm/eltwise_arm.o
+
+# target to build an object file
+layer/arm/eltwise_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o
+.PHONY : layer/arm/eltwise_arm.cpp.o
+
+layer/arm/eltwise_arm.i: layer/arm/eltwise_arm.cpp.i
+
+.PHONY : layer/arm/eltwise_arm.i
+
+# target to preprocess a source file
+layer/arm/eltwise_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.i
+.PHONY : layer/arm/eltwise_arm.cpp.i
+
+layer/arm/eltwise_arm.s: layer/arm/eltwise_arm.cpp.s
+
+.PHONY : layer/arm/eltwise_arm.s
+
+# target to generate assembly for a file
+layer/arm/eltwise_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.s
+.PHONY : layer/arm/eltwise_arm.cpp.s
+
+layer/arm/eltwise_arm_asimdhp.o: layer/arm/eltwise_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/eltwise_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/eltwise_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_asimdhp.cpp.o
+.PHONY : layer/arm/eltwise_arm_asimdhp.cpp.o
+
+layer/arm/eltwise_arm_asimdhp.i: layer/arm/eltwise_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/eltwise_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/eltwise_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_asimdhp.cpp.i
+.PHONY : layer/arm/eltwise_arm_asimdhp.cpp.i
+
+layer/arm/eltwise_arm_asimdhp.s: layer/arm/eltwise_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/eltwise_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/eltwise_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm_asimdhp.cpp.s
+.PHONY : layer/arm/eltwise_arm_asimdhp.cpp.s
+
+layer/arm/flatten_arm.o: layer/arm/flatten_arm.cpp.o
+
+.PHONY : layer/arm/flatten_arm.o
+
+# target to build an object file
+layer/arm/flatten_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o
+.PHONY : layer/arm/flatten_arm.cpp.o
+
+layer/arm/flatten_arm.i: layer/arm/flatten_arm.cpp.i
+
+.PHONY : layer/arm/flatten_arm.i
+
+# target to preprocess a source file
+layer/arm/flatten_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.i
+.PHONY : layer/arm/flatten_arm.cpp.i
+
+layer/arm/flatten_arm.s: layer/arm/flatten_arm.cpp.s
+
+.PHONY : layer/arm/flatten_arm.s
+
+# target to generate assembly for a file
+layer/arm/flatten_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.s
+.PHONY : layer/arm/flatten_arm.cpp.s
+
+layer/arm/gelu_arm.o: layer/arm/gelu_arm.cpp.o
+
+.PHONY : layer/arm/gelu_arm.o
+
+# target to build an object file
+layer/arm/gelu_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gelu_arm.cpp.o
+.PHONY : layer/arm/gelu_arm.cpp.o
+
+layer/arm/gelu_arm.i: layer/arm/gelu_arm.cpp.i
+
+.PHONY : layer/arm/gelu_arm.i
+
+# target to preprocess a source file
+layer/arm/gelu_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gelu_arm.cpp.i
+.PHONY : layer/arm/gelu_arm.cpp.i
+
+layer/arm/gelu_arm.s: layer/arm/gelu_arm.cpp.s
+
+.PHONY : layer/arm/gelu_arm.s
+
+# target to generate assembly for a file
+layer/arm/gelu_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gelu_arm.cpp.s
+.PHONY : layer/arm/gelu_arm.cpp.s
+
+layer/arm/gelu_arm_asimdhp.o: layer/arm/gelu_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/gelu_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/gelu_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gelu_arm_asimdhp.cpp.o
+.PHONY : layer/arm/gelu_arm_asimdhp.cpp.o
+
+layer/arm/gelu_arm_asimdhp.i: layer/arm/gelu_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/gelu_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/gelu_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gelu_arm_asimdhp.cpp.i
+.PHONY : layer/arm/gelu_arm_asimdhp.cpp.i
+
+layer/arm/gelu_arm_asimdhp.s: layer/arm/gelu_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/gelu_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/gelu_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gelu_arm_asimdhp.cpp.s
+.PHONY : layer/arm/gelu_arm_asimdhp.cpp.s
+
+layer/arm/gemm_arm.o: layer/arm/gemm_arm.cpp.o
+
+.PHONY : layer/arm/gemm_arm.o
+
+# target to build an object file
+layer/arm/gemm_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gemm_arm.cpp.o
+.PHONY : layer/arm/gemm_arm.cpp.o
+
+layer/arm/gemm_arm.i: layer/arm/gemm_arm.cpp.i
+
+.PHONY : layer/arm/gemm_arm.i
+
+# target to preprocess a source file
+layer/arm/gemm_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gemm_arm.cpp.i
+.PHONY : layer/arm/gemm_arm.cpp.i
+
+layer/arm/gemm_arm.s: layer/arm/gemm_arm.cpp.s
+
+.PHONY : layer/arm/gemm_arm.s
+
+# target to generate assembly for a file
+layer/arm/gemm_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gemm_arm.cpp.s
+.PHONY : layer/arm/gemm_arm.cpp.s
+
+layer/arm/gemm_arm_asimdhp.o: layer/arm/gemm_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/gemm_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/gemm_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gemm_arm_asimdhp.cpp.o
+.PHONY : layer/arm/gemm_arm_asimdhp.cpp.o
+
+layer/arm/gemm_arm_asimdhp.i: layer/arm/gemm_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/gemm_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/gemm_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gemm_arm_asimdhp.cpp.i
+.PHONY : layer/arm/gemm_arm_asimdhp.cpp.i
+
+layer/arm/gemm_arm_asimdhp.s: layer/arm/gemm_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/gemm_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/gemm_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gemm_arm_asimdhp.cpp.s
+.PHONY : layer/arm/gemm_arm_asimdhp.cpp.s
+
+layer/arm/gemm_arm_vfpv4.o: layer/arm/gemm_arm_vfpv4.cpp.o
+
+.PHONY : layer/arm/gemm_arm_vfpv4.o
+
+# target to build an object file
+layer/arm/gemm_arm_vfpv4.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gemm_arm_vfpv4.cpp.o
+.PHONY : layer/arm/gemm_arm_vfpv4.cpp.o
+
+layer/arm/gemm_arm_vfpv4.i: layer/arm/gemm_arm_vfpv4.cpp.i
+
+.PHONY : layer/arm/gemm_arm_vfpv4.i
+
+# target to preprocess a source file
+layer/arm/gemm_arm_vfpv4.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gemm_arm_vfpv4.cpp.i
+.PHONY : layer/arm/gemm_arm_vfpv4.cpp.i
+
+layer/arm/gemm_arm_vfpv4.s: layer/arm/gemm_arm_vfpv4.cpp.s
+
+.PHONY : layer/arm/gemm_arm_vfpv4.s
+
+# target to generate assembly for a file
+layer/arm/gemm_arm_vfpv4.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gemm_arm_vfpv4.cpp.s
+.PHONY : layer/arm/gemm_arm_vfpv4.cpp.s
+
+layer/arm/gru_arm.o: layer/arm/gru_arm.cpp.o
+
+.PHONY : layer/arm/gru_arm.o
+
+# target to build an object file
+layer/arm/gru_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.o
+.PHONY : layer/arm/gru_arm.cpp.o
+
+layer/arm/gru_arm.i: layer/arm/gru_arm.cpp.i
+
+.PHONY : layer/arm/gru_arm.i
+
+# target to preprocess a source file
+layer/arm/gru_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.i
+.PHONY : layer/arm/gru_arm.cpp.i
+
+layer/arm/gru_arm.s: layer/arm/gru_arm.cpp.s
+
+.PHONY : layer/arm/gru_arm.s
+
+# target to generate assembly for a file
+layer/arm/gru_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gru_arm.cpp.s
+.PHONY : layer/arm/gru_arm.cpp.s
+
+layer/arm/gru_arm_asimdhp.o: layer/arm/gru_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/gru_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/gru_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_asimdhp.cpp.o
+.PHONY : layer/arm/gru_arm_asimdhp.cpp.o
+
+layer/arm/gru_arm_asimdhp.i: layer/arm/gru_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/gru_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/gru_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_asimdhp.cpp.i
+.PHONY : layer/arm/gru_arm_asimdhp.cpp.i
+
+layer/arm/gru_arm_asimdhp.s: layer/arm/gru_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/gru_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/gru_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/gru_arm_asimdhp.cpp.s
+.PHONY : layer/arm/gru_arm_asimdhp.cpp.s
+
+layer/arm/hardsigmoid_arm.o: layer/arm/hardsigmoid_arm.cpp.o
+
+.PHONY : layer/arm/hardsigmoid_arm.o
+
+# target to build an object file
+layer/arm/hardsigmoid_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o
+.PHONY : layer/arm/hardsigmoid_arm.cpp.o
+
+layer/arm/hardsigmoid_arm.i: layer/arm/hardsigmoid_arm.cpp.i
+
+.PHONY : layer/arm/hardsigmoid_arm.i
+
+# target to preprocess a source file
+layer/arm/hardsigmoid_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.i
+.PHONY : layer/arm/hardsigmoid_arm.cpp.i
+
+layer/arm/hardsigmoid_arm.s: layer/arm/hardsigmoid_arm.cpp.s
+
+.PHONY : layer/arm/hardsigmoid_arm.s
+
+# target to generate assembly for a file
+layer/arm/hardsigmoid_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.s
+.PHONY : layer/arm/hardsigmoid_arm.cpp.s
+
+layer/arm/hardsigmoid_arm_asimdhp.o: layer/arm/hardsigmoid_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/hardsigmoid_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/hardsigmoid_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_asimdhp.cpp.o
+.PHONY : layer/arm/hardsigmoid_arm_asimdhp.cpp.o
+
+layer/arm/hardsigmoid_arm_asimdhp.i: layer/arm/hardsigmoid_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/hardsigmoid_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/hardsigmoid_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_asimdhp.cpp.i
+.PHONY : layer/arm/hardsigmoid_arm_asimdhp.cpp.i
+
+layer/arm/hardsigmoid_arm_asimdhp.s: layer/arm/hardsigmoid_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/hardsigmoid_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/hardsigmoid_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm_asimdhp.cpp.s
+.PHONY : layer/arm/hardsigmoid_arm_asimdhp.cpp.s
+
+layer/arm/hardswish_arm.o: layer/arm/hardswish_arm.cpp.o
+
+.PHONY : layer/arm/hardswish_arm.o
+
+# target to build an object file
+layer/arm/hardswish_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o
+.PHONY : layer/arm/hardswish_arm.cpp.o
+
+layer/arm/hardswish_arm.i: layer/arm/hardswish_arm.cpp.i
+
+.PHONY : layer/arm/hardswish_arm.i
+
+# target to preprocess a source file
+layer/arm/hardswish_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.i
+.PHONY : layer/arm/hardswish_arm.cpp.i
+
+layer/arm/hardswish_arm.s: layer/arm/hardswish_arm.cpp.s
+
+.PHONY : layer/arm/hardswish_arm.s
+
+# target to generate assembly for a file
+layer/arm/hardswish_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.s
+.PHONY : layer/arm/hardswish_arm.cpp.s
+
+layer/arm/hardswish_arm_asimdhp.o: layer/arm/hardswish_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/hardswish_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/hardswish_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_asimdhp.cpp.o
+.PHONY : layer/arm/hardswish_arm_asimdhp.cpp.o
+
+layer/arm/hardswish_arm_asimdhp.i: layer/arm/hardswish_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/hardswish_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/hardswish_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_asimdhp.cpp.i
+.PHONY : layer/arm/hardswish_arm_asimdhp.cpp.i
+
+layer/arm/hardswish_arm_asimdhp.s: layer/arm/hardswish_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/hardswish_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/hardswish_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/hardswish_arm_asimdhp.cpp.s
+.PHONY : layer/arm/hardswish_arm_asimdhp.cpp.s
+
+layer/arm/innerproduct_arm.o: layer/arm/innerproduct_arm.cpp.o
+
+.PHONY : layer/arm/innerproduct_arm.o
+
+# target to build an object file
+layer/arm/innerproduct_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o
+.PHONY : layer/arm/innerproduct_arm.cpp.o
+
+layer/arm/innerproduct_arm.i: layer/arm/innerproduct_arm.cpp.i
+
+.PHONY : layer/arm/innerproduct_arm.i
+
+# target to preprocess a source file
+layer/arm/innerproduct_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.i
+.PHONY : layer/arm/innerproduct_arm.cpp.i
+
+layer/arm/innerproduct_arm.s: layer/arm/innerproduct_arm.cpp.s
+
+.PHONY : layer/arm/innerproduct_arm.s
+
+# target to generate assembly for a file
+layer/arm/innerproduct_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.s
+.PHONY : layer/arm/innerproduct_arm.cpp.s
+
+layer/arm/innerproduct_arm_asimdhp.o: layer/arm/innerproduct_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/innerproduct_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/innerproduct_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_asimdhp.cpp.o
+.PHONY : layer/arm/innerproduct_arm_asimdhp.cpp.o
+
+layer/arm/innerproduct_arm_asimdhp.i: layer/arm/innerproduct_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/innerproduct_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/innerproduct_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_asimdhp.cpp.i
+.PHONY : layer/arm/innerproduct_arm_asimdhp.cpp.i
+
+layer/arm/innerproduct_arm_asimdhp.s: layer/arm/innerproduct_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/innerproduct_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/innerproduct_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_asimdhp.cpp.s
+.PHONY : layer/arm/innerproduct_arm_asimdhp.cpp.s
+
+layer/arm/innerproduct_arm_vfpv4.o: layer/arm/innerproduct_arm_vfpv4.cpp.o
+
+.PHONY : layer/arm/innerproduct_arm_vfpv4.o
+
+# target to build an object file
+layer/arm/innerproduct_arm_vfpv4.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_vfpv4.cpp.o
+.PHONY : layer/arm/innerproduct_arm_vfpv4.cpp.o
+
+layer/arm/innerproduct_arm_vfpv4.i: layer/arm/innerproduct_arm_vfpv4.cpp.i
+
+.PHONY : layer/arm/innerproduct_arm_vfpv4.i
+
+# target to preprocess a source file
+layer/arm/innerproduct_arm_vfpv4.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_vfpv4.cpp.i
+.PHONY : layer/arm/innerproduct_arm_vfpv4.cpp.i
+
+layer/arm/innerproduct_arm_vfpv4.s: layer/arm/innerproduct_arm_vfpv4.cpp.s
+
+.PHONY : layer/arm/innerproduct_arm_vfpv4.s
+
+# target to generate assembly for a file
+layer/arm/innerproduct_arm_vfpv4.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm_vfpv4.cpp.s
+.PHONY : layer/arm/innerproduct_arm_vfpv4.cpp.s
+
+layer/arm/instancenorm_arm.o: layer/arm/instancenorm_arm.cpp.o
+
+.PHONY : layer/arm/instancenorm_arm.o
+
+# target to build an object file
+layer/arm/instancenorm_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.o
+.PHONY : layer/arm/instancenorm_arm.cpp.o
+
+layer/arm/instancenorm_arm.i: layer/arm/instancenorm_arm.cpp.i
+
+.PHONY : layer/arm/instancenorm_arm.i
+
+# target to preprocess a source file
+layer/arm/instancenorm_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.i
+.PHONY : layer/arm/instancenorm_arm.cpp.i
+
+layer/arm/instancenorm_arm.s: layer/arm/instancenorm_arm.cpp.s
+
+.PHONY : layer/arm/instancenorm_arm.s
+
+# target to generate assembly for a file
+layer/arm/instancenorm_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm.cpp.s
+.PHONY : layer/arm/instancenorm_arm.cpp.s
+
+layer/arm/instancenorm_arm_asimdhp.o: layer/arm/instancenorm_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/instancenorm_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/instancenorm_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_asimdhp.cpp.o
+.PHONY : layer/arm/instancenorm_arm_asimdhp.cpp.o
+
+layer/arm/instancenorm_arm_asimdhp.i: layer/arm/instancenorm_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/instancenorm_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/instancenorm_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_asimdhp.cpp.i
+.PHONY : layer/arm/instancenorm_arm_asimdhp.cpp.i
+
+layer/arm/instancenorm_arm_asimdhp.s: layer/arm/instancenorm_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/instancenorm_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/instancenorm_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/instancenorm_arm_asimdhp.cpp.s
+.PHONY : layer/arm/instancenorm_arm_asimdhp.cpp.s
+
+layer/arm/interp_arm.o: layer/arm/interp_arm.cpp.o
+
+.PHONY : layer/arm/interp_arm.o
+
+# target to build an object file
+layer/arm/interp_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o
+.PHONY : layer/arm/interp_arm.cpp.o
+
+layer/arm/interp_arm.i: layer/arm/interp_arm.cpp.i
+
+.PHONY : layer/arm/interp_arm.i
+
+# target to preprocess a source file
+layer/arm/interp_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.i
+.PHONY : layer/arm/interp_arm.cpp.i
+
+layer/arm/interp_arm.s: layer/arm/interp_arm.cpp.s
+
+.PHONY : layer/arm/interp_arm.s
+
+# target to generate assembly for a file
+layer/arm/interp_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.s
+.PHONY : layer/arm/interp_arm.cpp.s
+
+layer/arm/interp_arm_asimdhp.o: layer/arm/interp_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/interp_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/interp_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_asimdhp.cpp.o
+.PHONY : layer/arm/interp_arm_asimdhp.cpp.o
+
+layer/arm/interp_arm_asimdhp.i: layer/arm/interp_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/interp_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/interp_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_asimdhp.cpp.i
+.PHONY : layer/arm/interp_arm_asimdhp.cpp.i
+
+layer/arm/interp_arm_asimdhp.s: layer/arm/interp_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/interp_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/interp_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/interp_arm_asimdhp.cpp.s
+.PHONY : layer/arm/interp_arm_asimdhp.cpp.s
+
+layer/arm/lrn_arm.o: layer/arm/lrn_arm.cpp.o
+
+.PHONY : layer/arm/lrn_arm.o
+
+# target to build an object file
+layer/arm/lrn_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o
+.PHONY : layer/arm/lrn_arm.cpp.o
+
+layer/arm/lrn_arm.i: layer/arm/lrn_arm.cpp.i
+
+.PHONY : layer/arm/lrn_arm.i
+
+# target to preprocess a source file
+layer/arm/lrn_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.i
+.PHONY : layer/arm/lrn_arm.cpp.i
+
+layer/arm/lrn_arm.s: layer/arm/lrn_arm.cpp.s
+
+.PHONY : layer/arm/lrn_arm.s
+
+# target to generate assembly for a file
+layer/arm/lrn_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.s
+.PHONY : layer/arm/lrn_arm.cpp.s
+
+layer/arm/lstm_arm.o: layer/arm/lstm_arm.cpp.o
+
+.PHONY : layer/arm/lstm_arm.o
+
+# target to build an object file
+layer/arm/lstm_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.o
+.PHONY : layer/arm/lstm_arm.cpp.o
+
+layer/arm/lstm_arm.i: layer/arm/lstm_arm.cpp.i
+
+.PHONY : layer/arm/lstm_arm.i
+
+# target to preprocess a source file
+layer/arm/lstm_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.i
+.PHONY : layer/arm/lstm_arm.cpp.i
+
+layer/arm/lstm_arm.s: layer/arm/lstm_arm.cpp.s
+
+.PHONY : layer/arm/lstm_arm.s
+
+# target to generate assembly for a file
+layer/arm/lstm_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm.cpp.s
+.PHONY : layer/arm/lstm_arm.cpp.s
+
+layer/arm/lstm_arm_asimdhp.o: layer/arm/lstm_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/lstm_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/lstm_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_asimdhp.cpp.o
+.PHONY : layer/arm/lstm_arm_asimdhp.cpp.o
+
+layer/arm/lstm_arm_asimdhp.i: layer/arm/lstm_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/lstm_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/lstm_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_asimdhp.cpp.i
+.PHONY : layer/arm/lstm_arm_asimdhp.cpp.i
+
+layer/arm/lstm_arm_asimdhp.s: layer/arm/lstm_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/lstm_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/lstm_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/lstm_arm_asimdhp.cpp.s
+.PHONY : layer/arm/lstm_arm_asimdhp.cpp.s
+
+layer/arm/matmul_arm.o: layer/arm/matmul_arm.cpp.o
+
+.PHONY : layer/arm/matmul_arm.o
+
+# target to build an object file
+layer/arm/matmul_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/matmul_arm.cpp.o
+.PHONY : layer/arm/matmul_arm.cpp.o
+
+layer/arm/matmul_arm.i: layer/arm/matmul_arm.cpp.i
+
+.PHONY : layer/arm/matmul_arm.i
+
+# target to preprocess a source file
+layer/arm/matmul_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/matmul_arm.cpp.i
+.PHONY : layer/arm/matmul_arm.cpp.i
+
+layer/arm/matmul_arm.s: layer/arm/matmul_arm.cpp.s
+
+.PHONY : layer/arm/matmul_arm.s
+
+# target to generate assembly for a file
+layer/arm/matmul_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/matmul_arm.cpp.s
+.PHONY : layer/arm/matmul_arm.cpp.s
+
+layer/arm/mish_arm.o: layer/arm/mish_arm.cpp.o
+
+.PHONY : layer/arm/mish_arm.o
+
+# target to build an object file
+layer/arm/mish_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.o
+.PHONY : layer/arm/mish_arm.cpp.o
+
+layer/arm/mish_arm.i: layer/arm/mish_arm.cpp.i
+
+.PHONY : layer/arm/mish_arm.i
+
+# target to preprocess a source file
+layer/arm/mish_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.i
+.PHONY : layer/arm/mish_arm.cpp.i
+
+layer/arm/mish_arm.s: layer/arm/mish_arm.cpp.s
+
+.PHONY : layer/arm/mish_arm.s
+
+# target to generate assembly for a file
+layer/arm/mish_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/mish_arm.cpp.s
+.PHONY : layer/arm/mish_arm.cpp.s
+
+layer/arm/mish_arm_asimdhp.o: layer/arm/mish_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/mish_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/mish_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_asimdhp.cpp.o
+.PHONY : layer/arm/mish_arm_asimdhp.cpp.o
+
+layer/arm/mish_arm_asimdhp.i: layer/arm/mish_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/mish_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/mish_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_asimdhp.cpp.i
+.PHONY : layer/arm/mish_arm_asimdhp.cpp.i
+
+layer/arm/mish_arm_asimdhp.s: layer/arm/mish_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/mish_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/mish_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/mish_arm_asimdhp.cpp.s
+.PHONY : layer/arm/mish_arm_asimdhp.cpp.s
+
+layer/arm/multiheadattention_arm.o: layer/arm/multiheadattention_arm.cpp.o
+
+.PHONY : layer/arm/multiheadattention_arm.o
+
+# target to build an object file
+layer/arm/multiheadattention_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/multiheadattention_arm.cpp.o
+.PHONY : layer/arm/multiheadattention_arm.cpp.o
+
+layer/arm/multiheadattention_arm.i: layer/arm/multiheadattention_arm.cpp.i
+
+.PHONY : layer/arm/multiheadattention_arm.i
+
+# target to preprocess a source file
+layer/arm/multiheadattention_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/multiheadattention_arm.cpp.i
+.PHONY : layer/arm/multiheadattention_arm.cpp.i
+
+layer/arm/multiheadattention_arm.s: layer/arm/multiheadattention_arm.cpp.s
+
+.PHONY : layer/arm/multiheadattention_arm.s
+
+# target to generate assembly for a file
+layer/arm/multiheadattention_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/multiheadattention_arm.cpp.s
+.PHONY : layer/arm/multiheadattention_arm.cpp.s
+
+layer/arm/packing_arm.o: layer/arm/packing_arm.cpp.o
+
+.PHONY : layer/arm/packing_arm.o
+
+# target to build an object file
+layer/arm/packing_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o
+.PHONY : layer/arm/packing_arm.cpp.o
+
+layer/arm/packing_arm.i: layer/arm/packing_arm.cpp.i
+
+.PHONY : layer/arm/packing_arm.i
+
+# target to preprocess a source file
+layer/arm/packing_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.i
+.PHONY : layer/arm/packing_arm.cpp.i
+
+layer/arm/packing_arm.s: layer/arm/packing_arm.cpp.s
+
+.PHONY : layer/arm/packing_arm.s
+
+# target to generate assembly for a file
+layer/arm/packing_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.s
+.PHONY : layer/arm/packing_arm.cpp.s
+
+layer/arm/padding_arm.o: layer/arm/padding_arm.cpp.o
+
+.PHONY : layer/arm/padding_arm.o
+
+# target to build an object file
+layer/arm/padding_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o
+.PHONY : layer/arm/padding_arm.cpp.o
+
+layer/arm/padding_arm.i: layer/arm/padding_arm.cpp.i
+
+.PHONY : layer/arm/padding_arm.i
+
+# target to preprocess a source file
+layer/arm/padding_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.i
+.PHONY : layer/arm/padding_arm.cpp.i
+
+layer/arm/padding_arm.s: layer/arm/padding_arm.cpp.s
+
+.PHONY : layer/arm/padding_arm.s
+
+# target to generate assembly for a file
+layer/arm/padding_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.s
+.PHONY : layer/arm/padding_arm.cpp.s
+
+layer/arm/pixelshuffle_arm.o: layer/arm/pixelshuffle_arm.cpp.o
+
+.PHONY : layer/arm/pixelshuffle_arm.o
+
+# target to build an object file
+layer/arm/pixelshuffle_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/pixelshuffle_arm.cpp.o
+.PHONY : layer/arm/pixelshuffle_arm.cpp.o
+
+layer/arm/pixelshuffle_arm.i: layer/arm/pixelshuffle_arm.cpp.i
+
+.PHONY : layer/arm/pixelshuffle_arm.i
+
+# target to preprocess a source file
+layer/arm/pixelshuffle_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/pixelshuffle_arm.cpp.i
+.PHONY : layer/arm/pixelshuffle_arm.cpp.i
+
+layer/arm/pixelshuffle_arm.s: layer/arm/pixelshuffle_arm.cpp.s
+
+.PHONY : layer/arm/pixelshuffle_arm.s
+
+# target to generate assembly for a file
+layer/arm/pixelshuffle_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/pixelshuffle_arm.cpp.s
+.PHONY : layer/arm/pixelshuffle_arm.cpp.s
+
+layer/arm/pooling_arm.o: layer/arm/pooling_arm.cpp.o
+
+.PHONY : layer/arm/pooling_arm.o
+
+# target to build an object file
+layer/arm/pooling_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o
+.PHONY : layer/arm/pooling_arm.cpp.o
+
+layer/arm/pooling_arm.i: layer/arm/pooling_arm.cpp.i
+
+.PHONY : layer/arm/pooling_arm.i
+
+# target to preprocess a source file
+layer/arm/pooling_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.i
+.PHONY : layer/arm/pooling_arm.cpp.i
+
+layer/arm/pooling_arm.s: layer/arm/pooling_arm.cpp.s
+
+.PHONY : layer/arm/pooling_arm.s
+
+# target to generate assembly for a file
+layer/arm/pooling_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.s
+.PHONY : layer/arm/pooling_arm.cpp.s
+
+layer/arm/pooling_arm_asimdhp.o: layer/arm/pooling_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/pooling_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/pooling_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_asimdhp.cpp.o
+.PHONY : layer/arm/pooling_arm_asimdhp.cpp.o
+
+layer/arm/pooling_arm_asimdhp.i: layer/arm/pooling_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/pooling_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/pooling_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_asimdhp.cpp.i
+.PHONY : layer/arm/pooling_arm_asimdhp.cpp.i
+
+layer/arm/pooling_arm_asimdhp.s: layer/arm/pooling_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/pooling_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/pooling_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm_asimdhp.cpp.s
+.PHONY : layer/arm/pooling_arm_asimdhp.cpp.s
+
+layer/arm/prelu_arm.o: layer/arm/prelu_arm.cpp.o
+
+.PHONY : layer/arm/prelu_arm.o
+
+# target to build an object file
+layer/arm/prelu_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o
+.PHONY : layer/arm/prelu_arm.cpp.o
+
+layer/arm/prelu_arm.i: layer/arm/prelu_arm.cpp.i
+
+.PHONY : layer/arm/prelu_arm.i
+
+# target to preprocess a source file
+layer/arm/prelu_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.i
+.PHONY : layer/arm/prelu_arm.cpp.i
+
+layer/arm/prelu_arm.s: layer/arm/prelu_arm.cpp.s
+
+.PHONY : layer/arm/prelu_arm.s
+
+# target to generate assembly for a file
+layer/arm/prelu_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.s
+.PHONY : layer/arm/prelu_arm.cpp.s
+
+layer/arm/prelu_arm_asimdhp.o: layer/arm/prelu_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/prelu_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/prelu_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_asimdhp.cpp.o
+.PHONY : layer/arm/prelu_arm_asimdhp.cpp.o
+
+layer/arm/prelu_arm_asimdhp.i: layer/arm/prelu_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/prelu_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/prelu_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_asimdhp.cpp.i
+.PHONY : layer/arm/prelu_arm_asimdhp.cpp.i
+
+layer/arm/prelu_arm_asimdhp.s: layer/arm/prelu_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/prelu_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/prelu_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm_asimdhp.cpp.s
+.PHONY : layer/arm/prelu_arm_asimdhp.cpp.s
+
+layer/arm/quantize_arm.o: layer/arm/quantize_arm.cpp.o
+
+.PHONY : layer/arm/quantize_arm.o
+
+# target to build an object file
+layer/arm/quantize_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o
+.PHONY : layer/arm/quantize_arm.cpp.o
+
+layer/arm/quantize_arm.i: layer/arm/quantize_arm.cpp.i
+
+.PHONY : layer/arm/quantize_arm.i
+
+# target to preprocess a source file
+layer/arm/quantize_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.i
+.PHONY : layer/arm/quantize_arm.cpp.i
+
+layer/arm/quantize_arm.s: layer/arm/quantize_arm.cpp.s
+
+.PHONY : layer/arm/quantize_arm.s
+
+# target to generate assembly for a file
+layer/arm/quantize_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.s
+.PHONY : layer/arm/quantize_arm.cpp.s
+
+layer/arm/quantize_arm_asimdhp.o: layer/arm/quantize_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/quantize_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/quantize_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_asimdhp.cpp.o
+.PHONY : layer/arm/quantize_arm_asimdhp.cpp.o
+
+layer/arm/quantize_arm_asimdhp.i: layer/arm/quantize_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/quantize_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/quantize_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_asimdhp.cpp.i
+.PHONY : layer/arm/quantize_arm_asimdhp.cpp.i
+
+layer/arm/quantize_arm_asimdhp.s: layer/arm/quantize_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/quantize_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/quantize_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/quantize_arm_asimdhp.cpp.s
+.PHONY : layer/arm/quantize_arm_asimdhp.cpp.s
+
+layer/arm/relu_arm.o: layer/arm/relu_arm.cpp.o
+
+.PHONY : layer/arm/relu_arm.o
+
+# target to build an object file
+layer/arm/relu_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o
+.PHONY : layer/arm/relu_arm.cpp.o
+
+layer/arm/relu_arm.i: layer/arm/relu_arm.cpp.i
+
+.PHONY : layer/arm/relu_arm.i
+
+# target to preprocess a source file
+layer/arm/relu_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.i
+.PHONY : layer/arm/relu_arm.cpp.i
+
+layer/arm/relu_arm.s: layer/arm/relu_arm.cpp.s
+
+.PHONY : layer/arm/relu_arm.s
+
+# target to generate assembly for a file
+layer/arm/relu_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.s
+.PHONY : layer/arm/relu_arm.cpp.s
+
+layer/arm/relu_arm_asimdhp.o: layer/arm/relu_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/relu_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/relu_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_asimdhp.cpp.o
+.PHONY : layer/arm/relu_arm_asimdhp.cpp.o
+
+layer/arm/relu_arm_asimdhp.i: layer/arm/relu_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/relu_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/relu_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_asimdhp.cpp.i
+.PHONY : layer/arm/relu_arm_asimdhp.cpp.i
+
+layer/arm/relu_arm_asimdhp.s: layer/arm/relu_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/relu_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/relu_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/relu_arm_asimdhp.cpp.s
+.PHONY : layer/arm/relu_arm_asimdhp.cpp.s
+
+layer/arm/requantize_arm.o: layer/arm/requantize_arm.cpp.o
+
+.PHONY : layer/arm/requantize_arm.o
+
+# target to build an object file
+layer/arm/requantize_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o
+.PHONY : layer/arm/requantize_arm.cpp.o
+
+layer/arm/requantize_arm.i: layer/arm/requantize_arm.cpp.i
+
+.PHONY : layer/arm/requantize_arm.i
+
+# target to preprocess a source file
+layer/arm/requantize_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.i
+.PHONY : layer/arm/requantize_arm.cpp.i
+
+layer/arm/requantize_arm.s: layer/arm/requantize_arm.cpp.s
+
+.PHONY : layer/arm/requantize_arm.s
+
+# target to generate assembly for a file
+layer/arm/requantize_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.s
+.PHONY : layer/arm/requantize_arm.cpp.s
+
+layer/arm/reshape_arm.o: layer/arm/reshape_arm.cpp.o
+
+.PHONY : layer/arm/reshape_arm.o
+
+# target to build an object file
+layer/arm/reshape_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o
+.PHONY : layer/arm/reshape_arm.cpp.o
+
+layer/arm/reshape_arm.i: layer/arm/reshape_arm.cpp.i
+
+.PHONY : layer/arm/reshape_arm.i
+
+# target to preprocess a source file
+layer/arm/reshape_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.i
+.PHONY : layer/arm/reshape_arm.cpp.i
+
+layer/arm/reshape_arm.s: layer/arm/reshape_arm.cpp.s
+
+.PHONY : layer/arm/reshape_arm.s
+
+# target to generate assembly for a file
+layer/arm/reshape_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.s
+.PHONY : layer/arm/reshape_arm.cpp.s
+
+layer/arm/rnn_arm.o: layer/arm/rnn_arm.cpp.o
+
+.PHONY : layer/arm/rnn_arm.o
+
+# target to build an object file
+layer/arm/rnn_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.o
+.PHONY : layer/arm/rnn_arm.cpp.o
+
+layer/arm/rnn_arm.i: layer/arm/rnn_arm.cpp.i
+
+.PHONY : layer/arm/rnn_arm.i
+
+# target to preprocess a source file
+layer/arm/rnn_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.i
+.PHONY : layer/arm/rnn_arm.cpp.i
+
+layer/arm/rnn_arm.s: layer/arm/rnn_arm.cpp.s
+
+.PHONY : layer/arm/rnn_arm.s
+
+# target to generate assembly for a file
+layer/arm/rnn_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm.cpp.s
+.PHONY : layer/arm/rnn_arm.cpp.s
+
+layer/arm/rnn_arm_asimdhp.o: layer/arm/rnn_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/rnn_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/rnn_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_asimdhp.cpp.o
+.PHONY : layer/arm/rnn_arm_asimdhp.cpp.o
+
+layer/arm/rnn_arm_asimdhp.i: layer/arm/rnn_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/rnn_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/rnn_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_asimdhp.cpp.i
+.PHONY : layer/arm/rnn_arm_asimdhp.cpp.i
+
+layer/arm/rnn_arm_asimdhp.s: layer/arm/rnn_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/rnn_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/rnn_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/rnn_arm_asimdhp.cpp.s
+.PHONY : layer/arm/rnn_arm_asimdhp.cpp.s
+
+layer/arm/scale_arm.o: layer/arm/scale_arm.cpp.o
+
+.PHONY : layer/arm/scale_arm.o
+
+# target to build an object file
+layer/arm/scale_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o
+.PHONY : layer/arm/scale_arm.cpp.o
+
+layer/arm/scale_arm.i: layer/arm/scale_arm.cpp.i
+
+.PHONY : layer/arm/scale_arm.i
+
+# target to preprocess a source file
+layer/arm/scale_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.i
+.PHONY : layer/arm/scale_arm.cpp.i
+
+layer/arm/scale_arm.s: layer/arm/scale_arm.cpp.s
+
+.PHONY : layer/arm/scale_arm.s
+
+# target to generate assembly for a file
+layer/arm/scale_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.s
+.PHONY : layer/arm/scale_arm.cpp.s
+
+layer/arm/selu_arm.o: layer/arm/selu_arm.cpp.o
+
+.PHONY : layer/arm/selu_arm.o
+
+# target to build an object file
+layer/arm/selu_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o
+.PHONY : layer/arm/selu_arm.cpp.o
+
+layer/arm/selu_arm.i: layer/arm/selu_arm.cpp.i
+
+.PHONY : layer/arm/selu_arm.i
+
+# target to preprocess a source file
+layer/arm/selu_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.i
+.PHONY : layer/arm/selu_arm.cpp.i
+
+layer/arm/selu_arm.s: layer/arm/selu_arm.cpp.s
+
+.PHONY : layer/arm/selu_arm.s
+
+# target to generate assembly for a file
+layer/arm/selu_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.s
+.PHONY : layer/arm/selu_arm.cpp.s
+
+layer/arm/shufflechannel_arm.o: layer/arm/shufflechannel_arm.cpp.o
+
+.PHONY : layer/arm/shufflechannel_arm.o
+
+# target to build an object file
+layer/arm/shufflechannel_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o
+.PHONY : layer/arm/shufflechannel_arm.cpp.o
+
+layer/arm/shufflechannel_arm.i: layer/arm/shufflechannel_arm.cpp.i
+
+.PHONY : layer/arm/shufflechannel_arm.i
+
+# target to preprocess a source file
+layer/arm/shufflechannel_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.i
+.PHONY : layer/arm/shufflechannel_arm.cpp.i
+
+layer/arm/shufflechannel_arm.s: layer/arm/shufflechannel_arm.cpp.s
+
+.PHONY : layer/arm/shufflechannel_arm.s
+
+# target to generate assembly for a file
+layer/arm/shufflechannel_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.s
+.PHONY : layer/arm/shufflechannel_arm.cpp.s
+
+layer/arm/sigmoid_arm.o: layer/arm/sigmoid_arm.cpp.o
+
+.PHONY : layer/arm/sigmoid_arm.o
+
+# target to build an object file
+layer/arm/sigmoid_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o
+.PHONY : layer/arm/sigmoid_arm.cpp.o
+
+layer/arm/sigmoid_arm.i: layer/arm/sigmoid_arm.cpp.i
+
+.PHONY : layer/arm/sigmoid_arm.i
+
+# target to preprocess a source file
+layer/arm/sigmoid_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.i
+.PHONY : layer/arm/sigmoid_arm.cpp.i
+
+layer/arm/sigmoid_arm.s: layer/arm/sigmoid_arm.cpp.s
+
+.PHONY : layer/arm/sigmoid_arm.s
+
+# target to generate assembly for a file
+layer/arm/sigmoid_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.s
+.PHONY : layer/arm/sigmoid_arm.cpp.s
+
+layer/arm/sigmoid_arm_asimdhp.o: layer/arm/sigmoid_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/sigmoid_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/sigmoid_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_asimdhp.cpp.o
+.PHONY : layer/arm/sigmoid_arm_asimdhp.cpp.o
+
+layer/arm/sigmoid_arm_asimdhp.i: layer/arm/sigmoid_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/sigmoid_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/sigmoid_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_asimdhp.cpp.i
+.PHONY : layer/arm/sigmoid_arm_asimdhp.cpp.i
+
+layer/arm/sigmoid_arm_asimdhp.s: layer/arm/sigmoid_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/sigmoid_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/sigmoid_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm_asimdhp.cpp.s
+.PHONY : layer/arm/sigmoid_arm_asimdhp.cpp.s
+
+layer/arm/slice_arm.o: layer/arm/slice_arm.cpp.o
+
+.PHONY : layer/arm/slice_arm.o
+
+# target to build an object file
+layer/arm/slice_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.o
+.PHONY : layer/arm/slice_arm.cpp.o
+
+layer/arm/slice_arm.i: layer/arm/slice_arm.cpp.i
+
+.PHONY : layer/arm/slice_arm.i
+
+# target to preprocess a source file
+layer/arm/slice_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.i
+.PHONY : layer/arm/slice_arm.cpp.i
+
+layer/arm/slice_arm.s: layer/arm/slice_arm.cpp.s
+
+.PHONY : layer/arm/slice_arm.s
+
+# target to generate assembly for a file
+layer/arm/slice_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.s
+.PHONY : layer/arm/slice_arm.cpp.s
+
+layer/arm/softmax_arm.o: layer/arm/softmax_arm.cpp.o
+
+.PHONY : layer/arm/softmax_arm.o
+
+# target to build an object file
+layer/arm/softmax_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o
+.PHONY : layer/arm/softmax_arm.cpp.o
+
+layer/arm/softmax_arm.i: layer/arm/softmax_arm.cpp.i
+
+.PHONY : layer/arm/softmax_arm.i
+
+# target to preprocess a source file
+layer/arm/softmax_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.i
+.PHONY : layer/arm/softmax_arm.cpp.i
+
+layer/arm/softmax_arm.s: layer/arm/softmax_arm.cpp.s
+
+.PHONY : layer/arm/softmax_arm.s
+
+# target to generate assembly for a file
+layer/arm/softmax_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.s
+.PHONY : layer/arm/softmax_arm.cpp.s
+
+layer/arm/softmax_arm_asimdhp.o: layer/arm/softmax_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/softmax_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/softmax_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_asimdhp.cpp.o
+.PHONY : layer/arm/softmax_arm_asimdhp.cpp.o
+
+layer/arm/softmax_arm_asimdhp.i: layer/arm/softmax_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/softmax_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/softmax_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_asimdhp.cpp.i
+.PHONY : layer/arm/softmax_arm_asimdhp.cpp.i
+
+layer/arm/softmax_arm_asimdhp.s: layer/arm/softmax_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/softmax_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/softmax_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm_asimdhp.cpp.s
+.PHONY : layer/arm/softmax_arm_asimdhp.cpp.s
+
+layer/arm/swish_arm.o: layer/arm/swish_arm.cpp.o
+
+.PHONY : layer/arm/swish_arm.o
+
+# target to build an object file
+layer/arm/swish_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.o
+.PHONY : layer/arm/swish_arm.cpp.o
+
+layer/arm/swish_arm.i: layer/arm/swish_arm.cpp.i
+
+.PHONY : layer/arm/swish_arm.i
+
+# target to preprocess a source file
+layer/arm/swish_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.i
+.PHONY : layer/arm/swish_arm.cpp.i
+
+layer/arm/swish_arm.s: layer/arm/swish_arm.cpp.s
+
+.PHONY : layer/arm/swish_arm.s
+
+# target to generate assembly for a file
+layer/arm/swish_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/swish_arm.cpp.s
+.PHONY : layer/arm/swish_arm.cpp.s
+
+layer/arm/swish_arm_asimdhp.o: layer/arm/swish_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/swish_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/swish_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_asimdhp.cpp.o
+.PHONY : layer/arm/swish_arm_asimdhp.cpp.o
+
+layer/arm/swish_arm_asimdhp.i: layer/arm/swish_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/swish_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/swish_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_asimdhp.cpp.i
+.PHONY : layer/arm/swish_arm_asimdhp.cpp.i
+
+layer/arm/swish_arm_asimdhp.s: layer/arm/swish_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/swish_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/swish_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/swish_arm_asimdhp.cpp.s
+.PHONY : layer/arm/swish_arm_asimdhp.cpp.s
+
+layer/arm/tanh_arm.o: layer/arm/tanh_arm.cpp.o
+
+.PHONY : layer/arm/tanh_arm.o
+
+# target to build an object file
+layer/arm/tanh_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o
+.PHONY : layer/arm/tanh_arm.cpp.o
+
+layer/arm/tanh_arm.i: layer/arm/tanh_arm.cpp.i
+
+.PHONY : layer/arm/tanh_arm.i
+
+# target to preprocess a source file
+layer/arm/tanh_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.i
+.PHONY : layer/arm/tanh_arm.cpp.i
+
+layer/arm/tanh_arm.s: layer/arm/tanh_arm.cpp.s
+
+.PHONY : layer/arm/tanh_arm.s
+
+# target to generate assembly for a file
+layer/arm/tanh_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.s
+.PHONY : layer/arm/tanh_arm.cpp.s
+
+layer/arm/tanh_arm_asimdhp.o: layer/arm/tanh_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/tanh_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/tanh_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_asimdhp.cpp.o
+.PHONY : layer/arm/tanh_arm_asimdhp.cpp.o
+
+layer/arm/tanh_arm_asimdhp.i: layer/arm/tanh_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/tanh_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/tanh_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_asimdhp.cpp.i
+.PHONY : layer/arm/tanh_arm_asimdhp.cpp.i
+
+layer/arm/tanh_arm_asimdhp.s: layer/arm/tanh_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/tanh_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/tanh_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/tanh_arm_asimdhp.cpp.s
+.PHONY : layer/arm/tanh_arm_asimdhp.cpp.s
+
+layer/arm/unaryop_arm.o: layer/arm/unaryop_arm.cpp.o
+
+.PHONY : layer/arm/unaryop_arm.o
+
+# target to build an object file
+layer/arm/unaryop_arm.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o
+.PHONY : layer/arm/unaryop_arm.cpp.o
+
+layer/arm/unaryop_arm.i: layer/arm/unaryop_arm.cpp.i
+
+.PHONY : layer/arm/unaryop_arm.i
+
+# target to preprocess a source file
+layer/arm/unaryop_arm.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.i
+.PHONY : layer/arm/unaryop_arm.cpp.i
+
+layer/arm/unaryop_arm.s: layer/arm/unaryop_arm.cpp.s
+
+.PHONY : layer/arm/unaryop_arm.s
+
+# target to generate assembly for a file
+layer/arm/unaryop_arm.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.s
+.PHONY : layer/arm/unaryop_arm.cpp.s
+
+layer/arm/unaryop_arm_asimdhp.o: layer/arm/unaryop_arm_asimdhp.cpp.o
+
+.PHONY : layer/arm/unaryop_arm_asimdhp.o
+
+# target to build an object file
+layer/arm/unaryop_arm_asimdhp.cpp.o:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_asimdhp.cpp.o
+.PHONY : layer/arm/unaryop_arm_asimdhp.cpp.o
+
+layer/arm/unaryop_arm_asimdhp.i: layer/arm/unaryop_arm_asimdhp.cpp.i
+
+.PHONY : layer/arm/unaryop_arm_asimdhp.i
+
+# target to preprocess a source file
+layer/arm/unaryop_arm_asimdhp.cpp.i:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_asimdhp.cpp.i
+.PHONY : layer/arm/unaryop_arm_asimdhp.cpp.i
+
+layer/arm/unaryop_arm_asimdhp.s: layer/arm/unaryop_arm_asimdhp.cpp.s
+
+.PHONY : layer/arm/unaryop_arm_asimdhp.s
+
+# target to generate assembly for a file
+layer/arm/unaryop_arm_asimdhp.cpp.s:
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/arm/unaryop_arm_asimdhp.cpp.s
+.PHONY : layer/arm/unaryop_arm_asimdhp.cpp.s
 
 layer/batchnorm.o: layer/batchnorm.cpp.o
 
@@ -462,7 +2703,7 @@ layer/batchnorm.o: layer/batchnorm.cpp.o
 
 # target to build an object file
 layer/batchnorm.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o
 .PHONY : layer/batchnorm.cpp.o
 
 layer/batchnorm.i: layer/batchnorm.cpp.i
@@ -471,7 +2712,7 @@ layer/batchnorm.i: layer/batchnorm.cpp.i
 
 # target to preprocess a source file
 layer/batchnorm.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i
 .PHONY : layer/batchnorm.cpp.i
 
 layer/batchnorm.s: layer/batchnorm.cpp.s
@@ -480,7 +2721,7 @@ layer/batchnorm.s: layer/batchnorm.cpp.s
 
 # target to generate assembly for a file
 layer/batchnorm.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s
 .PHONY : layer/batchnorm.cpp.s
 
 layer/bias.o: layer/bias.cpp.o
@@ -489,7 +2730,7 @@ layer/bias.o: layer/bias.cpp.o
 
 # target to build an object file
 layer/bias.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bias.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bias.cpp.o
 .PHONY : layer/bias.cpp.o
 
 layer/bias.i: layer/bias.cpp.i
@@ -498,7 +2739,7 @@ layer/bias.i: layer/bias.cpp.i
 
 # target to preprocess a source file
 layer/bias.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bias.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bias.cpp.i
 .PHONY : layer/bias.cpp.i
 
 layer/bias.s: layer/bias.cpp.s
@@ -507,7 +2748,7 @@ layer/bias.s: layer/bias.cpp.s
 
 # target to generate assembly for a file
 layer/bias.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bias.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bias.cpp.s
 .PHONY : layer/bias.cpp.s
 
 layer/binaryop.o: layer/binaryop.cpp.o
@@ -516,7 +2757,7 @@ layer/binaryop.o: layer/binaryop.cpp.o
 
 # target to build an object file
 layer/binaryop.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o
 .PHONY : layer/binaryop.cpp.o
 
 layer/binaryop.i: layer/binaryop.cpp.i
@@ -525,7 +2766,7 @@ layer/binaryop.i: layer/binaryop.cpp.i
 
 # target to preprocess a source file
 layer/binaryop.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.i
 .PHONY : layer/binaryop.cpp.i
 
 layer/binaryop.s: layer/binaryop.cpp.s
@@ -534,7 +2775,7 @@ layer/binaryop.s: layer/binaryop.cpp.s
 
 # target to generate assembly for a file
 layer/binaryop.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.s
 .PHONY : layer/binaryop.cpp.s
 
 layer/bnll.o: layer/bnll.cpp.o
@@ -543,7 +2784,7 @@ layer/bnll.o: layer/bnll.cpp.o
 
 # target to build an object file
 layer/bnll.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o
 .PHONY : layer/bnll.cpp.o
 
 layer/bnll.i: layer/bnll.cpp.i
@@ -552,7 +2793,7 @@ layer/bnll.i: layer/bnll.cpp.i
 
 # target to preprocess a source file
 layer/bnll.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bnll.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bnll.cpp.i
 .PHONY : layer/bnll.cpp.i
 
 layer/bnll.s: layer/bnll.cpp.s
@@ -561,7 +2802,7 @@ layer/bnll.s: layer/bnll.cpp.s
 
 # target to generate assembly for a file
 layer/bnll.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bnll.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/bnll.cpp.s
 .PHONY : layer/bnll.cpp.s
 
 layer/cast.o: layer/cast.cpp.o
@@ -570,7 +2811,7 @@ layer/cast.o: layer/cast.cpp.o
 
 # target to build an object file
 layer/cast.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cast.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cast.cpp.o
 .PHONY : layer/cast.cpp.o
 
 layer/cast.i: layer/cast.cpp.i
@@ -579,7 +2820,7 @@ layer/cast.i: layer/cast.cpp.i
 
 # target to preprocess a source file
 layer/cast.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cast.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cast.cpp.i
 .PHONY : layer/cast.cpp.i
 
 layer/cast.s: layer/cast.cpp.s
@@ -588,7 +2829,7 @@ layer/cast.s: layer/cast.cpp.s
 
 # target to generate assembly for a file
 layer/cast.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cast.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cast.cpp.s
 .PHONY : layer/cast.cpp.s
 
 layer/clip.o: layer/clip.cpp.o
@@ -597,7 +2838,7 @@ layer/clip.o: layer/clip.cpp.o
 
 # target to build an object file
 layer/clip.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/clip.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/clip.cpp.o
 .PHONY : layer/clip.cpp.o
 
 layer/clip.i: layer/clip.cpp.i
@@ -606,7 +2847,7 @@ layer/clip.i: layer/clip.cpp.i
 
 # target to preprocess a source file
 layer/clip.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/clip.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/clip.cpp.i
 .PHONY : layer/clip.cpp.i
 
 layer/clip.s: layer/clip.cpp.s
@@ -615,7 +2856,7 @@ layer/clip.s: layer/clip.cpp.s
 
 # target to generate assembly for a file
 layer/clip.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/clip.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/clip.cpp.s
 .PHONY : layer/clip.cpp.s
 
 layer/concat.o: layer/concat.cpp.o
@@ -624,7 +2865,7 @@ layer/concat.o: layer/concat.cpp.o
 
 # target to build an object file
 layer/concat.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/concat.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/concat.cpp.o
 .PHONY : layer/concat.cpp.o
 
 layer/concat.i: layer/concat.cpp.i
@@ -633,7 +2874,7 @@ layer/concat.i: layer/concat.cpp.i
 
 # target to preprocess a source file
 layer/concat.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/concat.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/concat.cpp.i
 .PHONY : layer/concat.cpp.i
 
 layer/concat.s: layer/concat.cpp.s
@@ -642,7 +2883,7 @@ layer/concat.s: layer/concat.cpp.s
 
 # target to generate assembly for a file
 layer/concat.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/concat.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/concat.cpp.s
 .PHONY : layer/concat.cpp.s
 
 layer/convolution.o: layer/convolution.cpp.o
@@ -651,7 +2892,7 @@ layer/convolution.o: layer/convolution.cpp.o
 
 # target to build an object file
 layer/convolution.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o
 .PHONY : layer/convolution.cpp.o
 
 layer/convolution.i: layer/convolution.cpp.i
@@ -660,7 +2901,7 @@ layer/convolution.i: layer/convolution.cpp.i
 
 # target to preprocess a source file
 layer/convolution.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution.cpp.i
 .PHONY : layer/convolution.cpp.i
 
 layer/convolution.s: layer/convolution.cpp.s
@@ -669,7 +2910,7 @@ layer/convolution.s: layer/convolution.cpp.s
 
 # target to generate assembly for a file
 layer/convolution.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution.cpp.s
 .PHONY : layer/convolution.cpp.s
 
 layer/convolution1d.o: layer/convolution1d.cpp.o
@@ -678,7 +2919,7 @@ layer/convolution1d.o: layer/convolution1d.cpp.o
 
 # target to build an object file
 layer/convolution1d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution1d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution1d.cpp.o
 .PHONY : layer/convolution1d.cpp.o
 
 layer/convolution1d.i: layer/convolution1d.cpp.i
@@ -687,7 +2928,7 @@ layer/convolution1d.i: layer/convolution1d.cpp.i
 
 # target to preprocess a source file
 layer/convolution1d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution1d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution1d.cpp.i
 .PHONY : layer/convolution1d.cpp.i
 
 layer/convolution1d.s: layer/convolution1d.cpp.s
@@ -696,7 +2937,7 @@ layer/convolution1d.s: layer/convolution1d.cpp.s
 
 # target to generate assembly for a file
 layer/convolution1d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution1d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution1d.cpp.s
 .PHONY : layer/convolution1d.cpp.s
 
 layer/convolution3d.o: layer/convolution3d.cpp.o
@@ -705,7 +2946,7 @@ layer/convolution3d.o: layer/convolution3d.cpp.o
 
 # target to build an object file
 layer/convolution3d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution3d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution3d.cpp.o
 .PHONY : layer/convolution3d.cpp.o
 
 layer/convolution3d.i: layer/convolution3d.cpp.i
@@ -714,7 +2955,7 @@ layer/convolution3d.i: layer/convolution3d.cpp.i
 
 # target to preprocess a source file
 layer/convolution3d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution3d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution3d.cpp.i
 .PHONY : layer/convolution3d.cpp.i
 
 layer/convolution3d.s: layer/convolution3d.cpp.s
@@ -723,7 +2964,7 @@ layer/convolution3d.s: layer/convolution3d.cpp.s
 
 # target to generate assembly for a file
 layer/convolution3d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution3d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolution3d.cpp.s
 .PHONY : layer/convolution3d.cpp.s
 
 layer/convolutiondepthwise.o: layer/convolutiondepthwise.cpp.o
@@ -732,7 +2973,7 @@ layer/convolutiondepthwise.o: layer/convolutiondepthwise.cpp.o
 
 # target to build an object file
 layer/convolutiondepthwise.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o
 .PHONY : layer/convolutiondepthwise.cpp.o
 
 layer/convolutiondepthwise.i: layer/convolutiondepthwise.cpp.i
@@ -741,7 +2982,7 @@ layer/convolutiondepthwise.i: layer/convolutiondepthwise.cpp.i
 
 # target to preprocess a source file
 layer/convolutiondepthwise.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i
 .PHONY : layer/convolutiondepthwise.cpp.i
 
 layer/convolutiondepthwise.s: layer/convolutiondepthwise.cpp.s
@@ -750,7 +2991,7 @@ layer/convolutiondepthwise.s: layer/convolutiondepthwise.cpp.s
 
 # target to generate assembly for a file
 layer/convolutiondepthwise.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s
 .PHONY : layer/convolutiondepthwise.cpp.s
 
 layer/convolutiondepthwise1d.o: layer/convolutiondepthwise1d.cpp.o
@@ -759,7 +3000,7 @@ layer/convolutiondepthwise1d.o: layer/convolutiondepthwise1d.cpp.o
 
 # target to build an object file
 layer/convolutiondepthwise1d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise1d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise1d.cpp.o
 .PHONY : layer/convolutiondepthwise1d.cpp.o
 
 layer/convolutiondepthwise1d.i: layer/convolutiondepthwise1d.cpp.i
@@ -768,7 +3009,7 @@ layer/convolutiondepthwise1d.i: layer/convolutiondepthwise1d.cpp.i
 
 # target to preprocess a source file
 layer/convolutiondepthwise1d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise1d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise1d.cpp.i
 .PHONY : layer/convolutiondepthwise1d.cpp.i
 
 layer/convolutiondepthwise1d.s: layer/convolutiondepthwise1d.cpp.s
@@ -777,7 +3018,7 @@ layer/convolutiondepthwise1d.s: layer/convolutiondepthwise1d.cpp.s
 
 # target to generate assembly for a file
 layer/convolutiondepthwise1d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise1d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise1d.cpp.s
 .PHONY : layer/convolutiondepthwise1d.cpp.s
 
 layer/convolutiondepthwise3d.o: layer/convolutiondepthwise3d.cpp.o
@@ -786,7 +3027,7 @@ layer/convolutiondepthwise3d.o: layer/convolutiondepthwise3d.cpp.o
 
 # target to build an object file
 layer/convolutiondepthwise3d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise3d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise3d.cpp.o
 .PHONY : layer/convolutiondepthwise3d.cpp.o
 
 layer/convolutiondepthwise3d.i: layer/convolutiondepthwise3d.cpp.i
@@ -795,7 +3036,7 @@ layer/convolutiondepthwise3d.i: layer/convolutiondepthwise3d.cpp.i
 
 # target to preprocess a source file
 layer/convolutiondepthwise3d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise3d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise3d.cpp.i
 .PHONY : layer/convolutiondepthwise3d.cpp.i
 
 layer/convolutiondepthwise3d.s: layer/convolutiondepthwise3d.cpp.s
@@ -804,7 +3045,7 @@ layer/convolutiondepthwise3d.s: layer/convolutiondepthwise3d.cpp.s
 
 # target to generate assembly for a file
 layer/convolutiondepthwise3d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise3d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise3d.cpp.s
 .PHONY : layer/convolutiondepthwise3d.cpp.s
 
 layer/copyto.o: layer/copyto.cpp.o
@@ -813,7 +3054,7 @@ layer/copyto.o: layer/copyto.cpp.o
 
 # target to build an object file
 layer/copyto.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/copyto.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/copyto.cpp.o
 .PHONY : layer/copyto.cpp.o
 
 layer/copyto.i: layer/copyto.cpp.i
@@ -822,7 +3063,7 @@ layer/copyto.i: layer/copyto.cpp.i
 
 # target to preprocess a source file
 layer/copyto.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/copyto.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/copyto.cpp.i
 .PHONY : layer/copyto.cpp.i
 
 layer/copyto.s: layer/copyto.cpp.s
@@ -831,7 +3072,7 @@ layer/copyto.s: layer/copyto.cpp.s
 
 # target to generate assembly for a file
 layer/copyto.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/copyto.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/copyto.cpp.s
 .PHONY : layer/copyto.cpp.s
 
 layer/crop.o: layer/crop.cpp.o
@@ -840,7 +3081,7 @@ layer/crop.o: layer/crop.cpp.o
 
 # target to build an object file
 layer/crop.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/crop.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/crop.cpp.o
 .PHONY : layer/crop.cpp.o
 
 layer/crop.i: layer/crop.cpp.i
@@ -849,7 +3090,7 @@ layer/crop.i: layer/crop.cpp.i
 
 # target to preprocess a source file
 layer/crop.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/crop.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/crop.cpp.i
 .PHONY : layer/crop.cpp.i
 
 layer/crop.s: layer/crop.cpp.s
@@ -858,7 +3099,7 @@ layer/crop.s: layer/crop.cpp.s
 
 # target to generate assembly for a file
 layer/crop.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/crop.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/crop.cpp.s
 .PHONY : layer/crop.cpp.s
 
 layer/cumulativesum.o: layer/cumulativesum.cpp.o
@@ -867,7 +3108,7 @@ layer/cumulativesum.o: layer/cumulativesum.cpp.o
 
 # target to build an object file
 layer/cumulativesum.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cumulativesum.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cumulativesum.cpp.o
 .PHONY : layer/cumulativesum.cpp.o
 
 layer/cumulativesum.i: layer/cumulativesum.cpp.i
@@ -876,7 +3117,7 @@ layer/cumulativesum.i: layer/cumulativesum.cpp.i
 
 # target to preprocess a source file
 layer/cumulativesum.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cumulativesum.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cumulativesum.cpp.i
 .PHONY : layer/cumulativesum.cpp.i
 
 layer/cumulativesum.s: layer/cumulativesum.cpp.s
@@ -885,7 +3126,7 @@ layer/cumulativesum.s: layer/cumulativesum.cpp.s
 
 # target to generate assembly for a file
 layer/cumulativesum.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cumulativesum.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/cumulativesum.cpp.s
 .PHONY : layer/cumulativesum.cpp.s
 
 layer/deconvolution.o: layer/deconvolution.cpp.o
@@ -894,7 +3135,7 @@ layer/deconvolution.o: layer/deconvolution.cpp.o
 
 # target to build an object file
 layer/deconvolution.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o
 .PHONY : layer/deconvolution.cpp.o
 
 layer/deconvolution.i: layer/deconvolution.cpp.i
@@ -903,7 +3144,7 @@ layer/deconvolution.i: layer/deconvolution.cpp.i
 
 # target to preprocess a source file
 layer/deconvolution.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i
 .PHONY : layer/deconvolution.cpp.i
 
 layer/deconvolution.s: layer/deconvolution.cpp.s
@@ -912,7 +3153,7 @@ layer/deconvolution.s: layer/deconvolution.cpp.s
 
 # target to generate assembly for a file
 layer/deconvolution.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s
 .PHONY : layer/deconvolution.cpp.s
 
 layer/deconvolution1d.o: layer/deconvolution1d.cpp.o
@@ -921,7 +3162,7 @@ layer/deconvolution1d.o: layer/deconvolution1d.cpp.o
 
 # target to build an object file
 layer/deconvolution1d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution1d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution1d.cpp.o
 .PHONY : layer/deconvolution1d.cpp.o
 
 layer/deconvolution1d.i: layer/deconvolution1d.cpp.i
@@ -930,7 +3171,7 @@ layer/deconvolution1d.i: layer/deconvolution1d.cpp.i
 
 # target to preprocess a source file
 layer/deconvolution1d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution1d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution1d.cpp.i
 .PHONY : layer/deconvolution1d.cpp.i
 
 layer/deconvolution1d.s: layer/deconvolution1d.cpp.s
@@ -939,7 +3180,7 @@ layer/deconvolution1d.s: layer/deconvolution1d.cpp.s
 
 # target to generate assembly for a file
 layer/deconvolution1d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution1d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution1d.cpp.s
 .PHONY : layer/deconvolution1d.cpp.s
 
 layer/deconvolution3d.o: layer/deconvolution3d.cpp.o
@@ -948,7 +3189,7 @@ layer/deconvolution3d.o: layer/deconvolution3d.cpp.o
 
 # target to build an object file
 layer/deconvolution3d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution3d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution3d.cpp.o
 .PHONY : layer/deconvolution3d.cpp.o
 
 layer/deconvolution3d.i: layer/deconvolution3d.cpp.i
@@ -957,7 +3198,7 @@ layer/deconvolution3d.i: layer/deconvolution3d.cpp.i
 
 # target to preprocess a source file
 layer/deconvolution3d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution3d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution3d.cpp.i
 .PHONY : layer/deconvolution3d.cpp.i
 
 layer/deconvolution3d.s: layer/deconvolution3d.cpp.s
@@ -966,7 +3207,7 @@ layer/deconvolution3d.s: layer/deconvolution3d.cpp.s
 
 # target to generate assembly for a file
 layer/deconvolution3d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution3d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolution3d.cpp.s
 .PHONY : layer/deconvolution3d.cpp.s
 
 layer/deconvolutiondepthwise.o: layer/deconvolutiondepthwise.cpp.o
@@ -975,7 +3216,7 @@ layer/deconvolutiondepthwise.o: layer/deconvolutiondepthwise.cpp.o
 
 # target to build an object file
 layer/deconvolutiondepthwise.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o
 .PHONY : layer/deconvolutiondepthwise.cpp.o
 
 layer/deconvolutiondepthwise.i: layer/deconvolutiondepthwise.cpp.i
@@ -984,7 +3225,7 @@ layer/deconvolutiondepthwise.i: layer/deconvolutiondepthwise.cpp.i
 
 # target to preprocess a source file
 layer/deconvolutiondepthwise.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i
 .PHONY : layer/deconvolutiondepthwise.cpp.i
 
 layer/deconvolutiondepthwise.s: layer/deconvolutiondepthwise.cpp.s
@@ -993,7 +3234,7 @@ layer/deconvolutiondepthwise.s: layer/deconvolutiondepthwise.cpp.s
 
 # target to generate assembly for a file
 layer/deconvolutiondepthwise.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s
 .PHONY : layer/deconvolutiondepthwise.cpp.s
 
 layer/deconvolutiondepthwise1d.o: layer/deconvolutiondepthwise1d.cpp.o
@@ -1002,7 +3243,7 @@ layer/deconvolutiondepthwise1d.o: layer/deconvolutiondepthwise1d.cpp.o
 
 # target to build an object file
 layer/deconvolutiondepthwise1d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise1d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise1d.cpp.o
 .PHONY : layer/deconvolutiondepthwise1d.cpp.o
 
 layer/deconvolutiondepthwise1d.i: layer/deconvolutiondepthwise1d.cpp.i
@@ -1011,7 +3252,7 @@ layer/deconvolutiondepthwise1d.i: layer/deconvolutiondepthwise1d.cpp.i
 
 # target to preprocess a source file
 layer/deconvolutiondepthwise1d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise1d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise1d.cpp.i
 .PHONY : layer/deconvolutiondepthwise1d.cpp.i
 
 layer/deconvolutiondepthwise1d.s: layer/deconvolutiondepthwise1d.cpp.s
@@ -1020,7 +3261,7 @@ layer/deconvolutiondepthwise1d.s: layer/deconvolutiondepthwise1d.cpp.s
 
 # target to generate assembly for a file
 layer/deconvolutiondepthwise1d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise1d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise1d.cpp.s
 .PHONY : layer/deconvolutiondepthwise1d.cpp.s
 
 layer/deconvolutiondepthwise3d.o: layer/deconvolutiondepthwise3d.cpp.o
@@ -1029,7 +3270,7 @@ layer/deconvolutiondepthwise3d.o: layer/deconvolutiondepthwise3d.cpp.o
 
 # target to build an object file
 layer/deconvolutiondepthwise3d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise3d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise3d.cpp.o
 .PHONY : layer/deconvolutiondepthwise3d.cpp.o
 
 layer/deconvolutiondepthwise3d.i: layer/deconvolutiondepthwise3d.cpp.i
@@ -1038,7 +3279,7 @@ layer/deconvolutiondepthwise3d.i: layer/deconvolutiondepthwise3d.cpp.i
 
 # target to preprocess a source file
 layer/deconvolutiondepthwise3d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise3d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise3d.cpp.i
 .PHONY : layer/deconvolutiondepthwise3d.cpp.i
 
 layer/deconvolutiondepthwise3d.s: layer/deconvolutiondepthwise3d.cpp.s
@@ -1047,7 +3288,7 @@ layer/deconvolutiondepthwise3d.s: layer/deconvolutiondepthwise3d.cpp.s
 
 # target to generate assembly for a file
 layer/deconvolutiondepthwise3d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise3d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise3d.cpp.s
 .PHONY : layer/deconvolutiondepthwise3d.cpp.s
 
 layer/deepcopy.o: layer/deepcopy.cpp.o
@@ -1056,7 +3297,7 @@ layer/deepcopy.o: layer/deepcopy.cpp.o
 
 # target to build an object file
 layer/deepcopy.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o
 .PHONY : layer/deepcopy.cpp.o
 
 layer/deepcopy.i: layer/deepcopy.cpp.i
@@ -1065,7 +3306,7 @@ layer/deepcopy.i: layer/deepcopy.cpp.i
 
 # target to preprocess a source file
 layer/deepcopy.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.i
 .PHONY : layer/deepcopy.cpp.i
 
 layer/deepcopy.s: layer/deepcopy.cpp.s
@@ -1074,7 +3315,7 @@ layer/deepcopy.s: layer/deepcopy.cpp.s
 
 # target to generate assembly for a file
 layer/deepcopy.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.s
 .PHONY : layer/deepcopy.cpp.s
 
 layer/deformableconv2d.o: layer/deformableconv2d.cpp.o
@@ -1083,7 +3324,7 @@ layer/deformableconv2d.o: layer/deformableconv2d.cpp.o
 
 # target to build an object file
 layer/deformableconv2d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deformableconv2d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deformableconv2d.cpp.o
 .PHONY : layer/deformableconv2d.cpp.o
 
 layer/deformableconv2d.i: layer/deformableconv2d.cpp.i
@@ -1092,7 +3333,7 @@ layer/deformableconv2d.i: layer/deformableconv2d.cpp.i
 
 # target to preprocess a source file
 layer/deformableconv2d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deformableconv2d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deformableconv2d.cpp.i
 .PHONY : layer/deformableconv2d.cpp.i
 
 layer/deformableconv2d.s: layer/deformableconv2d.cpp.s
@@ -1101,7 +3342,7 @@ layer/deformableconv2d.s: layer/deformableconv2d.cpp.s
 
 # target to generate assembly for a file
 layer/deformableconv2d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deformableconv2d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/deformableconv2d.cpp.s
 .PHONY : layer/deformableconv2d.cpp.s
 
 layer/dequantize.o: layer/dequantize.cpp.o
@@ -1110,7 +3351,7 @@ layer/dequantize.o: layer/dequantize.cpp.o
 
 # target to build an object file
 layer/dequantize.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o
 .PHONY : layer/dequantize.cpp.o
 
 layer/dequantize.i: layer/dequantize.cpp.i
@@ -1119,7 +3360,7 @@ layer/dequantize.i: layer/dequantize.cpp.i
 
 # target to preprocess a source file
 layer/dequantize.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.i
 .PHONY : layer/dequantize.cpp.i
 
 layer/dequantize.s: layer/dequantize.cpp.s
@@ -1128,7 +3369,7 @@ layer/dequantize.s: layer/dequantize.cpp.s
 
 # target to generate assembly for a file
 layer/dequantize.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.s
 .PHONY : layer/dequantize.cpp.s
 
 layer/detectionoutput.o: layer/detectionoutput.cpp.o
@@ -1137,7 +3378,7 @@ layer/detectionoutput.o: layer/detectionoutput.cpp.o
 
 # target to build an object file
 layer/detectionoutput.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o
 .PHONY : layer/detectionoutput.cpp.o
 
 layer/detectionoutput.i: layer/detectionoutput.cpp.i
@@ -1146,7 +3387,7 @@ layer/detectionoutput.i: layer/detectionoutput.cpp.i
 
 # target to preprocess a source file
 layer/detectionoutput.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i
 .PHONY : layer/detectionoutput.cpp.i
 
 layer/detectionoutput.s: layer/detectionoutput.cpp.s
@@ -1155,7 +3396,7 @@ layer/detectionoutput.s: layer/detectionoutput.cpp.s
 
 # target to generate assembly for a file
 layer/detectionoutput.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s
 .PHONY : layer/detectionoutput.cpp.s
 
 layer/dropout.o: layer/dropout.cpp.o
@@ -1164,7 +3405,7 @@ layer/dropout.o: layer/dropout.cpp.o
 
 # target to build an object file
 layer/dropout.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o
 .PHONY : layer/dropout.cpp.o
 
 layer/dropout.i: layer/dropout.cpp.i
@@ -1173,7 +3414,7 @@ layer/dropout.i: layer/dropout.cpp.i
 
 # target to preprocess a source file
 layer/dropout.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dropout.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dropout.cpp.i
 .PHONY : layer/dropout.cpp.i
 
 layer/dropout.s: layer/dropout.cpp.s
@@ -1182,7 +3423,7 @@ layer/dropout.s: layer/dropout.cpp.s
 
 # target to generate assembly for a file
 layer/dropout.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dropout.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/dropout.cpp.s
 .PHONY : layer/dropout.cpp.s
 
 layer/einsum.o: layer/einsum.cpp.o
@@ -1191,7 +3432,7 @@ layer/einsum.o: layer/einsum.cpp.o
 
 # target to build an object file
 layer/einsum.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/einsum.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/einsum.cpp.o
 .PHONY : layer/einsum.cpp.o
 
 layer/einsum.i: layer/einsum.cpp.i
@@ -1200,7 +3441,7 @@ layer/einsum.i: layer/einsum.cpp.i
 
 # target to preprocess a source file
 layer/einsum.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/einsum.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/einsum.cpp.i
 .PHONY : layer/einsum.cpp.i
 
 layer/einsum.s: layer/einsum.cpp.s
@@ -1209,7 +3450,7 @@ layer/einsum.s: layer/einsum.cpp.s
 
 # target to generate assembly for a file
 layer/einsum.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/einsum.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/einsum.cpp.s
 .PHONY : layer/einsum.cpp.s
 
 layer/eltwise.o: layer/eltwise.cpp.o
@@ -1218,7 +3459,7 @@ layer/eltwise.o: layer/eltwise.cpp.o
 
 # target to build an object file
 layer/eltwise.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o
 .PHONY : layer/eltwise.cpp.o
 
 layer/eltwise.i: layer/eltwise.cpp.i
@@ -1227,7 +3468,7 @@ layer/eltwise.i: layer/eltwise.cpp.i
 
 # target to preprocess a source file
 layer/eltwise.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.i
 .PHONY : layer/eltwise.cpp.i
 
 layer/eltwise.s: layer/eltwise.cpp.s
@@ -1236,7 +3477,7 @@ layer/eltwise.s: layer/eltwise.cpp.s
 
 # target to generate assembly for a file
 layer/eltwise.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.s
 .PHONY : layer/eltwise.cpp.s
 
 layer/elu.o: layer/elu.cpp.o
@@ -1245,7 +3486,7 @@ layer/elu.o: layer/elu.cpp.o
 
 # target to build an object file
 layer/elu.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/elu.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/elu.cpp.o
 .PHONY : layer/elu.cpp.o
 
 layer/elu.i: layer/elu.cpp.i
@@ -1254,7 +3495,7 @@ layer/elu.i: layer/elu.cpp.i
 
 # target to preprocess a source file
 layer/elu.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/elu.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/elu.cpp.i
 .PHONY : layer/elu.cpp.i
 
 layer/elu.s: layer/elu.cpp.s
@@ -1263,7 +3504,7 @@ layer/elu.s: layer/elu.cpp.s
 
 # target to generate assembly for a file
 layer/elu.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/elu.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/elu.cpp.s
 .PHONY : layer/elu.cpp.s
 
 layer/embed.o: layer/embed.cpp.o
@@ -1272,7 +3513,7 @@ layer/embed.o: layer/embed.cpp.o
 
 # target to build an object file
 layer/embed.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/embed.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/embed.cpp.o
 .PHONY : layer/embed.cpp.o
 
 layer/embed.i: layer/embed.cpp.i
@@ -1281,7 +3522,7 @@ layer/embed.i: layer/embed.cpp.i
 
 # target to preprocess a source file
 layer/embed.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/embed.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/embed.cpp.i
 .PHONY : layer/embed.cpp.i
 
 layer/embed.s: layer/embed.cpp.s
@@ -1290,7 +3531,7 @@ layer/embed.s: layer/embed.cpp.s
 
 # target to generate assembly for a file
 layer/embed.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/embed.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/embed.cpp.s
 .PHONY : layer/embed.cpp.s
 
 layer/exp.o: layer/exp.cpp.o
@@ -1299,7 +3540,7 @@ layer/exp.o: layer/exp.cpp.o
 
 # target to build an object file
 layer/exp.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/exp.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/exp.cpp.o
 .PHONY : layer/exp.cpp.o
 
 layer/exp.i: layer/exp.cpp.i
@@ -1308,7 +3549,7 @@ layer/exp.i: layer/exp.cpp.i
 
 # target to preprocess a source file
 layer/exp.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/exp.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/exp.cpp.i
 .PHONY : layer/exp.cpp.i
 
 layer/exp.s: layer/exp.cpp.s
@@ -1317,7 +3558,7 @@ layer/exp.s: layer/exp.cpp.s
 
 # target to generate assembly for a file
 layer/exp.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/exp.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/exp.cpp.s
 .PHONY : layer/exp.cpp.s
 
 layer/expanddims.o: layer/expanddims.cpp.o
@@ -1326,7 +3567,7 @@ layer/expanddims.o: layer/expanddims.cpp.o
 
 # target to build an object file
 layer/expanddims.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o
 .PHONY : layer/expanddims.cpp.o
 
 layer/expanddims.i: layer/expanddims.cpp.i
@@ -1335,7 +3576,7 @@ layer/expanddims.i: layer/expanddims.cpp.i
 
 # target to preprocess a source file
 layer/expanddims.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.i
 .PHONY : layer/expanddims.cpp.i
 
 layer/expanddims.s: layer/expanddims.cpp.s
@@ -1344,7 +3585,7 @@ layer/expanddims.s: layer/expanddims.cpp.s
 
 # target to generate assembly for a file
 layer/expanddims.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.s
 .PHONY : layer/expanddims.cpp.s
 
 layer/flatten.o: layer/flatten.cpp.o
@@ -1353,7 +3594,7 @@ layer/flatten.o: layer/flatten.cpp.o
 
 # target to build an object file
 layer/flatten.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o
 .PHONY : layer/flatten.cpp.o
 
 layer/flatten.i: layer/flatten.cpp.i
@@ -1362,7 +3603,7 @@ layer/flatten.i: layer/flatten.cpp.i
 
 # target to preprocess a source file
 layer/flatten.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/flatten.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/flatten.cpp.i
 .PHONY : layer/flatten.cpp.i
 
 layer/flatten.s: layer/flatten.cpp.s
@@ -1371,7 +3612,7 @@ layer/flatten.s: layer/flatten.cpp.s
 
 # target to generate assembly for a file
 layer/flatten.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/flatten.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/flatten.cpp.s
 .PHONY : layer/flatten.cpp.s
 
 layer/fold.o: layer/fold.cpp.o
@@ -1380,7 +3621,7 @@ layer/fold.o: layer/fold.cpp.o
 
 # target to build an object file
 layer/fold.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/fold.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/fold.cpp.o
 .PHONY : layer/fold.cpp.o
 
 layer/fold.i: layer/fold.cpp.i
@@ -1389,7 +3630,7 @@ layer/fold.i: layer/fold.cpp.i
 
 # target to preprocess a source file
 layer/fold.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/fold.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/fold.cpp.i
 .PHONY : layer/fold.cpp.i
 
 layer/fold.s: layer/fold.cpp.s
@@ -1398,7 +3639,7 @@ layer/fold.s: layer/fold.cpp.s
 
 # target to generate assembly for a file
 layer/fold.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/fold.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/fold.cpp.s
 .PHONY : layer/fold.cpp.s
 
 layer/gelu.o: layer/gelu.cpp.o
@@ -1407,7 +3648,7 @@ layer/gelu.o: layer/gelu.cpp.o
 
 # target to build an object file
 layer/gelu.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
 .PHONY : layer/gelu.cpp.o
 
 layer/gelu.i: layer/gelu.cpp.i
@@ -1416,7 +3657,7 @@ layer/gelu.i: layer/gelu.cpp.i
 
 # target to preprocess a source file
 layer/gelu.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gelu.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gelu.cpp.i
 .PHONY : layer/gelu.cpp.i
 
 layer/gelu.s: layer/gelu.cpp.s
@@ -1425,7 +3666,7 @@ layer/gelu.s: layer/gelu.cpp.s
 
 # target to generate assembly for a file
 layer/gelu.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gelu.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gelu.cpp.s
 .PHONY : layer/gelu.cpp.s
 
 layer/gemm.o: layer/gemm.cpp.o
@@ -1434,7 +3675,7 @@ layer/gemm.o: layer/gemm.cpp.o
 
 # target to build an object file
 layer/gemm.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o
 .PHONY : layer/gemm.cpp.o
 
 layer/gemm.i: layer/gemm.cpp.i
@@ -1443,7 +3684,7 @@ layer/gemm.i: layer/gemm.cpp.i
 
 # target to preprocess a source file
 layer/gemm.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gemm.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gemm.cpp.i
 .PHONY : layer/gemm.cpp.i
 
 layer/gemm.s: layer/gemm.cpp.s
@@ -1452,7 +3693,7 @@ layer/gemm.s: layer/gemm.cpp.s
 
 # target to generate assembly for a file
 layer/gemm.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gemm.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gemm.cpp.s
 .PHONY : layer/gemm.cpp.s
 
 layer/glu.o: layer/glu.cpp.o
@@ -1461,7 +3702,7 @@ layer/glu.o: layer/glu.cpp.o
 
 # target to build an object file
 layer/glu.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/glu.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/glu.cpp.o
 .PHONY : layer/glu.cpp.o
 
 layer/glu.i: layer/glu.cpp.i
@@ -1470,7 +3711,7 @@ layer/glu.i: layer/glu.cpp.i
 
 # target to preprocess a source file
 layer/glu.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/glu.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/glu.cpp.i
 .PHONY : layer/glu.cpp.i
 
 layer/glu.s: layer/glu.cpp.s
@@ -1479,7 +3720,7 @@ layer/glu.s: layer/glu.cpp.s
 
 # target to generate assembly for a file
 layer/glu.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/glu.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/glu.cpp.s
 .PHONY : layer/glu.cpp.s
 
 layer/gridsample.o: layer/gridsample.cpp.o
@@ -1488,7 +3729,7 @@ layer/gridsample.o: layer/gridsample.cpp.o
 
 # target to build an object file
 layer/gridsample.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gridsample.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gridsample.cpp.o
 .PHONY : layer/gridsample.cpp.o
 
 layer/gridsample.i: layer/gridsample.cpp.i
@@ -1497,7 +3738,7 @@ layer/gridsample.i: layer/gridsample.cpp.i
 
 # target to preprocess a source file
 layer/gridsample.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gridsample.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gridsample.cpp.i
 .PHONY : layer/gridsample.cpp.i
 
 layer/gridsample.s: layer/gridsample.cpp.s
@@ -1506,7 +3747,7 @@ layer/gridsample.s: layer/gridsample.cpp.s
 
 # target to generate assembly for a file
 layer/gridsample.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gridsample.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gridsample.cpp.s
 .PHONY : layer/gridsample.cpp.s
 
 layer/groupnorm.o: layer/groupnorm.cpp.o
@@ -1515,7 +3756,7 @@ layer/groupnorm.o: layer/groupnorm.cpp.o
 
 # target to build an object file
 layer/groupnorm.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o
 .PHONY : layer/groupnorm.cpp.o
 
 layer/groupnorm.i: layer/groupnorm.cpp.i
@@ -1524,7 +3765,7 @@ layer/groupnorm.i: layer/groupnorm.cpp.i
 
 # target to preprocess a source file
 layer/groupnorm.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.i
 .PHONY : layer/groupnorm.cpp.i
 
 layer/groupnorm.s: layer/groupnorm.cpp.s
@@ -1533,7 +3774,7 @@ layer/groupnorm.s: layer/groupnorm.cpp.s
 
 # target to generate assembly for a file
 layer/groupnorm.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.s
 .PHONY : layer/groupnorm.cpp.s
 
 layer/gru.o: layer/gru.cpp.o
@@ -1542,7 +3783,7 @@ layer/gru.o: layer/gru.cpp.o
 
 # target to build an object file
 layer/gru.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gru.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gru.cpp.o
 .PHONY : layer/gru.cpp.o
 
 layer/gru.i: layer/gru.cpp.i
@@ -1551,7 +3792,7 @@ layer/gru.i: layer/gru.cpp.i
 
 # target to preprocess a source file
 layer/gru.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gru.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gru.cpp.i
 .PHONY : layer/gru.cpp.i
 
 layer/gru.s: layer/gru.cpp.s
@@ -1560,7 +3801,7 @@ layer/gru.s: layer/gru.cpp.s
 
 # target to generate assembly for a file
 layer/gru.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gru.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/gru.cpp.s
 .PHONY : layer/gru.cpp.s
 
 layer/hardsigmoid.o: layer/hardsigmoid.cpp.o
@@ -1569,7 +3810,7 @@ layer/hardsigmoid.o: layer/hardsigmoid.cpp.o
 
 # target to build an object file
 layer/hardsigmoid.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o
 .PHONY : layer/hardsigmoid.cpp.o
 
 layer/hardsigmoid.i: layer/hardsigmoid.cpp.i
@@ -1578,7 +3819,7 @@ layer/hardsigmoid.i: layer/hardsigmoid.cpp.i
 
 # target to preprocess a source file
 layer/hardsigmoid.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i
 .PHONY : layer/hardsigmoid.cpp.i
 
 layer/hardsigmoid.s: layer/hardsigmoid.cpp.s
@@ -1587,7 +3828,7 @@ layer/hardsigmoid.s: layer/hardsigmoid.cpp.s
 
 # target to generate assembly for a file
 layer/hardsigmoid.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s
 .PHONY : layer/hardsigmoid.cpp.s
 
 layer/hardswish.o: layer/hardswish.cpp.o
@@ -1596,7 +3837,7 @@ layer/hardswish.o: layer/hardswish.cpp.o
 
 # target to build an object file
 layer/hardswish.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o
 .PHONY : layer/hardswish.cpp.o
 
 layer/hardswish.i: layer/hardswish.cpp.i
@@ -1605,7 +3846,7 @@ layer/hardswish.i: layer/hardswish.cpp.i
 
 # target to preprocess a source file
 layer/hardswish.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.i
 .PHONY : layer/hardswish.cpp.i
 
 layer/hardswish.s: layer/hardswish.cpp.s
@@ -1614,7 +3855,7 @@ layer/hardswish.s: layer/hardswish.cpp.s
 
 # target to generate assembly for a file
 layer/hardswish.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.s
 .PHONY : layer/hardswish.cpp.s
 
 layer/innerproduct.o: layer/innerproduct.cpp.o
@@ -1623,7 +3864,7 @@ layer/innerproduct.o: layer/innerproduct.cpp.o
 
 # target to build an object file
 layer/innerproduct.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o
 .PHONY : layer/innerproduct.cpp.o
 
 layer/innerproduct.i: layer/innerproduct.cpp.i
@@ -1632,7 +3873,7 @@ layer/innerproduct.i: layer/innerproduct.cpp.i
 
 # target to preprocess a source file
 layer/innerproduct.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i
 .PHONY : layer/innerproduct.cpp.i
 
 layer/innerproduct.s: layer/innerproduct.cpp.s
@@ -1641,7 +3882,7 @@ layer/innerproduct.s: layer/innerproduct.cpp.s
 
 # target to generate assembly for a file
 layer/innerproduct.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s
 .PHONY : layer/innerproduct.cpp.s
 
 layer/input.o: layer/input.cpp.o
@@ -1650,7 +3891,7 @@ layer/input.o: layer/input.cpp.o
 
 # target to build an object file
 layer/input.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/input.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/input.cpp.o
 .PHONY : layer/input.cpp.o
 
 layer/input.i: layer/input.cpp.i
@@ -1659,7 +3900,7 @@ layer/input.i: layer/input.cpp.i
 
 # target to preprocess a source file
 layer/input.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/input.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/input.cpp.i
 .PHONY : layer/input.cpp.i
 
 layer/input.s: layer/input.cpp.s
@@ -1668,7 +3909,7 @@ layer/input.s: layer/input.cpp.s
 
 # target to generate assembly for a file
 layer/input.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/input.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/input.cpp.s
 .PHONY : layer/input.cpp.s
 
 layer/instancenorm.o: layer/instancenorm.cpp.o
@@ -1677,7 +3918,7 @@ layer/instancenorm.o: layer/instancenorm.cpp.o
 
 # target to build an object file
 layer/instancenorm.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
 .PHONY : layer/instancenorm.cpp.o
 
 layer/instancenorm.i: layer/instancenorm.cpp.i
@@ -1686,7 +3927,7 @@ layer/instancenorm.i: layer/instancenorm.cpp.i
 
 # target to preprocess a source file
 layer/instancenorm.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i
 .PHONY : layer/instancenorm.cpp.i
 
 layer/instancenorm.s: layer/instancenorm.cpp.s
@@ -1695,7 +3936,7 @@ layer/instancenorm.s: layer/instancenorm.cpp.s
 
 # target to generate assembly for a file
 layer/instancenorm.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s
 .PHONY : layer/instancenorm.cpp.s
 
 layer/interp.o: layer/interp.cpp.o
@@ -1704,7 +3945,7 @@ layer/interp.o: layer/interp.cpp.o
 
 # target to build an object file
 layer/interp.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/interp.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/interp.cpp.o
 .PHONY : layer/interp.cpp.o
 
 layer/interp.i: layer/interp.cpp.i
@@ -1713,7 +3954,7 @@ layer/interp.i: layer/interp.cpp.i
 
 # target to preprocess a source file
 layer/interp.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/interp.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/interp.cpp.i
 .PHONY : layer/interp.cpp.i
 
 layer/interp.s: layer/interp.cpp.s
@@ -1722,7 +3963,7 @@ layer/interp.s: layer/interp.cpp.s
 
 # target to generate assembly for a file
 layer/interp.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/interp.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/interp.cpp.s
 .PHONY : layer/interp.cpp.s
 
 layer/layernorm.o: layer/layernorm.cpp.o
@@ -1731,7 +3972,7 @@ layer/layernorm.o: layer/layernorm.cpp.o
 
 # target to build an object file
 layer/layernorm.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o
 .PHONY : layer/layernorm.cpp.o
 
 layer/layernorm.i: layer/layernorm.cpp.i
@@ -1740,7 +3981,7 @@ layer/layernorm.i: layer/layernorm.cpp.i
 
 # target to preprocess a source file
 layer/layernorm.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.i
 .PHONY : layer/layernorm.cpp.i
 
 layer/layernorm.s: layer/layernorm.cpp.s
@@ -1749,7 +3990,7 @@ layer/layernorm.s: layer/layernorm.cpp.s
 
 # target to generate assembly for a file
 layer/layernorm.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.s
 .PHONY : layer/layernorm.cpp.s
 
 layer/log.o: layer/log.cpp.o
@@ -1758,7 +3999,7 @@ layer/log.o: layer/log.cpp.o
 
 # target to build an object file
 layer/log.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/log.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/log.cpp.o
 .PHONY : layer/log.cpp.o
 
 layer/log.i: layer/log.cpp.i
@@ -1767,7 +4008,7 @@ layer/log.i: layer/log.cpp.i
 
 # target to preprocess a source file
 layer/log.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/log.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/log.cpp.i
 .PHONY : layer/log.cpp.i
 
 layer/log.s: layer/log.cpp.s
@@ -1776,7 +4017,7 @@ layer/log.s: layer/log.cpp.s
 
 # target to generate assembly for a file
 layer/log.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/log.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/log.cpp.s
 .PHONY : layer/log.cpp.s
 
 layer/lrn.o: layer/lrn.cpp.o
@@ -1785,7 +4026,7 @@ layer/lrn.o: layer/lrn.cpp.o
 
 # target to build an object file
 layer/lrn.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o
 .PHONY : layer/lrn.cpp.o
 
 layer/lrn.i: layer/lrn.cpp.i
@@ -1794,7 +4035,7 @@ layer/lrn.i: layer/lrn.cpp.i
 
 # target to preprocess a source file
 layer/lrn.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lrn.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lrn.cpp.i
 .PHONY : layer/lrn.cpp.i
 
 layer/lrn.s: layer/lrn.cpp.s
@@ -1803,7 +4044,7 @@ layer/lrn.s: layer/lrn.cpp.s
 
 # target to generate assembly for a file
 layer/lrn.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lrn.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lrn.cpp.s
 .PHONY : layer/lrn.cpp.s
 
 layer/lstm.o: layer/lstm.cpp.o
@@ -1812,7 +4053,7 @@ layer/lstm.o: layer/lstm.cpp.o
 
 # target to build an object file
 layer/lstm.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o
 .PHONY : layer/lstm.cpp.o
 
 layer/lstm.i: layer/lstm.cpp.i
@@ -1821,7 +4062,7 @@ layer/lstm.i: layer/lstm.cpp.i
 
 # target to preprocess a source file
 layer/lstm.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lstm.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lstm.cpp.i
 .PHONY : layer/lstm.cpp.i
 
 layer/lstm.s: layer/lstm.cpp.s
@@ -1830,7 +4071,7 @@ layer/lstm.s: layer/lstm.cpp.s
 
 # target to generate assembly for a file
 layer/lstm.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lstm.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/lstm.cpp.s
 .PHONY : layer/lstm.cpp.s
 
 layer/matmul.o: layer/matmul.cpp.o
@@ -1839,7 +4080,7 @@ layer/matmul.o: layer/matmul.cpp.o
 
 # target to build an object file
 layer/matmul.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/matmul.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/matmul.cpp.o
 .PHONY : layer/matmul.cpp.o
 
 layer/matmul.i: layer/matmul.cpp.i
@@ -1848,7 +4089,7 @@ layer/matmul.i: layer/matmul.cpp.i
 
 # target to preprocess a source file
 layer/matmul.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/matmul.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/matmul.cpp.i
 .PHONY : layer/matmul.cpp.i
 
 layer/matmul.s: layer/matmul.cpp.s
@@ -1857,7 +4098,7 @@ layer/matmul.s: layer/matmul.cpp.s
 
 # target to generate assembly for a file
 layer/matmul.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/matmul.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/matmul.cpp.s
 .PHONY : layer/matmul.cpp.s
 
 layer/memorydata.o: layer/memorydata.cpp.o
@@ -1866,7 +4107,7 @@ layer/memorydata.o: layer/memorydata.cpp.o
 
 # target to build an object file
 layer/memorydata.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o
 .PHONY : layer/memorydata.cpp.o
 
 layer/memorydata.i: layer/memorydata.cpp.i
@@ -1875,7 +4116,7 @@ layer/memorydata.i: layer/memorydata.cpp.i
 
 # target to preprocess a source file
 layer/memorydata.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.i
 .PHONY : layer/memorydata.cpp.i
 
 layer/memorydata.s: layer/memorydata.cpp.s
@@ -1884,7 +4125,7 @@ layer/memorydata.s: layer/memorydata.cpp.s
 
 # target to generate assembly for a file
 layer/memorydata.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.s
 .PHONY : layer/memorydata.cpp.s
 
 layer/mish.o: layer/mish.cpp.o
@@ -1893,7 +4134,7 @@ layer/mish.o: layer/mish.cpp.o
 
 # target to build an object file
 layer/mish.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mish.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mish.cpp.o
 .PHONY : layer/mish.cpp.o
 
 layer/mish.i: layer/mish.cpp.i
@@ -1902,7 +4143,7 @@ layer/mish.i: layer/mish.cpp.i
 
 # target to preprocess a source file
 layer/mish.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mish.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mish.cpp.i
 .PHONY : layer/mish.cpp.i
 
 layer/mish.s: layer/mish.cpp.s
@@ -1911,7 +4152,7 @@ layer/mish.s: layer/mish.cpp.s
 
 # target to generate assembly for a file
 layer/mish.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mish.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mish.cpp.s
 .PHONY : layer/mish.cpp.s
 
 layer/multiheadattention.o: layer/multiheadattention.cpp.o
@@ -1920,7 +4161,7 @@ layer/multiheadattention.o: layer/multiheadattention.cpp.o
 
 # target to build an object file
 layer/multiheadattention.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o
 .PHONY : layer/multiheadattention.cpp.o
 
 layer/multiheadattention.i: layer/multiheadattention.cpp.i
@@ -1929,7 +4170,7 @@ layer/multiheadattention.i: layer/multiheadattention.cpp.i
 
 # target to preprocess a source file
 layer/multiheadattention.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.i
 .PHONY : layer/multiheadattention.cpp.i
 
 layer/multiheadattention.s: layer/multiheadattention.cpp.s
@@ -1938,7 +4179,7 @@ layer/multiheadattention.s: layer/multiheadattention.cpp.s
 
 # target to generate assembly for a file
 layer/multiheadattention.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.s
 .PHONY : layer/multiheadattention.cpp.s
 
 layer/mvn.o: layer/mvn.cpp.o
@@ -1947,7 +4188,7 @@ layer/mvn.o: layer/mvn.cpp.o
 
 # target to build an object file
 layer/mvn.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o
 .PHONY : layer/mvn.cpp.o
 
 layer/mvn.i: layer/mvn.cpp.i
@@ -1956,7 +4197,7 @@ layer/mvn.i: layer/mvn.cpp.i
 
 # target to preprocess a source file
 layer/mvn.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mvn.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mvn.cpp.i
 .PHONY : layer/mvn.cpp.i
 
 layer/mvn.s: layer/mvn.cpp.s
@@ -1965,7 +4206,7 @@ layer/mvn.s: layer/mvn.cpp.s
 
 # target to generate assembly for a file
 layer/mvn.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mvn.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/mvn.cpp.s
 .PHONY : layer/mvn.cpp.s
 
 layer/noop.o: layer/noop.cpp.o
@@ -1974,7 +4215,7 @@ layer/noop.o: layer/noop.cpp.o
 
 # target to build an object file
 layer/noop.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/noop.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/noop.cpp.o
 .PHONY : layer/noop.cpp.o
 
 layer/noop.i: layer/noop.cpp.i
@@ -1983,7 +4224,7 @@ layer/noop.i: layer/noop.cpp.i
 
 # target to preprocess a source file
 layer/noop.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/noop.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/noop.cpp.i
 .PHONY : layer/noop.cpp.i
 
 layer/noop.s: layer/noop.cpp.s
@@ -1992,7 +4233,7 @@ layer/noop.s: layer/noop.cpp.s
 
 # target to generate assembly for a file
 layer/noop.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/noop.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/noop.cpp.s
 .PHONY : layer/noop.cpp.s
 
 layer/normalize.o: layer/normalize.cpp.o
@@ -2001,7 +4242,7 @@ layer/normalize.o: layer/normalize.cpp.o
 
 # target to build an object file
 layer/normalize.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o
 .PHONY : layer/normalize.cpp.o
 
 layer/normalize.i: layer/normalize.cpp.i
@@ -2010,7 +4251,7 @@ layer/normalize.i: layer/normalize.cpp.i
 
 # target to preprocess a source file
 layer/normalize.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/normalize.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/normalize.cpp.i
 .PHONY : layer/normalize.cpp.i
 
 layer/normalize.s: layer/normalize.cpp.s
@@ -2019,7 +4260,7 @@ layer/normalize.s: layer/normalize.cpp.s
 
 # target to generate assembly for a file
 layer/normalize.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/normalize.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/normalize.cpp.s
 .PHONY : layer/normalize.cpp.s
 
 layer/packing.o: layer/packing.cpp.o
@@ -2028,7 +4269,7 @@ layer/packing.o: layer/packing.cpp.o
 
 # target to build an object file
 layer/packing.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/packing.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/packing.cpp.o
 .PHONY : layer/packing.cpp.o
 
 layer/packing.i: layer/packing.cpp.i
@@ -2037,7 +4278,7 @@ layer/packing.i: layer/packing.cpp.i
 
 # target to preprocess a source file
 layer/packing.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/packing.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/packing.cpp.i
 .PHONY : layer/packing.cpp.i
 
 layer/packing.s: layer/packing.cpp.s
@@ -2046,7 +4287,7 @@ layer/packing.s: layer/packing.cpp.s
 
 # target to generate assembly for a file
 layer/packing.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/packing.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/packing.cpp.s
 .PHONY : layer/packing.cpp.s
 
 layer/padding.o: layer/padding.cpp.o
@@ -2055,7 +4296,7 @@ layer/padding.o: layer/padding.cpp.o
 
 # target to build an object file
 layer/padding.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/padding.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/padding.cpp.o
 .PHONY : layer/padding.cpp.o
 
 layer/padding.i: layer/padding.cpp.i
@@ -2064,7 +4305,7 @@ layer/padding.i: layer/padding.cpp.i
 
 # target to preprocess a source file
 layer/padding.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/padding.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/padding.cpp.i
 .PHONY : layer/padding.cpp.i
 
 layer/padding.s: layer/padding.cpp.s
@@ -2073,7 +4314,7 @@ layer/padding.s: layer/padding.cpp.s
 
 # target to generate assembly for a file
 layer/padding.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/padding.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/padding.cpp.s
 .PHONY : layer/padding.cpp.s
 
 layer/permute.o: layer/permute.cpp.o
@@ -2082,7 +4323,7 @@ layer/permute.o: layer/permute.cpp.o
 
 # target to build an object file
 layer/permute.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/permute.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/permute.cpp.o
 .PHONY : layer/permute.cpp.o
 
 layer/permute.i: layer/permute.cpp.i
@@ -2091,7 +4332,7 @@ layer/permute.i: layer/permute.cpp.i
 
 # target to preprocess a source file
 layer/permute.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/permute.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/permute.cpp.i
 .PHONY : layer/permute.cpp.i
 
 layer/permute.s: layer/permute.cpp.s
@@ -2100,7 +4341,7 @@ layer/permute.s: layer/permute.cpp.s
 
 # target to generate assembly for a file
 layer/permute.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/permute.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/permute.cpp.s
 .PHONY : layer/permute.cpp.s
 
 layer/pixelshuffle.o: layer/pixelshuffle.cpp.o
@@ -2109,7 +4350,7 @@ layer/pixelshuffle.o: layer/pixelshuffle.cpp.o
 
 # target to build an object file
 layer/pixelshuffle.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o
 .PHONY : layer/pixelshuffle.cpp.o
 
 layer/pixelshuffle.i: layer/pixelshuffle.cpp.i
@@ -2118,7 +4359,7 @@ layer/pixelshuffle.i: layer/pixelshuffle.cpp.i
 
 # target to preprocess a source file
 layer/pixelshuffle.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.i
 .PHONY : layer/pixelshuffle.cpp.i
 
 layer/pixelshuffle.s: layer/pixelshuffle.cpp.s
@@ -2127,7 +4368,7 @@ layer/pixelshuffle.s: layer/pixelshuffle.cpp.s
 
 # target to generate assembly for a file
 layer/pixelshuffle.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.s
 .PHONY : layer/pixelshuffle.cpp.s
 
 layer/pooling.o: layer/pooling.cpp.o
@@ -2136,7 +4377,7 @@ layer/pooling.o: layer/pooling.cpp.o
 
 # target to build an object file
 layer/pooling.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o
 .PHONY : layer/pooling.cpp.o
 
 layer/pooling.i: layer/pooling.cpp.i
@@ -2145,7 +4386,7 @@ layer/pooling.i: layer/pooling.cpp.i
 
 # target to preprocess a source file
 layer/pooling.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling.cpp.i
 .PHONY : layer/pooling.cpp.i
 
 layer/pooling.s: layer/pooling.cpp.s
@@ -2154,7 +4395,7 @@ layer/pooling.s: layer/pooling.cpp.s
 
 # target to generate assembly for a file
 layer/pooling.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling.cpp.s
 .PHONY : layer/pooling.cpp.s
 
 layer/pooling1d.o: layer/pooling1d.cpp.o
@@ -2163,7 +4404,7 @@ layer/pooling1d.o: layer/pooling1d.cpp.o
 
 # target to build an object file
 layer/pooling1d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling1d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling1d.cpp.o
 .PHONY : layer/pooling1d.cpp.o
 
 layer/pooling1d.i: layer/pooling1d.cpp.i
@@ -2172,7 +4413,7 @@ layer/pooling1d.i: layer/pooling1d.cpp.i
 
 # target to preprocess a source file
 layer/pooling1d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling1d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling1d.cpp.i
 .PHONY : layer/pooling1d.cpp.i
 
 layer/pooling1d.s: layer/pooling1d.cpp.s
@@ -2181,7 +4422,7 @@ layer/pooling1d.s: layer/pooling1d.cpp.s
 
 # target to generate assembly for a file
 layer/pooling1d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling1d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling1d.cpp.s
 .PHONY : layer/pooling1d.cpp.s
 
 layer/pooling3d.o: layer/pooling3d.cpp.o
@@ -2190,7 +4431,7 @@ layer/pooling3d.o: layer/pooling3d.cpp.o
 
 # target to build an object file
 layer/pooling3d.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling3d.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling3d.cpp.o
 .PHONY : layer/pooling3d.cpp.o
 
 layer/pooling3d.i: layer/pooling3d.cpp.i
@@ -2199,7 +4440,7 @@ layer/pooling3d.i: layer/pooling3d.cpp.i
 
 # target to preprocess a source file
 layer/pooling3d.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling3d.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling3d.cpp.i
 .PHONY : layer/pooling3d.cpp.i
 
 layer/pooling3d.s: layer/pooling3d.cpp.s
@@ -2208,7 +4449,7 @@ layer/pooling3d.s: layer/pooling3d.cpp.s
 
 # target to generate assembly for a file
 layer/pooling3d.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling3d.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/pooling3d.cpp.s
 .PHONY : layer/pooling3d.cpp.s
 
 layer/power.o: layer/power.cpp.o
@@ -2217,7 +4458,7 @@ layer/power.o: layer/power.cpp.o
 
 # target to build an object file
 layer/power.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/power.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/power.cpp.o
 .PHONY : layer/power.cpp.o
 
 layer/power.i: layer/power.cpp.i
@@ -2226,7 +4467,7 @@ layer/power.i: layer/power.cpp.i
 
 # target to preprocess a source file
 layer/power.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/power.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/power.cpp.i
 .PHONY : layer/power.cpp.i
 
 layer/power.s: layer/power.cpp.s
@@ -2235,7 +4476,7 @@ layer/power.s: layer/power.cpp.s
 
 # target to generate assembly for a file
 layer/power.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/power.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/power.cpp.s
 .PHONY : layer/power.cpp.s
 
 layer/prelu.o: layer/prelu.cpp.o
@@ -2244,7 +4485,7 @@ layer/prelu.o: layer/prelu.cpp.o
 
 # target to build an object file
 layer/prelu.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o
 .PHONY : layer/prelu.cpp.o
 
 layer/prelu.i: layer/prelu.cpp.i
@@ -2253,7 +4494,7 @@ layer/prelu.i: layer/prelu.cpp.i
 
 # target to preprocess a source file
 layer/prelu.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/prelu.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/prelu.cpp.i
 .PHONY : layer/prelu.cpp.i
 
 layer/prelu.s: layer/prelu.cpp.s
@@ -2262,7 +4503,7 @@ layer/prelu.s: layer/prelu.cpp.s
 
 # target to generate assembly for a file
 layer/prelu.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/prelu.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/prelu.cpp.s
 .PHONY : layer/prelu.cpp.s
 
 layer/priorbox.o: layer/priorbox.cpp.o
@@ -2271,7 +4512,7 @@ layer/priorbox.o: layer/priorbox.cpp.o
 
 # target to build an object file
 layer/priorbox.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o
 .PHONY : layer/priorbox.cpp.o
 
 layer/priorbox.i: layer/priorbox.cpp.i
@@ -2280,7 +4521,7 @@ layer/priorbox.i: layer/priorbox.cpp.i
 
 # target to preprocess a source file
 layer/priorbox.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.i
 .PHONY : layer/priorbox.cpp.i
 
 layer/priorbox.s: layer/priorbox.cpp.s
@@ -2289,7 +4530,7 @@ layer/priorbox.s: layer/priorbox.cpp.s
 
 # target to generate assembly for a file
 layer/priorbox.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.s
 .PHONY : layer/priorbox.cpp.s
 
 layer/proposal.o: layer/proposal.cpp.o
@@ -2298,7 +4539,7 @@ layer/proposal.o: layer/proposal.cpp.o
 
 # target to build an object file
 layer/proposal.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o
 .PHONY : layer/proposal.cpp.o
 
 layer/proposal.i: layer/proposal.cpp.i
@@ -2307,7 +4548,7 @@ layer/proposal.i: layer/proposal.cpp.i
 
 # target to preprocess a source file
 layer/proposal.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/proposal.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/proposal.cpp.i
 .PHONY : layer/proposal.cpp.i
 
 layer/proposal.s: layer/proposal.cpp.s
@@ -2316,7 +4557,7 @@ layer/proposal.s: layer/proposal.cpp.s
 
 # target to generate assembly for a file
 layer/proposal.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/proposal.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/proposal.cpp.s
 .PHONY : layer/proposal.cpp.s
 
 layer/psroipooling.o: layer/psroipooling.cpp.o
@@ -2325,7 +4566,7 @@ layer/psroipooling.o: layer/psroipooling.cpp.o
 
 # target to build an object file
 layer/psroipooling.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o
 .PHONY : layer/psroipooling.cpp.o
 
 layer/psroipooling.i: layer/psroipooling.cpp.i
@@ -2334,7 +4575,7 @@ layer/psroipooling.i: layer/psroipooling.cpp.i
 
 # target to preprocess a source file
 layer/psroipooling.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i
 .PHONY : layer/psroipooling.cpp.i
 
 layer/psroipooling.s: layer/psroipooling.cpp.s
@@ -2343,7 +4584,7 @@ layer/psroipooling.s: layer/psroipooling.cpp.s
 
 # target to generate assembly for a file
 layer/psroipooling.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s
 .PHONY : layer/psroipooling.cpp.s
 
 layer/quantize.o: layer/quantize.cpp.o
@@ -2352,7 +4593,7 @@ layer/quantize.o: layer/quantize.cpp.o
 
 # target to build an object file
 layer/quantize.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o
 .PHONY : layer/quantize.cpp.o
 
 layer/quantize.i: layer/quantize.cpp.i
@@ -2361,7 +4602,7 @@ layer/quantize.i: layer/quantize.cpp.i
 
 # target to preprocess a source file
 layer/quantize.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/quantize.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/quantize.cpp.i
 .PHONY : layer/quantize.cpp.i
 
 layer/quantize.s: layer/quantize.cpp.s
@@ -2370,7 +4611,7 @@ layer/quantize.s: layer/quantize.cpp.s
 
 # target to generate assembly for a file
 layer/quantize.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/quantize.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/quantize.cpp.s
 .PHONY : layer/quantize.cpp.s
 
 layer/reduction.o: layer/reduction.cpp.o
@@ -2379,7 +4620,7 @@ layer/reduction.o: layer/reduction.cpp.o
 
 # target to build an object file
 layer/reduction.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o
 .PHONY : layer/reduction.cpp.o
 
 layer/reduction.i: layer/reduction.cpp.i
@@ -2388,7 +4629,7 @@ layer/reduction.i: layer/reduction.cpp.i
 
 # target to preprocess a source file
 layer/reduction.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reduction.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reduction.cpp.i
 .PHONY : layer/reduction.cpp.i
 
 layer/reduction.s: layer/reduction.cpp.s
@@ -2397,7 +4638,7 @@ layer/reduction.s: layer/reduction.cpp.s
 
 # target to generate assembly for a file
 layer/reduction.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reduction.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reduction.cpp.s
 .PHONY : layer/reduction.cpp.s
 
 layer/relu.o: layer/relu.cpp.o
@@ -2406,7 +4647,7 @@ layer/relu.o: layer/relu.cpp.o
 
 # target to build an object file
 layer/relu.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/relu.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/relu.cpp.o
 .PHONY : layer/relu.cpp.o
 
 layer/relu.i: layer/relu.cpp.i
@@ -2415,7 +4656,7 @@ layer/relu.i: layer/relu.cpp.i
 
 # target to preprocess a source file
 layer/relu.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/relu.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/relu.cpp.i
 .PHONY : layer/relu.cpp.i
 
 layer/relu.s: layer/relu.cpp.s
@@ -2424,7 +4665,7 @@ layer/relu.s: layer/relu.cpp.s
 
 # target to generate assembly for a file
 layer/relu.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/relu.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/relu.cpp.s
 .PHONY : layer/relu.cpp.s
 
 layer/reorg.o: layer/reorg.cpp.o
@@ -2433,7 +4674,7 @@ layer/reorg.o: layer/reorg.cpp.o
 
 # target to build an object file
 layer/reorg.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o
 .PHONY : layer/reorg.cpp.o
 
 layer/reorg.i: layer/reorg.cpp.i
@@ -2442,7 +4683,7 @@ layer/reorg.i: layer/reorg.cpp.i
 
 # target to preprocess a source file
 layer/reorg.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reorg.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reorg.cpp.i
 .PHONY : layer/reorg.cpp.i
 
 layer/reorg.s: layer/reorg.cpp.s
@@ -2451,7 +4692,7 @@ layer/reorg.s: layer/reorg.cpp.s
 
 # target to generate assembly for a file
 layer/reorg.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reorg.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reorg.cpp.s
 .PHONY : layer/reorg.cpp.s
 
 layer/requantize.o: layer/requantize.cpp.o
@@ -2460,7 +4701,7 @@ layer/requantize.o: layer/requantize.cpp.o
 
 # target to build an object file
 layer/requantize.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o
 .PHONY : layer/requantize.cpp.o
 
 layer/requantize.i: layer/requantize.cpp.i
@@ -2469,7 +4710,7 @@ layer/requantize.i: layer/requantize.cpp.i
 
 # target to preprocess a source file
 layer/requantize.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/requantize.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/requantize.cpp.i
 .PHONY : layer/requantize.cpp.i
 
 layer/requantize.s: layer/requantize.cpp.s
@@ -2478,7 +4719,7 @@ layer/requantize.s: layer/requantize.cpp.s
 
 # target to generate assembly for a file
 layer/requantize.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/requantize.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/requantize.cpp.s
 .PHONY : layer/requantize.cpp.s
 
 layer/reshape.o: layer/reshape.cpp.o
@@ -2487,7 +4728,7 @@ layer/reshape.o: layer/reshape.cpp.o
 
 # target to build an object file
 layer/reshape.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o
 .PHONY : layer/reshape.cpp.o
 
 layer/reshape.i: layer/reshape.cpp.i
@@ -2496,7 +4737,7 @@ layer/reshape.i: layer/reshape.cpp.i
 
 # target to preprocess a source file
 layer/reshape.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reshape.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reshape.cpp.i
 .PHONY : layer/reshape.cpp.i
 
 layer/reshape.s: layer/reshape.cpp.s
@@ -2505,7 +4746,7 @@ layer/reshape.s: layer/reshape.cpp.s
 
 # target to generate assembly for a file
 layer/reshape.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reshape.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/reshape.cpp.s
 .PHONY : layer/reshape.cpp.s
 
 layer/rnn.o: layer/rnn.cpp.o
@@ -2514,7 +4755,7 @@ layer/rnn.o: layer/rnn.cpp.o
 
 # target to build an object file
 layer/rnn.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o
 .PHONY : layer/rnn.cpp.o
 
 layer/rnn.i: layer/rnn.cpp.i
@@ -2523,7 +4764,7 @@ layer/rnn.i: layer/rnn.cpp.i
 
 # target to preprocess a source file
 layer/rnn.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/rnn.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/rnn.cpp.i
 .PHONY : layer/rnn.cpp.i
 
 layer/rnn.s: layer/rnn.cpp.s
@@ -2532,7 +4773,7 @@ layer/rnn.s: layer/rnn.cpp.s
 
 # target to generate assembly for a file
 layer/rnn.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/rnn.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/rnn.cpp.s
 .PHONY : layer/rnn.cpp.s
 
 layer/roialign.o: layer/roialign.cpp.o
@@ -2541,7 +4782,7 @@ layer/roialign.o: layer/roialign.cpp.o
 
 # target to build an object file
 layer/roialign.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o
 .PHONY : layer/roialign.cpp.o
 
 layer/roialign.i: layer/roialign.cpp.i
@@ -2550,7 +4791,7 @@ layer/roialign.i: layer/roialign.cpp.i
 
 # target to preprocess a source file
 layer/roialign.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roialign.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roialign.cpp.i
 .PHONY : layer/roialign.cpp.i
 
 layer/roialign.s: layer/roialign.cpp.s
@@ -2559,7 +4800,7 @@ layer/roialign.s: layer/roialign.cpp.s
 
 # target to generate assembly for a file
 layer/roialign.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roialign.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roialign.cpp.s
 .PHONY : layer/roialign.cpp.s
 
 layer/roipooling.o: layer/roipooling.cpp.o
@@ -2568,7 +4809,7 @@ layer/roipooling.o: layer/roipooling.cpp.o
 
 # target to build an object file
 layer/roipooling.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o
 .PHONY : layer/roipooling.cpp.o
 
 layer/roipooling.i: layer/roipooling.cpp.i
@@ -2577,7 +4818,7 @@ layer/roipooling.i: layer/roipooling.cpp.i
 
 # target to preprocess a source file
 layer/roipooling.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.i
 .PHONY : layer/roipooling.cpp.i
 
 layer/roipooling.s: layer/roipooling.cpp.s
@@ -2586,7 +4827,7 @@ layer/roipooling.s: layer/roipooling.cpp.s
 
 # target to generate assembly for a file
 layer/roipooling.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.s
 .PHONY : layer/roipooling.cpp.s
 
 layer/scale.o: layer/scale.cpp.o
@@ -2595,7 +4836,7 @@ layer/scale.o: layer/scale.cpp.o
 
 # target to build an object file
 layer/scale.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/scale.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/scale.cpp.o
 .PHONY : layer/scale.cpp.o
 
 layer/scale.i: layer/scale.cpp.i
@@ -2604,7 +4845,7 @@ layer/scale.i: layer/scale.cpp.i
 
 # target to preprocess a source file
 layer/scale.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/scale.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/scale.cpp.i
 .PHONY : layer/scale.cpp.i
 
 layer/scale.s: layer/scale.cpp.s
@@ -2613,7 +4854,7 @@ layer/scale.s: layer/scale.cpp.s
 
 # target to generate assembly for a file
 layer/scale.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/scale.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/scale.cpp.s
 .PHONY : layer/scale.cpp.s
 
 layer/selu.o: layer/selu.cpp.o
@@ -2622,7 +4863,7 @@ layer/selu.o: layer/selu.cpp.o
 
 # target to build an object file
 layer/selu.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/selu.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/selu.cpp.o
 .PHONY : layer/selu.cpp.o
 
 layer/selu.i: layer/selu.cpp.i
@@ -2631,7 +4872,7 @@ layer/selu.i: layer/selu.cpp.i
 
 # target to preprocess a source file
 layer/selu.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/selu.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/selu.cpp.i
 .PHONY : layer/selu.cpp.i
 
 layer/selu.s: layer/selu.cpp.s
@@ -2640,7 +4881,7 @@ layer/selu.s: layer/selu.cpp.s
 
 # target to generate assembly for a file
 layer/selu.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/selu.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/selu.cpp.s
 .PHONY : layer/selu.cpp.s
 
 layer/shufflechannel.o: layer/shufflechannel.cpp.o
@@ -2649,7 +4890,7 @@ layer/shufflechannel.o: layer/shufflechannel.cpp.o
 
 # target to build an object file
 layer/shufflechannel.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o
 .PHONY : layer/shufflechannel.cpp.o
 
 layer/shufflechannel.i: layer/shufflechannel.cpp.i
@@ -2658,7 +4899,7 @@ layer/shufflechannel.i: layer/shufflechannel.cpp.i
 
 # target to preprocess a source file
 layer/shufflechannel.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i
 .PHONY : layer/shufflechannel.cpp.i
 
 layer/shufflechannel.s: layer/shufflechannel.cpp.s
@@ -2667,7 +4908,7 @@ layer/shufflechannel.s: layer/shufflechannel.cpp.s
 
 # target to generate assembly for a file
 layer/shufflechannel.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s
 .PHONY : layer/shufflechannel.cpp.s
 
 layer/sigmoid.o: layer/sigmoid.cpp.o
@@ -2676,7 +4917,7 @@ layer/sigmoid.o: layer/sigmoid.cpp.o
 
 # target to build an object file
 layer/sigmoid.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o
 .PHONY : layer/sigmoid.cpp.o
 
 layer/sigmoid.i: layer/sigmoid.cpp.i
@@ -2685,7 +4926,7 @@ layer/sigmoid.i: layer/sigmoid.cpp.i
 
 # target to preprocess a source file
 layer/sigmoid.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i
 .PHONY : layer/sigmoid.cpp.i
 
 layer/sigmoid.s: layer/sigmoid.cpp.s
@@ -2694,7 +4935,7 @@ layer/sigmoid.s: layer/sigmoid.cpp.s
 
 # target to generate assembly for a file
 layer/sigmoid.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s
 .PHONY : layer/sigmoid.cpp.s
 
 layer/slice.o: layer/slice.cpp.o
@@ -2703,7 +4944,7 @@ layer/slice.o: layer/slice.cpp.o
 
 # target to build an object file
 layer/slice.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/slice.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/slice.cpp.o
 .PHONY : layer/slice.cpp.o
 
 layer/slice.i: layer/slice.cpp.i
@@ -2712,7 +4953,7 @@ layer/slice.i: layer/slice.cpp.i
 
 # target to preprocess a source file
 layer/slice.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/slice.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/slice.cpp.i
 .PHONY : layer/slice.cpp.i
 
 layer/slice.s: layer/slice.cpp.s
@@ -2721,7 +4962,7 @@ layer/slice.s: layer/slice.cpp.s
 
 # target to generate assembly for a file
 layer/slice.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/slice.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/slice.cpp.s
 .PHONY : layer/slice.cpp.s
 
 layer/softmax.o: layer/softmax.cpp.o
@@ -2730,7 +4971,7 @@ layer/softmax.o: layer/softmax.cpp.o
 
 # target to build an object file
 layer/softmax.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o
 .PHONY : layer/softmax.cpp.o
 
 layer/softmax.i: layer/softmax.cpp.i
@@ -2739,7 +4980,7 @@ layer/softmax.i: layer/softmax.cpp.i
 
 # target to preprocess a source file
 layer/softmax.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softmax.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softmax.cpp.i
 .PHONY : layer/softmax.cpp.i
 
 layer/softmax.s: layer/softmax.cpp.s
@@ -2748,7 +4989,7 @@ layer/softmax.s: layer/softmax.cpp.s
 
 # target to generate assembly for a file
 layer/softmax.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softmax.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softmax.cpp.s
 .PHONY : layer/softmax.cpp.s
 
 layer/softplus.o: layer/softplus.cpp.o
@@ -2757,7 +4998,7 @@ layer/softplus.o: layer/softplus.cpp.o
 
 # target to build an object file
 layer/softplus.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o
 .PHONY : layer/softplus.cpp.o
 
 layer/softplus.i: layer/softplus.cpp.i
@@ -2766,7 +5007,7 @@ layer/softplus.i: layer/softplus.cpp.i
 
 # target to preprocess a source file
 layer/softplus.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softplus.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softplus.cpp.i
 .PHONY : layer/softplus.cpp.i
 
 layer/softplus.s: layer/softplus.cpp.s
@@ -2775,7 +5016,7 @@ layer/softplus.s: layer/softplus.cpp.s
 
 # target to generate assembly for a file
 layer/softplus.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softplus.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/softplus.cpp.s
 .PHONY : layer/softplus.cpp.s
 
 layer/split.o: layer/split.cpp.o
@@ -2784,7 +5025,7 @@ layer/split.o: layer/split.cpp.o
 
 # target to build an object file
 layer/split.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/split.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/split.cpp.o
 .PHONY : layer/split.cpp.o
 
 layer/split.i: layer/split.cpp.i
@@ -2793,7 +5034,7 @@ layer/split.i: layer/split.cpp.i
 
 # target to preprocess a source file
 layer/split.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/split.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/split.cpp.i
 .PHONY : layer/split.cpp.i
 
 layer/split.s: layer/split.cpp.s
@@ -2802,7 +5043,7 @@ layer/split.s: layer/split.cpp.s
 
 # target to generate assembly for a file
 layer/split.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/split.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/split.cpp.s
 .PHONY : layer/split.cpp.s
 
 layer/squeeze.o: layer/squeeze.cpp.o
@@ -2811,7 +5052,7 @@ layer/squeeze.o: layer/squeeze.cpp.o
 
 # target to build an object file
 layer/squeeze.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o
 .PHONY : layer/squeeze.cpp.o
 
 layer/squeeze.i: layer/squeeze.cpp.i
@@ -2820,7 +5061,7 @@ layer/squeeze.i: layer/squeeze.cpp.i
 
 # target to preprocess a source file
 layer/squeeze.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.i
 .PHONY : layer/squeeze.cpp.i
 
 layer/squeeze.s: layer/squeeze.cpp.s
@@ -2829,7 +5070,7 @@ layer/squeeze.s: layer/squeeze.cpp.s
 
 # target to generate assembly for a file
 layer/squeeze.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.s
 .PHONY : layer/squeeze.cpp.s
 
 layer/statisticspooling.o: layer/statisticspooling.cpp.o
@@ -2838,7 +5079,7 @@ layer/statisticspooling.o: layer/statisticspooling.cpp.o
 
 # target to build an object file
 layer/statisticspooling.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o
 .PHONY : layer/statisticspooling.cpp.o
 
 layer/statisticspooling.i: layer/statisticspooling.cpp.i
@@ -2847,7 +5088,7 @@ layer/statisticspooling.i: layer/statisticspooling.cpp.i
 
 # target to preprocess a source file
 layer/statisticspooling.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.i
 .PHONY : layer/statisticspooling.cpp.i
 
 layer/statisticspooling.s: layer/statisticspooling.cpp.s
@@ -2856,7 +5097,7 @@ layer/statisticspooling.s: layer/statisticspooling.cpp.s
 
 # target to generate assembly for a file
 layer/statisticspooling.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.s
 .PHONY : layer/statisticspooling.cpp.s
 
 layer/swish.o: layer/swish.cpp.o
@@ -2865,7 +5106,7 @@ layer/swish.o: layer/swish.cpp.o
 
 # target to build an object file
 layer/swish.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/swish.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/swish.cpp.o
 .PHONY : layer/swish.cpp.o
 
 layer/swish.i: layer/swish.cpp.i
@@ -2874,7 +5115,7 @@ layer/swish.i: layer/swish.cpp.i
 
 # target to preprocess a source file
 layer/swish.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/swish.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/swish.cpp.i
 .PHONY : layer/swish.cpp.i
 
 layer/swish.s: layer/swish.cpp.s
@@ -2883,7 +5124,7 @@ layer/swish.s: layer/swish.cpp.s
 
 # target to generate assembly for a file
 layer/swish.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/swish.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/swish.cpp.s
 .PHONY : layer/swish.cpp.s
 
 layer/tanh.o: layer/tanh.cpp.o
@@ -2892,7 +5133,7 @@ layer/tanh.o: layer/tanh.cpp.o
 
 # target to build an object file
 layer/tanh.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o
 .PHONY : layer/tanh.cpp.o
 
 layer/tanh.i: layer/tanh.cpp.i
@@ -2901,7 +5142,7 @@ layer/tanh.i: layer/tanh.cpp.i
 
 # target to preprocess a source file
 layer/tanh.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tanh.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tanh.cpp.i
 .PHONY : layer/tanh.cpp.i
 
 layer/tanh.s: layer/tanh.cpp.s
@@ -2910,7 +5151,7 @@ layer/tanh.s: layer/tanh.cpp.s
 
 # target to generate assembly for a file
 layer/tanh.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tanh.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tanh.cpp.s
 .PHONY : layer/tanh.cpp.s
 
 layer/threshold.o: layer/threshold.cpp.o
@@ -2919,7 +5160,7 @@ layer/threshold.o: layer/threshold.cpp.o
 
 # target to build an object file
 layer/threshold.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o
 .PHONY : layer/threshold.cpp.o
 
 layer/threshold.i: layer/threshold.cpp.i
@@ -2928,7 +5169,7 @@ layer/threshold.i: layer/threshold.cpp.i
 
 # target to preprocess a source file
 layer/threshold.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/threshold.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/threshold.cpp.i
 .PHONY : layer/threshold.cpp.i
 
 layer/threshold.s: layer/threshold.cpp.s
@@ -2937,7 +5178,7 @@ layer/threshold.s: layer/threshold.cpp.s
 
 # target to generate assembly for a file
 layer/threshold.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/threshold.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/threshold.cpp.s
 .PHONY : layer/threshold.cpp.s
 
 layer/tile.o: layer/tile.cpp.o
@@ -2946,7 +5187,7 @@ layer/tile.o: layer/tile.cpp.o
 
 # target to build an object file
 layer/tile.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tile.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tile.cpp.o
 .PHONY : layer/tile.cpp.o
 
 layer/tile.i: layer/tile.cpp.i
@@ -2955,7 +5196,7 @@ layer/tile.i: layer/tile.cpp.i
 
 # target to preprocess a source file
 layer/tile.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tile.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tile.cpp.i
 .PHONY : layer/tile.cpp.i
 
 layer/tile.s: layer/tile.cpp.s
@@ -2964,7 +5205,7 @@ layer/tile.s: layer/tile.cpp.s
 
 # target to generate assembly for a file
 layer/tile.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tile.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/tile.cpp.s
 .PHONY : layer/tile.cpp.s
 
 layer/unaryop.o: layer/unaryop.cpp.o
@@ -2973,7 +5214,7 @@ layer/unaryop.o: layer/unaryop.cpp.o
 
 # target to build an object file
 layer/unaryop.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o
 .PHONY : layer/unaryop.cpp.o
 
 layer/unaryop.i: layer/unaryop.cpp.i
@@ -2982,7 +5223,7 @@ layer/unaryop.i: layer/unaryop.cpp.i
 
 # target to preprocess a source file
 layer/unaryop.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.i
 .PHONY : layer/unaryop.cpp.i
 
 layer/unaryop.s: layer/unaryop.cpp.s
@@ -2991,7 +5232,7 @@ layer/unaryop.s: layer/unaryop.cpp.s
 
 # target to generate assembly for a file
 layer/unaryop.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.s
 .PHONY : layer/unaryop.cpp.s
 
 layer/unfold.o: layer/unfold.cpp.o
@@ -3000,7 +5241,7 @@ layer/unfold.o: layer/unfold.cpp.o
 
 # target to build an object file
 layer/unfold.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unfold.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unfold.cpp.o
 .PHONY : layer/unfold.cpp.o
 
 layer/unfold.i: layer/unfold.cpp.i
@@ -3009,7 +5250,7 @@ layer/unfold.i: layer/unfold.cpp.i
 
 # target to preprocess a source file
 layer/unfold.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unfold.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unfold.cpp.i
 .PHONY : layer/unfold.cpp.i
 
 layer/unfold.s: layer/unfold.cpp.s
@@ -3018,5435 +5259,8 @@ layer/unfold.s: layer/unfold.cpp.s
 
 # target to generate assembly for a file
 layer/unfold.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unfold.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/unfold.cpp.s
 .PHONY : layer/unfold.cpp.s
-
-layer/x86/batchnorm_x86.o: layer/x86/batchnorm_x86.cpp.o
-
-.PHONY : layer/x86/batchnorm_x86.o
-
-# target to build an object file
-layer/x86/batchnorm_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86.cpp.o
-.PHONY : layer/x86/batchnorm_x86.cpp.o
-
-layer/x86/batchnorm_x86.i: layer/x86/batchnorm_x86.cpp.i
-
-.PHONY : layer/x86/batchnorm_x86.i
-
-# target to preprocess a source file
-layer/x86/batchnorm_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86.cpp.i
-.PHONY : layer/x86/batchnorm_x86.cpp.i
-
-layer/x86/batchnorm_x86.s: layer/x86/batchnorm_x86.cpp.s
-
-.PHONY : layer/x86/batchnorm_x86.s
-
-# target to generate assembly for a file
-layer/x86/batchnorm_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86.cpp.s
-.PHONY : layer/x86/batchnorm_x86.cpp.s
-
-layer/x86/batchnorm_x86_avx.o: layer/x86/batchnorm_x86_avx.cpp.o
-
-.PHONY : layer/x86/batchnorm_x86_avx.o
-
-# target to build an object file
-layer/x86/batchnorm_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx.cpp.o
-.PHONY : layer/x86/batchnorm_x86_avx.cpp.o
-
-layer/x86/batchnorm_x86_avx.i: layer/x86/batchnorm_x86_avx.cpp.i
-
-.PHONY : layer/x86/batchnorm_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/batchnorm_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx.cpp.i
-.PHONY : layer/x86/batchnorm_x86_avx.cpp.i
-
-layer/x86/batchnorm_x86_avx.s: layer/x86/batchnorm_x86_avx.cpp.s
-
-.PHONY : layer/x86/batchnorm_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/batchnorm_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx.cpp.s
-.PHONY : layer/x86/batchnorm_x86_avx.cpp.s
-
-layer/x86/batchnorm_x86_avx512.o: layer/x86/batchnorm_x86_avx512.cpp.o
-
-.PHONY : layer/x86/batchnorm_x86_avx512.o
-
-# target to build an object file
-layer/x86/batchnorm_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx512.cpp.o
-.PHONY : layer/x86/batchnorm_x86_avx512.cpp.o
-
-layer/x86/batchnorm_x86_avx512.i: layer/x86/batchnorm_x86_avx512.cpp.i
-
-.PHONY : layer/x86/batchnorm_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/batchnorm_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx512.cpp.i
-.PHONY : layer/x86/batchnorm_x86_avx512.cpp.i
-
-layer/x86/batchnorm_x86_avx512.s: layer/x86/batchnorm_x86_avx512.cpp.s
-
-.PHONY : layer/x86/batchnorm_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/batchnorm_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx512.cpp.s
-.PHONY : layer/x86/batchnorm_x86_avx512.cpp.s
-
-layer/x86/batchnorm_x86_fma.o: layer/x86/batchnorm_x86_fma.cpp.o
-
-.PHONY : layer/x86/batchnorm_x86_fma.o
-
-# target to build an object file
-layer/x86/batchnorm_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_fma.cpp.o
-.PHONY : layer/x86/batchnorm_x86_fma.cpp.o
-
-layer/x86/batchnorm_x86_fma.i: layer/x86/batchnorm_x86_fma.cpp.i
-
-.PHONY : layer/x86/batchnorm_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/batchnorm_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_fma.cpp.i
-.PHONY : layer/x86/batchnorm_x86_fma.cpp.i
-
-layer/x86/batchnorm_x86_fma.s: layer/x86/batchnorm_x86_fma.cpp.s
-
-.PHONY : layer/x86/batchnorm_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/batchnorm_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_fma.cpp.s
-.PHONY : layer/x86/batchnorm_x86_fma.cpp.s
-
-layer/x86/bias_x86.o: layer/x86/bias_x86.cpp.o
-
-.PHONY : layer/x86/bias_x86.o
-
-# target to build an object file
-layer/x86/bias_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86.cpp.o
-.PHONY : layer/x86/bias_x86.cpp.o
-
-layer/x86/bias_x86.i: layer/x86/bias_x86.cpp.i
-
-.PHONY : layer/x86/bias_x86.i
-
-# target to preprocess a source file
-layer/x86/bias_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86.cpp.i
-.PHONY : layer/x86/bias_x86.cpp.i
-
-layer/x86/bias_x86.s: layer/x86/bias_x86.cpp.s
-
-.PHONY : layer/x86/bias_x86.s
-
-# target to generate assembly for a file
-layer/x86/bias_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86.cpp.s
-.PHONY : layer/x86/bias_x86.cpp.s
-
-layer/x86/bias_x86_avx.o: layer/x86/bias_x86_avx.cpp.o
-
-.PHONY : layer/x86/bias_x86_avx.o
-
-# target to build an object file
-layer/x86/bias_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx.cpp.o
-.PHONY : layer/x86/bias_x86_avx.cpp.o
-
-layer/x86/bias_x86_avx.i: layer/x86/bias_x86_avx.cpp.i
-
-.PHONY : layer/x86/bias_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/bias_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx.cpp.i
-.PHONY : layer/x86/bias_x86_avx.cpp.i
-
-layer/x86/bias_x86_avx.s: layer/x86/bias_x86_avx.cpp.s
-
-.PHONY : layer/x86/bias_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/bias_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx.cpp.s
-.PHONY : layer/x86/bias_x86_avx.cpp.s
-
-layer/x86/bias_x86_avx512.o: layer/x86/bias_x86_avx512.cpp.o
-
-.PHONY : layer/x86/bias_x86_avx512.o
-
-# target to build an object file
-layer/x86/bias_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx512.cpp.o
-.PHONY : layer/x86/bias_x86_avx512.cpp.o
-
-layer/x86/bias_x86_avx512.i: layer/x86/bias_x86_avx512.cpp.i
-
-.PHONY : layer/x86/bias_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/bias_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx512.cpp.i
-.PHONY : layer/x86/bias_x86_avx512.cpp.i
-
-layer/x86/bias_x86_avx512.s: layer/x86/bias_x86_avx512.cpp.s
-
-.PHONY : layer/x86/bias_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/bias_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx512.cpp.s
-.PHONY : layer/x86/bias_x86_avx512.cpp.s
-
-layer/x86/bias_x86_fma.o: layer/x86/bias_x86_fma.cpp.o
-
-.PHONY : layer/x86/bias_x86_fma.o
-
-# target to build an object file
-layer/x86/bias_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_fma.cpp.o
-.PHONY : layer/x86/bias_x86_fma.cpp.o
-
-layer/x86/bias_x86_fma.i: layer/x86/bias_x86_fma.cpp.i
-
-.PHONY : layer/x86/bias_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/bias_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_fma.cpp.i
-.PHONY : layer/x86/bias_x86_fma.cpp.i
-
-layer/x86/bias_x86_fma.s: layer/x86/bias_x86_fma.cpp.s
-
-.PHONY : layer/x86/bias_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/bias_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_fma.cpp.s
-.PHONY : layer/x86/bias_x86_fma.cpp.s
-
-layer/x86/binaryop_x86.o: layer/x86/binaryop_x86.cpp.o
-
-.PHONY : layer/x86/binaryop_x86.o
-
-# target to build an object file
-layer/x86/binaryop_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86.cpp.o
-.PHONY : layer/x86/binaryop_x86.cpp.o
-
-layer/x86/binaryop_x86.i: layer/x86/binaryop_x86.cpp.i
-
-.PHONY : layer/x86/binaryop_x86.i
-
-# target to preprocess a source file
-layer/x86/binaryop_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86.cpp.i
-.PHONY : layer/x86/binaryop_x86.cpp.i
-
-layer/x86/binaryop_x86.s: layer/x86/binaryop_x86.cpp.s
-
-.PHONY : layer/x86/binaryop_x86.s
-
-# target to generate assembly for a file
-layer/x86/binaryop_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86.cpp.s
-.PHONY : layer/x86/binaryop_x86.cpp.s
-
-layer/x86/binaryop_x86_avx.o: layer/x86/binaryop_x86_avx.cpp.o
-
-.PHONY : layer/x86/binaryop_x86_avx.o
-
-# target to build an object file
-layer/x86/binaryop_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx.cpp.o
-.PHONY : layer/x86/binaryop_x86_avx.cpp.o
-
-layer/x86/binaryop_x86_avx.i: layer/x86/binaryop_x86_avx.cpp.i
-
-.PHONY : layer/x86/binaryop_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/binaryop_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx.cpp.i
-.PHONY : layer/x86/binaryop_x86_avx.cpp.i
-
-layer/x86/binaryop_x86_avx.s: layer/x86/binaryop_x86_avx.cpp.s
-
-.PHONY : layer/x86/binaryop_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/binaryop_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx.cpp.s
-.PHONY : layer/x86/binaryop_x86_avx.cpp.s
-
-layer/x86/binaryop_x86_avx512.o: layer/x86/binaryop_x86_avx512.cpp.o
-
-.PHONY : layer/x86/binaryop_x86_avx512.o
-
-# target to build an object file
-layer/x86/binaryop_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx512.cpp.o
-.PHONY : layer/x86/binaryop_x86_avx512.cpp.o
-
-layer/x86/binaryop_x86_avx512.i: layer/x86/binaryop_x86_avx512.cpp.i
-
-.PHONY : layer/x86/binaryop_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/binaryop_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx512.cpp.i
-.PHONY : layer/x86/binaryop_x86_avx512.cpp.i
-
-layer/x86/binaryop_x86_avx512.s: layer/x86/binaryop_x86_avx512.cpp.s
-
-.PHONY : layer/x86/binaryop_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/binaryop_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx512.cpp.s
-.PHONY : layer/x86/binaryop_x86_avx512.cpp.s
-
-layer/x86/binaryop_x86_fma.o: layer/x86/binaryop_x86_fma.cpp.o
-
-.PHONY : layer/x86/binaryop_x86_fma.o
-
-# target to build an object file
-layer/x86/binaryop_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_fma.cpp.o
-.PHONY : layer/x86/binaryop_x86_fma.cpp.o
-
-layer/x86/binaryop_x86_fma.i: layer/x86/binaryop_x86_fma.cpp.i
-
-.PHONY : layer/x86/binaryop_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/binaryop_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_fma.cpp.i
-.PHONY : layer/x86/binaryop_x86_fma.cpp.i
-
-layer/x86/binaryop_x86_fma.s: layer/x86/binaryop_x86_fma.cpp.s
-
-.PHONY : layer/x86/binaryop_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/binaryop_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_fma.cpp.s
-.PHONY : layer/x86/binaryop_x86_fma.cpp.s
-
-layer/x86/bnll_x86.o: layer/x86/bnll_x86.cpp.o
-
-.PHONY : layer/x86/bnll_x86.o
-
-# target to build an object file
-layer/x86/bnll_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86.cpp.o
-.PHONY : layer/x86/bnll_x86.cpp.o
-
-layer/x86/bnll_x86.i: layer/x86/bnll_x86.cpp.i
-
-.PHONY : layer/x86/bnll_x86.i
-
-# target to preprocess a source file
-layer/x86/bnll_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86.cpp.i
-.PHONY : layer/x86/bnll_x86.cpp.i
-
-layer/x86/bnll_x86.s: layer/x86/bnll_x86.cpp.s
-
-.PHONY : layer/x86/bnll_x86.s
-
-# target to generate assembly for a file
-layer/x86/bnll_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86.cpp.s
-.PHONY : layer/x86/bnll_x86.cpp.s
-
-layer/x86/bnll_x86_avx.o: layer/x86/bnll_x86_avx.cpp.o
-
-.PHONY : layer/x86/bnll_x86_avx.o
-
-# target to build an object file
-layer/x86/bnll_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx.cpp.o
-.PHONY : layer/x86/bnll_x86_avx.cpp.o
-
-layer/x86/bnll_x86_avx.i: layer/x86/bnll_x86_avx.cpp.i
-
-.PHONY : layer/x86/bnll_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/bnll_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx.cpp.i
-.PHONY : layer/x86/bnll_x86_avx.cpp.i
-
-layer/x86/bnll_x86_avx.s: layer/x86/bnll_x86_avx.cpp.s
-
-.PHONY : layer/x86/bnll_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/bnll_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx.cpp.s
-.PHONY : layer/x86/bnll_x86_avx.cpp.s
-
-layer/x86/bnll_x86_avx512.o: layer/x86/bnll_x86_avx512.cpp.o
-
-.PHONY : layer/x86/bnll_x86_avx512.o
-
-# target to build an object file
-layer/x86/bnll_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx512.cpp.o
-.PHONY : layer/x86/bnll_x86_avx512.cpp.o
-
-layer/x86/bnll_x86_avx512.i: layer/x86/bnll_x86_avx512.cpp.i
-
-.PHONY : layer/x86/bnll_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/bnll_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx512.cpp.i
-.PHONY : layer/x86/bnll_x86_avx512.cpp.i
-
-layer/x86/bnll_x86_avx512.s: layer/x86/bnll_x86_avx512.cpp.s
-
-.PHONY : layer/x86/bnll_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/bnll_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx512.cpp.s
-.PHONY : layer/x86/bnll_x86_avx512.cpp.s
-
-layer/x86/bnll_x86_fma.o: layer/x86/bnll_x86_fma.cpp.o
-
-.PHONY : layer/x86/bnll_x86_fma.o
-
-# target to build an object file
-layer/x86/bnll_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_fma.cpp.o
-.PHONY : layer/x86/bnll_x86_fma.cpp.o
-
-layer/x86/bnll_x86_fma.i: layer/x86/bnll_x86_fma.cpp.i
-
-.PHONY : layer/x86/bnll_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/bnll_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_fma.cpp.i
-.PHONY : layer/x86/bnll_x86_fma.cpp.i
-
-layer/x86/bnll_x86_fma.s: layer/x86/bnll_x86_fma.cpp.s
-
-.PHONY : layer/x86/bnll_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/bnll_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_fma.cpp.s
-.PHONY : layer/x86/bnll_x86_fma.cpp.s
-
-layer/x86/cast_x86.o: layer/x86/cast_x86.cpp.o
-
-.PHONY : layer/x86/cast_x86.o
-
-# target to build an object file
-layer/x86/cast_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86.cpp.o
-.PHONY : layer/x86/cast_x86.cpp.o
-
-layer/x86/cast_x86.i: layer/x86/cast_x86.cpp.i
-
-.PHONY : layer/x86/cast_x86.i
-
-# target to preprocess a source file
-layer/x86/cast_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86.cpp.i
-.PHONY : layer/x86/cast_x86.cpp.i
-
-layer/x86/cast_x86.s: layer/x86/cast_x86.cpp.s
-
-.PHONY : layer/x86/cast_x86.s
-
-# target to generate assembly for a file
-layer/x86/cast_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86.cpp.s
-.PHONY : layer/x86/cast_x86.cpp.s
-
-layer/x86/cast_x86_avx.o: layer/x86/cast_x86_avx.cpp.o
-
-.PHONY : layer/x86/cast_x86_avx.o
-
-# target to build an object file
-layer/x86/cast_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx.cpp.o
-.PHONY : layer/x86/cast_x86_avx.cpp.o
-
-layer/x86/cast_x86_avx.i: layer/x86/cast_x86_avx.cpp.i
-
-.PHONY : layer/x86/cast_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/cast_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx.cpp.i
-.PHONY : layer/x86/cast_x86_avx.cpp.i
-
-layer/x86/cast_x86_avx.s: layer/x86/cast_x86_avx.cpp.s
-
-.PHONY : layer/x86/cast_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/cast_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx.cpp.s
-.PHONY : layer/x86/cast_x86_avx.cpp.s
-
-layer/x86/cast_x86_avx2.o: layer/x86/cast_x86_avx2.cpp.o
-
-.PHONY : layer/x86/cast_x86_avx2.o
-
-# target to build an object file
-layer/x86/cast_x86_avx2.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx2.cpp.o
-.PHONY : layer/x86/cast_x86_avx2.cpp.o
-
-layer/x86/cast_x86_avx2.i: layer/x86/cast_x86_avx2.cpp.i
-
-.PHONY : layer/x86/cast_x86_avx2.i
-
-# target to preprocess a source file
-layer/x86/cast_x86_avx2.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx2.cpp.i
-.PHONY : layer/x86/cast_x86_avx2.cpp.i
-
-layer/x86/cast_x86_avx2.s: layer/x86/cast_x86_avx2.cpp.s
-
-.PHONY : layer/x86/cast_x86_avx2.s
-
-# target to generate assembly for a file
-layer/x86/cast_x86_avx2.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx2.cpp.s
-.PHONY : layer/x86/cast_x86_avx2.cpp.s
-
-layer/x86/cast_x86_avx512.o: layer/x86/cast_x86_avx512.cpp.o
-
-.PHONY : layer/x86/cast_x86_avx512.o
-
-# target to build an object file
-layer/x86/cast_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx512.cpp.o
-.PHONY : layer/x86/cast_x86_avx512.cpp.o
-
-layer/x86/cast_x86_avx512.i: layer/x86/cast_x86_avx512.cpp.i
-
-.PHONY : layer/x86/cast_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/cast_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx512.cpp.i
-.PHONY : layer/x86/cast_x86_avx512.cpp.i
-
-layer/x86/cast_x86_avx512.s: layer/x86/cast_x86_avx512.cpp.s
-
-.PHONY : layer/x86/cast_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/cast_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx512.cpp.s
-.PHONY : layer/x86/cast_x86_avx512.cpp.s
-
-layer/x86/cast_x86_f16c.o: layer/x86/cast_x86_f16c.cpp.o
-
-.PHONY : layer/x86/cast_x86_f16c.o
-
-# target to build an object file
-layer/x86/cast_x86_f16c.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_f16c.cpp.o
-.PHONY : layer/x86/cast_x86_f16c.cpp.o
-
-layer/x86/cast_x86_f16c.i: layer/x86/cast_x86_f16c.cpp.i
-
-.PHONY : layer/x86/cast_x86_f16c.i
-
-# target to preprocess a source file
-layer/x86/cast_x86_f16c.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_f16c.cpp.i
-.PHONY : layer/x86/cast_x86_f16c.cpp.i
-
-layer/x86/cast_x86_f16c.s: layer/x86/cast_x86_f16c.cpp.s
-
-.PHONY : layer/x86/cast_x86_f16c.s
-
-# target to generate assembly for a file
-layer/x86/cast_x86_f16c.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_f16c.cpp.s
-.PHONY : layer/x86/cast_x86_f16c.cpp.s
-
-layer/x86/cast_x86_fma.o: layer/x86/cast_x86_fma.cpp.o
-
-.PHONY : layer/x86/cast_x86_fma.o
-
-# target to build an object file
-layer/x86/cast_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_fma.cpp.o
-.PHONY : layer/x86/cast_x86_fma.cpp.o
-
-layer/x86/cast_x86_fma.i: layer/x86/cast_x86_fma.cpp.i
-
-.PHONY : layer/x86/cast_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/cast_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_fma.cpp.i
-.PHONY : layer/x86/cast_x86_fma.cpp.i
-
-layer/x86/cast_x86_fma.s: layer/x86/cast_x86_fma.cpp.s
-
-.PHONY : layer/x86/cast_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/cast_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_fma.cpp.s
-.PHONY : layer/x86/cast_x86_fma.cpp.s
-
-layer/x86/clip_x86.o: layer/x86/clip_x86.cpp.o
-
-.PHONY : layer/x86/clip_x86.o
-
-# target to build an object file
-layer/x86/clip_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86.cpp.o
-.PHONY : layer/x86/clip_x86.cpp.o
-
-layer/x86/clip_x86.i: layer/x86/clip_x86.cpp.i
-
-.PHONY : layer/x86/clip_x86.i
-
-# target to preprocess a source file
-layer/x86/clip_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86.cpp.i
-.PHONY : layer/x86/clip_x86.cpp.i
-
-layer/x86/clip_x86.s: layer/x86/clip_x86.cpp.s
-
-.PHONY : layer/x86/clip_x86.s
-
-# target to generate assembly for a file
-layer/x86/clip_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86.cpp.s
-.PHONY : layer/x86/clip_x86.cpp.s
-
-layer/x86/clip_x86_avx.o: layer/x86/clip_x86_avx.cpp.o
-
-.PHONY : layer/x86/clip_x86_avx.o
-
-# target to build an object file
-layer/x86/clip_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx.cpp.o
-.PHONY : layer/x86/clip_x86_avx.cpp.o
-
-layer/x86/clip_x86_avx.i: layer/x86/clip_x86_avx.cpp.i
-
-.PHONY : layer/x86/clip_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/clip_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx.cpp.i
-.PHONY : layer/x86/clip_x86_avx.cpp.i
-
-layer/x86/clip_x86_avx.s: layer/x86/clip_x86_avx.cpp.s
-
-.PHONY : layer/x86/clip_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/clip_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx.cpp.s
-.PHONY : layer/x86/clip_x86_avx.cpp.s
-
-layer/x86/clip_x86_avx512.o: layer/x86/clip_x86_avx512.cpp.o
-
-.PHONY : layer/x86/clip_x86_avx512.o
-
-# target to build an object file
-layer/x86/clip_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx512.cpp.o
-.PHONY : layer/x86/clip_x86_avx512.cpp.o
-
-layer/x86/clip_x86_avx512.i: layer/x86/clip_x86_avx512.cpp.i
-
-.PHONY : layer/x86/clip_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/clip_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx512.cpp.i
-.PHONY : layer/x86/clip_x86_avx512.cpp.i
-
-layer/x86/clip_x86_avx512.s: layer/x86/clip_x86_avx512.cpp.s
-
-.PHONY : layer/x86/clip_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/clip_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx512.cpp.s
-.PHONY : layer/x86/clip_x86_avx512.cpp.s
-
-layer/x86/clip_x86_fma.o: layer/x86/clip_x86_fma.cpp.o
-
-.PHONY : layer/x86/clip_x86_fma.o
-
-# target to build an object file
-layer/x86/clip_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_fma.cpp.o
-.PHONY : layer/x86/clip_x86_fma.cpp.o
-
-layer/x86/clip_x86_fma.i: layer/x86/clip_x86_fma.cpp.i
-
-.PHONY : layer/x86/clip_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/clip_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_fma.cpp.i
-.PHONY : layer/x86/clip_x86_fma.cpp.i
-
-layer/x86/clip_x86_fma.s: layer/x86/clip_x86_fma.cpp.s
-
-.PHONY : layer/x86/clip_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/clip_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_fma.cpp.s
-.PHONY : layer/x86/clip_x86_fma.cpp.s
-
-layer/x86/concat_x86.o: layer/x86/concat_x86.cpp.o
-
-.PHONY : layer/x86/concat_x86.o
-
-# target to build an object file
-layer/x86/concat_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86.cpp.o
-.PHONY : layer/x86/concat_x86.cpp.o
-
-layer/x86/concat_x86.i: layer/x86/concat_x86.cpp.i
-
-.PHONY : layer/x86/concat_x86.i
-
-# target to preprocess a source file
-layer/x86/concat_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86.cpp.i
-.PHONY : layer/x86/concat_x86.cpp.i
-
-layer/x86/concat_x86.s: layer/x86/concat_x86.cpp.s
-
-.PHONY : layer/x86/concat_x86.s
-
-# target to generate assembly for a file
-layer/x86/concat_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86.cpp.s
-.PHONY : layer/x86/concat_x86.cpp.s
-
-layer/x86/concat_x86_avx.o: layer/x86/concat_x86_avx.cpp.o
-
-.PHONY : layer/x86/concat_x86_avx.o
-
-# target to build an object file
-layer/x86/concat_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx.cpp.o
-.PHONY : layer/x86/concat_x86_avx.cpp.o
-
-layer/x86/concat_x86_avx.i: layer/x86/concat_x86_avx.cpp.i
-
-.PHONY : layer/x86/concat_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/concat_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx.cpp.i
-.PHONY : layer/x86/concat_x86_avx.cpp.i
-
-layer/x86/concat_x86_avx.s: layer/x86/concat_x86_avx.cpp.s
-
-.PHONY : layer/x86/concat_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/concat_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx.cpp.s
-.PHONY : layer/x86/concat_x86_avx.cpp.s
-
-layer/x86/concat_x86_avx512.o: layer/x86/concat_x86_avx512.cpp.o
-
-.PHONY : layer/x86/concat_x86_avx512.o
-
-# target to build an object file
-layer/x86/concat_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx512.cpp.o
-.PHONY : layer/x86/concat_x86_avx512.cpp.o
-
-layer/x86/concat_x86_avx512.i: layer/x86/concat_x86_avx512.cpp.i
-
-.PHONY : layer/x86/concat_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/concat_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx512.cpp.i
-.PHONY : layer/x86/concat_x86_avx512.cpp.i
-
-layer/x86/concat_x86_avx512.s: layer/x86/concat_x86_avx512.cpp.s
-
-.PHONY : layer/x86/concat_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/concat_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx512.cpp.s
-.PHONY : layer/x86/concat_x86_avx512.cpp.s
-
-layer/x86/concat_x86_fma.o: layer/x86/concat_x86_fma.cpp.o
-
-.PHONY : layer/x86/concat_x86_fma.o
-
-# target to build an object file
-layer/x86/concat_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_fma.cpp.o
-.PHONY : layer/x86/concat_x86_fma.cpp.o
-
-layer/x86/concat_x86_fma.i: layer/x86/concat_x86_fma.cpp.i
-
-.PHONY : layer/x86/concat_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/concat_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_fma.cpp.i
-.PHONY : layer/x86/concat_x86_fma.cpp.i
-
-layer/x86/concat_x86_fma.s: layer/x86/concat_x86_fma.cpp.s
-
-.PHONY : layer/x86/concat_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/concat_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_fma.cpp.s
-.PHONY : layer/x86/concat_x86_fma.cpp.s
-
-layer/x86/convolution1d_x86.o: layer/x86/convolution1d_x86.cpp.o
-
-.PHONY : layer/x86/convolution1d_x86.o
-
-# target to build an object file
-layer/x86/convolution1d_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86.cpp.o
-.PHONY : layer/x86/convolution1d_x86.cpp.o
-
-layer/x86/convolution1d_x86.i: layer/x86/convolution1d_x86.cpp.i
-
-.PHONY : layer/x86/convolution1d_x86.i
-
-# target to preprocess a source file
-layer/x86/convolution1d_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86.cpp.i
-.PHONY : layer/x86/convolution1d_x86.cpp.i
-
-layer/x86/convolution1d_x86.s: layer/x86/convolution1d_x86.cpp.s
-
-.PHONY : layer/x86/convolution1d_x86.s
-
-# target to generate assembly for a file
-layer/x86/convolution1d_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86.cpp.s
-.PHONY : layer/x86/convolution1d_x86.cpp.s
-
-layer/x86/convolution1d_x86_avx.o: layer/x86/convolution1d_x86_avx.cpp.o
-
-.PHONY : layer/x86/convolution1d_x86_avx.o
-
-# target to build an object file
-layer/x86/convolution1d_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx.cpp.o
-.PHONY : layer/x86/convolution1d_x86_avx.cpp.o
-
-layer/x86/convolution1d_x86_avx.i: layer/x86/convolution1d_x86_avx.cpp.i
-
-.PHONY : layer/x86/convolution1d_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/convolution1d_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx.cpp.i
-.PHONY : layer/x86/convolution1d_x86_avx.cpp.i
-
-layer/x86/convolution1d_x86_avx.s: layer/x86/convolution1d_x86_avx.cpp.s
-
-.PHONY : layer/x86/convolution1d_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/convolution1d_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx.cpp.s
-.PHONY : layer/x86/convolution1d_x86_avx.cpp.s
-
-layer/x86/convolution1d_x86_avx512.o: layer/x86/convolution1d_x86_avx512.cpp.o
-
-.PHONY : layer/x86/convolution1d_x86_avx512.o
-
-# target to build an object file
-layer/x86/convolution1d_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx512.cpp.o
-.PHONY : layer/x86/convolution1d_x86_avx512.cpp.o
-
-layer/x86/convolution1d_x86_avx512.i: layer/x86/convolution1d_x86_avx512.cpp.i
-
-.PHONY : layer/x86/convolution1d_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/convolution1d_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx512.cpp.i
-.PHONY : layer/x86/convolution1d_x86_avx512.cpp.i
-
-layer/x86/convolution1d_x86_avx512.s: layer/x86/convolution1d_x86_avx512.cpp.s
-
-.PHONY : layer/x86/convolution1d_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/convolution1d_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx512.cpp.s
-.PHONY : layer/x86/convolution1d_x86_avx512.cpp.s
-
-layer/x86/convolution1d_x86_fma.o: layer/x86/convolution1d_x86_fma.cpp.o
-
-.PHONY : layer/x86/convolution1d_x86_fma.o
-
-# target to build an object file
-layer/x86/convolution1d_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_fma.cpp.o
-.PHONY : layer/x86/convolution1d_x86_fma.cpp.o
-
-layer/x86/convolution1d_x86_fma.i: layer/x86/convolution1d_x86_fma.cpp.i
-
-.PHONY : layer/x86/convolution1d_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/convolution1d_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_fma.cpp.i
-.PHONY : layer/x86/convolution1d_x86_fma.cpp.i
-
-layer/x86/convolution1d_x86_fma.s: layer/x86/convolution1d_x86_fma.cpp.s
-
-.PHONY : layer/x86/convolution1d_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/convolution1d_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_fma.cpp.s
-.PHONY : layer/x86/convolution1d_x86_fma.cpp.s
-
-layer/x86/convolution_x86.o: layer/x86/convolution_x86.cpp.o
-
-.PHONY : layer/x86/convolution_x86.o
-
-# target to build an object file
-layer/x86/convolution_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o
-.PHONY : layer/x86/convolution_x86.cpp.o
-
-layer/x86/convolution_x86.i: layer/x86/convolution_x86.cpp.i
-
-.PHONY : layer/x86/convolution_x86.i
-
-# target to preprocess a source file
-layer/x86/convolution_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.i
-.PHONY : layer/x86/convolution_x86.cpp.i
-
-layer/x86/convolution_x86.s: layer/x86/convolution_x86.cpp.s
-
-.PHONY : layer/x86/convolution_x86.s
-
-# target to generate assembly for a file
-layer/x86/convolution_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.s
-.PHONY : layer/x86/convolution_x86.cpp.s
-
-layer/x86/convolution_x86_avx.o: layer/x86/convolution_x86_avx.cpp.o
-
-.PHONY : layer/x86/convolution_x86_avx.o
-
-# target to build an object file
-layer/x86/convolution_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx.cpp.o
-.PHONY : layer/x86/convolution_x86_avx.cpp.o
-
-layer/x86/convolution_x86_avx.i: layer/x86/convolution_x86_avx.cpp.i
-
-.PHONY : layer/x86/convolution_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/convolution_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx.cpp.i
-.PHONY : layer/x86/convolution_x86_avx.cpp.i
-
-layer/x86/convolution_x86_avx.s: layer/x86/convolution_x86_avx.cpp.s
-
-.PHONY : layer/x86/convolution_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/convolution_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx.cpp.s
-.PHONY : layer/x86/convolution_x86_avx.cpp.s
-
-layer/x86/convolution_x86_avx2.o: layer/x86/convolution_x86_avx2.cpp.o
-
-.PHONY : layer/x86/convolution_x86_avx2.o
-
-# target to build an object file
-layer/x86/convolution_x86_avx2.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx2.cpp.o
-.PHONY : layer/x86/convolution_x86_avx2.cpp.o
-
-layer/x86/convolution_x86_avx2.i: layer/x86/convolution_x86_avx2.cpp.i
-
-.PHONY : layer/x86/convolution_x86_avx2.i
-
-# target to preprocess a source file
-layer/x86/convolution_x86_avx2.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx2.cpp.i
-.PHONY : layer/x86/convolution_x86_avx2.cpp.i
-
-layer/x86/convolution_x86_avx2.s: layer/x86/convolution_x86_avx2.cpp.s
-
-.PHONY : layer/x86/convolution_x86_avx2.s
-
-# target to generate assembly for a file
-layer/x86/convolution_x86_avx2.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx2.cpp.s
-.PHONY : layer/x86/convolution_x86_avx2.cpp.s
-
-layer/x86/convolution_x86_avx512.o: layer/x86/convolution_x86_avx512.cpp.o
-
-.PHONY : layer/x86/convolution_x86_avx512.o
-
-# target to build an object file
-layer/x86/convolution_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx512.cpp.o
-.PHONY : layer/x86/convolution_x86_avx512.cpp.o
-
-layer/x86/convolution_x86_avx512.i: layer/x86/convolution_x86_avx512.cpp.i
-
-.PHONY : layer/x86/convolution_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/convolution_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx512.cpp.i
-.PHONY : layer/x86/convolution_x86_avx512.cpp.i
-
-layer/x86/convolution_x86_avx512.s: layer/x86/convolution_x86_avx512.cpp.s
-
-.PHONY : layer/x86/convolution_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/convolution_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx512.cpp.s
-.PHONY : layer/x86/convolution_x86_avx512.cpp.s
-
-layer/x86/convolution_x86_fma.o: layer/x86/convolution_x86_fma.cpp.o
-
-.PHONY : layer/x86/convolution_x86_fma.o
-
-# target to build an object file
-layer/x86/convolution_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_fma.cpp.o
-.PHONY : layer/x86/convolution_x86_fma.cpp.o
-
-layer/x86/convolution_x86_fma.i: layer/x86/convolution_x86_fma.cpp.i
-
-.PHONY : layer/x86/convolution_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/convolution_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_fma.cpp.i
-.PHONY : layer/x86/convolution_x86_fma.cpp.i
-
-layer/x86/convolution_x86_fma.s: layer/x86/convolution_x86_fma.cpp.s
-
-.PHONY : layer/x86/convolution_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/convolution_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_fma.cpp.s
-.PHONY : layer/x86/convolution_x86_fma.cpp.s
-
-layer/x86/convolution_x86_xop.o: layer/x86/convolution_x86_xop.cpp.o
-
-.PHONY : layer/x86/convolution_x86_xop.o
-
-# target to build an object file
-layer/x86/convolution_x86_xop.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_xop.cpp.o
-.PHONY : layer/x86/convolution_x86_xop.cpp.o
-
-layer/x86/convolution_x86_xop.i: layer/x86/convolution_x86_xop.cpp.i
-
-.PHONY : layer/x86/convolution_x86_xop.i
-
-# target to preprocess a source file
-layer/x86/convolution_x86_xop.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_xop.cpp.i
-.PHONY : layer/x86/convolution_x86_xop.cpp.i
-
-layer/x86/convolution_x86_xop.s: layer/x86/convolution_x86_xop.cpp.s
-
-.PHONY : layer/x86/convolution_x86_xop.s
-
-# target to generate assembly for a file
-layer/x86/convolution_x86_xop.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_xop.cpp.s
-.PHONY : layer/x86/convolution_x86_xop.cpp.s
-
-layer/x86/convolutiondepthwise_x86.o: layer/x86/convolutiondepthwise_x86.cpp.o
-
-.PHONY : layer/x86/convolutiondepthwise_x86.o
-
-# target to build an object file
-layer/x86/convolutiondepthwise_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o
-.PHONY : layer/x86/convolutiondepthwise_x86.cpp.o
-
-layer/x86/convolutiondepthwise_x86.i: layer/x86/convolutiondepthwise_x86.cpp.i
-
-.PHONY : layer/x86/convolutiondepthwise_x86.i
-
-# target to preprocess a source file
-layer/x86/convolutiondepthwise_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.i
-.PHONY : layer/x86/convolutiondepthwise_x86.cpp.i
-
-layer/x86/convolutiondepthwise_x86.s: layer/x86/convolutiondepthwise_x86.cpp.s
-
-.PHONY : layer/x86/convolutiondepthwise_x86.s
-
-# target to generate assembly for a file
-layer/x86/convolutiondepthwise_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.s
-.PHONY : layer/x86/convolutiondepthwise_x86.cpp.s
-
-layer/x86/convolutiondepthwise_x86_avx.o: layer/x86/convolutiondepthwise_x86_avx.cpp.o
-
-.PHONY : layer/x86/convolutiondepthwise_x86_avx.o
-
-# target to build an object file
-layer/x86/convolutiondepthwise_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx.cpp.o
-.PHONY : layer/x86/convolutiondepthwise_x86_avx.cpp.o
-
-layer/x86/convolutiondepthwise_x86_avx.i: layer/x86/convolutiondepthwise_x86_avx.cpp.i
-
-.PHONY : layer/x86/convolutiondepthwise_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/convolutiondepthwise_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx.cpp.i
-.PHONY : layer/x86/convolutiondepthwise_x86_avx.cpp.i
-
-layer/x86/convolutiondepthwise_x86_avx.s: layer/x86/convolutiondepthwise_x86_avx.cpp.s
-
-.PHONY : layer/x86/convolutiondepthwise_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/convolutiondepthwise_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx.cpp.s
-.PHONY : layer/x86/convolutiondepthwise_x86_avx.cpp.s
-
-layer/x86/convolutiondepthwise_x86_avx512.o: layer/x86/convolutiondepthwise_x86_avx512.cpp.o
-
-.PHONY : layer/x86/convolutiondepthwise_x86_avx512.o
-
-# target to build an object file
-layer/x86/convolutiondepthwise_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx512.cpp.o
-.PHONY : layer/x86/convolutiondepthwise_x86_avx512.cpp.o
-
-layer/x86/convolutiondepthwise_x86_avx512.i: layer/x86/convolutiondepthwise_x86_avx512.cpp.i
-
-.PHONY : layer/x86/convolutiondepthwise_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/convolutiondepthwise_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx512.cpp.i
-.PHONY : layer/x86/convolutiondepthwise_x86_avx512.cpp.i
-
-layer/x86/convolutiondepthwise_x86_avx512.s: layer/x86/convolutiondepthwise_x86_avx512.cpp.s
-
-.PHONY : layer/x86/convolutiondepthwise_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/convolutiondepthwise_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx512.cpp.s
-.PHONY : layer/x86/convolutiondepthwise_x86_avx512.cpp.s
-
-layer/x86/convolutiondepthwise_x86_fma.o: layer/x86/convolutiondepthwise_x86_fma.cpp.o
-
-.PHONY : layer/x86/convolutiondepthwise_x86_fma.o
-
-# target to build an object file
-layer/x86/convolutiondepthwise_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_fma.cpp.o
-.PHONY : layer/x86/convolutiondepthwise_x86_fma.cpp.o
-
-layer/x86/convolutiondepthwise_x86_fma.i: layer/x86/convolutiondepthwise_x86_fma.cpp.i
-
-.PHONY : layer/x86/convolutiondepthwise_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/convolutiondepthwise_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_fma.cpp.i
-.PHONY : layer/x86/convolutiondepthwise_x86_fma.cpp.i
-
-layer/x86/convolutiondepthwise_x86_fma.s: layer/x86/convolutiondepthwise_x86_fma.cpp.s
-
-.PHONY : layer/x86/convolutiondepthwise_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/convolutiondepthwise_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_fma.cpp.s
-.PHONY : layer/x86/convolutiondepthwise_x86_fma.cpp.s
-
-layer/x86/crop_x86.o: layer/x86/crop_x86.cpp.o
-
-.PHONY : layer/x86/crop_x86.o
-
-# target to build an object file
-layer/x86/crop_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86.cpp.o
-.PHONY : layer/x86/crop_x86.cpp.o
-
-layer/x86/crop_x86.i: layer/x86/crop_x86.cpp.i
-
-.PHONY : layer/x86/crop_x86.i
-
-# target to preprocess a source file
-layer/x86/crop_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86.cpp.i
-.PHONY : layer/x86/crop_x86.cpp.i
-
-layer/x86/crop_x86.s: layer/x86/crop_x86.cpp.s
-
-.PHONY : layer/x86/crop_x86.s
-
-# target to generate assembly for a file
-layer/x86/crop_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86.cpp.s
-.PHONY : layer/x86/crop_x86.cpp.s
-
-layer/x86/crop_x86_avx.o: layer/x86/crop_x86_avx.cpp.o
-
-.PHONY : layer/x86/crop_x86_avx.o
-
-# target to build an object file
-layer/x86/crop_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx.cpp.o
-.PHONY : layer/x86/crop_x86_avx.cpp.o
-
-layer/x86/crop_x86_avx.i: layer/x86/crop_x86_avx.cpp.i
-
-.PHONY : layer/x86/crop_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/crop_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx.cpp.i
-.PHONY : layer/x86/crop_x86_avx.cpp.i
-
-layer/x86/crop_x86_avx.s: layer/x86/crop_x86_avx.cpp.s
-
-.PHONY : layer/x86/crop_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/crop_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx.cpp.s
-.PHONY : layer/x86/crop_x86_avx.cpp.s
-
-layer/x86/crop_x86_avx512.o: layer/x86/crop_x86_avx512.cpp.o
-
-.PHONY : layer/x86/crop_x86_avx512.o
-
-# target to build an object file
-layer/x86/crop_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx512.cpp.o
-.PHONY : layer/x86/crop_x86_avx512.cpp.o
-
-layer/x86/crop_x86_avx512.i: layer/x86/crop_x86_avx512.cpp.i
-
-.PHONY : layer/x86/crop_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/crop_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx512.cpp.i
-.PHONY : layer/x86/crop_x86_avx512.cpp.i
-
-layer/x86/crop_x86_avx512.s: layer/x86/crop_x86_avx512.cpp.s
-
-.PHONY : layer/x86/crop_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/crop_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx512.cpp.s
-.PHONY : layer/x86/crop_x86_avx512.cpp.s
-
-layer/x86/crop_x86_fma.o: layer/x86/crop_x86_fma.cpp.o
-
-.PHONY : layer/x86/crop_x86_fma.o
-
-# target to build an object file
-layer/x86/crop_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_fma.cpp.o
-.PHONY : layer/x86/crop_x86_fma.cpp.o
-
-layer/x86/crop_x86_fma.i: layer/x86/crop_x86_fma.cpp.i
-
-.PHONY : layer/x86/crop_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/crop_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_fma.cpp.i
-.PHONY : layer/x86/crop_x86_fma.cpp.i
-
-layer/x86/crop_x86_fma.s: layer/x86/crop_x86_fma.cpp.s
-
-.PHONY : layer/x86/crop_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/crop_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_fma.cpp.s
-.PHONY : layer/x86/crop_x86_fma.cpp.s
-
-layer/x86/deconvolution_x86.o: layer/x86/deconvolution_x86.cpp.o
-
-.PHONY : layer/x86/deconvolution_x86.o
-
-# target to build an object file
-layer/x86/deconvolution_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86.cpp.o
-.PHONY : layer/x86/deconvolution_x86.cpp.o
-
-layer/x86/deconvolution_x86.i: layer/x86/deconvolution_x86.cpp.i
-
-.PHONY : layer/x86/deconvolution_x86.i
-
-# target to preprocess a source file
-layer/x86/deconvolution_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86.cpp.i
-.PHONY : layer/x86/deconvolution_x86.cpp.i
-
-layer/x86/deconvolution_x86.s: layer/x86/deconvolution_x86.cpp.s
-
-.PHONY : layer/x86/deconvolution_x86.s
-
-# target to generate assembly for a file
-layer/x86/deconvolution_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86.cpp.s
-.PHONY : layer/x86/deconvolution_x86.cpp.s
-
-layer/x86/deconvolution_x86_avx.o: layer/x86/deconvolution_x86_avx.cpp.o
-
-.PHONY : layer/x86/deconvolution_x86_avx.o
-
-# target to build an object file
-layer/x86/deconvolution_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx.cpp.o
-.PHONY : layer/x86/deconvolution_x86_avx.cpp.o
-
-layer/x86/deconvolution_x86_avx.i: layer/x86/deconvolution_x86_avx.cpp.i
-
-.PHONY : layer/x86/deconvolution_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/deconvolution_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx.cpp.i
-.PHONY : layer/x86/deconvolution_x86_avx.cpp.i
-
-layer/x86/deconvolution_x86_avx.s: layer/x86/deconvolution_x86_avx.cpp.s
-
-.PHONY : layer/x86/deconvolution_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/deconvolution_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx.cpp.s
-.PHONY : layer/x86/deconvolution_x86_avx.cpp.s
-
-layer/x86/deconvolution_x86_avx512.o: layer/x86/deconvolution_x86_avx512.cpp.o
-
-.PHONY : layer/x86/deconvolution_x86_avx512.o
-
-# target to build an object file
-layer/x86/deconvolution_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx512.cpp.o
-.PHONY : layer/x86/deconvolution_x86_avx512.cpp.o
-
-layer/x86/deconvolution_x86_avx512.i: layer/x86/deconvolution_x86_avx512.cpp.i
-
-.PHONY : layer/x86/deconvolution_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/deconvolution_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx512.cpp.i
-.PHONY : layer/x86/deconvolution_x86_avx512.cpp.i
-
-layer/x86/deconvolution_x86_avx512.s: layer/x86/deconvolution_x86_avx512.cpp.s
-
-.PHONY : layer/x86/deconvolution_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/deconvolution_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx512.cpp.s
-.PHONY : layer/x86/deconvolution_x86_avx512.cpp.s
-
-layer/x86/deconvolution_x86_fma.o: layer/x86/deconvolution_x86_fma.cpp.o
-
-.PHONY : layer/x86/deconvolution_x86_fma.o
-
-# target to build an object file
-layer/x86/deconvolution_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_fma.cpp.o
-.PHONY : layer/x86/deconvolution_x86_fma.cpp.o
-
-layer/x86/deconvolution_x86_fma.i: layer/x86/deconvolution_x86_fma.cpp.i
-
-.PHONY : layer/x86/deconvolution_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/deconvolution_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_fma.cpp.i
-.PHONY : layer/x86/deconvolution_x86_fma.cpp.i
-
-layer/x86/deconvolution_x86_fma.s: layer/x86/deconvolution_x86_fma.cpp.s
-
-.PHONY : layer/x86/deconvolution_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/deconvolution_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_fma.cpp.s
-.PHONY : layer/x86/deconvolution_x86_fma.cpp.s
-
-layer/x86/deconvolutiondepthwise_x86.o: layer/x86/deconvolutiondepthwise_x86.cpp.o
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86.o
-
-# target to build an object file
-layer/x86/deconvolutiondepthwise_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86.cpp.o
-.PHONY : layer/x86/deconvolutiondepthwise_x86.cpp.o
-
-layer/x86/deconvolutiondepthwise_x86.i: layer/x86/deconvolutiondepthwise_x86.cpp.i
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86.i
-
-# target to preprocess a source file
-layer/x86/deconvolutiondepthwise_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86.cpp.i
-.PHONY : layer/x86/deconvolutiondepthwise_x86.cpp.i
-
-layer/x86/deconvolutiondepthwise_x86.s: layer/x86/deconvolutiondepthwise_x86.cpp.s
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86.s
-
-# target to generate assembly for a file
-layer/x86/deconvolutiondepthwise_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86.cpp.s
-.PHONY : layer/x86/deconvolutiondepthwise_x86.cpp.s
-
-layer/x86/deconvolutiondepthwise_x86_avx.o: layer/x86/deconvolutiondepthwise_x86_avx.cpp.o
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx.o
-
-# target to build an object file
-layer/x86/deconvolutiondepthwise_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx.cpp.o
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx.cpp.o
-
-layer/x86/deconvolutiondepthwise_x86_avx.i: layer/x86/deconvolutiondepthwise_x86_avx.cpp.i
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/deconvolutiondepthwise_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx.cpp.i
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx.cpp.i
-
-layer/x86/deconvolutiondepthwise_x86_avx.s: layer/x86/deconvolutiondepthwise_x86_avx.cpp.s
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/deconvolutiondepthwise_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx.cpp.s
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx.cpp.s
-
-layer/x86/deconvolutiondepthwise_x86_avx512.o: layer/x86/deconvolutiondepthwise_x86_avx512.cpp.o
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx512.o
-
-# target to build an object file
-layer/x86/deconvolutiondepthwise_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx512.cpp.o
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx512.cpp.o
-
-layer/x86/deconvolutiondepthwise_x86_avx512.i: layer/x86/deconvolutiondepthwise_x86_avx512.cpp.i
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/deconvolutiondepthwise_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx512.cpp.i
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx512.cpp.i
-
-layer/x86/deconvolutiondepthwise_x86_avx512.s: layer/x86/deconvolutiondepthwise_x86_avx512.cpp.s
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/deconvolutiondepthwise_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx512.cpp.s
-.PHONY : layer/x86/deconvolutiondepthwise_x86_avx512.cpp.s
-
-layer/x86/deconvolutiondepthwise_x86_fma.o: layer/x86/deconvolutiondepthwise_x86_fma.cpp.o
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86_fma.o
-
-# target to build an object file
-layer/x86/deconvolutiondepthwise_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_fma.cpp.o
-.PHONY : layer/x86/deconvolutiondepthwise_x86_fma.cpp.o
-
-layer/x86/deconvolutiondepthwise_x86_fma.i: layer/x86/deconvolutiondepthwise_x86_fma.cpp.i
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/deconvolutiondepthwise_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_fma.cpp.i
-.PHONY : layer/x86/deconvolutiondepthwise_x86_fma.cpp.i
-
-layer/x86/deconvolutiondepthwise_x86_fma.s: layer/x86/deconvolutiondepthwise_x86_fma.cpp.s
-
-.PHONY : layer/x86/deconvolutiondepthwise_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/deconvolutiondepthwise_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_fma.cpp.s
-.PHONY : layer/x86/deconvolutiondepthwise_x86_fma.cpp.s
-
-layer/x86/deformableconv2d_x86.o: layer/x86/deformableconv2d_x86.cpp.o
-
-.PHONY : layer/x86/deformableconv2d_x86.o
-
-# target to build an object file
-layer/x86/deformableconv2d_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86.cpp.o
-.PHONY : layer/x86/deformableconv2d_x86.cpp.o
-
-layer/x86/deformableconv2d_x86.i: layer/x86/deformableconv2d_x86.cpp.i
-
-.PHONY : layer/x86/deformableconv2d_x86.i
-
-# target to preprocess a source file
-layer/x86/deformableconv2d_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86.cpp.i
-.PHONY : layer/x86/deformableconv2d_x86.cpp.i
-
-layer/x86/deformableconv2d_x86.s: layer/x86/deformableconv2d_x86.cpp.s
-
-.PHONY : layer/x86/deformableconv2d_x86.s
-
-# target to generate assembly for a file
-layer/x86/deformableconv2d_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86.cpp.s
-.PHONY : layer/x86/deformableconv2d_x86.cpp.s
-
-layer/x86/deformableconv2d_x86_avx.o: layer/x86/deformableconv2d_x86_avx.cpp.o
-
-.PHONY : layer/x86/deformableconv2d_x86_avx.o
-
-# target to build an object file
-layer/x86/deformableconv2d_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_avx.cpp.o
-.PHONY : layer/x86/deformableconv2d_x86_avx.cpp.o
-
-layer/x86/deformableconv2d_x86_avx.i: layer/x86/deformableconv2d_x86_avx.cpp.i
-
-.PHONY : layer/x86/deformableconv2d_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/deformableconv2d_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_avx.cpp.i
-.PHONY : layer/x86/deformableconv2d_x86_avx.cpp.i
-
-layer/x86/deformableconv2d_x86_avx.s: layer/x86/deformableconv2d_x86_avx.cpp.s
-
-.PHONY : layer/x86/deformableconv2d_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/deformableconv2d_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_avx.cpp.s
-.PHONY : layer/x86/deformableconv2d_x86_avx.cpp.s
-
-layer/x86/deformableconv2d_x86_avx512.o: layer/x86/deformableconv2d_x86_avx512.cpp.o
-
-.PHONY : layer/x86/deformableconv2d_x86_avx512.o
-
-# target to build an object file
-layer/x86/deformableconv2d_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_avx512.cpp.o
-.PHONY : layer/x86/deformableconv2d_x86_avx512.cpp.o
-
-layer/x86/deformableconv2d_x86_avx512.i: layer/x86/deformableconv2d_x86_avx512.cpp.i
-
-.PHONY : layer/x86/deformableconv2d_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/deformableconv2d_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_avx512.cpp.i
-.PHONY : layer/x86/deformableconv2d_x86_avx512.cpp.i
-
-layer/x86/deformableconv2d_x86_avx512.s: layer/x86/deformableconv2d_x86_avx512.cpp.s
-
-.PHONY : layer/x86/deformableconv2d_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/deformableconv2d_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_avx512.cpp.s
-.PHONY : layer/x86/deformableconv2d_x86_avx512.cpp.s
-
-layer/x86/deformableconv2d_x86_fma.o: layer/x86/deformableconv2d_x86_fma.cpp.o
-
-.PHONY : layer/x86/deformableconv2d_x86_fma.o
-
-# target to build an object file
-layer/x86/deformableconv2d_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_fma.cpp.o
-.PHONY : layer/x86/deformableconv2d_x86_fma.cpp.o
-
-layer/x86/deformableconv2d_x86_fma.i: layer/x86/deformableconv2d_x86_fma.cpp.i
-
-.PHONY : layer/x86/deformableconv2d_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/deformableconv2d_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_fma.cpp.i
-.PHONY : layer/x86/deformableconv2d_x86_fma.cpp.i
-
-layer/x86/deformableconv2d_x86_fma.s: layer/x86/deformableconv2d_x86_fma.cpp.s
-
-.PHONY : layer/x86/deformableconv2d_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/deformableconv2d_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86_fma.cpp.s
-.PHONY : layer/x86/deformableconv2d_x86_fma.cpp.s
-
-layer/x86/dequantize_x86.o: layer/x86/dequantize_x86.cpp.o
-
-.PHONY : layer/x86/dequantize_x86.o
-
-# target to build an object file
-layer/x86/dequantize_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86.cpp.o
-.PHONY : layer/x86/dequantize_x86.cpp.o
-
-layer/x86/dequantize_x86.i: layer/x86/dequantize_x86.cpp.i
-
-.PHONY : layer/x86/dequantize_x86.i
-
-# target to preprocess a source file
-layer/x86/dequantize_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86.cpp.i
-.PHONY : layer/x86/dequantize_x86.cpp.i
-
-layer/x86/dequantize_x86.s: layer/x86/dequantize_x86.cpp.s
-
-.PHONY : layer/x86/dequantize_x86.s
-
-# target to generate assembly for a file
-layer/x86/dequantize_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86.cpp.s
-.PHONY : layer/x86/dequantize_x86.cpp.s
-
-layer/x86/dequantize_x86_avx.o: layer/x86/dequantize_x86_avx.cpp.o
-
-.PHONY : layer/x86/dequantize_x86_avx.o
-
-# target to build an object file
-layer/x86/dequantize_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx.cpp.o
-.PHONY : layer/x86/dequantize_x86_avx.cpp.o
-
-layer/x86/dequantize_x86_avx.i: layer/x86/dequantize_x86_avx.cpp.i
-
-.PHONY : layer/x86/dequantize_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/dequantize_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx.cpp.i
-.PHONY : layer/x86/dequantize_x86_avx.cpp.i
-
-layer/x86/dequantize_x86_avx.s: layer/x86/dequantize_x86_avx.cpp.s
-
-.PHONY : layer/x86/dequantize_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/dequantize_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx.cpp.s
-.PHONY : layer/x86/dequantize_x86_avx.cpp.s
-
-layer/x86/dequantize_x86_avx512.o: layer/x86/dequantize_x86_avx512.cpp.o
-
-.PHONY : layer/x86/dequantize_x86_avx512.o
-
-# target to build an object file
-layer/x86/dequantize_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx512.cpp.o
-.PHONY : layer/x86/dequantize_x86_avx512.cpp.o
-
-layer/x86/dequantize_x86_avx512.i: layer/x86/dequantize_x86_avx512.cpp.i
-
-.PHONY : layer/x86/dequantize_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/dequantize_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx512.cpp.i
-.PHONY : layer/x86/dequantize_x86_avx512.cpp.i
-
-layer/x86/dequantize_x86_avx512.s: layer/x86/dequantize_x86_avx512.cpp.s
-
-.PHONY : layer/x86/dequantize_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/dequantize_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx512.cpp.s
-.PHONY : layer/x86/dequantize_x86_avx512.cpp.s
-
-layer/x86/dequantize_x86_fma.o: layer/x86/dequantize_x86_fma.cpp.o
-
-.PHONY : layer/x86/dequantize_x86_fma.o
-
-# target to build an object file
-layer/x86/dequantize_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_fma.cpp.o
-.PHONY : layer/x86/dequantize_x86_fma.cpp.o
-
-layer/x86/dequantize_x86_fma.i: layer/x86/dequantize_x86_fma.cpp.i
-
-.PHONY : layer/x86/dequantize_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/dequantize_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_fma.cpp.i
-.PHONY : layer/x86/dequantize_x86_fma.cpp.i
-
-layer/x86/dequantize_x86_fma.s: layer/x86/dequantize_x86_fma.cpp.s
-
-.PHONY : layer/x86/dequantize_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/dequantize_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_fma.cpp.s
-.PHONY : layer/x86/dequantize_x86_fma.cpp.s
-
-layer/x86/dropout_x86.o: layer/x86/dropout_x86.cpp.o
-
-.PHONY : layer/x86/dropout_x86.o
-
-# target to build an object file
-layer/x86/dropout_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86.cpp.o
-.PHONY : layer/x86/dropout_x86.cpp.o
-
-layer/x86/dropout_x86.i: layer/x86/dropout_x86.cpp.i
-
-.PHONY : layer/x86/dropout_x86.i
-
-# target to preprocess a source file
-layer/x86/dropout_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86.cpp.i
-.PHONY : layer/x86/dropout_x86.cpp.i
-
-layer/x86/dropout_x86.s: layer/x86/dropout_x86.cpp.s
-
-.PHONY : layer/x86/dropout_x86.s
-
-# target to generate assembly for a file
-layer/x86/dropout_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86.cpp.s
-.PHONY : layer/x86/dropout_x86.cpp.s
-
-layer/x86/dropout_x86_avx.o: layer/x86/dropout_x86_avx.cpp.o
-
-.PHONY : layer/x86/dropout_x86_avx.o
-
-# target to build an object file
-layer/x86/dropout_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx.cpp.o
-.PHONY : layer/x86/dropout_x86_avx.cpp.o
-
-layer/x86/dropout_x86_avx.i: layer/x86/dropout_x86_avx.cpp.i
-
-.PHONY : layer/x86/dropout_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/dropout_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx.cpp.i
-.PHONY : layer/x86/dropout_x86_avx.cpp.i
-
-layer/x86/dropout_x86_avx.s: layer/x86/dropout_x86_avx.cpp.s
-
-.PHONY : layer/x86/dropout_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/dropout_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx.cpp.s
-.PHONY : layer/x86/dropout_x86_avx.cpp.s
-
-layer/x86/dropout_x86_avx512.o: layer/x86/dropout_x86_avx512.cpp.o
-
-.PHONY : layer/x86/dropout_x86_avx512.o
-
-# target to build an object file
-layer/x86/dropout_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx512.cpp.o
-.PHONY : layer/x86/dropout_x86_avx512.cpp.o
-
-layer/x86/dropout_x86_avx512.i: layer/x86/dropout_x86_avx512.cpp.i
-
-.PHONY : layer/x86/dropout_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/dropout_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx512.cpp.i
-.PHONY : layer/x86/dropout_x86_avx512.cpp.i
-
-layer/x86/dropout_x86_avx512.s: layer/x86/dropout_x86_avx512.cpp.s
-
-.PHONY : layer/x86/dropout_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/dropout_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx512.cpp.s
-.PHONY : layer/x86/dropout_x86_avx512.cpp.s
-
-layer/x86/dropout_x86_fma.o: layer/x86/dropout_x86_fma.cpp.o
-
-.PHONY : layer/x86/dropout_x86_fma.o
-
-# target to build an object file
-layer/x86/dropout_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_fma.cpp.o
-.PHONY : layer/x86/dropout_x86_fma.cpp.o
-
-layer/x86/dropout_x86_fma.i: layer/x86/dropout_x86_fma.cpp.i
-
-.PHONY : layer/x86/dropout_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/dropout_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_fma.cpp.i
-.PHONY : layer/x86/dropout_x86_fma.cpp.i
-
-layer/x86/dropout_x86_fma.s: layer/x86/dropout_x86_fma.cpp.s
-
-.PHONY : layer/x86/dropout_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/dropout_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_fma.cpp.s
-.PHONY : layer/x86/dropout_x86_fma.cpp.s
-
-layer/x86/eltwise_x86.o: layer/x86/eltwise_x86.cpp.o
-
-.PHONY : layer/x86/eltwise_x86.o
-
-# target to build an object file
-layer/x86/eltwise_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86.cpp.o
-.PHONY : layer/x86/eltwise_x86.cpp.o
-
-layer/x86/eltwise_x86.i: layer/x86/eltwise_x86.cpp.i
-
-.PHONY : layer/x86/eltwise_x86.i
-
-# target to preprocess a source file
-layer/x86/eltwise_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86.cpp.i
-.PHONY : layer/x86/eltwise_x86.cpp.i
-
-layer/x86/eltwise_x86.s: layer/x86/eltwise_x86.cpp.s
-
-.PHONY : layer/x86/eltwise_x86.s
-
-# target to generate assembly for a file
-layer/x86/eltwise_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86.cpp.s
-.PHONY : layer/x86/eltwise_x86.cpp.s
-
-layer/x86/eltwise_x86_avx.o: layer/x86/eltwise_x86_avx.cpp.o
-
-.PHONY : layer/x86/eltwise_x86_avx.o
-
-# target to build an object file
-layer/x86/eltwise_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx.cpp.o
-.PHONY : layer/x86/eltwise_x86_avx.cpp.o
-
-layer/x86/eltwise_x86_avx.i: layer/x86/eltwise_x86_avx.cpp.i
-
-.PHONY : layer/x86/eltwise_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/eltwise_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx.cpp.i
-.PHONY : layer/x86/eltwise_x86_avx.cpp.i
-
-layer/x86/eltwise_x86_avx.s: layer/x86/eltwise_x86_avx.cpp.s
-
-.PHONY : layer/x86/eltwise_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/eltwise_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx.cpp.s
-.PHONY : layer/x86/eltwise_x86_avx.cpp.s
-
-layer/x86/eltwise_x86_avx512.o: layer/x86/eltwise_x86_avx512.cpp.o
-
-.PHONY : layer/x86/eltwise_x86_avx512.o
-
-# target to build an object file
-layer/x86/eltwise_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx512.cpp.o
-.PHONY : layer/x86/eltwise_x86_avx512.cpp.o
-
-layer/x86/eltwise_x86_avx512.i: layer/x86/eltwise_x86_avx512.cpp.i
-
-.PHONY : layer/x86/eltwise_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/eltwise_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx512.cpp.i
-.PHONY : layer/x86/eltwise_x86_avx512.cpp.i
-
-layer/x86/eltwise_x86_avx512.s: layer/x86/eltwise_x86_avx512.cpp.s
-
-.PHONY : layer/x86/eltwise_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/eltwise_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx512.cpp.s
-.PHONY : layer/x86/eltwise_x86_avx512.cpp.s
-
-layer/x86/eltwise_x86_fma.o: layer/x86/eltwise_x86_fma.cpp.o
-
-.PHONY : layer/x86/eltwise_x86_fma.o
-
-# target to build an object file
-layer/x86/eltwise_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_fma.cpp.o
-.PHONY : layer/x86/eltwise_x86_fma.cpp.o
-
-layer/x86/eltwise_x86_fma.i: layer/x86/eltwise_x86_fma.cpp.i
-
-.PHONY : layer/x86/eltwise_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/eltwise_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_fma.cpp.i
-.PHONY : layer/x86/eltwise_x86_fma.cpp.i
-
-layer/x86/eltwise_x86_fma.s: layer/x86/eltwise_x86_fma.cpp.s
-
-.PHONY : layer/x86/eltwise_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/eltwise_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_fma.cpp.s
-.PHONY : layer/x86/eltwise_x86_fma.cpp.s
-
-layer/x86/elu_x86.o: layer/x86/elu_x86.cpp.o
-
-.PHONY : layer/x86/elu_x86.o
-
-# target to build an object file
-layer/x86/elu_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86.cpp.o
-.PHONY : layer/x86/elu_x86.cpp.o
-
-layer/x86/elu_x86.i: layer/x86/elu_x86.cpp.i
-
-.PHONY : layer/x86/elu_x86.i
-
-# target to preprocess a source file
-layer/x86/elu_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86.cpp.i
-.PHONY : layer/x86/elu_x86.cpp.i
-
-layer/x86/elu_x86.s: layer/x86/elu_x86.cpp.s
-
-.PHONY : layer/x86/elu_x86.s
-
-# target to generate assembly for a file
-layer/x86/elu_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86.cpp.s
-.PHONY : layer/x86/elu_x86.cpp.s
-
-layer/x86/elu_x86_avx.o: layer/x86/elu_x86_avx.cpp.o
-
-.PHONY : layer/x86/elu_x86_avx.o
-
-# target to build an object file
-layer/x86/elu_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx.cpp.o
-.PHONY : layer/x86/elu_x86_avx.cpp.o
-
-layer/x86/elu_x86_avx.i: layer/x86/elu_x86_avx.cpp.i
-
-.PHONY : layer/x86/elu_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/elu_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx.cpp.i
-.PHONY : layer/x86/elu_x86_avx.cpp.i
-
-layer/x86/elu_x86_avx.s: layer/x86/elu_x86_avx.cpp.s
-
-.PHONY : layer/x86/elu_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/elu_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx.cpp.s
-.PHONY : layer/x86/elu_x86_avx.cpp.s
-
-layer/x86/elu_x86_avx512.o: layer/x86/elu_x86_avx512.cpp.o
-
-.PHONY : layer/x86/elu_x86_avx512.o
-
-# target to build an object file
-layer/x86/elu_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx512.cpp.o
-.PHONY : layer/x86/elu_x86_avx512.cpp.o
-
-layer/x86/elu_x86_avx512.i: layer/x86/elu_x86_avx512.cpp.i
-
-.PHONY : layer/x86/elu_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/elu_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx512.cpp.i
-.PHONY : layer/x86/elu_x86_avx512.cpp.i
-
-layer/x86/elu_x86_avx512.s: layer/x86/elu_x86_avx512.cpp.s
-
-.PHONY : layer/x86/elu_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/elu_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_avx512.cpp.s
-.PHONY : layer/x86/elu_x86_avx512.cpp.s
-
-layer/x86/elu_x86_fma.o: layer/x86/elu_x86_fma.cpp.o
-
-.PHONY : layer/x86/elu_x86_fma.o
-
-# target to build an object file
-layer/x86/elu_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_fma.cpp.o
-.PHONY : layer/x86/elu_x86_fma.cpp.o
-
-layer/x86/elu_x86_fma.i: layer/x86/elu_x86_fma.cpp.i
-
-.PHONY : layer/x86/elu_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/elu_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_fma.cpp.i
-.PHONY : layer/x86/elu_x86_fma.cpp.i
-
-layer/x86/elu_x86_fma.s: layer/x86/elu_x86_fma.cpp.s
-
-.PHONY : layer/x86/elu_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/elu_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/elu_x86_fma.cpp.s
-.PHONY : layer/x86/elu_x86_fma.cpp.s
-
-layer/x86/flatten_x86.o: layer/x86/flatten_x86.cpp.o
-
-.PHONY : layer/x86/flatten_x86.o
-
-# target to build an object file
-layer/x86/flatten_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86.cpp.o
-.PHONY : layer/x86/flatten_x86.cpp.o
-
-layer/x86/flatten_x86.i: layer/x86/flatten_x86.cpp.i
-
-.PHONY : layer/x86/flatten_x86.i
-
-# target to preprocess a source file
-layer/x86/flatten_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86.cpp.i
-.PHONY : layer/x86/flatten_x86.cpp.i
-
-layer/x86/flatten_x86.s: layer/x86/flatten_x86.cpp.s
-
-.PHONY : layer/x86/flatten_x86.s
-
-# target to generate assembly for a file
-layer/x86/flatten_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86.cpp.s
-.PHONY : layer/x86/flatten_x86.cpp.s
-
-layer/x86/flatten_x86_avx.o: layer/x86/flatten_x86_avx.cpp.o
-
-.PHONY : layer/x86/flatten_x86_avx.o
-
-# target to build an object file
-layer/x86/flatten_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx.cpp.o
-.PHONY : layer/x86/flatten_x86_avx.cpp.o
-
-layer/x86/flatten_x86_avx.i: layer/x86/flatten_x86_avx.cpp.i
-
-.PHONY : layer/x86/flatten_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/flatten_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx.cpp.i
-.PHONY : layer/x86/flatten_x86_avx.cpp.i
-
-layer/x86/flatten_x86_avx.s: layer/x86/flatten_x86_avx.cpp.s
-
-.PHONY : layer/x86/flatten_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/flatten_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx.cpp.s
-.PHONY : layer/x86/flatten_x86_avx.cpp.s
-
-layer/x86/flatten_x86_avx512.o: layer/x86/flatten_x86_avx512.cpp.o
-
-.PHONY : layer/x86/flatten_x86_avx512.o
-
-# target to build an object file
-layer/x86/flatten_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx512.cpp.o
-.PHONY : layer/x86/flatten_x86_avx512.cpp.o
-
-layer/x86/flatten_x86_avx512.i: layer/x86/flatten_x86_avx512.cpp.i
-
-.PHONY : layer/x86/flatten_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/flatten_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx512.cpp.i
-.PHONY : layer/x86/flatten_x86_avx512.cpp.i
-
-layer/x86/flatten_x86_avx512.s: layer/x86/flatten_x86_avx512.cpp.s
-
-.PHONY : layer/x86/flatten_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/flatten_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx512.cpp.s
-.PHONY : layer/x86/flatten_x86_avx512.cpp.s
-
-layer/x86/flatten_x86_fma.o: layer/x86/flatten_x86_fma.cpp.o
-
-.PHONY : layer/x86/flatten_x86_fma.o
-
-# target to build an object file
-layer/x86/flatten_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_fma.cpp.o
-.PHONY : layer/x86/flatten_x86_fma.cpp.o
-
-layer/x86/flatten_x86_fma.i: layer/x86/flatten_x86_fma.cpp.i
-
-.PHONY : layer/x86/flatten_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/flatten_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_fma.cpp.i
-.PHONY : layer/x86/flatten_x86_fma.cpp.i
-
-layer/x86/flatten_x86_fma.s: layer/x86/flatten_x86_fma.cpp.s
-
-.PHONY : layer/x86/flatten_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/flatten_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_fma.cpp.s
-.PHONY : layer/x86/flatten_x86_fma.cpp.s
-
-layer/x86/gelu_x86.o: layer/x86/gelu_x86.cpp.o
-
-.PHONY : layer/x86/gelu_x86.o
-
-# target to build an object file
-layer/x86/gelu_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86.cpp.o
-.PHONY : layer/x86/gelu_x86.cpp.o
-
-layer/x86/gelu_x86.i: layer/x86/gelu_x86.cpp.i
-
-.PHONY : layer/x86/gelu_x86.i
-
-# target to preprocess a source file
-layer/x86/gelu_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86.cpp.i
-.PHONY : layer/x86/gelu_x86.cpp.i
-
-layer/x86/gelu_x86.s: layer/x86/gelu_x86.cpp.s
-
-.PHONY : layer/x86/gelu_x86.s
-
-# target to generate assembly for a file
-layer/x86/gelu_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86.cpp.s
-.PHONY : layer/x86/gelu_x86.cpp.s
-
-layer/x86/gelu_x86_avx.o: layer/x86/gelu_x86_avx.cpp.o
-
-.PHONY : layer/x86/gelu_x86_avx.o
-
-# target to build an object file
-layer/x86/gelu_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx.cpp.o
-.PHONY : layer/x86/gelu_x86_avx.cpp.o
-
-layer/x86/gelu_x86_avx.i: layer/x86/gelu_x86_avx.cpp.i
-
-.PHONY : layer/x86/gelu_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/gelu_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx.cpp.i
-.PHONY : layer/x86/gelu_x86_avx.cpp.i
-
-layer/x86/gelu_x86_avx.s: layer/x86/gelu_x86_avx.cpp.s
-
-.PHONY : layer/x86/gelu_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/gelu_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx.cpp.s
-.PHONY : layer/x86/gelu_x86_avx.cpp.s
-
-layer/x86/gelu_x86_avx512.o: layer/x86/gelu_x86_avx512.cpp.o
-
-.PHONY : layer/x86/gelu_x86_avx512.o
-
-# target to build an object file
-layer/x86/gelu_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx512.cpp.o
-.PHONY : layer/x86/gelu_x86_avx512.cpp.o
-
-layer/x86/gelu_x86_avx512.i: layer/x86/gelu_x86_avx512.cpp.i
-
-.PHONY : layer/x86/gelu_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/gelu_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx512.cpp.i
-.PHONY : layer/x86/gelu_x86_avx512.cpp.i
-
-layer/x86/gelu_x86_avx512.s: layer/x86/gelu_x86_avx512.cpp.s
-
-.PHONY : layer/x86/gelu_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/gelu_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_avx512.cpp.s
-.PHONY : layer/x86/gelu_x86_avx512.cpp.s
-
-layer/x86/gelu_x86_fma.o: layer/x86/gelu_x86_fma.cpp.o
-
-.PHONY : layer/x86/gelu_x86_fma.o
-
-# target to build an object file
-layer/x86/gelu_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_fma.cpp.o
-.PHONY : layer/x86/gelu_x86_fma.cpp.o
-
-layer/x86/gelu_x86_fma.i: layer/x86/gelu_x86_fma.cpp.i
-
-.PHONY : layer/x86/gelu_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/gelu_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_fma.cpp.i
-.PHONY : layer/x86/gelu_x86_fma.cpp.i
-
-layer/x86/gelu_x86_fma.s: layer/x86/gelu_x86_fma.cpp.s
-
-.PHONY : layer/x86/gelu_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/gelu_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86_fma.cpp.s
-.PHONY : layer/x86/gelu_x86_fma.cpp.s
-
-layer/x86/gemm_x86.o: layer/x86/gemm_x86.cpp.o
-
-.PHONY : layer/x86/gemm_x86.o
-
-# target to build an object file
-layer/x86/gemm_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86.cpp.o
-.PHONY : layer/x86/gemm_x86.cpp.o
-
-layer/x86/gemm_x86.i: layer/x86/gemm_x86.cpp.i
-
-.PHONY : layer/x86/gemm_x86.i
-
-# target to preprocess a source file
-layer/x86/gemm_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86.cpp.i
-.PHONY : layer/x86/gemm_x86.cpp.i
-
-layer/x86/gemm_x86.s: layer/x86/gemm_x86.cpp.s
-
-.PHONY : layer/x86/gemm_x86.s
-
-# target to generate assembly for a file
-layer/x86/gemm_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86.cpp.s
-.PHONY : layer/x86/gemm_x86.cpp.s
-
-layer/x86/gemm_x86_avx.o: layer/x86/gemm_x86_avx.cpp.o
-
-.PHONY : layer/x86/gemm_x86_avx.o
-
-# target to build an object file
-layer/x86/gemm_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx.cpp.o
-.PHONY : layer/x86/gemm_x86_avx.cpp.o
-
-layer/x86/gemm_x86_avx.i: layer/x86/gemm_x86_avx.cpp.i
-
-.PHONY : layer/x86/gemm_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/gemm_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx.cpp.i
-.PHONY : layer/x86/gemm_x86_avx.cpp.i
-
-layer/x86/gemm_x86_avx.s: layer/x86/gemm_x86_avx.cpp.s
-
-.PHONY : layer/x86/gemm_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/gemm_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx.cpp.s
-.PHONY : layer/x86/gemm_x86_avx.cpp.s
-
-layer/x86/gemm_x86_avx512.o: layer/x86/gemm_x86_avx512.cpp.o
-
-.PHONY : layer/x86/gemm_x86_avx512.o
-
-# target to build an object file
-layer/x86/gemm_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx512.cpp.o
-.PHONY : layer/x86/gemm_x86_avx512.cpp.o
-
-layer/x86/gemm_x86_avx512.i: layer/x86/gemm_x86_avx512.cpp.i
-
-.PHONY : layer/x86/gemm_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/gemm_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx512.cpp.i
-.PHONY : layer/x86/gemm_x86_avx512.cpp.i
-
-layer/x86/gemm_x86_avx512.s: layer/x86/gemm_x86_avx512.cpp.s
-
-.PHONY : layer/x86/gemm_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/gemm_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_avx512.cpp.s
-.PHONY : layer/x86/gemm_x86_avx512.cpp.s
-
-layer/x86/gemm_x86_fma.o: layer/x86/gemm_x86_fma.cpp.o
-
-.PHONY : layer/x86/gemm_x86_fma.o
-
-# target to build an object file
-layer/x86/gemm_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_fma.cpp.o
-.PHONY : layer/x86/gemm_x86_fma.cpp.o
-
-layer/x86/gemm_x86_fma.i: layer/x86/gemm_x86_fma.cpp.i
-
-.PHONY : layer/x86/gemm_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/gemm_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_fma.cpp.i
-.PHONY : layer/x86/gemm_x86_fma.cpp.i
-
-layer/x86/gemm_x86_fma.s: layer/x86/gemm_x86_fma.cpp.s
-
-.PHONY : layer/x86/gemm_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/gemm_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86_fma.cpp.s
-.PHONY : layer/x86/gemm_x86_fma.cpp.s
-
-layer/x86/groupnorm_x86.o: layer/x86/groupnorm_x86.cpp.o
-
-.PHONY : layer/x86/groupnorm_x86.o
-
-# target to build an object file
-layer/x86/groupnorm_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86.cpp.o
-.PHONY : layer/x86/groupnorm_x86.cpp.o
-
-layer/x86/groupnorm_x86.i: layer/x86/groupnorm_x86.cpp.i
-
-.PHONY : layer/x86/groupnorm_x86.i
-
-# target to preprocess a source file
-layer/x86/groupnorm_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86.cpp.i
-.PHONY : layer/x86/groupnorm_x86.cpp.i
-
-layer/x86/groupnorm_x86.s: layer/x86/groupnorm_x86.cpp.s
-
-.PHONY : layer/x86/groupnorm_x86.s
-
-# target to generate assembly for a file
-layer/x86/groupnorm_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86.cpp.s
-.PHONY : layer/x86/groupnorm_x86.cpp.s
-
-layer/x86/groupnorm_x86_avx.o: layer/x86/groupnorm_x86_avx.cpp.o
-
-.PHONY : layer/x86/groupnorm_x86_avx.o
-
-# target to build an object file
-layer/x86/groupnorm_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx.cpp.o
-.PHONY : layer/x86/groupnorm_x86_avx.cpp.o
-
-layer/x86/groupnorm_x86_avx.i: layer/x86/groupnorm_x86_avx.cpp.i
-
-.PHONY : layer/x86/groupnorm_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/groupnorm_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx.cpp.i
-.PHONY : layer/x86/groupnorm_x86_avx.cpp.i
-
-layer/x86/groupnorm_x86_avx.s: layer/x86/groupnorm_x86_avx.cpp.s
-
-.PHONY : layer/x86/groupnorm_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/groupnorm_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx.cpp.s
-.PHONY : layer/x86/groupnorm_x86_avx.cpp.s
-
-layer/x86/groupnorm_x86_avx512.o: layer/x86/groupnorm_x86_avx512.cpp.o
-
-.PHONY : layer/x86/groupnorm_x86_avx512.o
-
-# target to build an object file
-layer/x86/groupnorm_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx512.cpp.o
-.PHONY : layer/x86/groupnorm_x86_avx512.cpp.o
-
-layer/x86/groupnorm_x86_avx512.i: layer/x86/groupnorm_x86_avx512.cpp.i
-
-.PHONY : layer/x86/groupnorm_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/groupnorm_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx512.cpp.i
-.PHONY : layer/x86/groupnorm_x86_avx512.cpp.i
-
-layer/x86/groupnorm_x86_avx512.s: layer/x86/groupnorm_x86_avx512.cpp.s
-
-.PHONY : layer/x86/groupnorm_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/groupnorm_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_avx512.cpp.s
-.PHONY : layer/x86/groupnorm_x86_avx512.cpp.s
-
-layer/x86/groupnorm_x86_fma.o: layer/x86/groupnorm_x86_fma.cpp.o
-
-.PHONY : layer/x86/groupnorm_x86_fma.o
-
-# target to build an object file
-layer/x86/groupnorm_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_fma.cpp.o
-.PHONY : layer/x86/groupnorm_x86_fma.cpp.o
-
-layer/x86/groupnorm_x86_fma.i: layer/x86/groupnorm_x86_fma.cpp.i
-
-.PHONY : layer/x86/groupnorm_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/groupnorm_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_fma.cpp.i
-.PHONY : layer/x86/groupnorm_x86_fma.cpp.i
-
-layer/x86/groupnorm_x86_fma.s: layer/x86/groupnorm_x86_fma.cpp.s
-
-.PHONY : layer/x86/groupnorm_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/groupnorm_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86_fma.cpp.s
-.PHONY : layer/x86/groupnorm_x86_fma.cpp.s
-
-layer/x86/hardsigmoid_x86.o: layer/x86/hardsigmoid_x86.cpp.o
-
-.PHONY : layer/x86/hardsigmoid_x86.o
-
-# target to build an object file
-layer/x86/hardsigmoid_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86.cpp.o
-.PHONY : layer/x86/hardsigmoid_x86.cpp.o
-
-layer/x86/hardsigmoid_x86.i: layer/x86/hardsigmoid_x86.cpp.i
-
-.PHONY : layer/x86/hardsigmoid_x86.i
-
-# target to preprocess a source file
-layer/x86/hardsigmoid_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86.cpp.i
-.PHONY : layer/x86/hardsigmoid_x86.cpp.i
-
-layer/x86/hardsigmoid_x86.s: layer/x86/hardsigmoid_x86.cpp.s
-
-.PHONY : layer/x86/hardsigmoid_x86.s
-
-# target to generate assembly for a file
-layer/x86/hardsigmoid_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86.cpp.s
-.PHONY : layer/x86/hardsigmoid_x86.cpp.s
-
-layer/x86/hardsigmoid_x86_avx.o: layer/x86/hardsigmoid_x86_avx.cpp.o
-
-.PHONY : layer/x86/hardsigmoid_x86_avx.o
-
-# target to build an object file
-layer/x86/hardsigmoid_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx.cpp.o
-.PHONY : layer/x86/hardsigmoid_x86_avx.cpp.o
-
-layer/x86/hardsigmoid_x86_avx.i: layer/x86/hardsigmoid_x86_avx.cpp.i
-
-.PHONY : layer/x86/hardsigmoid_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/hardsigmoid_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx.cpp.i
-.PHONY : layer/x86/hardsigmoid_x86_avx.cpp.i
-
-layer/x86/hardsigmoid_x86_avx.s: layer/x86/hardsigmoid_x86_avx.cpp.s
-
-.PHONY : layer/x86/hardsigmoid_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/hardsigmoid_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx.cpp.s
-.PHONY : layer/x86/hardsigmoid_x86_avx.cpp.s
-
-layer/x86/hardsigmoid_x86_avx512.o: layer/x86/hardsigmoid_x86_avx512.cpp.o
-
-.PHONY : layer/x86/hardsigmoid_x86_avx512.o
-
-# target to build an object file
-layer/x86/hardsigmoid_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx512.cpp.o
-.PHONY : layer/x86/hardsigmoid_x86_avx512.cpp.o
-
-layer/x86/hardsigmoid_x86_avx512.i: layer/x86/hardsigmoid_x86_avx512.cpp.i
-
-.PHONY : layer/x86/hardsigmoid_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/hardsigmoid_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx512.cpp.i
-.PHONY : layer/x86/hardsigmoid_x86_avx512.cpp.i
-
-layer/x86/hardsigmoid_x86_avx512.s: layer/x86/hardsigmoid_x86_avx512.cpp.s
-
-.PHONY : layer/x86/hardsigmoid_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/hardsigmoid_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx512.cpp.s
-.PHONY : layer/x86/hardsigmoid_x86_avx512.cpp.s
-
-layer/x86/hardsigmoid_x86_fma.o: layer/x86/hardsigmoid_x86_fma.cpp.o
-
-.PHONY : layer/x86/hardsigmoid_x86_fma.o
-
-# target to build an object file
-layer/x86/hardsigmoid_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_fma.cpp.o
-.PHONY : layer/x86/hardsigmoid_x86_fma.cpp.o
-
-layer/x86/hardsigmoid_x86_fma.i: layer/x86/hardsigmoid_x86_fma.cpp.i
-
-.PHONY : layer/x86/hardsigmoid_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/hardsigmoid_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_fma.cpp.i
-.PHONY : layer/x86/hardsigmoid_x86_fma.cpp.i
-
-layer/x86/hardsigmoid_x86_fma.s: layer/x86/hardsigmoid_x86_fma.cpp.s
-
-.PHONY : layer/x86/hardsigmoid_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/hardsigmoid_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_fma.cpp.s
-.PHONY : layer/x86/hardsigmoid_x86_fma.cpp.s
-
-layer/x86/hardswish_x86.o: layer/x86/hardswish_x86.cpp.o
-
-.PHONY : layer/x86/hardswish_x86.o
-
-# target to build an object file
-layer/x86/hardswish_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86.cpp.o
-.PHONY : layer/x86/hardswish_x86.cpp.o
-
-layer/x86/hardswish_x86.i: layer/x86/hardswish_x86.cpp.i
-
-.PHONY : layer/x86/hardswish_x86.i
-
-# target to preprocess a source file
-layer/x86/hardswish_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86.cpp.i
-.PHONY : layer/x86/hardswish_x86.cpp.i
-
-layer/x86/hardswish_x86.s: layer/x86/hardswish_x86.cpp.s
-
-.PHONY : layer/x86/hardswish_x86.s
-
-# target to generate assembly for a file
-layer/x86/hardswish_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86.cpp.s
-.PHONY : layer/x86/hardswish_x86.cpp.s
-
-layer/x86/hardswish_x86_avx.o: layer/x86/hardswish_x86_avx.cpp.o
-
-.PHONY : layer/x86/hardswish_x86_avx.o
-
-# target to build an object file
-layer/x86/hardswish_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx.cpp.o
-.PHONY : layer/x86/hardswish_x86_avx.cpp.o
-
-layer/x86/hardswish_x86_avx.i: layer/x86/hardswish_x86_avx.cpp.i
-
-.PHONY : layer/x86/hardswish_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/hardswish_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx.cpp.i
-.PHONY : layer/x86/hardswish_x86_avx.cpp.i
-
-layer/x86/hardswish_x86_avx.s: layer/x86/hardswish_x86_avx.cpp.s
-
-.PHONY : layer/x86/hardswish_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/hardswish_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx.cpp.s
-.PHONY : layer/x86/hardswish_x86_avx.cpp.s
-
-layer/x86/hardswish_x86_avx512.o: layer/x86/hardswish_x86_avx512.cpp.o
-
-.PHONY : layer/x86/hardswish_x86_avx512.o
-
-# target to build an object file
-layer/x86/hardswish_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx512.cpp.o
-.PHONY : layer/x86/hardswish_x86_avx512.cpp.o
-
-layer/x86/hardswish_x86_avx512.i: layer/x86/hardswish_x86_avx512.cpp.i
-
-.PHONY : layer/x86/hardswish_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/hardswish_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx512.cpp.i
-.PHONY : layer/x86/hardswish_x86_avx512.cpp.i
-
-layer/x86/hardswish_x86_avx512.s: layer/x86/hardswish_x86_avx512.cpp.s
-
-.PHONY : layer/x86/hardswish_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/hardswish_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx512.cpp.s
-.PHONY : layer/x86/hardswish_x86_avx512.cpp.s
-
-layer/x86/hardswish_x86_fma.o: layer/x86/hardswish_x86_fma.cpp.o
-
-.PHONY : layer/x86/hardswish_x86_fma.o
-
-# target to build an object file
-layer/x86/hardswish_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_fma.cpp.o
-.PHONY : layer/x86/hardswish_x86_fma.cpp.o
-
-layer/x86/hardswish_x86_fma.i: layer/x86/hardswish_x86_fma.cpp.i
-
-.PHONY : layer/x86/hardswish_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/hardswish_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_fma.cpp.i
-.PHONY : layer/x86/hardswish_x86_fma.cpp.i
-
-layer/x86/hardswish_x86_fma.s: layer/x86/hardswish_x86_fma.cpp.s
-
-.PHONY : layer/x86/hardswish_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/hardswish_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_fma.cpp.s
-.PHONY : layer/x86/hardswish_x86_fma.cpp.s
-
-layer/x86/innerproduct_x86.o: layer/x86/innerproduct_x86.cpp.o
-
-.PHONY : layer/x86/innerproduct_x86.o
-
-# target to build an object file
-layer/x86/innerproduct_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86.cpp.o
-.PHONY : layer/x86/innerproduct_x86.cpp.o
-
-layer/x86/innerproduct_x86.i: layer/x86/innerproduct_x86.cpp.i
-
-.PHONY : layer/x86/innerproduct_x86.i
-
-# target to preprocess a source file
-layer/x86/innerproduct_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86.cpp.i
-.PHONY : layer/x86/innerproduct_x86.cpp.i
-
-layer/x86/innerproduct_x86.s: layer/x86/innerproduct_x86.cpp.s
-
-.PHONY : layer/x86/innerproduct_x86.s
-
-# target to generate assembly for a file
-layer/x86/innerproduct_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86.cpp.s
-.PHONY : layer/x86/innerproduct_x86.cpp.s
-
-layer/x86/innerproduct_x86_avx.o: layer/x86/innerproduct_x86_avx.cpp.o
-
-.PHONY : layer/x86/innerproduct_x86_avx.o
-
-# target to build an object file
-layer/x86/innerproduct_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx.cpp.o
-.PHONY : layer/x86/innerproduct_x86_avx.cpp.o
-
-layer/x86/innerproduct_x86_avx.i: layer/x86/innerproduct_x86_avx.cpp.i
-
-.PHONY : layer/x86/innerproduct_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/innerproduct_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx.cpp.i
-.PHONY : layer/x86/innerproduct_x86_avx.cpp.i
-
-layer/x86/innerproduct_x86_avx.s: layer/x86/innerproduct_x86_avx.cpp.s
-
-.PHONY : layer/x86/innerproduct_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/innerproduct_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx.cpp.s
-.PHONY : layer/x86/innerproduct_x86_avx.cpp.s
-
-layer/x86/innerproduct_x86_avx512.o: layer/x86/innerproduct_x86_avx512.cpp.o
-
-.PHONY : layer/x86/innerproduct_x86_avx512.o
-
-# target to build an object file
-layer/x86/innerproduct_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx512.cpp.o
-.PHONY : layer/x86/innerproduct_x86_avx512.cpp.o
-
-layer/x86/innerproduct_x86_avx512.i: layer/x86/innerproduct_x86_avx512.cpp.i
-
-.PHONY : layer/x86/innerproduct_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/innerproduct_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx512.cpp.i
-.PHONY : layer/x86/innerproduct_x86_avx512.cpp.i
-
-layer/x86/innerproduct_x86_avx512.s: layer/x86/innerproduct_x86_avx512.cpp.s
-
-.PHONY : layer/x86/innerproduct_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/innerproduct_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx512.cpp.s
-.PHONY : layer/x86/innerproduct_x86_avx512.cpp.s
-
-layer/x86/innerproduct_x86_f16c.o: layer/x86/innerproduct_x86_f16c.cpp.o
-
-.PHONY : layer/x86/innerproduct_x86_f16c.o
-
-# target to build an object file
-layer/x86/innerproduct_x86_f16c.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_f16c.cpp.o
-.PHONY : layer/x86/innerproduct_x86_f16c.cpp.o
-
-layer/x86/innerproduct_x86_f16c.i: layer/x86/innerproduct_x86_f16c.cpp.i
-
-.PHONY : layer/x86/innerproduct_x86_f16c.i
-
-# target to preprocess a source file
-layer/x86/innerproduct_x86_f16c.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_f16c.cpp.i
-.PHONY : layer/x86/innerproduct_x86_f16c.cpp.i
-
-layer/x86/innerproduct_x86_f16c.s: layer/x86/innerproduct_x86_f16c.cpp.s
-
-.PHONY : layer/x86/innerproduct_x86_f16c.s
-
-# target to generate assembly for a file
-layer/x86/innerproduct_x86_f16c.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_f16c.cpp.s
-.PHONY : layer/x86/innerproduct_x86_f16c.cpp.s
-
-layer/x86/innerproduct_x86_fma.o: layer/x86/innerproduct_x86_fma.cpp.o
-
-.PHONY : layer/x86/innerproduct_x86_fma.o
-
-# target to build an object file
-layer/x86/innerproduct_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_fma.cpp.o
-.PHONY : layer/x86/innerproduct_x86_fma.cpp.o
-
-layer/x86/innerproduct_x86_fma.i: layer/x86/innerproduct_x86_fma.cpp.i
-
-.PHONY : layer/x86/innerproduct_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/innerproduct_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_fma.cpp.i
-.PHONY : layer/x86/innerproduct_x86_fma.cpp.i
-
-layer/x86/innerproduct_x86_fma.s: layer/x86/innerproduct_x86_fma.cpp.s
-
-.PHONY : layer/x86/innerproduct_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/innerproduct_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_fma.cpp.s
-.PHONY : layer/x86/innerproduct_x86_fma.cpp.s
-
-layer/x86/interp_x86.o: layer/x86/interp_x86.cpp.o
-
-.PHONY : layer/x86/interp_x86.o
-
-# target to build an object file
-layer/x86/interp_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86.cpp.o
-.PHONY : layer/x86/interp_x86.cpp.o
-
-layer/x86/interp_x86.i: layer/x86/interp_x86.cpp.i
-
-.PHONY : layer/x86/interp_x86.i
-
-# target to preprocess a source file
-layer/x86/interp_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86.cpp.i
-.PHONY : layer/x86/interp_x86.cpp.i
-
-layer/x86/interp_x86.s: layer/x86/interp_x86.cpp.s
-
-.PHONY : layer/x86/interp_x86.s
-
-# target to generate assembly for a file
-layer/x86/interp_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86.cpp.s
-.PHONY : layer/x86/interp_x86.cpp.s
-
-layer/x86/interp_x86_avx.o: layer/x86/interp_x86_avx.cpp.o
-
-.PHONY : layer/x86/interp_x86_avx.o
-
-# target to build an object file
-layer/x86/interp_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx.cpp.o
-.PHONY : layer/x86/interp_x86_avx.cpp.o
-
-layer/x86/interp_x86_avx.i: layer/x86/interp_x86_avx.cpp.i
-
-.PHONY : layer/x86/interp_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/interp_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx.cpp.i
-.PHONY : layer/x86/interp_x86_avx.cpp.i
-
-layer/x86/interp_x86_avx.s: layer/x86/interp_x86_avx.cpp.s
-
-.PHONY : layer/x86/interp_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/interp_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx.cpp.s
-.PHONY : layer/x86/interp_x86_avx.cpp.s
-
-layer/x86/interp_x86_avx512.o: layer/x86/interp_x86_avx512.cpp.o
-
-.PHONY : layer/x86/interp_x86_avx512.o
-
-# target to build an object file
-layer/x86/interp_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx512.cpp.o
-.PHONY : layer/x86/interp_x86_avx512.cpp.o
-
-layer/x86/interp_x86_avx512.i: layer/x86/interp_x86_avx512.cpp.i
-
-.PHONY : layer/x86/interp_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/interp_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx512.cpp.i
-.PHONY : layer/x86/interp_x86_avx512.cpp.i
-
-layer/x86/interp_x86_avx512.s: layer/x86/interp_x86_avx512.cpp.s
-
-.PHONY : layer/x86/interp_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/interp_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx512.cpp.s
-.PHONY : layer/x86/interp_x86_avx512.cpp.s
-
-layer/x86/interp_x86_fma.o: layer/x86/interp_x86_fma.cpp.o
-
-.PHONY : layer/x86/interp_x86_fma.o
-
-# target to build an object file
-layer/x86/interp_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_fma.cpp.o
-.PHONY : layer/x86/interp_x86_fma.cpp.o
-
-layer/x86/interp_x86_fma.i: layer/x86/interp_x86_fma.cpp.i
-
-.PHONY : layer/x86/interp_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/interp_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_fma.cpp.i
-.PHONY : layer/x86/interp_x86_fma.cpp.i
-
-layer/x86/interp_x86_fma.s: layer/x86/interp_x86_fma.cpp.s
-
-.PHONY : layer/x86/interp_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/interp_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_fma.cpp.s
-.PHONY : layer/x86/interp_x86_fma.cpp.s
-
-layer/x86/layernorm_x86.o: layer/x86/layernorm_x86.cpp.o
-
-.PHONY : layer/x86/layernorm_x86.o
-
-# target to build an object file
-layer/x86/layernorm_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86.cpp.o
-.PHONY : layer/x86/layernorm_x86.cpp.o
-
-layer/x86/layernorm_x86.i: layer/x86/layernorm_x86.cpp.i
-
-.PHONY : layer/x86/layernorm_x86.i
-
-# target to preprocess a source file
-layer/x86/layernorm_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86.cpp.i
-.PHONY : layer/x86/layernorm_x86.cpp.i
-
-layer/x86/layernorm_x86.s: layer/x86/layernorm_x86.cpp.s
-
-.PHONY : layer/x86/layernorm_x86.s
-
-# target to generate assembly for a file
-layer/x86/layernorm_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86.cpp.s
-.PHONY : layer/x86/layernorm_x86.cpp.s
-
-layer/x86/layernorm_x86_avx.o: layer/x86/layernorm_x86_avx.cpp.o
-
-.PHONY : layer/x86/layernorm_x86_avx.o
-
-# target to build an object file
-layer/x86/layernorm_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx.cpp.o
-.PHONY : layer/x86/layernorm_x86_avx.cpp.o
-
-layer/x86/layernorm_x86_avx.i: layer/x86/layernorm_x86_avx.cpp.i
-
-.PHONY : layer/x86/layernorm_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/layernorm_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx.cpp.i
-.PHONY : layer/x86/layernorm_x86_avx.cpp.i
-
-layer/x86/layernorm_x86_avx.s: layer/x86/layernorm_x86_avx.cpp.s
-
-.PHONY : layer/x86/layernorm_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/layernorm_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx.cpp.s
-.PHONY : layer/x86/layernorm_x86_avx.cpp.s
-
-layer/x86/layernorm_x86_avx512.o: layer/x86/layernorm_x86_avx512.cpp.o
-
-.PHONY : layer/x86/layernorm_x86_avx512.o
-
-# target to build an object file
-layer/x86/layernorm_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx512.cpp.o
-.PHONY : layer/x86/layernorm_x86_avx512.cpp.o
-
-layer/x86/layernorm_x86_avx512.i: layer/x86/layernorm_x86_avx512.cpp.i
-
-.PHONY : layer/x86/layernorm_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/layernorm_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx512.cpp.i
-.PHONY : layer/x86/layernorm_x86_avx512.cpp.i
-
-layer/x86/layernorm_x86_avx512.s: layer/x86/layernorm_x86_avx512.cpp.s
-
-.PHONY : layer/x86/layernorm_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/layernorm_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_avx512.cpp.s
-.PHONY : layer/x86/layernorm_x86_avx512.cpp.s
-
-layer/x86/layernorm_x86_fma.o: layer/x86/layernorm_x86_fma.cpp.o
-
-.PHONY : layer/x86/layernorm_x86_fma.o
-
-# target to build an object file
-layer/x86/layernorm_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_fma.cpp.o
-.PHONY : layer/x86/layernorm_x86_fma.cpp.o
-
-layer/x86/layernorm_x86_fma.i: layer/x86/layernorm_x86_fma.cpp.i
-
-.PHONY : layer/x86/layernorm_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/layernorm_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_fma.cpp.i
-.PHONY : layer/x86/layernorm_x86_fma.cpp.i
-
-layer/x86/layernorm_x86_fma.s: layer/x86/layernorm_x86_fma.cpp.s
-
-.PHONY : layer/x86/layernorm_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/layernorm_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86_fma.cpp.s
-.PHONY : layer/x86/layernorm_x86_fma.cpp.s
-
-layer/x86/lrn_x86.o: layer/x86/lrn_x86.cpp.o
-
-.PHONY : layer/x86/lrn_x86.o
-
-# target to build an object file
-layer/x86/lrn_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86.cpp.o
-.PHONY : layer/x86/lrn_x86.cpp.o
-
-layer/x86/lrn_x86.i: layer/x86/lrn_x86.cpp.i
-
-.PHONY : layer/x86/lrn_x86.i
-
-# target to preprocess a source file
-layer/x86/lrn_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86.cpp.i
-.PHONY : layer/x86/lrn_x86.cpp.i
-
-layer/x86/lrn_x86.s: layer/x86/lrn_x86.cpp.s
-
-.PHONY : layer/x86/lrn_x86.s
-
-# target to generate assembly for a file
-layer/x86/lrn_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86.cpp.s
-.PHONY : layer/x86/lrn_x86.cpp.s
-
-layer/x86/lrn_x86_avx.o: layer/x86/lrn_x86_avx.cpp.o
-
-.PHONY : layer/x86/lrn_x86_avx.o
-
-# target to build an object file
-layer/x86/lrn_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx.cpp.o
-.PHONY : layer/x86/lrn_x86_avx.cpp.o
-
-layer/x86/lrn_x86_avx.i: layer/x86/lrn_x86_avx.cpp.i
-
-.PHONY : layer/x86/lrn_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/lrn_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx.cpp.i
-.PHONY : layer/x86/lrn_x86_avx.cpp.i
-
-layer/x86/lrn_x86_avx.s: layer/x86/lrn_x86_avx.cpp.s
-
-.PHONY : layer/x86/lrn_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/lrn_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx.cpp.s
-.PHONY : layer/x86/lrn_x86_avx.cpp.s
-
-layer/x86/lrn_x86_avx512.o: layer/x86/lrn_x86_avx512.cpp.o
-
-.PHONY : layer/x86/lrn_x86_avx512.o
-
-# target to build an object file
-layer/x86/lrn_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx512.cpp.o
-.PHONY : layer/x86/lrn_x86_avx512.cpp.o
-
-layer/x86/lrn_x86_avx512.i: layer/x86/lrn_x86_avx512.cpp.i
-
-.PHONY : layer/x86/lrn_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/lrn_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx512.cpp.i
-.PHONY : layer/x86/lrn_x86_avx512.cpp.i
-
-layer/x86/lrn_x86_avx512.s: layer/x86/lrn_x86_avx512.cpp.s
-
-.PHONY : layer/x86/lrn_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/lrn_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx512.cpp.s
-.PHONY : layer/x86/lrn_x86_avx512.cpp.s
-
-layer/x86/lrn_x86_fma.o: layer/x86/lrn_x86_fma.cpp.o
-
-.PHONY : layer/x86/lrn_x86_fma.o
-
-# target to build an object file
-layer/x86/lrn_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_fma.cpp.o
-.PHONY : layer/x86/lrn_x86_fma.cpp.o
-
-layer/x86/lrn_x86_fma.i: layer/x86/lrn_x86_fma.cpp.i
-
-.PHONY : layer/x86/lrn_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/lrn_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_fma.cpp.i
-.PHONY : layer/x86/lrn_x86_fma.cpp.i
-
-layer/x86/lrn_x86_fma.s: layer/x86/lrn_x86_fma.cpp.s
-
-.PHONY : layer/x86/lrn_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/lrn_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_fma.cpp.s
-.PHONY : layer/x86/lrn_x86_fma.cpp.s
-
-layer/x86/lstm_x86.o: layer/x86/lstm_x86.cpp.o
-
-.PHONY : layer/x86/lstm_x86.o
-
-# target to build an object file
-layer/x86/lstm_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86.cpp.o
-.PHONY : layer/x86/lstm_x86.cpp.o
-
-layer/x86/lstm_x86.i: layer/x86/lstm_x86.cpp.i
-
-.PHONY : layer/x86/lstm_x86.i
-
-# target to preprocess a source file
-layer/x86/lstm_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86.cpp.i
-.PHONY : layer/x86/lstm_x86.cpp.i
-
-layer/x86/lstm_x86.s: layer/x86/lstm_x86.cpp.s
-
-.PHONY : layer/x86/lstm_x86.s
-
-# target to generate assembly for a file
-layer/x86/lstm_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86.cpp.s
-.PHONY : layer/x86/lstm_x86.cpp.s
-
-layer/x86/lstm_x86_avx.o: layer/x86/lstm_x86_avx.cpp.o
-
-.PHONY : layer/x86/lstm_x86_avx.o
-
-# target to build an object file
-layer/x86/lstm_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx.cpp.o
-.PHONY : layer/x86/lstm_x86_avx.cpp.o
-
-layer/x86/lstm_x86_avx.i: layer/x86/lstm_x86_avx.cpp.i
-
-.PHONY : layer/x86/lstm_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/lstm_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx.cpp.i
-.PHONY : layer/x86/lstm_x86_avx.cpp.i
-
-layer/x86/lstm_x86_avx.s: layer/x86/lstm_x86_avx.cpp.s
-
-.PHONY : layer/x86/lstm_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/lstm_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx.cpp.s
-.PHONY : layer/x86/lstm_x86_avx.cpp.s
-
-layer/x86/lstm_x86_avx512.o: layer/x86/lstm_x86_avx512.cpp.o
-
-.PHONY : layer/x86/lstm_x86_avx512.o
-
-# target to build an object file
-layer/x86/lstm_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx512.cpp.o
-.PHONY : layer/x86/lstm_x86_avx512.cpp.o
-
-layer/x86/lstm_x86_avx512.i: layer/x86/lstm_x86_avx512.cpp.i
-
-.PHONY : layer/x86/lstm_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/lstm_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx512.cpp.i
-.PHONY : layer/x86/lstm_x86_avx512.cpp.i
-
-layer/x86/lstm_x86_avx512.s: layer/x86/lstm_x86_avx512.cpp.s
-
-.PHONY : layer/x86/lstm_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/lstm_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx512.cpp.s
-.PHONY : layer/x86/lstm_x86_avx512.cpp.s
-
-layer/x86/lstm_x86_fma.o: layer/x86/lstm_x86_fma.cpp.o
-
-.PHONY : layer/x86/lstm_x86_fma.o
-
-# target to build an object file
-layer/x86/lstm_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_fma.cpp.o
-.PHONY : layer/x86/lstm_x86_fma.cpp.o
-
-layer/x86/lstm_x86_fma.i: layer/x86/lstm_x86_fma.cpp.i
-
-.PHONY : layer/x86/lstm_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/lstm_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_fma.cpp.i
-.PHONY : layer/x86/lstm_x86_fma.cpp.i
-
-layer/x86/lstm_x86_fma.s: layer/x86/lstm_x86_fma.cpp.s
-
-.PHONY : layer/x86/lstm_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/lstm_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_fma.cpp.s
-.PHONY : layer/x86/lstm_x86_fma.cpp.s
-
-layer/x86/matmul_x86.o: layer/x86/matmul_x86.cpp.o
-
-.PHONY : layer/x86/matmul_x86.o
-
-# target to build an object file
-layer/x86/matmul_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86.cpp.o
-.PHONY : layer/x86/matmul_x86.cpp.o
-
-layer/x86/matmul_x86.i: layer/x86/matmul_x86.cpp.i
-
-.PHONY : layer/x86/matmul_x86.i
-
-# target to preprocess a source file
-layer/x86/matmul_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86.cpp.i
-.PHONY : layer/x86/matmul_x86.cpp.i
-
-layer/x86/matmul_x86.s: layer/x86/matmul_x86.cpp.s
-
-.PHONY : layer/x86/matmul_x86.s
-
-# target to generate assembly for a file
-layer/x86/matmul_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86.cpp.s
-.PHONY : layer/x86/matmul_x86.cpp.s
-
-layer/x86/matmul_x86_avx.o: layer/x86/matmul_x86_avx.cpp.o
-
-.PHONY : layer/x86/matmul_x86_avx.o
-
-# target to build an object file
-layer/x86/matmul_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_avx.cpp.o
-.PHONY : layer/x86/matmul_x86_avx.cpp.o
-
-layer/x86/matmul_x86_avx.i: layer/x86/matmul_x86_avx.cpp.i
-
-.PHONY : layer/x86/matmul_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/matmul_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_avx.cpp.i
-.PHONY : layer/x86/matmul_x86_avx.cpp.i
-
-layer/x86/matmul_x86_avx.s: layer/x86/matmul_x86_avx.cpp.s
-
-.PHONY : layer/x86/matmul_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/matmul_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_avx.cpp.s
-.PHONY : layer/x86/matmul_x86_avx.cpp.s
-
-layer/x86/matmul_x86_avx512.o: layer/x86/matmul_x86_avx512.cpp.o
-
-.PHONY : layer/x86/matmul_x86_avx512.o
-
-# target to build an object file
-layer/x86/matmul_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_avx512.cpp.o
-.PHONY : layer/x86/matmul_x86_avx512.cpp.o
-
-layer/x86/matmul_x86_avx512.i: layer/x86/matmul_x86_avx512.cpp.i
-
-.PHONY : layer/x86/matmul_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/matmul_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_avx512.cpp.i
-.PHONY : layer/x86/matmul_x86_avx512.cpp.i
-
-layer/x86/matmul_x86_avx512.s: layer/x86/matmul_x86_avx512.cpp.s
-
-.PHONY : layer/x86/matmul_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/matmul_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_avx512.cpp.s
-.PHONY : layer/x86/matmul_x86_avx512.cpp.s
-
-layer/x86/matmul_x86_fma.o: layer/x86/matmul_x86_fma.cpp.o
-
-.PHONY : layer/x86/matmul_x86_fma.o
-
-# target to build an object file
-layer/x86/matmul_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_fma.cpp.o
-.PHONY : layer/x86/matmul_x86_fma.cpp.o
-
-layer/x86/matmul_x86_fma.i: layer/x86/matmul_x86_fma.cpp.i
-
-.PHONY : layer/x86/matmul_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/matmul_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_fma.cpp.i
-.PHONY : layer/x86/matmul_x86_fma.cpp.i
-
-layer/x86/matmul_x86_fma.s: layer/x86/matmul_x86_fma.cpp.s
-
-.PHONY : layer/x86/matmul_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/matmul_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86_fma.cpp.s
-.PHONY : layer/x86/matmul_x86_fma.cpp.s
-
-layer/x86/mish_x86.o: layer/x86/mish_x86.cpp.o
-
-.PHONY : layer/x86/mish_x86.o
-
-# target to build an object file
-layer/x86/mish_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86.cpp.o
-.PHONY : layer/x86/mish_x86.cpp.o
-
-layer/x86/mish_x86.i: layer/x86/mish_x86.cpp.i
-
-.PHONY : layer/x86/mish_x86.i
-
-# target to preprocess a source file
-layer/x86/mish_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86.cpp.i
-.PHONY : layer/x86/mish_x86.cpp.i
-
-layer/x86/mish_x86.s: layer/x86/mish_x86.cpp.s
-
-.PHONY : layer/x86/mish_x86.s
-
-# target to generate assembly for a file
-layer/x86/mish_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86.cpp.s
-.PHONY : layer/x86/mish_x86.cpp.s
-
-layer/x86/mish_x86_avx.o: layer/x86/mish_x86_avx.cpp.o
-
-.PHONY : layer/x86/mish_x86_avx.o
-
-# target to build an object file
-layer/x86/mish_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx.cpp.o
-.PHONY : layer/x86/mish_x86_avx.cpp.o
-
-layer/x86/mish_x86_avx.i: layer/x86/mish_x86_avx.cpp.i
-
-.PHONY : layer/x86/mish_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/mish_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx.cpp.i
-.PHONY : layer/x86/mish_x86_avx.cpp.i
-
-layer/x86/mish_x86_avx.s: layer/x86/mish_x86_avx.cpp.s
-
-.PHONY : layer/x86/mish_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/mish_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx.cpp.s
-.PHONY : layer/x86/mish_x86_avx.cpp.s
-
-layer/x86/mish_x86_avx512.o: layer/x86/mish_x86_avx512.cpp.o
-
-.PHONY : layer/x86/mish_x86_avx512.o
-
-# target to build an object file
-layer/x86/mish_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx512.cpp.o
-.PHONY : layer/x86/mish_x86_avx512.cpp.o
-
-layer/x86/mish_x86_avx512.i: layer/x86/mish_x86_avx512.cpp.i
-
-.PHONY : layer/x86/mish_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/mish_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx512.cpp.i
-.PHONY : layer/x86/mish_x86_avx512.cpp.i
-
-layer/x86/mish_x86_avx512.s: layer/x86/mish_x86_avx512.cpp.s
-
-.PHONY : layer/x86/mish_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/mish_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx512.cpp.s
-.PHONY : layer/x86/mish_x86_avx512.cpp.s
-
-layer/x86/mish_x86_fma.o: layer/x86/mish_x86_fma.cpp.o
-
-.PHONY : layer/x86/mish_x86_fma.o
-
-# target to build an object file
-layer/x86/mish_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_fma.cpp.o
-.PHONY : layer/x86/mish_x86_fma.cpp.o
-
-layer/x86/mish_x86_fma.i: layer/x86/mish_x86_fma.cpp.i
-
-.PHONY : layer/x86/mish_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/mish_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_fma.cpp.i
-.PHONY : layer/x86/mish_x86_fma.cpp.i
-
-layer/x86/mish_x86_fma.s: layer/x86/mish_x86_fma.cpp.s
-
-.PHONY : layer/x86/mish_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/mish_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_fma.cpp.s
-.PHONY : layer/x86/mish_x86_fma.cpp.s
-
-layer/x86/multiheadattention_x86.o: layer/x86/multiheadattention_x86.cpp.o
-
-.PHONY : layer/x86/multiheadattention_x86.o
-
-# target to build an object file
-layer/x86/multiheadattention_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86.cpp.o
-.PHONY : layer/x86/multiheadattention_x86.cpp.o
-
-layer/x86/multiheadattention_x86.i: layer/x86/multiheadattention_x86.cpp.i
-
-.PHONY : layer/x86/multiheadattention_x86.i
-
-# target to preprocess a source file
-layer/x86/multiheadattention_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86.cpp.i
-.PHONY : layer/x86/multiheadattention_x86.cpp.i
-
-layer/x86/multiheadattention_x86.s: layer/x86/multiheadattention_x86.cpp.s
-
-.PHONY : layer/x86/multiheadattention_x86.s
-
-# target to generate assembly for a file
-layer/x86/multiheadattention_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86.cpp.s
-.PHONY : layer/x86/multiheadattention_x86.cpp.s
-
-layer/x86/multiheadattention_x86_avx.o: layer/x86/multiheadattention_x86_avx.cpp.o
-
-.PHONY : layer/x86/multiheadattention_x86_avx.o
-
-# target to build an object file
-layer/x86/multiheadattention_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_avx.cpp.o
-.PHONY : layer/x86/multiheadattention_x86_avx.cpp.o
-
-layer/x86/multiheadattention_x86_avx.i: layer/x86/multiheadattention_x86_avx.cpp.i
-
-.PHONY : layer/x86/multiheadattention_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/multiheadattention_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_avx.cpp.i
-.PHONY : layer/x86/multiheadattention_x86_avx.cpp.i
-
-layer/x86/multiheadattention_x86_avx.s: layer/x86/multiheadattention_x86_avx.cpp.s
-
-.PHONY : layer/x86/multiheadattention_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/multiheadattention_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_avx.cpp.s
-.PHONY : layer/x86/multiheadattention_x86_avx.cpp.s
-
-layer/x86/multiheadattention_x86_avx512.o: layer/x86/multiheadattention_x86_avx512.cpp.o
-
-.PHONY : layer/x86/multiheadattention_x86_avx512.o
-
-# target to build an object file
-layer/x86/multiheadattention_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_avx512.cpp.o
-.PHONY : layer/x86/multiheadattention_x86_avx512.cpp.o
-
-layer/x86/multiheadattention_x86_avx512.i: layer/x86/multiheadattention_x86_avx512.cpp.i
-
-.PHONY : layer/x86/multiheadattention_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/multiheadattention_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_avx512.cpp.i
-.PHONY : layer/x86/multiheadattention_x86_avx512.cpp.i
-
-layer/x86/multiheadattention_x86_avx512.s: layer/x86/multiheadattention_x86_avx512.cpp.s
-
-.PHONY : layer/x86/multiheadattention_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/multiheadattention_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_avx512.cpp.s
-.PHONY : layer/x86/multiheadattention_x86_avx512.cpp.s
-
-layer/x86/multiheadattention_x86_fma.o: layer/x86/multiheadattention_x86_fma.cpp.o
-
-.PHONY : layer/x86/multiheadattention_x86_fma.o
-
-# target to build an object file
-layer/x86/multiheadattention_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_fma.cpp.o
-.PHONY : layer/x86/multiheadattention_x86_fma.cpp.o
-
-layer/x86/multiheadattention_x86_fma.i: layer/x86/multiheadattention_x86_fma.cpp.i
-
-.PHONY : layer/x86/multiheadattention_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/multiheadattention_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_fma.cpp.i
-.PHONY : layer/x86/multiheadattention_x86_fma.cpp.i
-
-layer/x86/multiheadattention_x86_fma.s: layer/x86/multiheadattention_x86_fma.cpp.s
-
-.PHONY : layer/x86/multiheadattention_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/multiheadattention_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86_fma.cpp.s
-.PHONY : layer/x86/multiheadattention_x86_fma.cpp.s
-
-layer/x86/packing_x86.o: layer/x86/packing_x86.cpp.o
-
-.PHONY : layer/x86/packing_x86.o
-
-# target to build an object file
-layer/x86/packing_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86.cpp.o
-.PHONY : layer/x86/packing_x86.cpp.o
-
-layer/x86/packing_x86.i: layer/x86/packing_x86.cpp.i
-
-.PHONY : layer/x86/packing_x86.i
-
-# target to preprocess a source file
-layer/x86/packing_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86.cpp.i
-.PHONY : layer/x86/packing_x86.cpp.i
-
-layer/x86/packing_x86.s: layer/x86/packing_x86.cpp.s
-
-.PHONY : layer/x86/packing_x86.s
-
-# target to generate assembly for a file
-layer/x86/packing_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86.cpp.s
-.PHONY : layer/x86/packing_x86.cpp.s
-
-layer/x86/packing_x86_avx.o: layer/x86/packing_x86_avx.cpp.o
-
-.PHONY : layer/x86/packing_x86_avx.o
-
-# target to build an object file
-layer/x86/packing_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx.cpp.o
-.PHONY : layer/x86/packing_x86_avx.cpp.o
-
-layer/x86/packing_x86_avx.i: layer/x86/packing_x86_avx.cpp.i
-
-.PHONY : layer/x86/packing_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/packing_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx.cpp.i
-.PHONY : layer/x86/packing_x86_avx.cpp.i
-
-layer/x86/packing_x86_avx.s: layer/x86/packing_x86_avx.cpp.s
-
-.PHONY : layer/x86/packing_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/packing_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx.cpp.s
-.PHONY : layer/x86/packing_x86_avx.cpp.s
-
-layer/x86/packing_x86_avx512.o: layer/x86/packing_x86_avx512.cpp.o
-
-.PHONY : layer/x86/packing_x86_avx512.o
-
-# target to build an object file
-layer/x86/packing_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx512.cpp.o
-.PHONY : layer/x86/packing_x86_avx512.cpp.o
-
-layer/x86/packing_x86_avx512.i: layer/x86/packing_x86_avx512.cpp.i
-
-.PHONY : layer/x86/packing_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/packing_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx512.cpp.i
-.PHONY : layer/x86/packing_x86_avx512.cpp.i
-
-layer/x86/packing_x86_avx512.s: layer/x86/packing_x86_avx512.cpp.s
-
-.PHONY : layer/x86/packing_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/packing_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx512.cpp.s
-.PHONY : layer/x86/packing_x86_avx512.cpp.s
-
-layer/x86/packing_x86_fma.o: layer/x86/packing_x86_fma.cpp.o
-
-.PHONY : layer/x86/packing_x86_fma.o
-
-# target to build an object file
-layer/x86/packing_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_fma.cpp.o
-.PHONY : layer/x86/packing_x86_fma.cpp.o
-
-layer/x86/packing_x86_fma.i: layer/x86/packing_x86_fma.cpp.i
-
-.PHONY : layer/x86/packing_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/packing_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_fma.cpp.i
-.PHONY : layer/x86/packing_x86_fma.cpp.i
-
-layer/x86/packing_x86_fma.s: layer/x86/packing_x86_fma.cpp.s
-
-.PHONY : layer/x86/packing_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/packing_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_fma.cpp.s
-.PHONY : layer/x86/packing_x86_fma.cpp.s
-
-layer/x86/padding_x86.o: layer/x86/padding_x86.cpp.o
-
-.PHONY : layer/x86/padding_x86.o
-
-# target to build an object file
-layer/x86/padding_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86.cpp.o
-.PHONY : layer/x86/padding_x86.cpp.o
-
-layer/x86/padding_x86.i: layer/x86/padding_x86.cpp.i
-
-.PHONY : layer/x86/padding_x86.i
-
-# target to preprocess a source file
-layer/x86/padding_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86.cpp.i
-.PHONY : layer/x86/padding_x86.cpp.i
-
-layer/x86/padding_x86.s: layer/x86/padding_x86.cpp.s
-
-.PHONY : layer/x86/padding_x86.s
-
-# target to generate assembly for a file
-layer/x86/padding_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86.cpp.s
-.PHONY : layer/x86/padding_x86.cpp.s
-
-layer/x86/padding_x86_avx.o: layer/x86/padding_x86_avx.cpp.o
-
-.PHONY : layer/x86/padding_x86_avx.o
-
-# target to build an object file
-layer/x86/padding_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx.cpp.o
-.PHONY : layer/x86/padding_x86_avx.cpp.o
-
-layer/x86/padding_x86_avx.i: layer/x86/padding_x86_avx.cpp.i
-
-.PHONY : layer/x86/padding_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/padding_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx.cpp.i
-.PHONY : layer/x86/padding_x86_avx.cpp.i
-
-layer/x86/padding_x86_avx.s: layer/x86/padding_x86_avx.cpp.s
-
-.PHONY : layer/x86/padding_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/padding_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx.cpp.s
-.PHONY : layer/x86/padding_x86_avx.cpp.s
-
-layer/x86/padding_x86_avx512.o: layer/x86/padding_x86_avx512.cpp.o
-
-.PHONY : layer/x86/padding_x86_avx512.o
-
-# target to build an object file
-layer/x86/padding_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx512.cpp.o
-.PHONY : layer/x86/padding_x86_avx512.cpp.o
-
-layer/x86/padding_x86_avx512.i: layer/x86/padding_x86_avx512.cpp.i
-
-.PHONY : layer/x86/padding_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/padding_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx512.cpp.i
-.PHONY : layer/x86/padding_x86_avx512.cpp.i
-
-layer/x86/padding_x86_avx512.s: layer/x86/padding_x86_avx512.cpp.s
-
-.PHONY : layer/x86/padding_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/padding_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx512.cpp.s
-.PHONY : layer/x86/padding_x86_avx512.cpp.s
-
-layer/x86/padding_x86_fma.o: layer/x86/padding_x86_fma.cpp.o
-
-.PHONY : layer/x86/padding_x86_fma.o
-
-# target to build an object file
-layer/x86/padding_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_fma.cpp.o
-.PHONY : layer/x86/padding_x86_fma.cpp.o
-
-layer/x86/padding_x86_fma.i: layer/x86/padding_x86_fma.cpp.i
-
-.PHONY : layer/x86/padding_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/padding_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_fma.cpp.i
-.PHONY : layer/x86/padding_x86_fma.cpp.i
-
-layer/x86/padding_x86_fma.s: layer/x86/padding_x86_fma.cpp.s
-
-.PHONY : layer/x86/padding_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/padding_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_fma.cpp.s
-.PHONY : layer/x86/padding_x86_fma.cpp.s
-
-layer/x86/pooling_x86.o: layer/x86/pooling_x86.cpp.o
-
-.PHONY : layer/x86/pooling_x86.o
-
-# target to build an object file
-layer/x86/pooling_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86.cpp.o
-.PHONY : layer/x86/pooling_x86.cpp.o
-
-layer/x86/pooling_x86.i: layer/x86/pooling_x86.cpp.i
-
-.PHONY : layer/x86/pooling_x86.i
-
-# target to preprocess a source file
-layer/x86/pooling_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86.cpp.i
-.PHONY : layer/x86/pooling_x86.cpp.i
-
-layer/x86/pooling_x86.s: layer/x86/pooling_x86.cpp.s
-
-.PHONY : layer/x86/pooling_x86.s
-
-# target to generate assembly for a file
-layer/x86/pooling_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86.cpp.s
-.PHONY : layer/x86/pooling_x86.cpp.s
-
-layer/x86/pooling_x86_avx.o: layer/x86/pooling_x86_avx.cpp.o
-
-.PHONY : layer/x86/pooling_x86_avx.o
-
-# target to build an object file
-layer/x86/pooling_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx.cpp.o
-.PHONY : layer/x86/pooling_x86_avx.cpp.o
-
-layer/x86/pooling_x86_avx.i: layer/x86/pooling_x86_avx.cpp.i
-
-.PHONY : layer/x86/pooling_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/pooling_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx.cpp.i
-.PHONY : layer/x86/pooling_x86_avx.cpp.i
-
-layer/x86/pooling_x86_avx.s: layer/x86/pooling_x86_avx.cpp.s
-
-.PHONY : layer/x86/pooling_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/pooling_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx.cpp.s
-.PHONY : layer/x86/pooling_x86_avx.cpp.s
-
-layer/x86/pooling_x86_avx512.o: layer/x86/pooling_x86_avx512.cpp.o
-
-.PHONY : layer/x86/pooling_x86_avx512.o
-
-# target to build an object file
-layer/x86/pooling_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx512.cpp.o
-.PHONY : layer/x86/pooling_x86_avx512.cpp.o
-
-layer/x86/pooling_x86_avx512.i: layer/x86/pooling_x86_avx512.cpp.i
-
-.PHONY : layer/x86/pooling_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/pooling_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx512.cpp.i
-.PHONY : layer/x86/pooling_x86_avx512.cpp.i
-
-layer/x86/pooling_x86_avx512.s: layer/x86/pooling_x86_avx512.cpp.s
-
-.PHONY : layer/x86/pooling_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/pooling_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx512.cpp.s
-.PHONY : layer/x86/pooling_x86_avx512.cpp.s
-
-layer/x86/pooling_x86_fma.o: layer/x86/pooling_x86_fma.cpp.o
-
-.PHONY : layer/x86/pooling_x86_fma.o
-
-# target to build an object file
-layer/x86/pooling_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_fma.cpp.o
-.PHONY : layer/x86/pooling_x86_fma.cpp.o
-
-layer/x86/pooling_x86_fma.i: layer/x86/pooling_x86_fma.cpp.i
-
-.PHONY : layer/x86/pooling_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/pooling_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_fma.cpp.i
-.PHONY : layer/x86/pooling_x86_fma.cpp.i
-
-layer/x86/pooling_x86_fma.s: layer/x86/pooling_x86_fma.cpp.s
-
-.PHONY : layer/x86/pooling_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/pooling_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_fma.cpp.s
-.PHONY : layer/x86/pooling_x86_fma.cpp.s
-
-layer/x86/prelu_x86.o: layer/x86/prelu_x86.cpp.o
-
-.PHONY : layer/x86/prelu_x86.o
-
-# target to build an object file
-layer/x86/prelu_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86.cpp.o
-.PHONY : layer/x86/prelu_x86.cpp.o
-
-layer/x86/prelu_x86.i: layer/x86/prelu_x86.cpp.i
-
-.PHONY : layer/x86/prelu_x86.i
-
-# target to preprocess a source file
-layer/x86/prelu_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86.cpp.i
-.PHONY : layer/x86/prelu_x86.cpp.i
-
-layer/x86/prelu_x86.s: layer/x86/prelu_x86.cpp.s
-
-.PHONY : layer/x86/prelu_x86.s
-
-# target to generate assembly for a file
-layer/x86/prelu_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86.cpp.s
-.PHONY : layer/x86/prelu_x86.cpp.s
-
-layer/x86/prelu_x86_avx.o: layer/x86/prelu_x86_avx.cpp.o
-
-.PHONY : layer/x86/prelu_x86_avx.o
-
-# target to build an object file
-layer/x86/prelu_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx.cpp.o
-.PHONY : layer/x86/prelu_x86_avx.cpp.o
-
-layer/x86/prelu_x86_avx.i: layer/x86/prelu_x86_avx.cpp.i
-
-.PHONY : layer/x86/prelu_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/prelu_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx.cpp.i
-.PHONY : layer/x86/prelu_x86_avx.cpp.i
-
-layer/x86/prelu_x86_avx.s: layer/x86/prelu_x86_avx.cpp.s
-
-.PHONY : layer/x86/prelu_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/prelu_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx.cpp.s
-.PHONY : layer/x86/prelu_x86_avx.cpp.s
-
-layer/x86/prelu_x86_avx512.o: layer/x86/prelu_x86_avx512.cpp.o
-
-.PHONY : layer/x86/prelu_x86_avx512.o
-
-# target to build an object file
-layer/x86/prelu_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx512.cpp.o
-.PHONY : layer/x86/prelu_x86_avx512.cpp.o
-
-layer/x86/prelu_x86_avx512.i: layer/x86/prelu_x86_avx512.cpp.i
-
-.PHONY : layer/x86/prelu_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/prelu_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx512.cpp.i
-.PHONY : layer/x86/prelu_x86_avx512.cpp.i
-
-layer/x86/prelu_x86_avx512.s: layer/x86/prelu_x86_avx512.cpp.s
-
-.PHONY : layer/x86/prelu_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/prelu_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx512.cpp.s
-.PHONY : layer/x86/prelu_x86_avx512.cpp.s
-
-layer/x86/prelu_x86_fma.o: layer/x86/prelu_x86_fma.cpp.o
-
-.PHONY : layer/x86/prelu_x86_fma.o
-
-# target to build an object file
-layer/x86/prelu_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_fma.cpp.o
-.PHONY : layer/x86/prelu_x86_fma.cpp.o
-
-layer/x86/prelu_x86_fma.i: layer/x86/prelu_x86_fma.cpp.i
-
-.PHONY : layer/x86/prelu_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/prelu_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_fma.cpp.i
-.PHONY : layer/x86/prelu_x86_fma.cpp.i
-
-layer/x86/prelu_x86_fma.s: layer/x86/prelu_x86_fma.cpp.s
-
-.PHONY : layer/x86/prelu_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/prelu_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_fma.cpp.s
-.PHONY : layer/x86/prelu_x86_fma.cpp.s
-
-layer/x86/quantize_x86.o: layer/x86/quantize_x86.cpp.o
-
-.PHONY : layer/x86/quantize_x86.o
-
-# target to build an object file
-layer/x86/quantize_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86.cpp.o
-.PHONY : layer/x86/quantize_x86.cpp.o
-
-layer/x86/quantize_x86.i: layer/x86/quantize_x86.cpp.i
-
-.PHONY : layer/x86/quantize_x86.i
-
-# target to preprocess a source file
-layer/x86/quantize_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86.cpp.i
-.PHONY : layer/x86/quantize_x86.cpp.i
-
-layer/x86/quantize_x86.s: layer/x86/quantize_x86.cpp.s
-
-.PHONY : layer/x86/quantize_x86.s
-
-# target to generate assembly for a file
-layer/x86/quantize_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86.cpp.s
-.PHONY : layer/x86/quantize_x86.cpp.s
-
-layer/x86/quantize_x86_avx.o: layer/x86/quantize_x86_avx.cpp.o
-
-.PHONY : layer/x86/quantize_x86_avx.o
-
-# target to build an object file
-layer/x86/quantize_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx.cpp.o
-.PHONY : layer/x86/quantize_x86_avx.cpp.o
-
-layer/x86/quantize_x86_avx.i: layer/x86/quantize_x86_avx.cpp.i
-
-.PHONY : layer/x86/quantize_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/quantize_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx.cpp.i
-.PHONY : layer/x86/quantize_x86_avx.cpp.i
-
-layer/x86/quantize_x86_avx.s: layer/x86/quantize_x86_avx.cpp.s
-
-.PHONY : layer/x86/quantize_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/quantize_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx.cpp.s
-.PHONY : layer/x86/quantize_x86_avx.cpp.s
-
-layer/x86/quantize_x86_avx512.o: layer/x86/quantize_x86_avx512.cpp.o
-
-.PHONY : layer/x86/quantize_x86_avx512.o
-
-# target to build an object file
-layer/x86/quantize_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx512.cpp.o
-.PHONY : layer/x86/quantize_x86_avx512.cpp.o
-
-layer/x86/quantize_x86_avx512.i: layer/x86/quantize_x86_avx512.cpp.i
-
-.PHONY : layer/x86/quantize_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/quantize_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx512.cpp.i
-.PHONY : layer/x86/quantize_x86_avx512.cpp.i
-
-layer/x86/quantize_x86_avx512.s: layer/x86/quantize_x86_avx512.cpp.s
-
-.PHONY : layer/x86/quantize_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/quantize_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx512.cpp.s
-.PHONY : layer/x86/quantize_x86_avx512.cpp.s
-
-layer/x86/quantize_x86_fma.o: layer/x86/quantize_x86_fma.cpp.o
-
-.PHONY : layer/x86/quantize_x86_fma.o
-
-# target to build an object file
-layer/x86/quantize_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_fma.cpp.o
-.PHONY : layer/x86/quantize_x86_fma.cpp.o
-
-layer/x86/quantize_x86_fma.i: layer/x86/quantize_x86_fma.cpp.i
-
-.PHONY : layer/x86/quantize_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/quantize_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_fma.cpp.i
-.PHONY : layer/x86/quantize_x86_fma.cpp.i
-
-layer/x86/quantize_x86_fma.s: layer/x86/quantize_x86_fma.cpp.s
-
-.PHONY : layer/x86/quantize_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/quantize_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_fma.cpp.s
-.PHONY : layer/x86/quantize_x86_fma.cpp.s
-
-layer/x86/relu_x86.o: layer/x86/relu_x86.cpp.o
-
-.PHONY : layer/x86/relu_x86.o
-
-# target to build an object file
-layer/x86/relu_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86.cpp.o
-.PHONY : layer/x86/relu_x86.cpp.o
-
-layer/x86/relu_x86.i: layer/x86/relu_x86.cpp.i
-
-.PHONY : layer/x86/relu_x86.i
-
-# target to preprocess a source file
-layer/x86/relu_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86.cpp.i
-.PHONY : layer/x86/relu_x86.cpp.i
-
-layer/x86/relu_x86.s: layer/x86/relu_x86.cpp.s
-
-.PHONY : layer/x86/relu_x86.s
-
-# target to generate assembly for a file
-layer/x86/relu_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86.cpp.s
-.PHONY : layer/x86/relu_x86.cpp.s
-
-layer/x86/relu_x86_avx.o: layer/x86/relu_x86_avx.cpp.o
-
-.PHONY : layer/x86/relu_x86_avx.o
-
-# target to build an object file
-layer/x86/relu_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx.cpp.o
-.PHONY : layer/x86/relu_x86_avx.cpp.o
-
-layer/x86/relu_x86_avx.i: layer/x86/relu_x86_avx.cpp.i
-
-.PHONY : layer/x86/relu_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/relu_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx.cpp.i
-.PHONY : layer/x86/relu_x86_avx.cpp.i
-
-layer/x86/relu_x86_avx.s: layer/x86/relu_x86_avx.cpp.s
-
-.PHONY : layer/x86/relu_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/relu_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx.cpp.s
-.PHONY : layer/x86/relu_x86_avx.cpp.s
-
-layer/x86/relu_x86_avx512.o: layer/x86/relu_x86_avx512.cpp.o
-
-.PHONY : layer/x86/relu_x86_avx512.o
-
-# target to build an object file
-layer/x86/relu_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx512.cpp.o
-.PHONY : layer/x86/relu_x86_avx512.cpp.o
-
-layer/x86/relu_x86_avx512.i: layer/x86/relu_x86_avx512.cpp.i
-
-.PHONY : layer/x86/relu_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/relu_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx512.cpp.i
-.PHONY : layer/x86/relu_x86_avx512.cpp.i
-
-layer/x86/relu_x86_avx512.s: layer/x86/relu_x86_avx512.cpp.s
-
-.PHONY : layer/x86/relu_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/relu_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx512.cpp.s
-.PHONY : layer/x86/relu_x86_avx512.cpp.s
-
-layer/x86/relu_x86_fma.o: layer/x86/relu_x86_fma.cpp.o
-
-.PHONY : layer/x86/relu_x86_fma.o
-
-# target to build an object file
-layer/x86/relu_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_fma.cpp.o
-.PHONY : layer/x86/relu_x86_fma.cpp.o
-
-layer/x86/relu_x86_fma.i: layer/x86/relu_x86_fma.cpp.i
-
-.PHONY : layer/x86/relu_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/relu_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_fma.cpp.i
-.PHONY : layer/x86/relu_x86_fma.cpp.i
-
-layer/x86/relu_x86_fma.s: layer/x86/relu_x86_fma.cpp.s
-
-.PHONY : layer/x86/relu_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/relu_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_fma.cpp.s
-.PHONY : layer/x86/relu_x86_fma.cpp.s
-
-layer/x86/requantize_x86.o: layer/x86/requantize_x86.cpp.o
-
-.PHONY : layer/x86/requantize_x86.o
-
-# target to build an object file
-layer/x86/requantize_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86.cpp.o
-.PHONY : layer/x86/requantize_x86.cpp.o
-
-layer/x86/requantize_x86.i: layer/x86/requantize_x86.cpp.i
-
-.PHONY : layer/x86/requantize_x86.i
-
-# target to preprocess a source file
-layer/x86/requantize_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86.cpp.i
-.PHONY : layer/x86/requantize_x86.cpp.i
-
-layer/x86/requantize_x86.s: layer/x86/requantize_x86.cpp.s
-
-.PHONY : layer/x86/requantize_x86.s
-
-# target to generate assembly for a file
-layer/x86/requantize_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86.cpp.s
-.PHONY : layer/x86/requantize_x86.cpp.s
-
-layer/x86/requantize_x86_avx.o: layer/x86/requantize_x86_avx.cpp.o
-
-.PHONY : layer/x86/requantize_x86_avx.o
-
-# target to build an object file
-layer/x86/requantize_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx.cpp.o
-.PHONY : layer/x86/requantize_x86_avx.cpp.o
-
-layer/x86/requantize_x86_avx.i: layer/x86/requantize_x86_avx.cpp.i
-
-.PHONY : layer/x86/requantize_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/requantize_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx.cpp.i
-.PHONY : layer/x86/requantize_x86_avx.cpp.i
-
-layer/x86/requantize_x86_avx.s: layer/x86/requantize_x86_avx.cpp.s
-
-.PHONY : layer/x86/requantize_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/requantize_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx.cpp.s
-.PHONY : layer/x86/requantize_x86_avx.cpp.s
-
-layer/x86/requantize_x86_avx512.o: layer/x86/requantize_x86_avx512.cpp.o
-
-.PHONY : layer/x86/requantize_x86_avx512.o
-
-# target to build an object file
-layer/x86/requantize_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx512.cpp.o
-.PHONY : layer/x86/requantize_x86_avx512.cpp.o
-
-layer/x86/requantize_x86_avx512.i: layer/x86/requantize_x86_avx512.cpp.i
-
-.PHONY : layer/x86/requantize_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/requantize_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx512.cpp.i
-.PHONY : layer/x86/requantize_x86_avx512.cpp.i
-
-layer/x86/requantize_x86_avx512.s: layer/x86/requantize_x86_avx512.cpp.s
-
-.PHONY : layer/x86/requantize_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/requantize_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx512.cpp.s
-.PHONY : layer/x86/requantize_x86_avx512.cpp.s
-
-layer/x86/requantize_x86_fma.o: layer/x86/requantize_x86_fma.cpp.o
-
-.PHONY : layer/x86/requantize_x86_fma.o
-
-# target to build an object file
-layer/x86/requantize_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_fma.cpp.o
-.PHONY : layer/x86/requantize_x86_fma.cpp.o
-
-layer/x86/requantize_x86_fma.i: layer/x86/requantize_x86_fma.cpp.i
-
-.PHONY : layer/x86/requantize_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/requantize_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_fma.cpp.i
-.PHONY : layer/x86/requantize_x86_fma.cpp.i
-
-layer/x86/requantize_x86_fma.s: layer/x86/requantize_x86_fma.cpp.s
-
-.PHONY : layer/x86/requantize_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/requantize_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_fma.cpp.s
-.PHONY : layer/x86/requantize_x86_fma.cpp.s
-
-layer/x86/reshape_x86.o: layer/x86/reshape_x86.cpp.o
-
-.PHONY : layer/x86/reshape_x86.o
-
-# target to build an object file
-layer/x86/reshape_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86.cpp.o
-.PHONY : layer/x86/reshape_x86.cpp.o
-
-layer/x86/reshape_x86.i: layer/x86/reshape_x86.cpp.i
-
-.PHONY : layer/x86/reshape_x86.i
-
-# target to preprocess a source file
-layer/x86/reshape_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86.cpp.i
-.PHONY : layer/x86/reshape_x86.cpp.i
-
-layer/x86/reshape_x86.s: layer/x86/reshape_x86.cpp.s
-
-.PHONY : layer/x86/reshape_x86.s
-
-# target to generate assembly for a file
-layer/x86/reshape_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86.cpp.s
-.PHONY : layer/x86/reshape_x86.cpp.s
-
-layer/x86/reshape_x86_avx.o: layer/x86/reshape_x86_avx.cpp.o
-
-.PHONY : layer/x86/reshape_x86_avx.o
-
-# target to build an object file
-layer/x86/reshape_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx.cpp.o
-.PHONY : layer/x86/reshape_x86_avx.cpp.o
-
-layer/x86/reshape_x86_avx.i: layer/x86/reshape_x86_avx.cpp.i
-
-.PHONY : layer/x86/reshape_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/reshape_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx.cpp.i
-.PHONY : layer/x86/reshape_x86_avx.cpp.i
-
-layer/x86/reshape_x86_avx.s: layer/x86/reshape_x86_avx.cpp.s
-
-.PHONY : layer/x86/reshape_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/reshape_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx.cpp.s
-.PHONY : layer/x86/reshape_x86_avx.cpp.s
-
-layer/x86/reshape_x86_avx512.o: layer/x86/reshape_x86_avx512.cpp.o
-
-.PHONY : layer/x86/reshape_x86_avx512.o
-
-# target to build an object file
-layer/x86/reshape_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx512.cpp.o
-.PHONY : layer/x86/reshape_x86_avx512.cpp.o
-
-layer/x86/reshape_x86_avx512.i: layer/x86/reshape_x86_avx512.cpp.i
-
-.PHONY : layer/x86/reshape_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/reshape_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx512.cpp.i
-.PHONY : layer/x86/reshape_x86_avx512.cpp.i
-
-layer/x86/reshape_x86_avx512.s: layer/x86/reshape_x86_avx512.cpp.s
-
-.PHONY : layer/x86/reshape_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/reshape_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx512.cpp.s
-.PHONY : layer/x86/reshape_x86_avx512.cpp.s
-
-layer/x86/reshape_x86_fma.o: layer/x86/reshape_x86_fma.cpp.o
-
-.PHONY : layer/x86/reshape_x86_fma.o
-
-# target to build an object file
-layer/x86/reshape_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_fma.cpp.o
-.PHONY : layer/x86/reshape_x86_fma.cpp.o
-
-layer/x86/reshape_x86_fma.i: layer/x86/reshape_x86_fma.cpp.i
-
-.PHONY : layer/x86/reshape_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/reshape_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_fma.cpp.i
-.PHONY : layer/x86/reshape_x86_fma.cpp.i
-
-layer/x86/reshape_x86_fma.s: layer/x86/reshape_x86_fma.cpp.s
-
-.PHONY : layer/x86/reshape_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/reshape_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_fma.cpp.s
-.PHONY : layer/x86/reshape_x86_fma.cpp.s
-
-layer/x86/roialign_x86.o: layer/x86/roialign_x86.cpp.o
-
-.PHONY : layer/x86/roialign_x86.o
-
-# target to build an object file
-layer/x86/roialign_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86.cpp.o
-.PHONY : layer/x86/roialign_x86.cpp.o
-
-layer/x86/roialign_x86.i: layer/x86/roialign_x86.cpp.i
-
-.PHONY : layer/x86/roialign_x86.i
-
-# target to preprocess a source file
-layer/x86/roialign_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86.cpp.i
-.PHONY : layer/x86/roialign_x86.cpp.i
-
-layer/x86/roialign_x86.s: layer/x86/roialign_x86.cpp.s
-
-.PHONY : layer/x86/roialign_x86.s
-
-# target to generate assembly for a file
-layer/x86/roialign_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86.cpp.s
-.PHONY : layer/x86/roialign_x86.cpp.s
-
-layer/x86/roialign_x86_avx.o: layer/x86/roialign_x86_avx.cpp.o
-
-.PHONY : layer/x86/roialign_x86_avx.o
-
-# target to build an object file
-layer/x86/roialign_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx.cpp.o
-.PHONY : layer/x86/roialign_x86_avx.cpp.o
-
-layer/x86/roialign_x86_avx.i: layer/x86/roialign_x86_avx.cpp.i
-
-.PHONY : layer/x86/roialign_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/roialign_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx.cpp.i
-.PHONY : layer/x86/roialign_x86_avx.cpp.i
-
-layer/x86/roialign_x86_avx.s: layer/x86/roialign_x86_avx.cpp.s
-
-.PHONY : layer/x86/roialign_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/roialign_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx.cpp.s
-.PHONY : layer/x86/roialign_x86_avx.cpp.s
-
-layer/x86/roialign_x86_avx512.o: layer/x86/roialign_x86_avx512.cpp.o
-
-.PHONY : layer/x86/roialign_x86_avx512.o
-
-# target to build an object file
-layer/x86/roialign_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx512.cpp.o
-.PHONY : layer/x86/roialign_x86_avx512.cpp.o
-
-layer/x86/roialign_x86_avx512.i: layer/x86/roialign_x86_avx512.cpp.i
-
-.PHONY : layer/x86/roialign_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/roialign_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx512.cpp.i
-.PHONY : layer/x86/roialign_x86_avx512.cpp.i
-
-layer/x86/roialign_x86_avx512.s: layer/x86/roialign_x86_avx512.cpp.s
-
-.PHONY : layer/x86/roialign_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/roialign_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx512.cpp.s
-.PHONY : layer/x86/roialign_x86_avx512.cpp.s
-
-layer/x86/roialign_x86_fma.o: layer/x86/roialign_x86_fma.cpp.o
-
-.PHONY : layer/x86/roialign_x86_fma.o
-
-# target to build an object file
-layer/x86/roialign_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_fma.cpp.o
-.PHONY : layer/x86/roialign_x86_fma.cpp.o
-
-layer/x86/roialign_x86_fma.i: layer/x86/roialign_x86_fma.cpp.i
-
-.PHONY : layer/x86/roialign_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/roialign_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_fma.cpp.i
-.PHONY : layer/x86/roialign_x86_fma.cpp.i
-
-layer/x86/roialign_x86_fma.s: layer/x86/roialign_x86_fma.cpp.s
-
-.PHONY : layer/x86/roialign_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/roialign_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_fma.cpp.s
-.PHONY : layer/x86/roialign_x86_fma.cpp.s
-
-layer/x86/scale_x86.o: layer/x86/scale_x86.cpp.o
-
-.PHONY : layer/x86/scale_x86.o
-
-# target to build an object file
-layer/x86/scale_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86.cpp.o
-.PHONY : layer/x86/scale_x86.cpp.o
-
-layer/x86/scale_x86.i: layer/x86/scale_x86.cpp.i
-
-.PHONY : layer/x86/scale_x86.i
-
-# target to preprocess a source file
-layer/x86/scale_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86.cpp.i
-.PHONY : layer/x86/scale_x86.cpp.i
-
-layer/x86/scale_x86.s: layer/x86/scale_x86.cpp.s
-
-.PHONY : layer/x86/scale_x86.s
-
-# target to generate assembly for a file
-layer/x86/scale_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86.cpp.s
-.PHONY : layer/x86/scale_x86.cpp.s
-
-layer/x86/scale_x86_avx.o: layer/x86/scale_x86_avx.cpp.o
-
-.PHONY : layer/x86/scale_x86_avx.o
-
-# target to build an object file
-layer/x86/scale_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx.cpp.o
-.PHONY : layer/x86/scale_x86_avx.cpp.o
-
-layer/x86/scale_x86_avx.i: layer/x86/scale_x86_avx.cpp.i
-
-.PHONY : layer/x86/scale_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/scale_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx.cpp.i
-.PHONY : layer/x86/scale_x86_avx.cpp.i
-
-layer/x86/scale_x86_avx.s: layer/x86/scale_x86_avx.cpp.s
-
-.PHONY : layer/x86/scale_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/scale_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx.cpp.s
-.PHONY : layer/x86/scale_x86_avx.cpp.s
-
-layer/x86/scale_x86_avx512.o: layer/x86/scale_x86_avx512.cpp.o
-
-.PHONY : layer/x86/scale_x86_avx512.o
-
-# target to build an object file
-layer/x86/scale_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx512.cpp.o
-.PHONY : layer/x86/scale_x86_avx512.cpp.o
-
-layer/x86/scale_x86_avx512.i: layer/x86/scale_x86_avx512.cpp.i
-
-.PHONY : layer/x86/scale_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/scale_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx512.cpp.i
-.PHONY : layer/x86/scale_x86_avx512.cpp.i
-
-layer/x86/scale_x86_avx512.s: layer/x86/scale_x86_avx512.cpp.s
-
-.PHONY : layer/x86/scale_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/scale_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx512.cpp.s
-.PHONY : layer/x86/scale_x86_avx512.cpp.s
-
-layer/x86/scale_x86_fma.o: layer/x86/scale_x86_fma.cpp.o
-
-.PHONY : layer/x86/scale_x86_fma.o
-
-# target to build an object file
-layer/x86/scale_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_fma.cpp.o
-.PHONY : layer/x86/scale_x86_fma.cpp.o
-
-layer/x86/scale_x86_fma.i: layer/x86/scale_x86_fma.cpp.i
-
-.PHONY : layer/x86/scale_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/scale_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_fma.cpp.i
-.PHONY : layer/x86/scale_x86_fma.cpp.i
-
-layer/x86/scale_x86_fma.s: layer/x86/scale_x86_fma.cpp.s
-
-.PHONY : layer/x86/scale_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/scale_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_fma.cpp.s
-.PHONY : layer/x86/scale_x86_fma.cpp.s
-
-layer/x86/sigmoid_x86.o: layer/x86/sigmoid_x86.cpp.o
-
-.PHONY : layer/x86/sigmoid_x86.o
-
-# target to build an object file
-layer/x86/sigmoid_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86.cpp.o
-.PHONY : layer/x86/sigmoid_x86.cpp.o
-
-layer/x86/sigmoid_x86.i: layer/x86/sigmoid_x86.cpp.i
-
-.PHONY : layer/x86/sigmoid_x86.i
-
-# target to preprocess a source file
-layer/x86/sigmoid_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86.cpp.i
-.PHONY : layer/x86/sigmoid_x86.cpp.i
-
-layer/x86/sigmoid_x86.s: layer/x86/sigmoid_x86.cpp.s
-
-.PHONY : layer/x86/sigmoid_x86.s
-
-# target to generate assembly for a file
-layer/x86/sigmoid_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86.cpp.s
-.PHONY : layer/x86/sigmoid_x86.cpp.s
-
-layer/x86/sigmoid_x86_avx.o: layer/x86/sigmoid_x86_avx.cpp.o
-
-.PHONY : layer/x86/sigmoid_x86_avx.o
-
-# target to build an object file
-layer/x86/sigmoid_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx.cpp.o
-.PHONY : layer/x86/sigmoid_x86_avx.cpp.o
-
-layer/x86/sigmoid_x86_avx.i: layer/x86/sigmoid_x86_avx.cpp.i
-
-.PHONY : layer/x86/sigmoid_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/sigmoid_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx.cpp.i
-.PHONY : layer/x86/sigmoid_x86_avx.cpp.i
-
-layer/x86/sigmoid_x86_avx.s: layer/x86/sigmoid_x86_avx.cpp.s
-
-.PHONY : layer/x86/sigmoid_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/sigmoid_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx.cpp.s
-.PHONY : layer/x86/sigmoid_x86_avx.cpp.s
-
-layer/x86/sigmoid_x86_avx512.o: layer/x86/sigmoid_x86_avx512.cpp.o
-
-.PHONY : layer/x86/sigmoid_x86_avx512.o
-
-# target to build an object file
-layer/x86/sigmoid_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx512.cpp.o
-.PHONY : layer/x86/sigmoid_x86_avx512.cpp.o
-
-layer/x86/sigmoid_x86_avx512.i: layer/x86/sigmoid_x86_avx512.cpp.i
-
-.PHONY : layer/x86/sigmoid_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/sigmoid_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx512.cpp.i
-.PHONY : layer/x86/sigmoid_x86_avx512.cpp.i
-
-layer/x86/sigmoid_x86_avx512.s: layer/x86/sigmoid_x86_avx512.cpp.s
-
-.PHONY : layer/x86/sigmoid_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/sigmoid_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx512.cpp.s
-.PHONY : layer/x86/sigmoid_x86_avx512.cpp.s
-
-layer/x86/sigmoid_x86_fma.o: layer/x86/sigmoid_x86_fma.cpp.o
-
-.PHONY : layer/x86/sigmoid_x86_fma.o
-
-# target to build an object file
-layer/x86/sigmoid_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_fma.cpp.o
-.PHONY : layer/x86/sigmoid_x86_fma.cpp.o
-
-layer/x86/sigmoid_x86_fma.i: layer/x86/sigmoid_x86_fma.cpp.i
-
-.PHONY : layer/x86/sigmoid_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/sigmoid_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_fma.cpp.i
-.PHONY : layer/x86/sigmoid_x86_fma.cpp.i
-
-layer/x86/sigmoid_x86_fma.s: layer/x86/sigmoid_x86_fma.cpp.s
-
-.PHONY : layer/x86/sigmoid_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/sigmoid_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_fma.cpp.s
-.PHONY : layer/x86/sigmoid_x86_fma.cpp.s
-
-layer/x86/slice_x86.o: layer/x86/slice_x86.cpp.o
-
-.PHONY : layer/x86/slice_x86.o
-
-# target to build an object file
-layer/x86/slice_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86.cpp.o
-.PHONY : layer/x86/slice_x86.cpp.o
-
-layer/x86/slice_x86.i: layer/x86/slice_x86.cpp.i
-
-.PHONY : layer/x86/slice_x86.i
-
-# target to preprocess a source file
-layer/x86/slice_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86.cpp.i
-.PHONY : layer/x86/slice_x86.cpp.i
-
-layer/x86/slice_x86.s: layer/x86/slice_x86.cpp.s
-
-.PHONY : layer/x86/slice_x86.s
-
-# target to generate assembly for a file
-layer/x86/slice_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86.cpp.s
-.PHONY : layer/x86/slice_x86.cpp.s
-
-layer/x86/slice_x86_avx.o: layer/x86/slice_x86_avx.cpp.o
-
-.PHONY : layer/x86/slice_x86_avx.o
-
-# target to build an object file
-layer/x86/slice_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx.cpp.o
-.PHONY : layer/x86/slice_x86_avx.cpp.o
-
-layer/x86/slice_x86_avx.i: layer/x86/slice_x86_avx.cpp.i
-
-.PHONY : layer/x86/slice_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/slice_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx.cpp.i
-.PHONY : layer/x86/slice_x86_avx.cpp.i
-
-layer/x86/slice_x86_avx.s: layer/x86/slice_x86_avx.cpp.s
-
-.PHONY : layer/x86/slice_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/slice_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx.cpp.s
-.PHONY : layer/x86/slice_x86_avx.cpp.s
-
-layer/x86/slice_x86_avx512.o: layer/x86/slice_x86_avx512.cpp.o
-
-.PHONY : layer/x86/slice_x86_avx512.o
-
-# target to build an object file
-layer/x86/slice_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx512.cpp.o
-.PHONY : layer/x86/slice_x86_avx512.cpp.o
-
-layer/x86/slice_x86_avx512.i: layer/x86/slice_x86_avx512.cpp.i
-
-.PHONY : layer/x86/slice_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/slice_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx512.cpp.i
-.PHONY : layer/x86/slice_x86_avx512.cpp.i
-
-layer/x86/slice_x86_avx512.s: layer/x86/slice_x86_avx512.cpp.s
-
-.PHONY : layer/x86/slice_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/slice_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx512.cpp.s
-.PHONY : layer/x86/slice_x86_avx512.cpp.s
-
-layer/x86/slice_x86_fma.o: layer/x86/slice_x86_fma.cpp.o
-
-.PHONY : layer/x86/slice_x86_fma.o
-
-# target to build an object file
-layer/x86/slice_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_fma.cpp.o
-.PHONY : layer/x86/slice_x86_fma.cpp.o
-
-layer/x86/slice_x86_fma.i: layer/x86/slice_x86_fma.cpp.i
-
-.PHONY : layer/x86/slice_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/slice_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_fma.cpp.i
-.PHONY : layer/x86/slice_x86_fma.cpp.i
-
-layer/x86/slice_x86_fma.s: layer/x86/slice_x86_fma.cpp.s
-
-.PHONY : layer/x86/slice_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/slice_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_fma.cpp.s
-.PHONY : layer/x86/slice_x86_fma.cpp.s
-
-layer/x86/softmax_x86.o: layer/x86/softmax_x86.cpp.o
-
-.PHONY : layer/x86/softmax_x86.o
-
-# target to build an object file
-layer/x86/softmax_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86.cpp.o
-.PHONY : layer/x86/softmax_x86.cpp.o
-
-layer/x86/softmax_x86.i: layer/x86/softmax_x86.cpp.i
-
-.PHONY : layer/x86/softmax_x86.i
-
-# target to preprocess a source file
-layer/x86/softmax_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86.cpp.i
-.PHONY : layer/x86/softmax_x86.cpp.i
-
-layer/x86/softmax_x86.s: layer/x86/softmax_x86.cpp.s
-
-.PHONY : layer/x86/softmax_x86.s
-
-# target to generate assembly for a file
-layer/x86/softmax_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86.cpp.s
-.PHONY : layer/x86/softmax_x86.cpp.s
-
-layer/x86/softmax_x86_avx.o: layer/x86/softmax_x86_avx.cpp.o
-
-.PHONY : layer/x86/softmax_x86_avx.o
-
-# target to build an object file
-layer/x86/softmax_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx.cpp.o
-.PHONY : layer/x86/softmax_x86_avx.cpp.o
-
-layer/x86/softmax_x86_avx.i: layer/x86/softmax_x86_avx.cpp.i
-
-.PHONY : layer/x86/softmax_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/softmax_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx.cpp.i
-.PHONY : layer/x86/softmax_x86_avx.cpp.i
-
-layer/x86/softmax_x86_avx.s: layer/x86/softmax_x86_avx.cpp.s
-
-.PHONY : layer/x86/softmax_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/softmax_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx.cpp.s
-.PHONY : layer/x86/softmax_x86_avx.cpp.s
-
-layer/x86/softmax_x86_avx512.o: layer/x86/softmax_x86_avx512.cpp.o
-
-.PHONY : layer/x86/softmax_x86_avx512.o
-
-# target to build an object file
-layer/x86/softmax_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx512.cpp.o
-.PHONY : layer/x86/softmax_x86_avx512.cpp.o
-
-layer/x86/softmax_x86_avx512.i: layer/x86/softmax_x86_avx512.cpp.i
-
-.PHONY : layer/x86/softmax_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/softmax_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx512.cpp.i
-.PHONY : layer/x86/softmax_x86_avx512.cpp.i
-
-layer/x86/softmax_x86_avx512.s: layer/x86/softmax_x86_avx512.cpp.s
-
-.PHONY : layer/x86/softmax_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/softmax_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx512.cpp.s
-.PHONY : layer/x86/softmax_x86_avx512.cpp.s
-
-layer/x86/softmax_x86_fma.o: layer/x86/softmax_x86_fma.cpp.o
-
-.PHONY : layer/x86/softmax_x86_fma.o
-
-# target to build an object file
-layer/x86/softmax_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_fma.cpp.o
-.PHONY : layer/x86/softmax_x86_fma.cpp.o
-
-layer/x86/softmax_x86_fma.i: layer/x86/softmax_x86_fma.cpp.i
-
-.PHONY : layer/x86/softmax_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/softmax_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_fma.cpp.i
-.PHONY : layer/x86/softmax_x86_fma.cpp.i
-
-layer/x86/softmax_x86_fma.s: layer/x86/softmax_x86_fma.cpp.s
-
-.PHONY : layer/x86/softmax_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/softmax_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_fma.cpp.s
-.PHONY : layer/x86/softmax_x86_fma.cpp.s
-
-layer/x86/swish_x86.o: layer/x86/swish_x86.cpp.o
-
-.PHONY : layer/x86/swish_x86.o
-
-# target to build an object file
-layer/x86/swish_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86.cpp.o
-.PHONY : layer/x86/swish_x86.cpp.o
-
-layer/x86/swish_x86.i: layer/x86/swish_x86.cpp.i
-
-.PHONY : layer/x86/swish_x86.i
-
-# target to preprocess a source file
-layer/x86/swish_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86.cpp.i
-.PHONY : layer/x86/swish_x86.cpp.i
-
-layer/x86/swish_x86.s: layer/x86/swish_x86.cpp.s
-
-.PHONY : layer/x86/swish_x86.s
-
-# target to generate assembly for a file
-layer/x86/swish_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86.cpp.s
-.PHONY : layer/x86/swish_x86.cpp.s
-
-layer/x86/swish_x86_avx.o: layer/x86/swish_x86_avx.cpp.o
-
-.PHONY : layer/x86/swish_x86_avx.o
-
-# target to build an object file
-layer/x86/swish_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx.cpp.o
-.PHONY : layer/x86/swish_x86_avx.cpp.o
-
-layer/x86/swish_x86_avx.i: layer/x86/swish_x86_avx.cpp.i
-
-.PHONY : layer/x86/swish_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/swish_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx.cpp.i
-.PHONY : layer/x86/swish_x86_avx.cpp.i
-
-layer/x86/swish_x86_avx.s: layer/x86/swish_x86_avx.cpp.s
-
-.PHONY : layer/x86/swish_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/swish_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx.cpp.s
-.PHONY : layer/x86/swish_x86_avx.cpp.s
-
-layer/x86/swish_x86_avx512.o: layer/x86/swish_x86_avx512.cpp.o
-
-.PHONY : layer/x86/swish_x86_avx512.o
-
-# target to build an object file
-layer/x86/swish_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx512.cpp.o
-.PHONY : layer/x86/swish_x86_avx512.cpp.o
-
-layer/x86/swish_x86_avx512.i: layer/x86/swish_x86_avx512.cpp.i
-
-.PHONY : layer/x86/swish_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/swish_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx512.cpp.i
-.PHONY : layer/x86/swish_x86_avx512.cpp.i
-
-layer/x86/swish_x86_avx512.s: layer/x86/swish_x86_avx512.cpp.s
-
-.PHONY : layer/x86/swish_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/swish_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx512.cpp.s
-.PHONY : layer/x86/swish_x86_avx512.cpp.s
-
-layer/x86/swish_x86_fma.o: layer/x86/swish_x86_fma.cpp.o
-
-.PHONY : layer/x86/swish_x86_fma.o
-
-# target to build an object file
-layer/x86/swish_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_fma.cpp.o
-.PHONY : layer/x86/swish_x86_fma.cpp.o
-
-layer/x86/swish_x86_fma.i: layer/x86/swish_x86_fma.cpp.i
-
-.PHONY : layer/x86/swish_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/swish_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_fma.cpp.i
-.PHONY : layer/x86/swish_x86_fma.cpp.i
-
-layer/x86/swish_x86_fma.s: layer/x86/swish_x86_fma.cpp.s
-
-.PHONY : layer/x86/swish_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/swish_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_fma.cpp.s
-.PHONY : layer/x86/swish_x86_fma.cpp.s
-
-layer/x86/tanh_x86.o: layer/x86/tanh_x86.cpp.o
-
-.PHONY : layer/x86/tanh_x86.o
-
-# target to build an object file
-layer/x86/tanh_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86.cpp.o
-.PHONY : layer/x86/tanh_x86.cpp.o
-
-layer/x86/tanh_x86.i: layer/x86/tanh_x86.cpp.i
-
-.PHONY : layer/x86/tanh_x86.i
-
-# target to preprocess a source file
-layer/x86/tanh_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86.cpp.i
-.PHONY : layer/x86/tanh_x86.cpp.i
-
-layer/x86/tanh_x86.s: layer/x86/tanh_x86.cpp.s
-
-.PHONY : layer/x86/tanh_x86.s
-
-# target to generate assembly for a file
-layer/x86/tanh_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86.cpp.s
-.PHONY : layer/x86/tanh_x86.cpp.s
-
-layer/x86/tanh_x86_avx.o: layer/x86/tanh_x86_avx.cpp.o
-
-.PHONY : layer/x86/tanh_x86_avx.o
-
-# target to build an object file
-layer/x86/tanh_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx.cpp.o
-.PHONY : layer/x86/tanh_x86_avx.cpp.o
-
-layer/x86/tanh_x86_avx.i: layer/x86/tanh_x86_avx.cpp.i
-
-.PHONY : layer/x86/tanh_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/tanh_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx.cpp.i
-.PHONY : layer/x86/tanh_x86_avx.cpp.i
-
-layer/x86/tanh_x86_avx.s: layer/x86/tanh_x86_avx.cpp.s
-
-.PHONY : layer/x86/tanh_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/tanh_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx.cpp.s
-.PHONY : layer/x86/tanh_x86_avx.cpp.s
-
-layer/x86/tanh_x86_avx512.o: layer/x86/tanh_x86_avx512.cpp.o
-
-.PHONY : layer/x86/tanh_x86_avx512.o
-
-# target to build an object file
-layer/x86/tanh_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx512.cpp.o
-.PHONY : layer/x86/tanh_x86_avx512.cpp.o
-
-layer/x86/tanh_x86_avx512.i: layer/x86/tanh_x86_avx512.cpp.i
-
-.PHONY : layer/x86/tanh_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/tanh_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx512.cpp.i
-.PHONY : layer/x86/tanh_x86_avx512.cpp.i
-
-layer/x86/tanh_x86_avx512.s: layer/x86/tanh_x86_avx512.cpp.s
-
-.PHONY : layer/x86/tanh_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/tanh_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx512.cpp.s
-.PHONY : layer/x86/tanh_x86_avx512.cpp.s
-
-layer/x86/tanh_x86_fma.o: layer/x86/tanh_x86_fma.cpp.o
-
-.PHONY : layer/x86/tanh_x86_fma.o
-
-# target to build an object file
-layer/x86/tanh_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_fma.cpp.o
-.PHONY : layer/x86/tanh_x86_fma.cpp.o
-
-layer/x86/tanh_x86_fma.i: layer/x86/tanh_x86_fma.cpp.i
-
-.PHONY : layer/x86/tanh_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/tanh_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_fma.cpp.i
-.PHONY : layer/x86/tanh_x86_fma.cpp.i
-
-layer/x86/tanh_x86_fma.s: layer/x86/tanh_x86_fma.cpp.s
-
-.PHONY : layer/x86/tanh_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/tanh_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_fma.cpp.s
-.PHONY : layer/x86/tanh_x86_fma.cpp.s
-
-layer/x86/unaryop_x86.o: layer/x86/unaryop_x86.cpp.o
-
-.PHONY : layer/x86/unaryop_x86.o
-
-# target to build an object file
-layer/x86/unaryop_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86.cpp.o
-.PHONY : layer/x86/unaryop_x86.cpp.o
-
-layer/x86/unaryop_x86.i: layer/x86/unaryop_x86.cpp.i
-
-.PHONY : layer/x86/unaryop_x86.i
-
-# target to preprocess a source file
-layer/x86/unaryop_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86.cpp.i
-.PHONY : layer/x86/unaryop_x86.cpp.i
-
-layer/x86/unaryop_x86.s: layer/x86/unaryop_x86.cpp.s
-
-.PHONY : layer/x86/unaryop_x86.s
-
-# target to generate assembly for a file
-layer/x86/unaryop_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86.cpp.s
-.PHONY : layer/x86/unaryop_x86.cpp.s
-
-layer/x86/unaryop_x86_avx.o: layer/x86/unaryop_x86_avx.cpp.o
-
-.PHONY : layer/x86/unaryop_x86_avx.o
-
-# target to build an object file
-layer/x86/unaryop_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx.cpp.o
-.PHONY : layer/x86/unaryop_x86_avx.cpp.o
-
-layer/x86/unaryop_x86_avx.i: layer/x86/unaryop_x86_avx.cpp.i
-
-.PHONY : layer/x86/unaryop_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/unaryop_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx.cpp.i
-.PHONY : layer/x86/unaryop_x86_avx.cpp.i
-
-layer/x86/unaryop_x86_avx.s: layer/x86/unaryop_x86_avx.cpp.s
-
-.PHONY : layer/x86/unaryop_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/unaryop_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx.cpp.s
-.PHONY : layer/x86/unaryop_x86_avx.cpp.s
-
-layer/x86/unaryop_x86_avx512.o: layer/x86/unaryop_x86_avx512.cpp.o
-
-.PHONY : layer/x86/unaryop_x86_avx512.o
-
-# target to build an object file
-layer/x86/unaryop_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx512.cpp.o
-.PHONY : layer/x86/unaryop_x86_avx512.cpp.o
-
-layer/x86/unaryop_x86_avx512.i: layer/x86/unaryop_x86_avx512.cpp.i
-
-.PHONY : layer/x86/unaryop_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/unaryop_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx512.cpp.i
-.PHONY : layer/x86/unaryop_x86_avx512.cpp.i
-
-layer/x86/unaryop_x86_avx512.s: layer/x86/unaryop_x86_avx512.cpp.s
-
-.PHONY : layer/x86/unaryop_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/unaryop_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx512.cpp.s
-.PHONY : layer/x86/unaryop_x86_avx512.cpp.s
-
-layer/x86/unaryop_x86_fma.o: layer/x86/unaryop_x86_fma.cpp.o
-
-.PHONY : layer/x86/unaryop_x86_fma.o
-
-# target to build an object file
-layer/x86/unaryop_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_fma.cpp.o
-.PHONY : layer/x86/unaryop_x86_fma.cpp.o
-
-layer/x86/unaryop_x86_fma.i: layer/x86/unaryop_x86_fma.cpp.i
-
-.PHONY : layer/x86/unaryop_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/unaryop_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_fma.cpp.i
-.PHONY : layer/x86/unaryop_x86_fma.cpp.i
-
-layer/x86/unaryop_x86_fma.s: layer/x86/unaryop_x86_fma.cpp.s
-
-.PHONY : layer/x86/unaryop_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/unaryop_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_fma.cpp.s
-.PHONY : layer/x86/unaryop_x86_fma.cpp.s
-
-layer/x86/yolov3detectionoutput_x86.o: layer/x86/yolov3detectionoutput_x86.cpp.o
-
-.PHONY : layer/x86/yolov3detectionoutput_x86.o
-
-# target to build an object file
-layer/x86/yolov3detectionoutput_x86.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86.cpp.o
-.PHONY : layer/x86/yolov3detectionoutput_x86.cpp.o
-
-layer/x86/yolov3detectionoutput_x86.i: layer/x86/yolov3detectionoutput_x86.cpp.i
-
-.PHONY : layer/x86/yolov3detectionoutput_x86.i
-
-# target to preprocess a source file
-layer/x86/yolov3detectionoutput_x86.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86.cpp.i
-.PHONY : layer/x86/yolov3detectionoutput_x86.cpp.i
-
-layer/x86/yolov3detectionoutput_x86.s: layer/x86/yolov3detectionoutput_x86.cpp.s
-
-.PHONY : layer/x86/yolov3detectionoutput_x86.s
-
-# target to generate assembly for a file
-layer/x86/yolov3detectionoutput_x86.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86.cpp.s
-.PHONY : layer/x86/yolov3detectionoutput_x86.cpp.s
-
-layer/x86/yolov3detectionoutput_x86_avx.o: layer/x86/yolov3detectionoutput_x86_avx.cpp.o
-
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx.o
-
-# target to build an object file
-layer/x86/yolov3detectionoutput_x86_avx.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx.cpp.o
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx.cpp.o
-
-layer/x86/yolov3detectionoutput_x86_avx.i: layer/x86/yolov3detectionoutput_x86_avx.cpp.i
-
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx.i
-
-# target to preprocess a source file
-layer/x86/yolov3detectionoutput_x86_avx.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx.cpp.i
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx.cpp.i
-
-layer/x86/yolov3detectionoutput_x86_avx.s: layer/x86/yolov3detectionoutput_x86_avx.cpp.s
-
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx.s
-
-# target to generate assembly for a file
-layer/x86/yolov3detectionoutput_x86_avx.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx.cpp.s
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx.cpp.s
-
-layer/x86/yolov3detectionoutput_x86_avx512.o: layer/x86/yolov3detectionoutput_x86_avx512.cpp.o
-
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx512.o
-
-# target to build an object file
-layer/x86/yolov3detectionoutput_x86_avx512.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx512.cpp.o
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx512.cpp.o
-
-layer/x86/yolov3detectionoutput_x86_avx512.i: layer/x86/yolov3detectionoutput_x86_avx512.cpp.i
-
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx512.i
-
-# target to preprocess a source file
-layer/x86/yolov3detectionoutput_x86_avx512.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx512.cpp.i
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx512.cpp.i
-
-layer/x86/yolov3detectionoutput_x86_avx512.s: layer/x86/yolov3detectionoutput_x86_avx512.cpp.s
-
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx512.s
-
-# target to generate assembly for a file
-layer/x86/yolov3detectionoutput_x86_avx512.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx512.cpp.s
-.PHONY : layer/x86/yolov3detectionoutput_x86_avx512.cpp.s
-
-layer/x86/yolov3detectionoutput_x86_fma.o: layer/x86/yolov3detectionoutput_x86_fma.cpp.o
-
-.PHONY : layer/x86/yolov3detectionoutput_x86_fma.o
-
-# target to build an object file
-layer/x86/yolov3detectionoutput_x86_fma.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_fma.cpp.o
-.PHONY : layer/x86/yolov3detectionoutput_x86_fma.cpp.o
-
-layer/x86/yolov3detectionoutput_x86_fma.i: layer/x86/yolov3detectionoutput_x86_fma.cpp.i
-
-.PHONY : layer/x86/yolov3detectionoutput_x86_fma.i
-
-# target to preprocess a source file
-layer/x86/yolov3detectionoutput_x86_fma.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_fma.cpp.i
-.PHONY : layer/x86/yolov3detectionoutput_x86_fma.cpp.i
-
-layer/x86/yolov3detectionoutput_x86_fma.s: layer/x86/yolov3detectionoutput_x86_fma.cpp.s
-
-.PHONY : layer/x86/yolov3detectionoutput_x86_fma.s
-
-# target to generate assembly for a file
-layer/x86/yolov3detectionoutput_x86_fma.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_fma.cpp.s
-.PHONY : layer/x86/yolov3detectionoutput_x86_fma.cpp.s
 
 layer/yolodetectionoutput.o: layer/yolodetectionoutput.cpp.o
 
@@ -8454,7 +5268,7 @@ layer/yolodetectionoutput.o: layer/yolodetectionoutput.cpp.o
 
 # target to build an object file
 layer/yolodetectionoutput.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o
 .PHONY : layer/yolodetectionoutput.cpp.o
 
 layer/yolodetectionoutput.i: layer/yolodetectionoutput.cpp.i
@@ -8463,7 +5277,7 @@ layer/yolodetectionoutput.i: layer/yolodetectionoutput.cpp.i
 
 # target to preprocess a source file
 layer/yolodetectionoutput.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i
 .PHONY : layer/yolodetectionoutput.cpp.i
 
 layer/yolodetectionoutput.s: layer/yolodetectionoutput.cpp.s
@@ -8472,7 +5286,7 @@ layer/yolodetectionoutput.s: layer/yolodetectionoutput.cpp.s
 
 # target to generate assembly for a file
 layer/yolodetectionoutput.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s
 .PHONY : layer/yolodetectionoutput.cpp.s
 
 layer/yolov3detectionoutput.o: layer/yolov3detectionoutput.cpp.o
@@ -8481,7 +5295,7 @@ layer/yolov3detectionoutput.o: layer/yolov3detectionoutput.cpp.o
 
 # target to build an object file
 layer/yolov3detectionoutput.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o
 .PHONY : layer/yolov3detectionoutput.cpp.o
 
 layer/yolov3detectionoutput.i: layer/yolov3detectionoutput.cpp.i
@@ -8490,7 +5304,7 @@ layer/yolov3detectionoutput.i: layer/yolov3detectionoutput.cpp.i
 
 # target to preprocess a source file
 layer/yolov3detectionoutput.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i
 .PHONY : layer/yolov3detectionoutput.cpp.i
 
 layer/yolov3detectionoutput.s: layer/yolov3detectionoutput.cpp.s
@@ -8499,7 +5313,7 @@ layer/yolov3detectionoutput.s: layer/yolov3detectionoutput.cpp.s
 
 # target to generate assembly for a file
 layer/yolov3detectionoutput.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s
 .PHONY : layer/yolov3detectionoutput.cpp.s
 
 mat.o: mat.cpp.o
@@ -8508,7 +5322,7 @@ mat.o: mat.cpp.o
 
 # target to build an object file
 mat.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat.cpp.o
 .PHONY : mat.cpp.o
 
 mat.i: mat.cpp.i
@@ -8517,7 +5331,7 @@ mat.i: mat.cpp.i
 
 # target to preprocess a source file
 mat.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat.cpp.i
 .PHONY : mat.cpp.i
 
 mat.s: mat.cpp.s
@@ -8526,7 +5340,7 @@ mat.s: mat.cpp.s
 
 # target to generate assembly for a file
 mat.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat.cpp.s
 .PHONY : mat.cpp.s
 
 mat_pixel.o: mat_pixel.cpp.o
@@ -8535,7 +5349,7 @@ mat_pixel.o: mat_pixel.cpp.o
 
 # target to build an object file
 mat_pixel.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o
 .PHONY : mat_pixel.cpp.o
 
 mat_pixel.i: mat_pixel.cpp.i
@@ -8544,7 +5358,7 @@ mat_pixel.i: mat_pixel.cpp.i
 
 # target to preprocess a source file
 mat_pixel.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel.cpp.i
 .PHONY : mat_pixel.cpp.i
 
 mat_pixel.s: mat_pixel.cpp.s
@@ -8553,7 +5367,7 @@ mat_pixel.s: mat_pixel.cpp.s
 
 # target to generate assembly for a file
 mat_pixel.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel.cpp.s
 .PHONY : mat_pixel.cpp.s
 
 mat_pixel_affine.o: mat_pixel_affine.cpp.o
@@ -8562,7 +5376,7 @@ mat_pixel_affine.o: mat_pixel_affine.cpp.o
 
 # target to build an object file
 mat_pixel_affine.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o
 .PHONY : mat_pixel_affine.cpp.o
 
 mat_pixel_affine.i: mat_pixel_affine.cpp.i
@@ -8571,7 +5385,7 @@ mat_pixel_affine.i: mat_pixel_affine.cpp.i
 
 # target to preprocess a source file
 mat_pixel_affine.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.i
 .PHONY : mat_pixel_affine.cpp.i
 
 mat_pixel_affine.s: mat_pixel_affine.cpp.s
@@ -8580,7 +5394,7 @@ mat_pixel_affine.s: mat_pixel_affine.cpp.s
 
 # target to generate assembly for a file
 mat_pixel_affine.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.s
 .PHONY : mat_pixel_affine.cpp.s
 
 mat_pixel_drawing.o: mat_pixel_drawing.cpp.o
@@ -8589,7 +5403,7 @@ mat_pixel_drawing.o: mat_pixel_drawing.cpp.o
 
 # target to build an object file
 mat_pixel_drawing.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.o
 .PHONY : mat_pixel_drawing.cpp.o
 
 mat_pixel_drawing.i: mat_pixel_drawing.cpp.i
@@ -8598,7 +5412,7 @@ mat_pixel_drawing.i: mat_pixel_drawing.cpp.i
 
 # target to preprocess a source file
 mat_pixel_drawing.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.i
 .PHONY : mat_pixel_drawing.cpp.i
 
 mat_pixel_drawing.s: mat_pixel_drawing.cpp.s
@@ -8607,7 +5421,7 @@ mat_pixel_drawing.s: mat_pixel_drawing.cpp.s
 
 # target to generate assembly for a file
 mat_pixel_drawing.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.s
 .PHONY : mat_pixel_drawing.cpp.s
 
 mat_pixel_resize.o: mat_pixel_resize.cpp.o
@@ -8616,7 +5430,7 @@ mat_pixel_resize.o: mat_pixel_resize.cpp.o
 
 # target to build an object file
 mat_pixel_resize.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o
 .PHONY : mat_pixel_resize.cpp.o
 
 mat_pixel_resize.i: mat_pixel_resize.cpp.i
@@ -8625,7 +5439,7 @@ mat_pixel_resize.i: mat_pixel_resize.cpp.i
 
 # target to preprocess a source file
 mat_pixel_resize.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i
 .PHONY : mat_pixel_resize.cpp.i
 
 mat_pixel_resize.s: mat_pixel_resize.cpp.s
@@ -8634,7 +5448,7 @@ mat_pixel_resize.s: mat_pixel_resize.cpp.s
 
 # target to generate assembly for a file
 mat_pixel_resize.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s
 .PHONY : mat_pixel_resize.cpp.s
 
 mat_pixel_rotate.o: mat_pixel_rotate.cpp.o
@@ -8643,7 +5457,7 @@ mat_pixel_rotate.o: mat_pixel_rotate.cpp.o
 
 # target to build an object file
 mat_pixel_rotate.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o
 .PHONY : mat_pixel_rotate.cpp.o
 
 mat_pixel_rotate.i: mat_pixel_rotate.cpp.i
@@ -8652,7 +5466,7 @@ mat_pixel_rotate.i: mat_pixel_rotate.cpp.i
 
 # target to preprocess a source file
 mat_pixel_rotate.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.i
 .PHONY : mat_pixel_rotate.cpp.i
 
 mat_pixel_rotate.s: mat_pixel_rotate.cpp.s
@@ -8661,7 +5475,7 @@ mat_pixel_rotate.s: mat_pixel_rotate.cpp.s
 
 # target to generate assembly for a file
 mat_pixel_rotate.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.s
 .PHONY : mat_pixel_rotate.cpp.s
 
 modelbin.o: modelbin.cpp.o
@@ -8670,7 +5484,7 @@ modelbin.o: modelbin.cpp.o
 
 # target to build an object file
 modelbin.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/modelbin.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/modelbin.cpp.o
 .PHONY : modelbin.cpp.o
 
 modelbin.i: modelbin.cpp.i
@@ -8679,7 +5493,7 @@ modelbin.i: modelbin.cpp.i
 
 # target to preprocess a source file
 modelbin.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/modelbin.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/modelbin.cpp.i
 .PHONY : modelbin.cpp.i
 
 modelbin.s: modelbin.cpp.s
@@ -8688,7 +5502,7 @@ modelbin.s: modelbin.cpp.s
 
 # target to generate assembly for a file
 modelbin.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/modelbin.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/modelbin.cpp.s
 .PHONY : modelbin.cpp.s
 
 net.o: net.cpp.o
@@ -8697,7 +5511,7 @@ net.o: net.cpp.o
 
 # target to build an object file
 net.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/net.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/net.cpp.o
 .PHONY : net.cpp.o
 
 net.i: net.cpp.i
@@ -8706,7 +5520,7 @@ net.i: net.cpp.i
 
 # target to preprocess a source file
 net.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/net.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/net.cpp.i
 .PHONY : net.cpp.i
 
 net.s: net.cpp.s
@@ -8715,7 +5529,7 @@ net.s: net.cpp.s
 
 # target to generate assembly for a file
 net.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/net.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/net.cpp.s
 .PHONY : net.cpp.s
 
 option.o: option.cpp.o
@@ -8724,7 +5538,7 @@ option.o: option.cpp.o
 
 # target to build an object file
 option.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/option.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/option.cpp.o
 .PHONY : option.cpp.o
 
 option.i: option.cpp.i
@@ -8733,7 +5547,7 @@ option.i: option.cpp.i
 
 # target to preprocess a source file
 option.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/option.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/option.cpp.i
 .PHONY : option.cpp.i
 
 option.s: option.cpp.s
@@ -8742,7 +5556,7 @@ option.s: option.cpp.s
 
 # target to generate assembly for a file
 option.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/option.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/option.cpp.s
 .PHONY : option.cpp.s
 
 paramdict.o: paramdict.cpp.o
@@ -8751,7 +5565,7 @@ paramdict.o: paramdict.cpp.o
 
 # target to build an object file
 paramdict.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/paramdict.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/paramdict.cpp.o
 .PHONY : paramdict.cpp.o
 
 paramdict.i: paramdict.cpp.i
@@ -8760,7 +5574,7 @@ paramdict.i: paramdict.cpp.i
 
 # target to preprocess a source file
 paramdict.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/paramdict.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/paramdict.cpp.i
 .PHONY : paramdict.cpp.i
 
 paramdict.s: paramdict.cpp.s
@@ -8769,7 +5583,7 @@ paramdict.s: paramdict.cpp.s
 
 # target to generate assembly for a file
 paramdict.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/paramdict.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/paramdict.cpp.s
 .PHONY : paramdict.cpp.s
 
 pipeline.o: pipeline.cpp.o
@@ -8778,7 +5592,7 @@ pipeline.o: pipeline.cpp.o
 
 # target to build an object file
 pipeline.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipeline.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipeline.cpp.o
 .PHONY : pipeline.cpp.o
 
 pipeline.i: pipeline.cpp.i
@@ -8787,7 +5601,7 @@ pipeline.i: pipeline.cpp.i
 
 # target to preprocess a source file
 pipeline.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipeline.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipeline.cpp.i
 .PHONY : pipeline.cpp.i
 
 pipeline.s: pipeline.cpp.s
@@ -8796,7 +5610,7 @@ pipeline.s: pipeline.cpp.s
 
 # target to generate assembly for a file
 pipeline.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipeline.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipeline.cpp.s
 .PHONY : pipeline.cpp.s
 
 pipelinecache.o: pipelinecache.cpp.o
@@ -8805,7 +5619,7 @@ pipelinecache.o: pipelinecache.cpp.o
 
 # target to build an object file
 pipelinecache.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o
 .PHONY : pipelinecache.cpp.o
 
 pipelinecache.i: pipelinecache.cpp.i
@@ -8814,7 +5628,7 @@ pipelinecache.i: pipelinecache.cpp.i
 
 # target to preprocess a source file
 pipelinecache.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipelinecache.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipelinecache.cpp.i
 .PHONY : pipelinecache.cpp.i
 
 pipelinecache.s: pipelinecache.cpp.s
@@ -8823,7 +5637,7 @@ pipelinecache.s: pipelinecache.cpp.s
 
 # target to generate assembly for a file
 pipelinecache.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipelinecache.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/pipelinecache.cpp.s
 .PHONY : pipelinecache.cpp.s
 
 simpleocv.o: simpleocv.cpp.o
@@ -8832,7 +5646,7 @@ simpleocv.o: simpleocv.cpp.o
 
 # target to build an object file
 simpleocv.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleocv.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleocv.cpp.o
 .PHONY : simpleocv.cpp.o
 
 simpleocv.i: simpleocv.cpp.i
@@ -8841,7 +5655,7 @@ simpleocv.i: simpleocv.cpp.i
 
 # target to preprocess a source file
 simpleocv.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleocv.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleocv.cpp.i
 .PHONY : simpleocv.cpp.i
 
 simpleocv.s: simpleocv.cpp.s
@@ -8850,7 +5664,7 @@ simpleocv.s: simpleocv.cpp.s
 
 # target to generate assembly for a file
 simpleocv.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleocv.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleocv.cpp.s
 .PHONY : simpleocv.cpp.s
 
 simpleomp.o: simpleomp.cpp.o
@@ -8859,7 +5673,7 @@ simpleomp.o: simpleomp.cpp.o
 
 # target to build an object file
 simpleomp.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleomp.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleomp.cpp.o
 .PHONY : simpleomp.cpp.o
 
 simpleomp.i: simpleomp.cpp.i
@@ -8868,7 +5682,7 @@ simpleomp.i: simpleomp.cpp.i
 
 # target to preprocess a source file
 simpleomp.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleomp.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleomp.cpp.i
 .PHONY : simpleomp.cpp.i
 
 simpleomp.s: simpleomp.cpp.s
@@ -8877,7 +5691,7 @@ simpleomp.s: simpleomp.cpp.s
 
 # target to generate assembly for a file
 simpleomp.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleomp.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simpleomp.cpp.s
 .PHONY : simpleomp.cpp.s
 
 simplestl.o: simplestl.cpp.o
@@ -8886,7 +5700,7 @@ simplestl.o: simplestl.cpp.o
 
 # target to build an object file
 simplestl.cpp.o:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simplestl.cpp.o
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simplestl.cpp.o
 .PHONY : simplestl.cpp.o
 
 simplestl.i: simplestl.cpp.i
@@ -8895,7 +5709,7 @@ simplestl.i: simplestl.cpp.i
 
 # target to preprocess a source file
 simplestl.cpp.i:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simplestl.cpp.i
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simplestl.cpp.i
 .PHONY : simplestl.cpp.i
 
 simplestl.s: simplestl.cpp.s
@@ -8904,7 +5718,7 @@ simplestl.s: simplestl.cpp.s
 
 # target to generate assembly for a file
 simplestl.cpp.s:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simplestl.cpp.s
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(MAKE) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/simplestl.cpp.s
 .PHONY : simplestl.cpp.s
 
 # Help Target
@@ -8951,6 +5765,255 @@ help:
 	@echo "... layer/absval.o"
 	@echo "... layer/absval.i"
 	@echo "... layer/absval.s"
+	@echo "... layer/arm/absval_arm.o"
+	@echo "... layer/arm/absval_arm.i"
+	@echo "... layer/arm/absval_arm.s"
+	@echo "... layer/arm/batchnorm_arm.o"
+	@echo "... layer/arm/batchnorm_arm.i"
+	@echo "... layer/arm/batchnorm_arm.s"
+	@echo "... layer/arm/batchnorm_arm_asimdhp.o"
+	@echo "... layer/arm/batchnorm_arm_asimdhp.i"
+	@echo "... layer/arm/batchnorm_arm_asimdhp.s"
+	@echo "... layer/arm/bias_arm.o"
+	@echo "... layer/arm/bias_arm.i"
+	@echo "... layer/arm/bias_arm.s"
+	@echo "... layer/arm/binaryop_arm.o"
+	@echo "... layer/arm/binaryop_arm.i"
+	@echo "... layer/arm/binaryop_arm.s"
+	@echo "... layer/arm/binaryop_arm_asimdhp.o"
+	@echo "... layer/arm/binaryop_arm_asimdhp.i"
+	@echo "... layer/arm/binaryop_arm_asimdhp.s"
+	@echo "... layer/arm/cast_arm.o"
+	@echo "... layer/arm/cast_arm.i"
+	@echo "... layer/arm/cast_arm.s"
+	@echo "... layer/arm/cast_arm_vfpv4.o"
+	@echo "... layer/arm/cast_arm_vfpv4.i"
+	@echo "... layer/arm/cast_arm_vfpv4.s"
+	@echo "... layer/arm/clip_arm.o"
+	@echo "... layer/arm/clip_arm.i"
+	@echo "... layer/arm/clip_arm.s"
+	@echo "... layer/arm/clip_arm_asimdhp.o"
+	@echo "... layer/arm/clip_arm_asimdhp.i"
+	@echo "... layer/arm/clip_arm_asimdhp.s"
+	@echo "... layer/arm/concat_arm.o"
+	@echo "... layer/arm/concat_arm.i"
+	@echo "... layer/arm/concat_arm.s"
+	@echo "... layer/arm/convolution1d_arm.o"
+	@echo "... layer/arm/convolution1d_arm.i"
+	@echo "... layer/arm/convolution1d_arm.s"
+	@echo "... layer/arm/convolution1d_arm_asimdhp.o"
+	@echo "... layer/arm/convolution1d_arm_asimdhp.i"
+	@echo "... layer/arm/convolution1d_arm_asimdhp.s"
+	@echo "... layer/arm/convolution_arm.o"
+	@echo "... layer/arm/convolution_arm.i"
+	@echo "... layer/arm/convolution_arm.s"
+	@echo "... layer/arm/convolution_arm_asimddp.o"
+	@echo "... layer/arm/convolution_arm_asimddp.i"
+	@echo "... layer/arm/convolution_arm_asimddp.s"
+	@echo "... layer/arm/convolution_arm_asimdhp.o"
+	@echo "... layer/arm/convolution_arm_asimdhp.i"
+	@echo "... layer/arm/convolution_arm_asimdhp.s"
+	@echo "... layer/arm/convolutiondepthwise_arm.o"
+	@echo "... layer/arm/convolutiondepthwise_arm.i"
+	@echo "... layer/arm/convolutiondepthwise_arm.s"
+	@echo "... layer/arm/convolutiondepthwise_arm_asimdhp.o"
+	@echo "... layer/arm/convolutiondepthwise_arm_asimdhp.i"
+	@echo "... layer/arm/convolutiondepthwise_arm_asimdhp.s"
+	@echo "... layer/arm/crop_arm.o"
+	@echo "... layer/arm/crop_arm.i"
+	@echo "... layer/arm/crop_arm.s"
+	@echo "... layer/arm/deconvolution_arm.o"
+	@echo "... layer/arm/deconvolution_arm.i"
+	@echo "... layer/arm/deconvolution_arm.s"
+	@echo "... layer/arm/deconvolution_arm_asimdhp.o"
+	@echo "... layer/arm/deconvolution_arm_asimdhp.i"
+	@echo "... layer/arm/deconvolution_arm_asimdhp.s"
+	@echo "... layer/arm/deconvolutiondepthwise_arm.o"
+	@echo "... layer/arm/deconvolutiondepthwise_arm.i"
+	@echo "... layer/arm/deconvolutiondepthwise_arm.s"
+	@echo "... layer/arm/deconvolutiondepthwise_arm_asimdhp.o"
+	@echo "... layer/arm/deconvolutiondepthwise_arm_asimdhp.i"
+	@echo "... layer/arm/deconvolutiondepthwise_arm_asimdhp.s"
+	@echo "... layer/arm/dequantize_arm.o"
+	@echo "... layer/arm/dequantize_arm.i"
+	@echo "... layer/arm/dequantize_arm.s"
+	@echo "... layer/arm/dequantize_arm_asimdhp.o"
+	@echo "... layer/arm/dequantize_arm_asimdhp.i"
+	@echo "... layer/arm/dequantize_arm_asimdhp.s"
+	@echo "... layer/arm/dropout_arm.o"
+	@echo "... layer/arm/dropout_arm.i"
+	@echo "... layer/arm/dropout_arm.s"
+	@echo "... layer/arm/eltwise_arm.o"
+	@echo "... layer/arm/eltwise_arm.i"
+	@echo "... layer/arm/eltwise_arm.s"
+	@echo "... layer/arm/eltwise_arm_asimdhp.o"
+	@echo "... layer/arm/eltwise_arm_asimdhp.i"
+	@echo "... layer/arm/eltwise_arm_asimdhp.s"
+	@echo "... layer/arm/flatten_arm.o"
+	@echo "... layer/arm/flatten_arm.i"
+	@echo "... layer/arm/flatten_arm.s"
+	@echo "... layer/arm/gelu_arm.o"
+	@echo "... layer/arm/gelu_arm.i"
+	@echo "... layer/arm/gelu_arm.s"
+	@echo "... layer/arm/gelu_arm_asimdhp.o"
+	@echo "... layer/arm/gelu_arm_asimdhp.i"
+	@echo "... layer/arm/gelu_arm_asimdhp.s"
+	@echo "... layer/arm/gemm_arm.o"
+	@echo "... layer/arm/gemm_arm.i"
+	@echo "... layer/arm/gemm_arm.s"
+	@echo "... layer/arm/gemm_arm_asimdhp.o"
+	@echo "... layer/arm/gemm_arm_asimdhp.i"
+	@echo "... layer/arm/gemm_arm_asimdhp.s"
+	@echo "... layer/arm/gemm_arm_vfpv4.o"
+	@echo "... layer/arm/gemm_arm_vfpv4.i"
+	@echo "... layer/arm/gemm_arm_vfpv4.s"
+	@echo "... layer/arm/gru_arm.o"
+	@echo "... layer/arm/gru_arm.i"
+	@echo "... layer/arm/gru_arm.s"
+	@echo "... layer/arm/gru_arm_asimdhp.o"
+	@echo "... layer/arm/gru_arm_asimdhp.i"
+	@echo "... layer/arm/gru_arm_asimdhp.s"
+	@echo "... layer/arm/hardsigmoid_arm.o"
+	@echo "... layer/arm/hardsigmoid_arm.i"
+	@echo "... layer/arm/hardsigmoid_arm.s"
+	@echo "... layer/arm/hardsigmoid_arm_asimdhp.o"
+	@echo "... layer/arm/hardsigmoid_arm_asimdhp.i"
+	@echo "... layer/arm/hardsigmoid_arm_asimdhp.s"
+	@echo "... layer/arm/hardswish_arm.o"
+	@echo "... layer/arm/hardswish_arm.i"
+	@echo "... layer/arm/hardswish_arm.s"
+	@echo "... layer/arm/hardswish_arm_asimdhp.o"
+	@echo "... layer/arm/hardswish_arm_asimdhp.i"
+	@echo "... layer/arm/hardswish_arm_asimdhp.s"
+	@echo "... layer/arm/innerproduct_arm.o"
+	@echo "... layer/arm/innerproduct_arm.i"
+	@echo "... layer/arm/innerproduct_arm.s"
+	@echo "... layer/arm/innerproduct_arm_asimdhp.o"
+	@echo "... layer/arm/innerproduct_arm_asimdhp.i"
+	@echo "... layer/arm/innerproduct_arm_asimdhp.s"
+	@echo "... layer/arm/innerproduct_arm_vfpv4.o"
+	@echo "... layer/arm/innerproduct_arm_vfpv4.i"
+	@echo "... layer/arm/innerproduct_arm_vfpv4.s"
+	@echo "... layer/arm/instancenorm_arm.o"
+	@echo "... layer/arm/instancenorm_arm.i"
+	@echo "... layer/arm/instancenorm_arm.s"
+	@echo "... layer/arm/instancenorm_arm_asimdhp.o"
+	@echo "... layer/arm/instancenorm_arm_asimdhp.i"
+	@echo "... layer/arm/instancenorm_arm_asimdhp.s"
+	@echo "... layer/arm/interp_arm.o"
+	@echo "... layer/arm/interp_arm.i"
+	@echo "... layer/arm/interp_arm.s"
+	@echo "... layer/arm/interp_arm_asimdhp.o"
+	@echo "... layer/arm/interp_arm_asimdhp.i"
+	@echo "... layer/arm/interp_arm_asimdhp.s"
+	@echo "... layer/arm/lrn_arm.o"
+	@echo "... layer/arm/lrn_arm.i"
+	@echo "... layer/arm/lrn_arm.s"
+	@echo "... layer/arm/lstm_arm.o"
+	@echo "... layer/arm/lstm_arm.i"
+	@echo "... layer/arm/lstm_arm.s"
+	@echo "... layer/arm/lstm_arm_asimdhp.o"
+	@echo "... layer/arm/lstm_arm_asimdhp.i"
+	@echo "... layer/arm/lstm_arm_asimdhp.s"
+	@echo "... layer/arm/matmul_arm.o"
+	@echo "... layer/arm/matmul_arm.i"
+	@echo "... layer/arm/matmul_arm.s"
+	@echo "... layer/arm/mish_arm.o"
+	@echo "... layer/arm/mish_arm.i"
+	@echo "... layer/arm/mish_arm.s"
+	@echo "... layer/arm/mish_arm_asimdhp.o"
+	@echo "... layer/arm/mish_arm_asimdhp.i"
+	@echo "... layer/arm/mish_arm_asimdhp.s"
+	@echo "... layer/arm/multiheadattention_arm.o"
+	@echo "... layer/arm/multiheadattention_arm.i"
+	@echo "... layer/arm/multiheadattention_arm.s"
+	@echo "... layer/arm/packing_arm.o"
+	@echo "... layer/arm/packing_arm.i"
+	@echo "... layer/arm/packing_arm.s"
+	@echo "... layer/arm/padding_arm.o"
+	@echo "... layer/arm/padding_arm.i"
+	@echo "... layer/arm/padding_arm.s"
+	@echo "... layer/arm/pixelshuffle_arm.o"
+	@echo "... layer/arm/pixelshuffle_arm.i"
+	@echo "... layer/arm/pixelshuffle_arm.s"
+	@echo "... layer/arm/pooling_arm.o"
+	@echo "... layer/arm/pooling_arm.i"
+	@echo "... layer/arm/pooling_arm.s"
+	@echo "... layer/arm/pooling_arm_asimdhp.o"
+	@echo "... layer/arm/pooling_arm_asimdhp.i"
+	@echo "... layer/arm/pooling_arm_asimdhp.s"
+	@echo "... layer/arm/prelu_arm.o"
+	@echo "... layer/arm/prelu_arm.i"
+	@echo "... layer/arm/prelu_arm.s"
+	@echo "... layer/arm/prelu_arm_asimdhp.o"
+	@echo "... layer/arm/prelu_arm_asimdhp.i"
+	@echo "... layer/arm/prelu_arm_asimdhp.s"
+	@echo "... layer/arm/quantize_arm.o"
+	@echo "... layer/arm/quantize_arm.i"
+	@echo "... layer/arm/quantize_arm.s"
+	@echo "... layer/arm/quantize_arm_asimdhp.o"
+	@echo "... layer/arm/quantize_arm_asimdhp.i"
+	@echo "... layer/arm/quantize_arm_asimdhp.s"
+	@echo "... layer/arm/relu_arm.o"
+	@echo "... layer/arm/relu_arm.i"
+	@echo "... layer/arm/relu_arm.s"
+	@echo "... layer/arm/relu_arm_asimdhp.o"
+	@echo "... layer/arm/relu_arm_asimdhp.i"
+	@echo "... layer/arm/relu_arm_asimdhp.s"
+	@echo "... layer/arm/requantize_arm.o"
+	@echo "... layer/arm/requantize_arm.i"
+	@echo "... layer/arm/requantize_arm.s"
+	@echo "... layer/arm/reshape_arm.o"
+	@echo "... layer/arm/reshape_arm.i"
+	@echo "... layer/arm/reshape_arm.s"
+	@echo "... layer/arm/rnn_arm.o"
+	@echo "... layer/arm/rnn_arm.i"
+	@echo "... layer/arm/rnn_arm.s"
+	@echo "... layer/arm/rnn_arm_asimdhp.o"
+	@echo "... layer/arm/rnn_arm_asimdhp.i"
+	@echo "... layer/arm/rnn_arm_asimdhp.s"
+	@echo "... layer/arm/scale_arm.o"
+	@echo "... layer/arm/scale_arm.i"
+	@echo "... layer/arm/scale_arm.s"
+	@echo "... layer/arm/selu_arm.o"
+	@echo "... layer/arm/selu_arm.i"
+	@echo "... layer/arm/selu_arm.s"
+	@echo "... layer/arm/shufflechannel_arm.o"
+	@echo "... layer/arm/shufflechannel_arm.i"
+	@echo "... layer/arm/shufflechannel_arm.s"
+	@echo "... layer/arm/sigmoid_arm.o"
+	@echo "... layer/arm/sigmoid_arm.i"
+	@echo "... layer/arm/sigmoid_arm.s"
+	@echo "... layer/arm/sigmoid_arm_asimdhp.o"
+	@echo "... layer/arm/sigmoid_arm_asimdhp.i"
+	@echo "... layer/arm/sigmoid_arm_asimdhp.s"
+	@echo "... layer/arm/slice_arm.o"
+	@echo "... layer/arm/slice_arm.i"
+	@echo "... layer/arm/slice_arm.s"
+	@echo "... layer/arm/softmax_arm.o"
+	@echo "... layer/arm/softmax_arm.i"
+	@echo "... layer/arm/softmax_arm.s"
+	@echo "... layer/arm/softmax_arm_asimdhp.o"
+	@echo "... layer/arm/softmax_arm_asimdhp.i"
+	@echo "... layer/arm/softmax_arm_asimdhp.s"
+	@echo "... layer/arm/swish_arm.o"
+	@echo "... layer/arm/swish_arm.i"
+	@echo "... layer/arm/swish_arm.s"
+	@echo "... layer/arm/swish_arm_asimdhp.o"
+	@echo "... layer/arm/swish_arm_asimdhp.i"
+	@echo "... layer/arm/swish_arm_asimdhp.s"
+	@echo "... layer/arm/tanh_arm.o"
+	@echo "... layer/arm/tanh_arm.i"
+	@echo "... layer/arm/tanh_arm.s"
+	@echo "... layer/arm/tanh_arm_asimdhp.o"
+	@echo "... layer/arm/tanh_arm_asimdhp.i"
+	@echo "... layer/arm/tanh_arm_asimdhp.s"
+	@echo "... layer/arm/unaryop_arm.o"
+	@echo "... layer/arm/unaryop_arm.i"
+	@echo "... layer/arm/unaryop_arm.s"
+	@echo "... layer/arm/unaryop_arm_asimdhp.o"
+	@echo "... layer/arm/unaryop_arm_asimdhp.i"
+	@echo "... layer/arm/unaryop_arm_asimdhp.s"
 	@echo "... layer/batchnorm.o"
 	@echo "... layer/batchnorm.i"
 	@echo "... layer/batchnorm.s"
@@ -9236,609 +6299,6 @@ help:
 	@echo "... layer/unfold.o"
 	@echo "... layer/unfold.i"
 	@echo "... layer/unfold.s"
-	@echo "... layer/x86/batchnorm_x86.o"
-	@echo "... layer/x86/batchnorm_x86.i"
-	@echo "... layer/x86/batchnorm_x86.s"
-	@echo "... layer/x86/batchnorm_x86_avx.o"
-	@echo "... layer/x86/batchnorm_x86_avx.i"
-	@echo "... layer/x86/batchnorm_x86_avx.s"
-	@echo "... layer/x86/batchnorm_x86_avx512.o"
-	@echo "... layer/x86/batchnorm_x86_avx512.i"
-	@echo "... layer/x86/batchnorm_x86_avx512.s"
-	@echo "... layer/x86/batchnorm_x86_fma.o"
-	@echo "... layer/x86/batchnorm_x86_fma.i"
-	@echo "... layer/x86/batchnorm_x86_fma.s"
-	@echo "... layer/x86/bias_x86.o"
-	@echo "... layer/x86/bias_x86.i"
-	@echo "... layer/x86/bias_x86.s"
-	@echo "... layer/x86/bias_x86_avx.o"
-	@echo "... layer/x86/bias_x86_avx.i"
-	@echo "... layer/x86/bias_x86_avx.s"
-	@echo "... layer/x86/bias_x86_avx512.o"
-	@echo "... layer/x86/bias_x86_avx512.i"
-	@echo "... layer/x86/bias_x86_avx512.s"
-	@echo "... layer/x86/bias_x86_fma.o"
-	@echo "... layer/x86/bias_x86_fma.i"
-	@echo "... layer/x86/bias_x86_fma.s"
-	@echo "... layer/x86/binaryop_x86.o"
-	@echo "... layer/x86/binaryop_x86.i"
-	@echo "... layer/x86/binaryop_x86.s"
-	@echo "... layer/x86/binaryop_x86_avx.o"
-	@echo "... layer/x86/binaryop_x86_avx.i"
-	@echo "... layer/x86/binaryop_x86_avx.s"
-	@echo "... layer/x86/binaryop_x86_avx512.o"
-	@echo "... layer/x86/binaryop_x86_avx512.i"
-	@echo "... layer/x86/binaryop_x86_avx512.s"
-	@echo "... layer/x86/binaryop_x86_fma.o"
-	@echo "... layer/x86/binaryop_x86_fma.i"
-	@echo "... layer/x86/binaryop_x86_fma.s"
-	@echo "... layer/x86/bnll_x86.o"
-	@echo "... layer/x86/bnll_x86.i"
-	@echo "... layer/x86/bnll_x86.s"
-	@echo "... layer/x86/bnll_x86_avx.o"
-	@echo "... layer/x86/bnll_x86_avx.i"
-	@echo "... layer/x86/bnll_x86_avx.s"
-	@echo "... layer/x86/bnll_x86_avx512.o"
-	@echo "... layer/x86/bnll_x86_avx512.i"
-	@echo "... layer/x86/bnll_x86_avx512.s"
-	@echo "... layer/x86/bnll_x86_fma.o"
-	@echo "... layer/x86/bnll_x86_fma.i"
-	@echo "... layer/x86/bnll_x86_fma.s"
-	@echo "... layer/x86/cast_x86.o"
-	@echo "... layer/x86/cast_x86.i"
-	@echo "... layer/x86/cast_x86.s"
-	@echo "... layer/x86/cast_x86_avx.o"
-	@echo "... layer/x86/cast_x86_avx.i"
-	@echo "... layer/x86/cast_x86_avx.s"
-	@echo "... layer/x86/cast_x86_avx2.o"
-	@echo "... layer/x86/cast_x86_avx2.i"
-	@echo "... layer/x86/cast_x86_avx2.s"
-	@echo "... layer/x86/cast_x86_avx512.o"
-	@echo "... layer/x86/cast_x86_avx512.i"
-	@echo "... layer/x86/cast_x86_avx512.s"
-	@echo "... layer/x86/cast_x86_f16c.o"
-	@echo "... layer/x86/cast_x86_f16c.i"
-	@echo "... layer/x86/cast_x86_f16c.s"
-	@echo "... layer/x86/cast_x86_fma.o"
-	@echo "... layer/x86/cast_x86_fma.i"
-	@echo "... layer/x86/cast_x86_fma.s"
-	@echo "... layer/x86/clip_x86.o"
-	@echo "... layer/x86/clip_x86.i"
-	@echo "... layer/x86/clip_x86.s"
-	@echo "... layer/x86/clip_x86_avx.o"
-	@echo "... layer/x86/clip_x86_avx.i"
-	@echo "... layer/x86/clip_x86_avx.s"
-	@echo "... layer/x86/clip_x86_avx512.o"
-	@echo "... layer/x86/clip_x86_avx512.i"
-	@echo "... layer/x86/clip_x86_avx512.s"
-	@echo "... layer/x86/clip_x86_fma.o"
-	@echo "... layer/x86/clip_x86_fma.i"
-	@echo "... layer/x86/clip_x86_fma.s"
-	@echo "... layer/x86/concat_x86.o"
-	@echo "... layer/x86/concat_x86.i"
-	@echo "... layer/x86/concat_x86.s"
-	@echo "... layer/x86/concat_x86_avx.o"
-	@echo "... layer/x86/concat_x86_avx.i"
-	@echo "... layer/x86/concat_x86_avx.s"
-	@echo "... layer/x86/concat_x86_avx512.o"
-	@echo "... layer/x86/concat_x86_avx512.i"
-	@echo "... layer/x86/concat_x86_avx512.s"
-	@echo "... layer/x86/concat_x86_fma.o"
-	@echo "... layer/x86/concat_x86_fma.i"
-	@echo "... layer/x86/concat_x86_fma.s"
-	@echo "... layer/x86/convolution1d_x86.o"
-	@echo "... layer/x86/convolution1d_x86.i"
-	@echo "... layer/x86/convolution1d_x86.s"
-	@echo "... layer/x86/convolution1d_x86_avx.o"
-	@echo "... layer/x86/convolution1d_x86_avx.i"
-	@echo "... layer/x86/convolution1d_x86_avx.s"
-	@echo "... layer/x86/convolution1d_x86_avx512.o"
-	@echo "... layer/x86/convolution1d_x86_avx512.i"
-	@echo "... layer/x86/convolution1d_x86_avx512.s"
-	@echo "... layer/x86/convolution1d_x86_fma.o"
-	@echo "... layer/x86/convolution1d_x86_fma.i"
-	@echo "... layer/x86/convolution1d_x86_fma.s"
-	@echo "... layer/x86/convolution_x86.o"
-	@echo "... layer/x86/convolution_x86.i"
-	@echo "... layer/x86/convolution_x86.s"
-	@echo "... layer/x86/convolution_x86_avx.o"
-	@echo "... layer/x86/convolution_x86_avx.i"
-	@echo "... layer/x86/convolution_x86_avx.s"
-	@echo "... layer/x86/convolution_x86_avx2.o"
-	@echo "... layer/x86/convolution_x86_avx2.i"
-	@echo "... layer/x86/convolution_x86_avx2.s"
-	@echo "... layer/x86/convolution_x86_avx512.o"
-	@echo "... layer/x86/convolution_x86_avx512.i"
-	@echo "... layer/x86/convolution_x86_avx512.s"
-	@echo "... layer/x86/convolution_x86_fma.o"
-	@echo "... layer/x86/convolution_x86_fma.i"
-	@echo "... layer/x86/convolution_x86_fma.s"
-	@echo "... layer/x86/convolution_x86_xop.o"
-	@echo "... layer/x86/convolution_x86_xop.i"
-	@echo "... layer/x86/convolution_x86_xop.s"
-	@echo "... layer/x86/convolutiondepthwise_x86.o"
-	@echo "... layer/x86/convolutiondepthwise_x86.i"
-	@echo "... layer/x86/convolutiondepthwise_x86.s"
-	@echo "... layer/x86/convolutiondepthwise_x86_avx.o"
-	@echo "... layer/x86/convolutiondepthwise_x86_avx.i"
-	@echo "... layer/x86/convolutiondepthwise_x86_avx.s"
-	@echo "... layer/x86/convolutiondepthwise_x86_avx512.o"
-	@echo "... layer/x86/convolutiondepthwise_x86_avx512.i"
-	@echo "... layer/x86/convolutiondepthwise_x86_avx512.s"
-	@echo "... layer/x86/convolutiondepthwise_x86_fma.o"
-	@echo "... layer/x86/convolutiondepthwise_x86_fma.i"
-	@echo "... layer/x86/convolutiondepthwise_x86_fma.s"
-	@echo "... layer/x86/crop_x86.o"
-	@echo "... layer/x86/crop_x86.i"
-	@echo "... layer/x86/crop_x86.s"
-	@echo "... layer/x86/crop_x86_avx.o"
-	@echo "... layer/x86/crop_x86_avx.i"
-	@echo "... layer/x86/crop_x86_avx.s"
-	@echo "... layer/x86/crop_x86_avx512.o"
-	@echo "... layer/x86/crop_x86_avx512.i"
-	@echo "... layer/x86/crop_x86_avx512.s"
-	@echo "... layer/x86/crop_x86_fma.o"
-	@echo "... layer/x86/crop_x86_fma.i"
-	@echo "... layer/x86/crop_x86_fma.s"
-	@echo "... layer/x86/deconvolution_x86.o"
-	@echo "... layer/x86/deconvolution_x86.i"
-	@echo "... layer/x86/deconvolution_x86.s"
-	@echo "... layer/x86/deconvolution_x86_avx.o"
-	@echo "... layer/x86/deconvolution_x86_avx.i"
-	@echo "... layer/x86/deconvolution_x86_avx.s"
-	@echo "... layer/x86/deconvolution_x86_avx512.o"
-	@echo "... layer/x86/deconvolution_x86_avx512.i"
-	@echo "... layer/x86/deconvolution_x86_avx512.s"
-	@echo "... layer/x86/deconvolution_x86_fma.o"
-	@echo "... layer/x86/deconvolution_x86_fma.i"
-	@echo "... layer/x86/deconvolution_x86_fma.s"
-	@echo "... layer/x86/deconvolutiondepthwise_x86.o"
-	@echo "... layer/x86/deconvolutiondepthwise_x86.i"
-	@echo "... layer/x86/deconvolutiondepthwise_x86.s"
-	@echo "... layer/x86/deconvolutiondepthwise_x86_avx.o"
-	@echo "... layer/x86/deconvolutiondepthwise_x86_avx.i"
-	@echo "... layer/x86/deconvolutiondepthwise_x86_avx.s"
-	@echo "... layer/x86/deconvolutiondepthwise_x86_avx512.o"
-	@echo "... layer/x86/deconvolutiondepthwise_x86_avx512.i"
-	@echo "... layer/x86/deconvolutiondepthwise_x86_avx512.s"
-	@echo "... layer/x86/deconvolutiondepthwise_x86_fma.o"
-	@echo "... layer/x86/deconvolutiondepthwise_x86_fma.i"
-	@echo "... layer/x86/deconvolutiondepthwise_x86_fma.s"
-	@echo "... layer/x86/deformableconv2d_x86.o"
-	@echo "... layer/x86/deformableconv2d_x86.i"
-	@echo "... layer/x86/deformableconv2d_x86.s"
-	@echo "... layer/x86/deformableconv2d_x86_avx.o"
-	@echo "... layer/x86/deformableconv2d_x86_avx.i"
-	@echo "... layer/x86/deformableconv2d_x86_avx.s"
-	@echo "... layer/x86/deformableconv2d_x86_avx512.o"
-	@echo "... layer/x86/deformableconv2d_x86_avx512.i"
-	@echo "... layer/x86/deformableconv2d_x86_avx512.s"
-	@echo "... layer/x86/deformableconv2d_x86_fma.o"
-	@echo "... layer/x86/deformableconv2d_x86_fma.i"
-	@echo "... layer/x86/deformableconv2d_x86_fma.s"
-	@echo "... layer/x86/dequantize_x86.o"
-	@echo "... layer/x86/dequantize_x86.i"
-	@echo "... layer/x86/dequantize_x86.s"
-	@echo "... layer/x86/dequantize_x86_avx.o"
-	@echo "... layer/x86/dequantize_x86_avx.i"
-	@echo "... layer/x86/dequantize_x86_avx.s"
-	@echo "... layer/x86/dequantize_x86_avx512.o"
-	@echo "... layer/x86/dequantize_x86_avx512.i"
-	@echo "... layer/x86/dequantize_x86_avx512.s"
-	@echo "... layer/x86/dequantize_x86_fma.o"
-	@echo "... layer/x86/dequantize_x86_fma.i"
-	@echo "... layer/x86/dequantize_x86_fma.s"
-	@echo "... layer/x86/dropout_x86.o"
-	@echo "... layer/x86/dropout_x86.i"
-	@echo "... layer/x86/dropout_x86.s"
-	@echo "... layer/x86/dropout_x86_avx.o"
-	@echo "... layer/x86/dropout_x86_avx.i"
-	@echo "... layer/x86/dropout_x86_avx.s"
-	@echo "... layer/x86/dropout_x86_avx512.o"
-	@echo "... layer/x86/dropout_x86_avx512.i"
-	@echo "... layer/x86/dropout_x86_avx512.s"
-	@echo "... layer/x86/dropout_x86_fma.o"
-	@echo "... layer/x86/dropout_x86_fma.i"
-	@echo "... layer/x86/dropout_x86_fma.s"
-	@echo "... layer/x86/eltwise_x86.o"
-	@echo "... layer/x86/eltwise_x86.i"
-	@echo "... layer/x86/eltwise_x86.s"
-	@echo "... layer/x86/eltwise_x86_avx.o"
-	@echo "... layer/x86/eltwise_x86_avx.i"
-	@echo "... layer/x86/eltwise_x86_avx.s"
-	@echo "... layer/x86/eltwise_x86_avx512.o"
-	@echo "... layer/x86/eltwise_x86_avx512.i"
-	@echo "... layer/x86/eltwise_x86_avx512.s"
-	@echo "... layer/x86/eltwise_x86_fma.o"
-	@echo "... layer/x86/eltwise_x86_fma.i"
-	@echo "... layer/x86/eltwise_x86_fma.s"
-	@echo "... layer/x86/elu_x86.o"
-	@echo "... layer/x86/elu_x86.i"
-	@echo "... layer/x86/elu_x86.s"
-	@echo "... layer/x86/elu_x86_avx.o"
-	@echo "... layer/x86/elu_x86_avx.i"
-	@echo "... layer/x86/elu_x86_avx.s"
-	@echo "... layer/x86/elu_x86_avx512.o"
-	@echo "... layer/x86/elu_x86_avx512.i"
-	@echo "... layer/x86/elu_x86_avx512.s"
-	@echo "... layer/x86/elu_x86_fma.o"
-	@echo "... layer/x86/elu_x86_fma.i"
-	@echo "... layer/x86/elu_x86_fma.s"
-	@echo "... layer/x86/flatten_x86.o"
-	@echo "... layer/x86/flatten_x86.i"
-	@echo "... layer/x86/flatten_x86.s"
-	@echo "... layer/x86/flatten_x86_avx.o"
-	@echo "... layer/x86/flatten_x86_avx.i"
-	@echo "... layer/x86/flatten_x86_avx.s"
-	@echo "... layer/x86/flatten_x86_avx512.o"
-	@echo "... layer/x86/flatten_x86_avx512.i"
-	@echo "... layer/x86/flatten_x86_avx512.s"
-	@echo "... layer/x86/flatten_x86_fma.o"
-	@echo "... layer/x86/flatten_x86_fma.i"
-	@echo "... layer/x86/flatten_x86_fma.s"
-	@echo "... layer/x86/gelu_x86.o"
-	@echo "... layer/x86/gelu_x86.i"
-	@echo "... layer/x86/gelu_x86.s"
-	@echo "... layer/x86/gelu_x86_avx.o"
-	@echo "... layer/x86/gelu_x86_avx.i"
-	@echo "... layer/x86/gelu_x86_avx.s"
-	@echo "... layer/x86/gelu_x86_avx512.o"
-	@echo "... layer/x86/gelu_x86_avx512.i"
-	@echo "... layer/x86/gelu_x86_avx512.s"
-	@echo "... layer/x86/gelu_x86_fma.o"
-	@echo "... layer/x86/gelu_x86_fma.i"
-	@echo "... layer/x86/gelu_x86_fma.s"
-	@echo "... layer/x86/gemm_x86.o"
-	@echo "... layer/x86/gemm_x86.i"
-	@echo "... layer/x86/gemm_x86.s"
-	@echo "... layer/x86/gemm_x86_avx.o"
-	@echo "... layer/x86/gemm_x86_avx.i"
-	@echo "... layer/x86/gemm_x86_avx.s"
-	@echo "... layer/x86/gemm_x86_avx512.o"
-	@echo "... layer/x86/gemm_x86_avx512.i"
-	@echo "... layer/x86/gemm_x86_avx512.s"
-	@echo "... layer/x86/gemm_x86_fma.o"
-	@echo "... layer/x86/gemm_x86_fma.i"
-	@echo "... layer/x86/gemm_x86_fma.s"
-	@echo "... layer/x86/groupnorm_x86.o"
-	@echo "... layer/x86/groupnorm_x86.i"
-	@echo "... layer/x86/groupnorm_x86.s"
-	@echo "... layer/x86/groupnorm_x86_avx.o"
-	@echo "... layer/x86/groupnorm_x86_avx.i"
-	@echo "... layer/x86/groupnorm_x86_avx.s"
-	@echo "... layer/x86/groupnorm_x86_avx512.o"
-	@echo "... layer/x86/groupnorm_x86_avx512.i"
-	@echo "... layer/x86/groupnorm_x86_avx512.s"
-	@echo "... layer/x86/groupnorm_x86_fma.o"
-	@echo "... layer/x86/groupnorm_x86_fma.i"
-	@echo "... layer/x86/groupnorm_x86_fma.s"
-	@echo "... layer/x86/hardsigmoid_x86.o"
-	@echo "... layer/x86/hardsigmoid_x86.i"
-	@echo "... layer/x86/hardsigmoid_x86.s"
-	@echo "... layer/x86/hardsigmoid_x86_avx.o"
-	@echo "... layer/x86/hardsigmoid_x86_avx.i"
-	@echo "... layer/x86/hardsigmoid_x86_avx.s"
-	@echo "... layer/x86/hardsigmoid_x86_avx512.o"
-	@echo "... layer/x86/hardsigmoid_x86_avx512.i"
-	@echo "... layer/x86/hardsigmoid_x86_avx512.s"
-	@echo "... layer/x86/hardsigmoid_x86_fma.o"
-	@echo "... layer/x86/hardsigmoid_x86_fma.i"
-	@echo "... layer/x86/hardsigmoid_x86_fma.s"
-	@echo "... layer/x86/hardswish_x86.o"
-	@echo "... layer/x86/hardswish_x86.i"
-	@echo "... layer/x86/hardswish_x86.s"
-	@echo "... layer/x86/hardswish_x86_avx.o"
-	@echo "... layer/x86/hardswish_x86_avx.i"
-	@echo "... layer/x86/hardswish_x86_avx.s"
-	@echo "... layer/x86/hardswish_x86_avx512.o"
-	@echo "... layer/x86/hardswish_x86_avx512.i"
-	@echo "... layer/x86/hardswish_x86_avx512.s"
-	@echo "... layer/x86/hardswish_x86_fma.o"
-	@echo "... layer/x86/hardswish_x86_fma.i"
-	@echo "... layer/x86/hardswish_x86_fma.s"
-	@echo "... layer/x86/innerproduct_x86.o"
-	@echo "... layer/x86/innerproduct_x86.i"
-	@echo "... layer/x86/innerproduct_x86.s"
-	@echo "... layer/x86/innerproduct_x86_avx.o"
-	@echo "... layer/x86/innerproduct_x86_avx.i"
-	@echo "... layer/x86/innerproduct_x86_avx.s"
-	@echo "... layer/x86/innerproduct_x86_avx512.o"
-	@echo "... layer/x86/innerproduct_x86_avx512.i"
-	@echo "... layer/x86/innerproduct_x86_avx512.s"
-	@echo "... layer/x86/innerproduct_x86_f16c.o"
-	@echo "... layer/x86/innerproduct_x86_f16c.i"
-	@echo "... layer/x86/innerproduct_x86_f16c.s"
-	@echo "... layer/x86/innerproduct_x86_fma.o"
-	@echo "... layer/x86/innerproduct_x86_fma.i"
-	@echo "... layer/x86/innerproduct_x86_fma.s"
-	@echo "... layer/x86/interp_x86.o"
-	@echo "... layer/x86/interp_x86.i"
-	@echo "... layer/x86/interp_x86.s"
-	@echo "... layer/x86/interp_x86_avx.o"
-	@echo "... layer/x86/interp_x86_avx.i"
-	@echo "... layer/x86/interp_x86_avx.s"
-	@echo "... layer/x86/interp_x86_avx512.o"
-	@echo "... layer/x86/interp_x86_avx512.i"
-	@echo "... layer/x86/interp_x86_avx512.s"
-	@echo "... layer/x86/interp_x86_fma.o"
-	@echo "... layer/x86/interp_x86_fma.i"
-	@echo "... layer/x86/interp_x86_fma.s"
-	@echo "... layer/x86/layernorm_x86.o"
-	@echo "... layer/x86/layernorm_x86.i"
-	@echo "... layer/x86/layernorm_x86.s"
-	@echo "... layer/x86/layernorm_x86_avx.o"
-	@echo "... layer/x86/layernorm_x86_avx.i"
-	@echo "... layer/x86/layernorm_x86_avx.s"
-	@echo "... layer/x86/layernorm_x86_avx512.o"
-	@echo "... layer/x86/layernorm_x86_avx512.i"
-	@echo "... layer/x86/layernorm_x86_avx512.s"
-	@echo "... layer/x86/layernorm_x86_fma.o"
-	@echo "... layer/x86/layernorm_x86_fma.i"
-	@echo "... layer/x86/layernorm_x86_fma.s"
-	@echo "... layer/x86/lrn_x86.o"
-	@echo "... layer/x86/lrn_x86.i"
-	@echo "... layer/x86/lrn_x86.s"
-	@echo "... layer/x86/lrn_x86_avx.o"
-	@echo "... layer/x86/lrn_x86_avx.i"
-	@echo "... layer/x86/lrn_x86_avx.s"
-	@echo "... layer/x86/lrn_x86_avx512.o"
-	@echo "... layer/x86/lrn_x86_avx512.i"
-	@echo "... layer/x86/lrn_x86_avx512.s"
-	@echo "... layer/x86/lrn_x86_fma.o"
-	@echo "... layer/x86/lrn_x86_fma.i"
-	@echo "... layer/x86/lrn_x86_fma.s"
-	@echo "... layer/x86/lstm_x86.o"
-	@echo "... layer/x86/lstm_x86.i"
-	@echo "... layer/x86/lstm_x86.s"
-	@echo "... layer/x86/lstm_x86_avx.o"
-	@echo "... layer/x86/lstm_x86_avx.i"
-	@echo "... layer/x86/lstm_x86_avx.s"
-	@echo "... layer/x86/lstm_x86_avx512.o"
-	@echo "... layer/x86/lstm_x86_avx512.i"
-	@echo "... layer/x86/lstm_x86_avx512.s"
-	@echo "... layer/x86/lstm_x86_fma.o"
-	@echo "... layer/x86/lstm_x86_fma.i"
-	@echo "... layer/x86/lstm_x86_fma.s"
-	@echo "... layer/x86/matmul_x86.o"
-	@echo "... layer/x86/matmul_x86.i"
-	@echo "... layer/x86/matmul_x86.s"
-	@echo "... layer/x86/matmul_x86_avx.o"
-	@echo "... layer/x86/matmul_x86_avx.i"
-	@echo "... layer/x86/matmul_x86_avx.s"
-	@echo "... layer/x86/matmul_x86_avx512.o"
-	@echo "... layer/x86/matmul_x86_avx512.i"
-	@echo "... layer/x86/matmul_x86_avx512.s"
-	@echo "... layer/x86/matmul_x86_fma.o"
-	@echo "... layer/x86/matmul_x86_fma.i"
-	@echo "... layer/x86/matmul_x86_fma.s"
-	@echo "... layer/x86/mish_x86.o"
-	@echo "... layer/x86/mish_x86.i"
-	@echo "... layer/x86/mish_x86.s"
-	@echo "... layer/x86/mish_x86_avx.o"
-	@echo "... layer/x86/mish_x86_avx.i"
-	@echo "... layer/x86/mish_x86_avx.s"
-	@echo "... layer/x86/mish_x86_avx512.o"
-	@echo "... layer/x86/mish_x86_avx512.i"
-	@echo "... layer/x86/mish_x86_avx512.s"
-	@echo "... layer/x86/mish_x86_fma.o"
-	@echo "... layer/x86/mish_x86_fma.i"
-	@echo "... layer/x86/mish_x86_fma.s"
-	@echo "... layer/x86/multiheadattention_x86.o"
-	@echo "... layer/x86/multiheadattention_x86.i"
-	@echo "... layer/x86/multiheadattention_x86.s"
-	@echo "... layer/x86/multiheadattention_x86_avx.o"
-	@echo "... layer/x86/multiheadattention_x86_avx.i"
-	@echo "... layer/x86/multiheadattention_x86_avx.s"
-	@echo "... layer/x86/multiheadattention_x86_avx512.o"
-	@echo "... layer/x86/multiheadattention_x86_avx512.i"
-	@echo "... layer/x86/multiheadattention_x86_avx512.s"
-	@echo "... layer/x86/multiheadattention_x86_fma.o"
-	@echo "... layer/x86/multiheadattention_x86_fma.i"
-	@echo "... layer/x86/multiheadattention_x86_fma.s"
-	@echo "... layer/x86/packing_x86.o"
-	@echo "... layer/x86/packing_x86.i"
-	@echo "... layer/x86/packing_x86.s"
-	@echo "... layer/x86/packing_x86_avx.o"
-	@echo "... layer/x86/packing_x86_avx.i"
-	@echo "... layer/x86/packing_x86_avx.s"
-	@echo "... layer/x86/packing_x86_avx512.o"
-	@echo "... layer/x86/packing_x86_avx512.i"
-	@echo "... layer/x86/packing_x86_avx512.s"
-	@echo "... layer/x86/packing_x86_fma.o"
-	@echo "... layer/x86/packing_x86_fma.i"
-	@echo "... layer/x86/packing_x86_fma.s"
-	@echo "... layer/x86/padding_x86.o"
-	@echo "... layer/x86/padding_x86.i"
-	@echo "... layer/x86/padding_x86.s"
-	@echo "... layer/x86/padding_x86_avx.o"
-	@echo "... layer/x86/padding_x86_avx.i"
-	@echo "... layer/x86/padding_x86_avx.s"
-	@echo "... layer/x86/padding_x86_avx512.o"
-	@echo "... layer/x86/padding_x86_avx512.i"
-	@echo "... layer/x86/padding_x86_avx512.s"
-	@echo "... layer/x86/padding_x86_fma.o"
-	@echo "... layer/x86/padding_x86_fma.i"
-	@echo "... layer/x86/padding_x86_fma.s"
-	@echo "... layer/x86/pooling_x86.o"
-	@echo "... layer/x86/pooling_x86.i"
-	@echo "... layer/x86/pooling_x86.s"
-	@echo "... layer/x86/pooling_x86_avx.o"
-	@echo "... layer/x86/pooling_x86_avx.i"
-	@echo "... layer/x86/pooling_x86_avx.s"
-	@echo "... layer/x86/pooling_x86_avx512.o"
-	@echo "... layer/x86/pooling_x86_avx512.i"
-	@echo "... layer/x86/pooling_x86_avx512.s"
-	@echo "... layer/x86/pooling_x86_fma.o"
-	@echo "... layer/x86/pooling_x86_fma.i"
-	@echo "... layer/x86/pooling_x86_fma.s"
-	@echo "... layer/x86/prelu_x86.o"
-	@echo "... layer/x86/prelu_x86.i"
-	@echo "... layer/x86/prelu_x86.s"
-	@echo "... layer/x86/prelu_x86_avx.o"
-	@echo "... layer/x86/prelu_x86_avx.i"
-	@echo "... layer/x86/prelu_x86_avx.s"
-	@echo "... layer/x86/prelu_x86_avx512.o"
-	@echo "... layer/x86/prelu_x86_avx512.i"
-	@echo "... layer/x86/prelu_x86_avx512.s"
-	@echo "... layer/x86/prelu_x86_fma.o"
-	@echo "... layer/x86/prelu_x86_fma.i"
-	@echo "... layer/x86/prelu_x86_fma.s"
-	@echo "... layer/x86/quantize_x86.o"
-	@echo "... layer/x86/quantize_x86.i"
-	@echo "... layer/x86/quantize_x86.s"
-	@echo "... layer/x86/quantize_x86_avx.o"
-	@echo "... layer/x86/quantize_x86_avx.i"
-	@echo "... layer/x86/quantize_x86_avx.s"
-	@echo "... layer/x86/quantize_x86_avx512.o"
-	@echo "... layer/x86/quantize_x86_avx512.i"
-	@echo "... layer/x86/quantize_x86_avx512.s"
-	@echo "... layer/x86/quantize_x86_fma.o"
-	@echo "... layer/x86/quantize_x86_fma.i"
-	@echo "... layer/x86/quantize_x86_fma.s"
-	@echo "... layer/x86/relu_x86.o"
-	@echo "... layer/x86/relu_x86.i"
-	@echo "... layer/x86/relu_x86.s"
-	@echo "... layer/x86/relu_x86_avx.o"
-	@echo "... layer/x86/relu_x86_avx.i"
-	@echo "... layer/x86/relu_x86_avx.s"
-	@echo "... layer/x86/relu_x86_avx512.o"
-	@echo "... layer/x86/relu_x86_avx512.i"
-	@echo "... layer/x86/relu_x86_avx512.s"
-	@echo "... layer/x86/relu_x86_fma.o"
-	@echo "... layer/x86/relu_x86_fma.i"
-	@echo "... layer/x86/relu_x86_fma.s"
-	@echo "... layer/x86/requantize_x86.o"
-	@echo "... layer/x86/requantize_x86.i"
-	@echo "... layer/x86/requantize_x86.s"
-	@echo "... layer/x86/requantize_x86_avx.o"
-	@echo "... layer/x86/requantize_x86_avx.i"
-	@echo "... layer/x86/requantize_x86_avx.s"
-	@echo "... layer/x86/requantize_x86_avx512.o"
-	@echo "... layer/x86/requantize_x86_avx512.i"
-	@echo "... layer/x86/requantize_x86_avx512.s"
-	@echo "... layer/x86/requantize_x86_fma.o"
-	@echo "... layer/x86/requantize_x86_fma.i"
-	@echo "... layer/x86/requantize_x86_fma.s"
-	@echo "... layer/x86/reshape_x86.o"
-	@echo "... layer/x86/reshape_x86.i"
-	@echo "... layer/x86/reshape_x86.s"
-	@echo "... layer/x86/reshape_x86_avx.o"
-	@echo "... layer/x86/reshape_x86_avx.i"
-	@echo "... layer/x86/reshape_x86_avx.s"
-	@echo "... layer/x86/reshape_x86_avx512.o"
-	@echo "... layer/x86/reshape_x86_avx512.i"
-	@echo "... layer/x86/reshape_x86_avx512.s"
-	@echo "... layer/x86/reshape_x86_fma.o"
-	@echo "... layer/x86/reshape_x86_fma.i"
-	@echo "... layer/x86/reshape_x86_fma.s"
-	@echo "... layer/x86/roialign_x86.o"
-	@echo "... layer/x86/roialign_x86.i"
-	@echo "... layer/x86/roialign_x86.s"
-	@echo "... layer/x86/roialign_x86_avx.o"
-	@echo "... layer/x86/roialign_x86_avx.i"
-	@echo "... layer/x86/roialign_x86_avx.s"
-	@echo "... layer/x86/roialign_x86_avx512.o"
-	@echo "... layer/x86/roialign_x86_avx512.i"
-	@echo "... layer/x86/roialign_x86_avx512.s"
-	@echo "... layer/x86/roialign_x86_fma.o"
-	@echo "... layer/x86/roialign_x86_fma.i"
-	@echo "... layer/x86/roialign_x86_fma.s"
-	@echo "... layer/x86/scale_x86.o"
-	@echo "... layer/x86/scale_x86.i"
-	@echo "... layer/x86/scale_x86.s"
-	@echo "... layer/x86/scale_x86_avx.o"
-	@echo "... layer/x86/scale_x86_avx.i"
-	@echo "... layer/x86/scale_x86_avx.s"
-	@echo "... layer/x86/scale_x86_avx512.o"
-	@echo "... layer/x86/scale_x86_avx512.i"
-	@echo "... layer/x86/scale_x86_avx512.s"
-	@echo "... layer/x86/scale_x86_fma.o"
-	@echo "... layer/x86/scale_x86_fma.i"
-	@echo "... layer/x86/scale_x86_fma.s"
-	@echo "... layer/x86/sigmoid_x86.o"
-	@echo "... layer/x86/sigmoid_x86.i"
-	@echo "... layer/x86/sigmoid_x86.s"
-	@echo "... layer/x86/sigmoid_x86_avx.o"
-	@echo "... layer/x86/sigmoid_x86_avx.i"
-	@echo "... layer/x86/sigmoid_x86_avx.s"
-	@echo "... layer/x86/sigmoid_x86_avx512.o"
-	@echo "... layer/x86/sigmoid_x86_avx512.i"
-	@echo "... layer/x86/sigmoid_x86_avx512.s"
-	@echo "... layer/x86/sigmoid_x86_fma.o"
-	@echo "... layer/x86/sigmoid_x86_fma.i"
-	@echo "... layer/x86/sigmoid_x86_fma.s"
-	@echo "... layer/x86/slice_x86.o"
-	@echo "... layer/x86/slice_x86.i"
-	@echo "... layer/x86/slice_x86.s"
-	@echo "... layer/x86/slice_x86_avx.o"
-	@echo "... layer/x86/slice_x86_avx.i"
-	@echo "... layer/x86/slice_x86_avx.s"
-	@echo "... layer/x86/slice_x86_avx512.o"
-	@echo "... layer/x86/slice_x86_avx512.i"
-	@echo "... layer/x86/slice_x86_avx512.s"
-	@echo "... layer/x86/slice_x86_fma.o"
-	@echo "... layer/x86/slice_x86_fma.i"
-	@echo "... layer/x86/slice_x86_fma.s"
-	@echo "... layer/x86/softmax_x86.o"
-	@echo "... layer/x86/softmax_x86.i"
-	@echo "... layer/x86/softmax_x86.s"
-	@echo "... layer/x86/softmax_x86_avx.o"
-	@echo "... layer/x86/softmax_x86_avx.i"
-	@echo "... layer/x86/softmax_x86_avx.s"
-	@echo "... layer/x86/softmax_x86_avx512.o"
-	@echo "... layer/x86/softmax_x86_avx512.i"
-	@echo "... layer/x86/softmax_x86_avx512.s"
-	@echo "... layer/x86/softmax_x86_fma.o"
-	@echo "... layer/x86/softmax_x86_fma.i"
-	@echo "... layer/x86/softmax_x86_fma.s"
-	@echo "... layer/x86/swish_x86.o"
-	@echo "... layer/x86/swish_x86.i"
-	@echo "... layer/x86/swish_x86.s"
-	@echo "... layer/x86/swish_x86_avx.o"
-	@echo "... layer/x86/swish_x86_avx.i"
-	@echo "... layer/x86/swish_x86_avx.s"
-	@echo "... layer/x86/swish_x86_avx512.o"
-	@echo "... layer/x86/swish_x86_avx512.i"
-	@echo "... layer/x86/swish_x86_avx512.s"
-	@echo "... layer/x86/swish_x86_fma.o"
-	@echo "... layer/x86/swish_x86_fma.i"
-	@echo "... layer/x86/swish_x86_fma.s"
-	@echo "... layer/x86/tanh_x86.o"
-	@echo "... layer/x86/tanh_x86.i"
-	@echo "... layer/x86/tanh_x86.s"
-	@echo "... layer/x86/tanh_x86_avx.o"
-	@echo "... layer/x86/tanh_x86_avx.i"
-	@echo "... layer/x86/tanh_x86_avx.s"
-	@echo "... layer/x86/tanh_x86_avx512.o"
-	@echo "... layer/x86/tanh_x86_avx512.i"
-	@echo "... layer/x86/tanh_x86_avx512.s"
-	@echo "... layer/x86/tanh_x86_fma.o"
-	@echo "... layer/x86/tanh_x86_fma.i"
-	@echo "... layer/x86/tanh_x86_fma.s"
-	@echo "... layer/x86/unaryop_x86.o"
-	@echo "... layer/x86/unaryop_x86.i"
-	@echo "... layer/x86/unaryop_x86.s"
-	@echo "... layer/x86/unaryop_x86_avx.o"
-	@echo "... layer/x86/unaryop_x86_avx.i"
-	@echo "... layer/x86/unaryop_x86_avx.s"
-	@echo "... layer/x86/unaryop_x86_avx512.o"
-	@echo "... layer/x86/unaryop_x86_avx512.i"
-	@echo "... layer/x86/unaryop_x86_avx512.s"
-	@echo "... layer/x86/unaryop_x86_fma.o"
-	@echo "... layer/x86/unaryop_x86_fma.i"
-	@echo "... layer/x86/unaryop_x86_fma.s"
-	@echo "... layer/x86/yolov3detectionoutput_x86.o"
-	@echo "... layer/x86/yolov3detectionoutput_x86.i"
-	@echo "... layer/x86/yolov3detectionoutput_x86.s"
-	@echo "... layer/x86/yolov3detectionoutput_x86_avx.o"
-	@echo "... layer/x86/yolov3detectionoutput_x86_avx.i"
-	@echo "... layer/x86/yolov3detectionoutput_x86_avx.s"
-	@echo "... layer/x86/yolov3detectionoutput_x86_avx512.o"
-	@echo "... layer/x86/yolov3detectionoutput_x86_avx512.i"
-	@echo "... layer/x86/yolov3detectionoutput_x86_avx512.s"
-	@echo "... layer/x86/yolov3detectionoutput_x86_fma.o"
-	@echo "... layer/x86/yolov3detectionoutput_x86_fma.i"
-	@echo "... layer/x86/yolov3detectionoutput_x86_fma.s"
 	@echo "... layer/yolodetectionoutput.o"
 	@echo "... layer/yolodetectionoutput.i"
 	@echo "... layer/yolodetectionoutput.s"
@@ -9901,6 +6361,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

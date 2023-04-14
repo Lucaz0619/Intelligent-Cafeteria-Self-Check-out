@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIE   -fopenmp -pthread
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/src -I/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/src 
+CXX_INCLUDES = -I/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src -I/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/src 
 
