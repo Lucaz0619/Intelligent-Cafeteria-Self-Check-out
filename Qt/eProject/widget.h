@@ -2,11 +2,6 @@
 #define WIDGET_H
 
 #include <QWidget>
-//#include <qwt/qwt_thermo.h>
-//#include <QBoxLayout>
-//#include <QPushButton>
-//#include <QLabel>
-
 #include <QImage>
 #include <QTimer>
 #include <opencv2/core/core.hpp>
@@ -16,8 +11,6 @@
 
 using namespace cv;
 using namespace std;
-
-#include "camera.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -30,7 +23,7 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
-    QImage MatImageToQt(const Mat &src);
+    void reboot();
 
 //    //bp opencv
 //    void updateImage(const cv::Mat &mat);
@@ -71,16 +64,21 @@ private slots:
     void closeFaceCamara();
     void takeFacePhoto();
 
-    void on_csvBt_clicked();
-
-    void on_csvWBt_clicked();
+    void timerUpdata(void);
+    void restart_window();
+    void show_order(int* dishes_recognized, int dishNum);
+    void make_payment(int UsrIdx);
+    //int faceRecognize();
 
 private:
     Ui::Widget *ui;
-    QTimer    *timer_dish;
-    QTimer    *timer_face;
+    QTimer *cur_timer;
+    QTimer *timer_dish;
+    QTimer *timer_face;
+    QTimer restart_timer;
     //QImage    *image;
     VideoCapture cap;
     Mat src_image;
+    double total_price;
 };
 #endif // WIDGET_H
