@@ -17,6 +17,7 @@
 
 ## Features
 
+- Rasberry Pi and camera module
 - Real-time dishes and face recognition
 - YOLOv5 Lite for efficient and accurate dishes detection
 - OpenCV 4.5.1 for reliable face recognition
