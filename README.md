@@ -1,13 +1,8 @@
 # Intelligent-Cafeteria-Self-Check-out  
 
-<!-- LOGO AND SLOGAN -->
-</br>
-<div align="center">
-
-   <img src=https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/logo.png alt="logo" width="400" div align=center />
-   </br>
-   </br>
-<b>
+<div style="text-align: center">
+  ![Project Logo](images/Qt/icsc/pic/logo.png "Logo of the project")
+</div>
 
 This project uses YOLOv5 Lite for dishes recognition, OpenCV 4.5.1 for face recognition, and a Qt interface for a seamless user experience.  
 
