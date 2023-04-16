@@ -2,7 +2,6 @@
 
 <p align="center">
     <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/logo2.png"><br>
-    <strong>Relish the Taste, Save Time, Make Class: The Intelligent Cafeteria Experience</strong>
 </p>    
 
 <br>  
