@@ -24,14 +24,14 @@ This project uses YOLOv5 Lite for dishes recognition, OpenCV 4.5.1 for face reco
 ## Installation
 1. Clone the repository:
 
-```console
+```bash
 git clone https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out.git
 ```
 
 ## Usage
 Make and run the main application:
 
-```console
+```bash
 cd ../QT/icsc/build
 make
 ./icsc
