@@ -6,10 +6,7 @@
 </p>    
 
 <br>  
-Ａ cutting-edge solution for university cafeterias that streamlines the dining experience. This innovative system utilizes advanced dish recognition technology to accurately calculate the cost of meals. Additionally, it employs facial recognition for payment processing, significantly reducing wait times for students.  
-
-
-By leveraging state-of-the-art technologies, the Intelligent Cafeteria Self Check-Out not only enhances the overall dining experience but also ensures that students can enjoy their meals and swiftly return to their academic pursuits. Transform your university's cafeteria into an efficient, time-saving, and enjoyable dining destination with the Intelligent Cafeteria Self-Check-Out System.  
+Ａ cutting-edge solution for university cafeterias that streamlines the dining experience. This innovative system utilizes advanced dish recognition technology to accurately calculate the cost of meals. Additionally, it employs facial recognition for payment processing, significantly reducing wait times for students. The Intelligent Cafeteria Self Check-Out not only enhances the overall dining experience but also ensures that students can enjoy their meals and swiftly return to their academic pursuits. Transform your university's cafeteria into an efficient, time-saving, and enjoyable dining destination with the Intelligent Cafeteria Self-Check-Out System.  
 
 ## Table of Contents 
 - [Features](#features)
