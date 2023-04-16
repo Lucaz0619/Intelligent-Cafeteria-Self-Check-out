@@ -33,7 +33,7 @@
 
 // 0 : Image
 // 1 : Camera
-#define USE_CAMERA 1
+#define USE_CAMERA 0
 
 struct Object
 {
@@ -460,7 +460,7 @@ static void draw_objects(const cv::Mat& bgr, const std::vector<Object>& objects)
                     cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 0, 0));
     }
 #if USE_CAMERA
-    imshow("外接摄像头", image);
+    imshow("food_detection", image);
     cv::waitKey(1);
 #else
     cv::imwrite("result.jpg", image);
