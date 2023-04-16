@@ -38,6 +38,6 @@ make
 ```
 
 ## Lincense
-This project is licensed under the [`MIT License`]().
+This project is licensed under the [`MIT License`](https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/LICENSE).
 
 
