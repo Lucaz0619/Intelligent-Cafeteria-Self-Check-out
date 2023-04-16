@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnnmerge.cpp" "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.o"
+  "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnnmerge.cpp" "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

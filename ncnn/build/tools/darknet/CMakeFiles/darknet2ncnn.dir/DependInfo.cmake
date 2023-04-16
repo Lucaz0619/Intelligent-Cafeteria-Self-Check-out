@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/darknet/darknet2ncnn.cpp" "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o"
+  "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/darknet/darknet2ncnn.cpp" "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

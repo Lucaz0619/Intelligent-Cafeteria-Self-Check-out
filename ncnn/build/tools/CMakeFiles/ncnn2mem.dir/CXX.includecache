@@ -138,11 +138,11 @@ new
 vulkan/vulkan.h
 -
 
-/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnn2mem.cpp
+/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnn2mem.cpp
 layer.h
-/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/layer.h
+/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/layer.h
 layer_type.h
-/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/layer_type.h
+/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/layer_type.h
 cstddef
 -
 ctype.h

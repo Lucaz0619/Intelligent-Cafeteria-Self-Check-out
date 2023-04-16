@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
+CMAKE_SOURCE_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build
+CMAKE_BINARY_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build
 
 # Include any dependencies generated for this target.
 include tools/quantize/CMakeFiles/ncnn2int8.dir/depend.make
@@ -59,16 +59,16 @@ include tools/quantize/CMakeFiles/ncnn2int8.dir/flags.make
 
 tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o: tools/quantize/CMakeFiles/ncnn2int8.dir/flags.make
 tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o: ../tools/quantize/ncnn2int8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o"
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o -c /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/ncnn2int8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o"
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o -c /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/ncnn2int8.cpp
 
 tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.i"
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/ncnn2int8.cpp > CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.i
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/ncnn2int8.cpp > CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.i
 
 tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.s"
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/ncnn2int8.cpp -o CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.s
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize/ncnn2int8.cpp -o CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.s
 
 tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o.requires:
 
@@ -91,11 +91,11 @@ ncnn2int8_EXTERNAL_OBJECTS =
 tools/quantize/ncnn2int8: tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o
 tools/quantize/ncnn2int8: tools/quantize/CMakeFiles/ncnn2int8.dir/build.make
 tools/quantize/ncnn2int8: src/libncnn.a
-tools/quantize/ncnn2int8: /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so
-tools/quantize/ncnn2int8: /usr/lib/aarch64-linux-gnu/libpthread.so
+tools/quantize/ncnn2int8: /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so
+tools/quantize/ncnn2int8: /usr/lib/x86_64-linux-gnu/libpthread.so
 tools/quantize/ncnn2int8: tools/quantize/CMakeFiles/ncnn2int8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ncnn2int8"
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn2int8.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ncnn2int8"
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn2int8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/quantize/CMakeFiles/ncnn2int8.dir/build: tools/quantize/ncnn2int8
@@ -107,10 +107,10 @@ tools/quantize/CMakeFiles/ncnn2int8.dir/requires: tools/quantize/CMakeFiles/ncnn
 .PHONY : tools/quantize/CMakeFiles/ncnn2int8.dir/requires
 
 tools/quantize/CMakeFiles/ncnn2int8.dir/clean:
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize && $(CMAKE_COMMAND) -P CMakeFiles/ncnn2int8.dir/cmake_clean.cmake
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize && $(CMAKE_COMMAND) -P CMakeFiles/ncnn2int8.dir/cmake_clean.cmake
 .PHONY : tools/quantize/CMakeFiles/ncnn2int8.dir/clean
 
 tools/quantize/CMakeFiles/ncnn2int8.dir/depend:
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize/CMakeFiles/ncnn2int8.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/quantize /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/quantize/CMakeFiles/ncnn2int8.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/quantize/CMakeFiles/ncnn2int8.dir/depend
 

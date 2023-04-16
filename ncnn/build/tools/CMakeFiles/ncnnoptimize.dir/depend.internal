@@ -100,9 +100,9 @@ tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o
  ../src/pipeline.h
  ../src/simplestl.h
  ../src/vulkan_header_fix.h
- /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tests/prng.h
- /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/modelwriter.h
- /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnnoptimize.cpp
+ /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tests/prng.h
+ /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/modelwriter.h
+ /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/ncnnoptimize.cpp
  src/layer_type_enum.h
  src/ncnn_export.h
  src/platform.h

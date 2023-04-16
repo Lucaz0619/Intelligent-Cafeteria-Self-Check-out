@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn
+CMAKE_SOURCE_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build
+CMAKE_BINARY_DIR = /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build
 
 # Include any dependencies generated for this target.
 include tools/darknet/CMakeFiles/darknet2ncnn.dir/depend.make
@@ -59,16 +59,16 @@ include tools/darknet/CMakeFiles/darknet2ncnn.dir/flags.make
 
 tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o: tools/darknet/CMakeFiles/darknet2ncnn.dir/flags.make
 tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o: ../tools/darknet/darknet2ncnn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o"
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o -c /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/darknet/darknet2ncnn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o"
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o -c /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/darknet/darknet2ncnn.cpp
 
 tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.i"
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/darknet/darknet2ncnn.cpp > CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.i
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/darknet/darknet2ncnn.cpp > CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.i
 
 tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.s"
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/darknet/darknet2ncnn.cpp -o CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.s
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/darknet/darknet2ncnn.cpp -o CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.s
 
 tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o.requires:
 
@@ -91,8 +91,8 @@ darknet2ncnn_EXTERNAL_OBJECTS =
 tools/darknet/darknet2ncnn: tools/darknet/CMakeFiles/darknet2ncnn.dir/darknet2ncnn.cpp.o
 tools/darknet/darknet2ncnn: tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make
 tools/darknet/darknet2ncnn: tools/darknet/CMakeFiles/darknet2ncnn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable darknet2ncnn"
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/darknet2ncnn.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable darknet2ncnn"
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/darknet2ncnn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/darknet/CMakeFiles/darknet2ncnn.dir/build: tools/darknet/darknet2ncnn
@@ -104,10 +104,10 @@ tools/darknet/CMakeFiles/darknet2ncnn.dir/requires: tools/darknet/CMakeFiles/dar
 .PHONY : tools/darknet/CMakeFiles/darknet2ncnn.dir/requires
 
 tools/darknet/CMakeFiles/darknet2ncnn.dir/clean:
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet && $(CMAKE_COMMAND) -P CMakeFiles/darknet2ncnn.dir/cmake_clean.cmake
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet && $(CMAKE_COMMAND) -P CMakeFiles/darknet2ncnn.dir/cmake_clean.cmake
 .PHONY : tools/darknet/CMakeFiles/darknet2ncnn.dir/clean
 
 tools/darknet/CMakeFiles/darknet2ncnn.dir/depend:
-	cd /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/darknet /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet/CMakeFiles/darknet2ncnn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/tools/darknet /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/tools/darknet/CMakeFiles/darknet2ncnn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/darknet/CMakeFiles/darknet2ncnn.dir/depend
 

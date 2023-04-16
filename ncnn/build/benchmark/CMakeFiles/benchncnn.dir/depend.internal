@@ -18,6 +18,6 @@ benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.o
  ../src/pipeline.h
  ../src/simplestl.h
  ../src/vulkan_header_fix.h
- /home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/benchncnn.cpp
+ /home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/benchmark/benchncnn.cpp
  src/ncnn_export.h
  src/platform.h

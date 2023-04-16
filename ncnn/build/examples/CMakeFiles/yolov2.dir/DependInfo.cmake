@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/yolov2.cpp" "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o"
+  "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/examples/yolov2.cpp" "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,14 +12,15 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../examples/../src"
   "examples/../src"
-  "/usr/local/include/opencv4"
+  "/usr/local/include"
+  "/usr/local/include/opencv"
   "../src"
   "src"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/build/src/CMakeFiles/ncnn.dir/DependInfo.cmake"
+  "/home/weijian/Deep_Learning_ws/rtep_projects/Intelligent-Cafeteria-Self-Check-out/ncnn/build/src/CMakeFiles/ncnn.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

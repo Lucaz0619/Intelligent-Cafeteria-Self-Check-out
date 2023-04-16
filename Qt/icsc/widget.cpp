@@ -13,6 +13,7 @@
 //#define camerawidth 1280
 //#define cameraheight 720
 
+
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::Widget)
@@ -82,6 +83,9 @@ Widget::~Widget()
     delete ui;
 }
 
+
+
+// 显示当前时间
 void Widget::timerUpdata()
 {
     QDateTime time = QDateTime::currentDateTime();
@@ -89,6 +93,9 @@ void Widget::timerUpdata()
     ui->curTime->setText(str);
 }
 
+
+
+// 关闭窗口
 void Widget::reboot()
 {
     QString program = QApplication::applicationFilePath();
@@ -98,6 +105,7 @@ void Widget::reboot()
     QApplication::exit();
 }
 
+// 重新打开窗口
 void Widget::restart_window()
 {
     qDebug()<<"time out";
@@ -106,6 +114,9 @@ void Widget::restart_window()
     reboot();
 }
 
+
+
+// 读取菜品数据库
 QStringList read_dish_database()
 {
     QFile inFile("dish_database.csv");
@@ -128,7 +139,9 @@ QStringList read_dish_database()
     }
 }
 
-// Mat transfer to QImage
+
+
+// Mat transfer to QImage 图像对象类型转换
 QImage MatImageToQt(const Mat &src)
 {
     //CV_8UC1 8位无符号的单通道---灰度图片
@@ -185,12 +198,16 @@ QImage MatImageToQt(const Mat &src)
     }
 }
 
+
+
+
+// 菜品识别临时触发按钮 被点击时
 void Widget::on_dishRgBt_clicked()
 {
     //qDebug("on_dishRgBt_clicked");image: url(:/pic/logo.png);
 }
 
-
+// 菜品识别临时触发按钮按下时
 void Widget::on_dishRgBt_pressed()
 {
     ui->statusLb->setText("Recognizing...");
@@ -202,6 +219,7 @@ void Widget::on_dishRgBt_pressed()
     ui->dishLdImg->setVisible(true);
 }
 
+// 菜品识别临时触发按钮释放时
 void Widget::on_dishRgBt_released()
 {
     ui->dishLdImg->setVisible(false);
@@ -209,7 +227,7 @@ void Widget::on_dishRgBt_released()
     ui->statusLb->setStyleSheet("background-color: rgb(111, 237, 92);");
     ui->statusLb->setFixedWidth(300);
     ui->dishRgBt->setText("Dishes recognized");
-    takeDishPhoto();
+    takeDishPhoto();   // 定格菜品摄像头显示画面
 
     // get order list
     int dishNum = 6;  // will from dish recognition
@@ -257,6 +275,10 @@ void Widget::on_dishRgBt_released()
 //    thermo->setValue(c.lightness());
 //}
 
+
+
+
+// 菜品识别摄像头
 // read camera frame
 void Widget::readDishFrame()
 {
@@ -297,6 +319,7 @@ void Widget::closeDishCamara()
     ui->dcView->clear();
 }
 
+// 人脸识别摄像头
 // read camera frame
 void Widget::readFaceFrame()
 {
@@ -337,6 +360,9 @@ void Widget::closeFaceCamara()
     ui->fcView->clear();
 }
 
+
+
+// 界面显示菜品列表，包括菜品名称、价格、数量
 void Widget::show_order(int* dishes_recognized, int dishNum)
 {
     // total price var
@@ -368,6 +394,7 @@ void Widget::show_order(int* dishes_recognized, int dishNum)
 
 }
 
+// 读取账户数据库并扣款
 bool Widget::make_payment(int UsrIdx)
 {
     QFile inFile("account_database.csv");
@@ -438,6 +465,12 @@ bool Widget::make_payment(int UsrIdx)
     return true;
 }
 
+
+
+
+
+
+// 人脸识别
 int Widget::faceRecognize()
 {
     int UsrIdx = -1;
