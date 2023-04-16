@@ -1,7 +1,7 @@
 # Intelligent-Cafeteria-Self-Check-out  
 
 <p align="center">
-    <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/logo2.png" width="300" height="200"><br>
+    <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/logo2.png" width="300" height="300"><br>
 </p>    
 
 <br>  
