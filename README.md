@@ -33,6 +33,7 @@ Make and run the main application:
 
 ```bash
 cd ../QT/icsc/build
+cmake ..
 make
 ./icsc
 ```
