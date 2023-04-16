@@ -1,9 +1,5 @@
 # Intelligent-Cafeteria-Self-Check-out  
 
-<div style="text-align: center">
-  ![Project Logo](images/Qt/icsc/pic/logo.png "Logo of the project")
-</div>
-
 <p align="center">
     <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/logo.png">
 
