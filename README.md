@@ -36,3 +36,5 @@ cd ../QT/icsc/build
 make
 ./icsc
 ```
+
+## Lincense
