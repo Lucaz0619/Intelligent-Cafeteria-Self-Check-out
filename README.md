@@ -18,10 +18,8 @@ This project uses YOLOv5 Lite for dishes recognition, OpenCV 4.5.1 for face reco
 - Intuitive Qt-based graphical user interface
 
 ## Prerequisites
-- Python 3.7 or higher
 - Qt 5.15 or higher
 - OpenCV 4.5.1
-- YOLOv5 Lite pre-trained model
 
 ## Installation
 1. Clone the repository:
