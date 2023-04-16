@@ -4,6 +4,10 @@
   ![Project Logo](images/Qt/icsc/pic/logo.png "Logo of the project")
 </div>
 
+<p align="center">
+    <img src="images/Qt/icsc/pic/logo.png">
+p>
+
 This project uses YOLOv5 Lite for dishes recognition, OpenCV 4.5.1 for face recognition, and a Qt interface for a seamless user experience.  
 
 ## Table of Contents 
