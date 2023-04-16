@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-    <img src="[images/Qt/icsc/pic/logo.png](https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/logo.png)">
+    <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/logo.png">
 p>
 
 This project uses YOLOv5 Lite for dishes recognition, OpenCV 4.5.1 for face recognition, and a Qt interface for a seamless user experience.  
