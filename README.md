@@ -73,6 +73,13 @@ The output should look like this:
     <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/result%20for%20trainer%2002.png"><br>
 </p>  
 
+## Demo
+
+<p align="center">
+    <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/img/WechatIMG351.png" width="500" height="500"><br>
+</p>   
+
+
 ## Contributors
 This project is developed by students of MSc Robotics and AI of the University of Glasgow, please feel free to contact us if you want to contribute!
 
