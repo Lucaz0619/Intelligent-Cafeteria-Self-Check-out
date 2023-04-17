@@ -19,7 +19,7 @@ using namespace cv::face;
 
 int main(){
 
-  //raspicam::RaspiCam_Cv Camera;dd
+  //raspicam::RaspiCam_Cv Camera;
   VideoCapture Camera;
 
 //  Camera.set(CAP_PROP_FRAME_WIDTH, 320);
@@ -58,7 +58,7 @@ int main(){
     Mat frame;
     Camera.grab();
     Camera.retrieve(frame);
-    cvtColor(frame, windowFrame, COLOR_BGR2GRAY);
+    cvtColor(frame, windowFrame, CV_BGR2GRAY);
     vector<Rect> faces;
     classifier.detectMultiScale(frame, faces, 1.2, 5);
     for(size_t i = 0; i < faces.size(); i++){
@@ -67,7 +67,7 @@ int main(){
       double confidence = 0.0;
       int predicted = recognizer->predict(face);
       recognizer->predict(face, predicted, confidence);
-      if(labels.find(predicted) == labels.end() || confidence < 20){
+      if(labels.find(predicted) == labels.end() || confidence < 25){
          putText(frame, "Unknown", Point(faces[i].x ,faces[i].y - 5), FONT_HERSHEY_DUPLEX, 1, Scalar(0,255,0), 1);
       }else{
          putText(frame, labels[predicted], Point(faces[i].x ,faces[i].y - 5), FONT_HERSHEY_DUPLEX, 1, Scalar(0,255,0), 1);

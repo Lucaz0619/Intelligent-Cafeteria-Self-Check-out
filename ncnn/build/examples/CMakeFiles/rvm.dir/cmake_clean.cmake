@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rvm.dir/rvm.cpp.o"
-  "rvm.pdb"
   "rvm"
+  "rvm.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

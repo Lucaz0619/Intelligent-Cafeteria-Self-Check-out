@@ -1,3 +1,0 @@
-/home/romy/RTEP/face_recognition v1.0/test_rec/build/CMakeFiles/rebuild_cache.dir
-/home/romy/RTEP/face_recognition v1.0/test_rec/build/CMakeFiles/edit_cache.dir
-/home/romy/RTEP/face_recognition v1.0/test_rec/build/CMakeFiles/test_recognizer.dir

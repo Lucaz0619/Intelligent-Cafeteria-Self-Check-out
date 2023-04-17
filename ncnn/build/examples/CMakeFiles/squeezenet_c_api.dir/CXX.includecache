@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../examples/../src/allocator.h
+../src/allocator.h
 windows.h
 -
 platform.h
-../examples/../src/platform.h
+../src/platform.h
 stdlib.h
 -
 vulkan/vulkan.h
@@ -18,13 +18,13 @@ vulkan/vulkan.h
 android/hardware_buffer.h
 -
 
-../examples/../src/c_api.h
+../src/c_api.h
 platform.h
-../examples/../src/platform.h
+../src/platform.h
 stddef.h
 -
 
-../examples/../src/cpu.h
+../src/cpu.h
 stddef.h
 -
 windows.h
@@ -32,9 +32,9 @@ windows.h
 sched.h
 -
 platform.h
-../examples/../src/platform.h
+../src/platform.h
 
-../examples/../src/mat.h
+../src/mat.h
 stdlib.h
 -
 string.h
@@ -52,13 +52,13 @@ lsxintrin.h
 riscv_vector.h
 -
 cpu.h
-../examples/../src/cpu.h
+../src/cpu.h
 allocator.h
-../examples/../src/allocator.h
+../src/allocator.h
 option.h
-../examples/../src/option.h
+../src/option.h
 platform.h
-../examples/../src/platform.h
+../src/platform.h
 vulkan/vulkan.h
 -
 android/bitmap.h
@@ -66,23 +66,23 @@ android/bitmap.h
 jni.h
 -
 
-../examples/../src/option.h
+../src/option.h
 platform.h
-../examples/../src/platform.h
+../src/platform.h
 
-../examples/../src/simpleocv.h
+../src/simpleocv.h
 platform.h
-../examples/../src/platform.h
+../src/platform.h
 limits.h
 -
 string.h
 -
 allocator.h
-../examples/../src/allocator.h
+../src/allocator.h
 mat.h
-../examples/../src/mat.h
+../src/mat.h
 
-../examples/../src/simplestl.h
+../src/simplestl.h
 stddef.h
 -
 stdint.h
@@ -1402,11 +1402,11 @@ opencv2/videostab/global_motion.hpp
 opencv2/videostab/log.hpp
 /usr/local/include/opencv2/videostab/opencv2/videostab/log.hpp
 
-examples/../src/ncnn_export.h
+src/ncnn_export.h
 
-examples/../src/platform.h
+src/platform.h
 ncnn_export.h
-examples/../src/ncnn_export.h
+src/ncnn_export.h
 windows.h
 -
 process.h
@@ -1414,7 +1414,7 @@ process.h
 pthread.h
 -
 simplestl.h
-examples/../src/simplestl.h
+src/simplestl.h
 algorithm
 -
 list

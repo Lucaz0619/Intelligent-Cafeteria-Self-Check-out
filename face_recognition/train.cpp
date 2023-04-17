@@ -63,9 +63,9 @@ int main(){
 	   string photo_path = new_path + "/" + photos[photo];
 	   cout << "[INFO] Reading photo " << photo_path << endl;
            picture = imread(photo_path);
-           cvtColor(picture, frame, COLOR_BGR2GRAY);
+           cvtColor(picture, frame, CV_BGR2GRAY);
            vector<Rect> faces;
-           classifier.detectMultiScale(frame, faces,  1.2, 5);
+           classifier.detectMultiScale(frame, faces, 1.2, 5);
 
            for(size_t k = 0; k < faces.size(); k++){
               Mat face = frame(faces[k]);

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/p2pnet.dir/p2pnet.cpp.o"
-  "p2pnet.pdb"
   "p2pnet"
+  "p2pnet.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

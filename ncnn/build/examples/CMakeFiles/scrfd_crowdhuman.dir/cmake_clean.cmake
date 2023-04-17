@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/scrfd_crowdhuman.dir/scrfd_crowdhuman.cpp.o"
-  "scrfd_crowdhuman.pdb"
   "scrfd_crowdhuman"
+  "scrfd_crowdhuman.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

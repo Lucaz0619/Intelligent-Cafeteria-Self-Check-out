@@ -576,7 +576,27 @@ convolution.h
 
 ../src/layer/x86/convolutiondepthwise_3x3.h
 
+<<<<<<< HEAD
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cast_arm_bf16.cpp
+cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cpu.h
+mat.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/mat.h
+math.h
+-
+cast_bf16.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cast_bf16.h
+
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cast_arm_vfpv4.cpp
+cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cpu.h
+mat.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/mat.h
+cast_fp16.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cast_fp16.h
+=======
 ../src/layer/x86/convolutiondepthwise_3x3_int8.h
+>>>>>>> 45ec0ff38778d74d9c0052c0da921043f25f5677
 
 ../src/layer/x86/convolutiondepthwise_3x3_pack16.h
 
@@ -594,13 +614,55 @@ convolution.h
 convolutiondepthwise.h
 ../src/layer/x86/convolutiondepthwise.h
 
+<<<<<<< HEAD
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution1d_arm.cpp
+convolution1d_arm.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution1d_arm.h
+arm_neon.h
+-
+arm_activation.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/arm_activation.h
+arm_usability.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/arm_usability.h
+cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cpu.h
+layer_type.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/layer_type.h
+convolution1d_packed.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution1d_packed.h
+convolution1d_packed_bf16s.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution1d_packed_bf16s.h
+=======
 ../src/layer/x86/crop_x86.h
 crop.h
 ../src/layer/x86/crop.h
+>>>>>>> 45ec0ff38778d74d9c0052c0da921043f25f5677
 
 ../src/layer/x86/deconvolution_pack16.h
 
+<<<<<<< HEAD
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution1d_arm_asimdhp.cpp
+convolution1d_arm.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution1d_arm.h
+arm_neon.h
+-
+arm_activation.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/arm_activation.h
+arm_usability.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/arm_usability.h
+cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cpu.h
+convolution1d_packed_fp16s.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution1d_packed_fp16s.h
+
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution1d_packed.h
+
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution1d_packed_bf16s.h
+
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution1d_packed_fp16s.h
+=======
 ../src/layer/x86/deconvolution_pack16to1.h
+>>>>>>> 45ec0ff38778d74d9c0052c0da921043f25f5677
 
 ../src/layer/x86/deconvolution_pack16to4.h
 
@@ -694,9 +756,27 @@ flatten.h
 gelu.h
 ../src/layer/x86/gelu.h
 
+<<<<<<< HEAD
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution_arm_i8mm.cpp
+cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cpu.h
+mat.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/mat.h
+convolution_sgemm_int8.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution_sgemm_int8.h
+convolution_sgemm_pack1to4_int8.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution_sgemm_pack1to4_int8.h
+convolution_sgemm_pack8to1_int8.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution_sgemm_pack8to1_int8.h
+convolution_sgemm_pack8to4_int8.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution_sgemm_pack8to4_int8.h
+
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/convolution_im2col_gemm.h
+=======
 ../src/layer/x86/gemm_x86.h
 gemm.h
 ../src/layer/x86/gemm.h
+>>>>>>> 45ec0ff38778d74d9c0052c0da921043f25f5677
 
 ../src/layer/x86/groupnorm_x86.h
 groupnorm.h
@@ -883,7 +963,39 @@ emmintrin.h
 -
 smmintrin.h
 -
+<<<<<<< HEAD
+arm_usability.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/arm_usability.h
+cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cpu.h
+gemm_bf16s_fp16s.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/gemm_bf16s_fp16s.h
+gemm_bf16s.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/gemm_bf16s.h
+
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/gemm_arm.h
+gemm.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/gemm.h
+
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/gemm_arm_asimdfhm.cpp
+gemm_arm.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/gemm_arm.h
+arm_neon.h
+-
+arm_usability.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/arm_usability.h
+cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cpu.h
+gemm_fp16s.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/gemm_fp16s.h
+
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/gemm_arm_asimdhp.cpp
+gemm_arm.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/gemm_arm.h
+arm_neon.h
+=======
 immintrin.h
+>>>>>>> 45ec0ff38778d74d9c0052c0da921043f25f5677
 -
 ammintrin.h
 -
@@ -965,7 +1077,33 @@ stddef.h
 -
 stdint.h
 -
+<<<<<<< HEAD
+
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/innerproduct_arm_asimdfhm.cpp
+innerproduct_arm.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/innerproduct_arm.h
+cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cpu.h
+arm_neon.h
+-
+arm_activation.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/arm_activation.h
+arm_usability.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/arm_usability.h
+innerproduct_fp16s.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/innerproduct_fp16s.h
+innerproduct_gemm_fp16s.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/innerproduct_gemm_fp16s.h
+
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/innerproduct_arm_asimdhp.cpp
+innerproduct_arm.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/innerproduct_arm.h
+cpu.h
+/home/weijian/Intelligent-Cafeteria-Self-Check-out/ncnn/src/layer/arm/cpu.h
+arm_neon.h
+=======
 string.h
+>>>>>>> 45ec0ff38778d74d9c0052c0da921043f25f5677
 -
 new
 -

@@ -43,6 +43,18 @@
 #define NCNN_AVX512BF16 0
 #define NCNN_AVX512FP16 0
 #define NCNN_VFPV4 0
+<<<<<<< HEAD
+#define NCNN_ARM82 1
+#define NCNN_ARM82DOT 1
+#define NCNN_ARM82FP16FML 1
+#define NCNN_ARM84BF16 1
+#define NCNN_ARM84I8MM 1
+#define NCNN_ARM86SVE 1
+#define NCNN_ARM86SVE2 1
+#define NCNN_ARM86SVEBF16 1
+#define NCNN_ARM86SVEI8MM 1
+#define NCNN_ARM86SVEF32MM 1
+=======
 #if __aarch64__
 #define NCNN_ARM82 0
 #define NCNN_ARM82DOT 0
@@ -55,6 +67,7 @@
 #define NCNN_ARM86SVEI8MM 0
 #define NCNN_ARM86SVEF32MM 0
 #endif // __aarch64__
+>>>>>>> 45ec0ff38778d74d9c0052c0da921043f25f5677
 #define NCNN_MSA 0
 #define NCNN_LSX 0
 #define NCNN_MMI 0
@@ -63,7 +76,7 @@
 #define NCNN_BF16 1
 #define NCNN_FORCE_INLINE 1
 
-#define NCNN_VERSION_STRING "1.0.20230416"
+#define NCNN_VERSION_STRING "1.0.20230417"
 
 #include "ncnn_export.h"
 

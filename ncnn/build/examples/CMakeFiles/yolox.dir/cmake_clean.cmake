@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/yolox.dir/yolox.cpp.o"
-  "yolox.pdb"
   "yolox"
+  "yolox.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
