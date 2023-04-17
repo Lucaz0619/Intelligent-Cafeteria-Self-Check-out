@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "/home/romy/RTEP/Qt_cmake/icsc_v2/build/icsc_autogen",
+	"CMAKE_BINARY_DIR" : "/home/romy/RTEP/Qt_cmake/icsc_v2/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/romy/RTEP/Qt_cmake/icsc_v2/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/romy/RTEP/Qt_cmake/icsc_v2",
+	"CMAKE_SOURCE_DIR" : "/home/romy/RTEP/Qt_cmake/icsc_v2",
+	"INCLUDE_DIR" : "/home/romy/RTEP/Qt_cmake/icsc_v2/build/icsc_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/romy/RTEP/Qt_cmake/icsc_v2/pic/dish_demo.png",
+		"/home/romy/RTEP/Qt_cmake/icsc_v2/pic/loading.png",
+		"/home/romy/RTEP/Qt_cmake/icsc_v2/pic/logo.png",
+		"/home/romy/RTEP/Qt_cmake/icsc_v2/pic/dish_demo_rc.png"
+	],
+	"LOCK_FILE" : "/home/romy/RTEP/Qt_cmake/icsc_v2/build/CMakeFiles/icsc_autogen.dir/AutoRcc_pic_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "pic" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_pic.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/romy/RTEP/Qt_cmake/icsc_v2/build/CMakeFiles/icsc_autogen.dir/AutoRcc_pic_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/romy/RTEP/Qt_cmake/icsc_v2/pic.qrc",
+	"VERBOSITY" : 0
+}
