@@ -28,13 +28,13 @@
 - OpenCV 4.5.1
 
 ## Installation & Usage
-1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out.git
 ```
 
-2. Make and run the main application:
+### 2. Make and run the main application:
 
 ```bash
 cd ../QT/icsc/build
