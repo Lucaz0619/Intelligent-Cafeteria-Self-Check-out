@@ -44,6 +44,18 @@ make
 ./icsc
 ```
 
+## Contributors
+This project is developed by students of MSc Robotics and AI of the University of Glasgow, please feel free to contact us if you want to contribute!
+
+- [Ching Hsuan Lin](https://github.com/Lucaz0619) 2702329L@student.gla.ac.uk
+- [Weijian Ning](https://github.com/Wikian233) 2821551N@student.gla.ac.uk
+- [Wanshu Yu](https://github.com/romyfish) 2817055Y@student.gla.ac.uk
+- [Chengyu Chen](https://github.com/RyangeChen) 2514864C@student.gla.ac.uk
+
+## Social Media
+
+[<img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/vecteezy_instagram-mobile-app-logo-instagram-app-icon-ig-app-free_18757860.jpg" width="100" height="100">](https://www.instagram.com/intelligent_cafe/)
+
 ## Lincense
 This project is licensed under the [`MIT License`](https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/LICENSE).
 
