@@ -1,5 +1,8 @@
 #include "widget.h"
 #include "ui_widget.h"
+#include "facerecognizer.h"
+
+
 #include <QString>
 #include <QStyle>
 #include <QPixmap>
@@ -464,86 +467,3 @@ bool Widget::make_payment(int UsrIdx)
     ui->endText->setVisible(true);
     return true;
 }
-
-
-
-
-
-
-// 人脸识别
-int Widget::faceRecognize()
-{
-    int UsrIdx = -1;
-    if (!cap.isOpened())
-    {
-        cerr<<"Error opening the camera"<<endl;
-        return -1;
-    }
-
-    map<int, string> labels;
-    ifstream infile("./recognizer/labels.txt");
-    int a;
-    string b;
-    while (infile >> a >> b)
-    {
-        labels[a] = b;
-    }
-
-    CascadeClassifier classifier;
-    classifier.load("./cascades/lbpcascade_frontalface.xml");
-
-    Ptr<LBPHFaceRecognizer> recognizer =  LBPHFaceRecognizer::create();
-    recognizer->read("./recognizer/embeddings.xml");
-
-    Mat windowFrame;
-    //namedWindow("edges", 1);
-    int numframes = 0;
-    time_t timer_begin, timer_end;
-    time ( &timer_begin );
-
-    while(UsrIdx == -1)
-    {
-        Mat frame;
-        cap.read(frame);
-        cvtColor(frame, windowFrame, CV_BGR2GRAY);
-        vector<Rect> faces;
-        classifier.detectMultiScale(frame, faces, 1.2, 5);
-        //Mat* face_arr = new Mat[faces.size()];
-        string str;
-        for (int i = 0; i < faces.size(); i++)
-        {
-            rectangle(frame, faces[i], Scalar(0, 255, 0));
-            Mat face = windowFrame(faces[i]);
-            //face_arr[i] = face; // store all faces
-            //if (face_arr[i].empty())
-              //  continue;
-            double confidence = 0.0;
-            int predicted = recognizer->predict(face);
-            recognizer->predict(face, predicted, confidence);
-            if(labels.find(predicted) == labels.end() || confidence < 25)
-            {
-                putText(frame, "Unknown", Point(faces[i].x ,faces[i].y - 5), FONT_HERSHEY_DUPLEX, 1, Scalar(0,255,0), 1);
-            }
-            else
-            {
-                UsrIdx = predicted;
-                cout << "Face:" << labels[predicted] << endl;
-                putText(frame, labels[predicted], Point(faces[i].x ,faces[i].y - 5), FONT_HERSHEY_DUPLEX, 1, Scalar(0,255,0), 1);
-            }
-            cout << "ID: " << predicted << " | Confidence: " << confidence << endl;
-        }
-        //delete []face_arr;
-        numframes++;
-        //imshow("edges", frame);
-        if (waitKey(30) >= 0)
-            break;
-    }
-    time ( &timer_end );
-    double secondsElapsed = difftime(timer_end, timer_begin);
-    qDebug()<<QString::number(secondsElapsed);
-    takeFacePhoto(); // pause the camera
-    return UsrIdx;
-}
-
-
-
