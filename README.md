@@ -48,6 +48,30 @@ For more information, please take a look at [WIKI](https://github.com/Lucaz0619/
 
 ## Unit Test
 
+### test_recognizer.cpp
+
+To run face recognition test, run the following command from the project directory:
+```
+$ ./test_recognizer
+```
+
+The output should look like this:
+<p align="center">
+    <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/result%20for%20recognizer.png"><br>
+</p>  
+
+### test_trainer.cpp
+
+To run face training test, run the following command from the project directory:
+```
+$ ./test_trainer
+```
+
+The output should look like this:
+<p align="center">
+    <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/result%20for%20trainer%2001.png"><br>
+    <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/result%20for%20trainer%2002.png"><br>
+</p>  
 
 ## Contributors
 This project is developed by students of MSc Robotics and AI of the University of Glasgow, please feel free to contact us if you want to contribute!
