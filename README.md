@@ -12,7 +12,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributors](#contributing)
 - [License](#license)
 
 ## Features
@@ -44,6 +44,9 @@ make
 ```
 
 For more information, please take a look at [WIKI](https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/wiki)!
+
+## Unit Test
+
 
 ## Contributors
 This project is developed by students of MSc Robotics and AI of the University of Glasgow, please feel free to contact us if you want to contribute!
