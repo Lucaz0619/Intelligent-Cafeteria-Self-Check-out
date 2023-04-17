@@ -27,15 +27,14 @@
 - Qt 5.15 or higher
 - OpenCV 4.5.1
 
-## Installation
+## Installation & Usage
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out.git
 ```
 
-## Usage
-Make and run the main application:
+2. Make and run the main application:
 
 ```bash
 cd ../QT/icsc/build
@@ -43,6 +42,8 @@ cmake ..
 make
 ./icsc
 ```
+
+For more information, please take a look at [WIKI](https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/wiki)!
 
 ## Contributors
 This project is developed by students of MSc Robotics and AI of the University of Glasgow, please feel free to contact us if you want to contribute!
