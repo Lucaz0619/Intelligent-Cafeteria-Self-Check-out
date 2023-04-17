@@ -7,12 +7,13 @@
 <br>  
 Ａ cutting-edge solution for university cafeterias that streamlines the dining experience. This innovative system utilizes advanced dish recognition technology to accurately calculate the cost of meals. Additionally, it employs facial recognition for payment processing, significantly reducing wait times for students. The Intelligent Cafeteria Self Check-Out not only enhances the overall dining experience but also ensures that students can enjoy their meals and swiftly return to their academic pursuits. Transform your university's cafeteria into an efficient, time-saving, and enjoyable dining destination with the Intelligent Cafeteria Self-Check-Out System.  
 
-## Table of Contents 
+## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributors](#contributing)
+- [Installation & Usage](#installation--usage)
+- [Unit Test](#unit-test)
+- [Contributors](#contributors)
+- [Social Media](#social-media)
 - [License](#license)
 
 ## Features
@@ -60,7 +61,7 @@ This project is developed by students of MSc Robotics and AI of the University o
 
 [<img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/icsc/pic/vecteezy_instagram-mobile-app-logo-instagram-app-icon-ig-app-free_18757860.jpg" width="100" height="100">](https://www.instagram.com/intelligent_cafe/)
 
-## Lincense
+## License
 This project is licensed under the [`MIT License`](https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/LICENSE).
 
 
