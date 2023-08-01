@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/romy/RTEP/Qt_cmake/ICSC111
+CMAKE_SOURCE_DIR = /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/romy/RTEP/Qt_cmake/ICSC111/build
+CMAKE_BINARY_DIR = /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -115,8 +115,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -126,9 +126,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles /home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -181,6 +181,33 @@ icsc_autogen: cmake_check_build_system
 icsc_autogen/fast:
 	$(MAKE) -f CMakeFiles/icsc_autogen.dir/build.make CMakeFiles/icsc_autogen.dir/build
 .PHONY : icsc_autogen/fast
+
+cameraDriver/cameraDriver.o: cameraDriver/cameraDriver.cpp.o
+
+.PHONY : cameraDriver/cameraDriver.o
+
+# target to build an object file
+cameraDriver/cameraDriver.cpp.o:
+	$(MAKE) -f CMakeFiles/icsc.dir/build.make CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.o
+.PHONY : cameraDriver/cameraDriver.cpp.o
+
+cameraDriver/cameraDriver.i: cameraDriver/cameraDriver.cpp.i
+
+.PHONY : cameraDriver/cameraDriver.i
+
+# target to preprocess a source file
+cameraDriver/cameraDriver.cpp.i:
+	$(MAKE) -f CMakeFiles/icsc.dir/build.make CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.i
+.PHONY : cameraDriver/cameraDriver.cpp.i
+
+cameraDriver/cameraDriver.s: cameraDriver/cameraDriver.cpp.s
+
+.PHONY : cameraDriver/cameraDriver.s
+
+# target to generate assembly for a file
+cameraDriver/cameraDriver.cpp.s:
+	$(MAKE) -f CMakeFiles/icsc.dir/build.make CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.s
+.PHONY : cameraDriver/cameraDriver.cpp.s
 
 icsc_autogen/mocs_compilation.o: icsc_autogen/mocs_compilation.cpp.o
 
@@ -304,6 +331,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... icsc"
 	@echo "... icsc_autogen"
+	@echo "... cameraDriver/cameraDriver.o"
+	@echo "... cameraDriver/cameraDriver.i"
+	@echo "... cameraDriver/cameraDriver.s"
 	@echo "... icsc_autogen/mocs_compilation.o"
 	@echo "... icsc_autogen/mocs_compilation.i"
 	@echo "... icsc_autogen/mocs_compilation.s"

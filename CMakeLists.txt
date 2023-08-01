@@ -18,23 +18,23 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR})
 find_package(OpenCV REQUIRED core imgproc highgui face)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-set(NCNN_LIBS /home/romy/RTEP/ICSC/ncnn/build/src/libncnn.a)
-set(NCNN_INCLUDE_DIRS //home/romy/RTEP/ICSC/ncnn)
+set(NCNN_LIBS /home/weijian/MyProjects/EmbededProjects/ncnn/build/src/libncnn.a)
+set(NCNN_INCLUDE_DIRS /home/weijian/MyProjects/EmbededProjects/ncnn/src)
+set(NCNN_BUILD_INCLUDE_DIRS /home/weijian/MyProjects/EmbededProjects/ncnn/build/src)
 include_directories(${NCNN_INCLUDE_DIRS})
-include_directories(${NCNN_INCLUDE_DIRS} /home/romy/RTEP/ICSC/ncnn/src)
-include_directories(${NCNN_INCLUDE_DIRS} /home/romy/RTEP/ICSC/ncnn/build //home/romy/RTEP/ICSC/ncnn/build/src)
-
+include_directories(${NCNN_BUILD_INCLUDE_DIRS})
 
 include_directories(./yolov5_lite_s/)
 
 set(PROJECT_SOURCES
         main.cpp
+        ui.h
         widget.h
         widget.cpp
-        widget.ui
-
         yolov5_lite_s/yolov5_lite_s.cpp
         yolov5_lite_s/yolov5_lite_s.h
+        cameraDriver/cameraDriver.cpp
+        cameraDriver/cameraDriver.h
 )
 
 
@@ -48,20 +48,11 @@ if (OPENMP_FOUND)
 endif()
 
 
-
-
-
 FILE(GLOB SRC_FILES "./*.cpp")
 FILE(GLOB HEAD_FILES "./*.h")
 FILE(GLOB UI_FILES "./*.ui")
 set(RESOURCES pic.qrc)
 qt5_wrap_ui(WRAP_FILES ${UI_FILES})
-
-
-# Define target properties for Android with Qt 6 as:
-#    set_property(TARGET icsc APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
-#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
-# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 
 add_executable(icsc ${PROJECT_SOURCES})
 

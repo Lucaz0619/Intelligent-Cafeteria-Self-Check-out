@@ -270,8 +270,8 @@ int detect_yolov5(const cv::Mat& bgr, std::vector<Object>& objects)
     yolov5.load_param("v5lite-i8e.param");
     yolov5.load_model("yolov5-i8e.bin");
 #else
-    yolov5.load_param("/home/romy/RTEP/Qt_cmake/ICSC/yolov5_lite_s/s.param");
-    yolov5.load_model("/home/romy/RTEP/Qt_cmake/ICSC/yolov5_lite_s/s.bin");
+    yolov5.load_param("/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/s.param");
+    yolov5.load_model("/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/s.bin");
 #endif
 
     const int target_size = 320;
@@ -453,11 +453,11 @@ void draw_objects(const cv::Mat& bgr, const std::vector<Object>& objects)
         cv::putText(image, text, cv::Point(x, y + label_size.height),
                     cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 0, 0));
     }
-#if USE_CAMERA
-    imshow("外接摄像头", image);
-    cv::waitKey(1);
-#else
-    cv::imwrite("result.jpg", image);
-#endif
+//#if USE_CAMERA
+//    imshow("外接摄像头", image);
+//    cv::waitKey(1);
+//#else
+//    cv::imwrite("result.jpg", image);
+//#endif
 }
 

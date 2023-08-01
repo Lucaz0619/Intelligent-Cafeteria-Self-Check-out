@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/romy/RTEP/Qt_cmake/ICSC111/build/icsc_autogen/mocs_compilation.cpp" "/home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o"
-  "/home/romy/RTEP/Qt_cmake/ICSC111/main.cpp" "/home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles/icsc.dir/main.cpp.o"
-  "/home/romy/RTEP/Qt_cmake/ICSC111/widget.cpp" "/home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles/icsc.dir/widget.cpp.o"
-  "/home/romy/RTEP/Qt_cmake/ICSC111/yolov5_lite_s/yolov5_lite_s.cpp" "/home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o"
+  "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/cameraDriver/cameraDriver.cpp" "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.o"
+  "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/mocs_compilation.cpp" "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o"
+  "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/main.cpp" "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/main.cpp.o"
+  "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/widget.cpp" "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/widget.cpp.o"
+  "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/yolov5_lite_s.cpp" "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,17 +25,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
   "icsc_autogen/include"
-  "//home/romy/RTEP/ICSC/ncnn"
-  "/home/romy/RTEP/ICSC/ncnn/src"
-  "/home/romy/RTEP/ICSC/ncnn/build"
-  "//home/romy/RTEP/ICSC/ncnn/build/src"
+  "/home/weijian/MyProjects/EmbededProjects/ncnn/src"
+  "/home/weijian/MyProjects/EmbededProjects/ncnn/build/src"
   ".././yolov5_lite_s"
-  "/usr/local/include/opencv"
-  "/usr/include/x86_64-linux-gnu/qt5"
-  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
-  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
-  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
-  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+  "/usr/local/include/opencv4"
+  "/home/weijian/Qt/5.15.2/gcc_64/include"
+  "/home/weijian/Qt/5.15.2/gcc_64/include/QtWidgets"
+  "/home/weijian/Qt/5.15.2/gcc_64/include/QtGui"
+  "/home/weijian/Qt/5.15.2/gcc_64/include/QtCore"
+  "/home/weijian/Qt/5.15.2/gcc_64/./mkspecs/linux-g++"
   )
 
 # Targets to which this target links.

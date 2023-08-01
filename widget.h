@@ -9,14 +9,16 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/opencv.hpp>
 #include <opencv2/face.hpp>
+#include "ui.h"
+#include "cameraDriver/cameraDriver.h"
 
 using namespace std;
 using namespace cv;
 using namespace cv::face;
 
-QT_BEGIN_NAMESPACE
-namespace Ui { class Widget; }
-QT_END_NAMESPACE
+//QT_BEGIN_NAMESPACE
+//namespace Ui { class Widget; }
+//QT_END_NAMESPACE
 
 class Widget : public QWidget
 {
@@ -27,54 +29,43 @@ public:
     ~Widget();
     void reboot();
 
-//    //bp opencv
-//    void updateImage(const cv::Mat &mat);
-//        QwtThermo    *thermo;
-//        QHBoxLayout  *hLayout;  // horizontal layout
-//        Camera       camera;
-//        QLabel       *image;
+    void openDishCamera();
+    void closeDishCamera();
 
-//        struct MyCallback : Camera::SceneCallback {
-//            Widget* window = nullptr;
-//            virtual void nextScene(const cv::Mat &mat) {
-//                if (nullptr != window) {
-//                    window->updateImage(mat);
-//                }
-//            }
-//        };
-//        MyCallback myCallback;
+    void openFaceCamera();
+    void closeFaceCamera();
+
+    static void dishMatImageToQt(const cv::Mat &frame);
+    static void faceMatImageToQt(const cv::Mat &frame);
+    static void showResult();
+
+    void show_order(int* dishes_recognized, int dishNum);
+    bool make_payment(int UsrIdx);
+    
+    void dishRecognizer();
+    int faceRecognizer();
 
 private slots:
     void on_dishRgBt_clicked();
-
     void on_dishRgBt_pressed();
-
     void on_dishRgBt_released();
-
-    void readDishFrame();
-    void openDishCamara();
-    void closeDishCamara();
-    void takeDishPhoto();
-    void readFaceFrame();
-    void openFaceCamara();
-    void closeFaceCamara();
-    void takeFacePhoto();
-
     void timerUpdata(void);
     void restart_window();
-    void show_order(int* dishes_recognized, int dishNum);
-    bool make_payment(int UsrIdx);
-    int faceRecognize();
+
 
 private:
     Ui::Widget *ui;
     QTimer *cur_timer;
-    QTimer *timer_dish;
-    QTimer *timer_face;
     QTimer restart_timer;
-    //QImage    *image;
+    static QLabel *faceDisplay;
+    static QLabel *dishDisplay;
+
     VideoCapture cap;
-    Mat src_image;
+    CameraDriver *cam;
+    static cv::Mat dish_image;
+    static cv::Mat face_image;
+    static cv::Mat dst_image;
+    cv::Mat m;
     double total_price;
 };
 #endif // WIDGET_H

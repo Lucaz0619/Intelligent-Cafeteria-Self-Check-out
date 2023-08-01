@@ -1,4 +1,0 @@
-/home/romy/RTEP/Qt_cmake/icsc_v2/build/CMakeFiles/rebuild_cache.dir
-/home/romy/RTEP/Qt_cmake/icsc_v2/build/CMakeFiles/edit_cache.dir
-/home/romy/RTEP/Qt_cmake/icsc_v2/build/CMakeFiles/icsc.dir
-/home/romy/RTEP/Qt_cmake/icsc_v2/build/CMakeFiles/icsc_autogen.dir

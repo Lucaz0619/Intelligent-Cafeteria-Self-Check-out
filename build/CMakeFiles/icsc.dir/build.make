@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/romy/RTEP/Qt_cmake/ICSC111
+CMAKE_SOURCE_DIR = /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/romy/RTEP/Qt_cmake/ICSC111/build
+CMAKE_BINARY_DIR = /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/icsc.dir/depend.make
@@ -57,68 +57,78 @@ include CMakeFiles/icsc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/icsc.dir/flags.make
 
-ui_widget.h: ../widget.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_widget.h"
-	/usr/lib/qt5/bin/uic -o /home/romy/RTEP/Qt_cmake/ICSC111/build/ui_widget.h /home/romy/RTEP/Qt_cmake/ICSC111/widget.ui
-
 CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o: CMakeFiles/icsc.dir/flags.make
 CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o: icsc_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o -c /home/romy/RTEP/Qt_cmake/ICSC111/build/icsc_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o -c /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/mocs_compilation.cpp
 
 CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romy/RTEP/Qt_cmake/ICSC111/build/icsc_autogen/mocs_compilation.cpp > CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/mocs_compilation.cpp > CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romy/RTEP/Qt_cmake/ICSC111/build/icsc_autogen/mocs_compilation.cpp -o CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/mocs_compilation.cpp -o CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/icsc.dir/main.cpp.o: CMakeFiles/icsc.dir/flags.make
 CMakeFiles/icsc.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/icsc.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icsc.dir/main.cpp.o -c /home/romy/RTEP/Qt_cmake/ICSC111/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/icsc.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icsc.dir/main.cpp.o -c /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/main.cpp
 
 CMakeFiles/icsc.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/icsc.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romy/RTEP/Qt_cmake/ICSC111/main.cpp > CMakeFiles/icsc.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/main.cpp > CMakeFiles/icsc.dir/main.cpp.i
 
 CMakeFiles/icsc.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/icsc.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romy/RTEP/Qt_cmake/ICSC111/main.cpp -o CMakeFiles/icsc.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/main.cpp -o CMakeFiles/icsc.dir/main.cpp.s
 
 CMakeFiles/icsc.dir/widget.cpp.o: CMakeFiles/icsc.dir/flags.make
 CMakeFiles/icsc.dir/widget.cpp.o: ../widget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/icsc.dir/widget.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icsc.dir/widget.cpp.o -c /home/romy/RTEP/Qt_cmake/ICSC111/widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/icsc.dir/widget.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icsc.dir/widget.cpp.o -c /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/widget.cpp
 
 CMakeFiles/icsc.dir/widget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/icsc.dir/widget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romy/RTEP/Qt_cmake/ICSC111/widget.cpp > CMakeFiles/icsc.dir/widget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/widget.cpp > CMakeFiles/icsc.dir/widget.cpp.i
 
 CMakeFiles/icsc.dir/widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/icsc.dir/widget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romy/RTEP/Qt_cmake/ICSC111/widget.cpp -o CMakeFiles/icsc.dir/widget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/widget.cpp -o CMakeFiles/icsc.dir/widget.cpp.s
 
 CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o: CMakeFiles/icsc.dir/flags.make
 CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o: ../yolov5_lite_s/yolov5_lite_s.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o -c /home/romy/RTEP/Qt_cmake/ICSC111/yolov5_lite_s/yolov5_lite_s.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o -c /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/yolov5_lite_s.cpp
 
 CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romy/RTEP/Qt_cmake/ICSC111/yolov5_lite_s/yolov5_lite_s.cpp > CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/yolov5_lite_s.cpp > CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.i
 
 CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romy/RTEP/Qt_cmake/ICSC111/yolov5_lite_s/yolov5_lite_s.cpp -o CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/yolov5_lite_s.cpp -o CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.s
+
+CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.o: CMakeFiles/icsc.dir/flags.make
+CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.o: ../cameraDriver/cameraDriver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.o -c /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/cameraDriver/cameraDriver.cpp
+
+CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/cameraDriver/cameraDriver.cpp > CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.i
+
+CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/cameraDriver/cameraDriver.cpp -o CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.s
 
 # Object files for target icsc
 icsc_OBJECTS = \
 "CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/icsc.dir/main.cpp.o" \
 "CMakeFiles/icsc.dir/widget.cpp.o" \
-"CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o"
+"CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o" \
+"CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.o"
 
 # External object files for target icsc
 icsc_EXTERNAL_OBJECTS =
@@ -127,25 +137,26 @@ icsc: CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o
 icsc: CMakeFiles/icsc.dir/main.cpp.o
 icsc: CMakeFiles/icsc.dir/widget.cpp.o
 icsc: CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o
+icsc: CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.o
 icsc: CMakeFiles/icsc.dir/build.make
-icsc: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-icsc: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-icsc: /usr/local/lib/libopencv_face.so.3.4.4
-icsc: /home/romy/RTEP/ICSC/ncnn/build/src/libncnn.a
-icsc: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-icsc: /usr/local/lib/libopencv_photo.so.3.4.4
-icsc: /usr/local/lib/libopencv_video.so.3.4.4
-icsc: /usr/local/lib/libopencv_objdetect.so.3.4.4
-icsc: /usr/local/lib/libopencv_calib3d.so.3.4.4
-icsc: /usr/local/lib/libopencv_features2d.so.3.4.4
-icsc: /usr/local/lib/libopencv_highgui.so.3.4.4
-icsc: /usr/local/lib/libopencv_videoio.so.3.4.4
-icsc: /usr/local/lib/libopencv_imgcodecs.so.3.4.4
-icsc: /usr/local/lib/libopencv_imgproc.so.3.4.4
-icsc: /usr/local/lib/libopencv_flann.so.3.4.4
-icsc: /usr/local/lib/libopencv_core.so.3.4.4
+icsc: /home/weijian/Qt/5.15.2/gcc_64/lib/libQt5Widgets.so.5.15.2
+icsc: /home/weijian/Qt/5.15.2/gcc_64/lib/libQt5Gui.so.5.15.2
+icsc: /usr/local/lib/libopencv_highgui.so.4.7.0
+icsc: /usr/local/lib/libopencv_face.so.4.7.0
+icsc: /home/weijian/MyProjects/EmbededProjects/ncnn/build/src/libncnn.a
+icsc: /home/weijian/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2
+icsc: /usr/local/lib/libopencv_videoio.so.4.7.0
+icsc: /usr/local/lib/libopencv_imgcodecs.so.4.7.0
+icsc: /usr/local/lib/libopencv_photo.so.4.7.0
+icsc: /usr/local/lib/libopencv_objdetect.so.4.7.0
+icsc: /usr/local/lib/libopencv_dnn.so.4.7.0
+icsc: /usr/local/lib/libopencv_calib3d.so.4.7.0
+icsc: /usr/local/lib/libopencv_features2d.so.4.7.0
+icsc: /usr/local/lib/libopencv_imgproc.so.4.7.0
+icsc: /usr/local/lib/libopencv_flann.so.4.7.0
+icsc: /usr/local/lib/libopencv_core.so.4.7.0
 icsc: CMakeFiles/icsc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable icsc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable icsc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/icsc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,7 +168,7 @@ CMakeFiles/icsc.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/icsc.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/icsc.dir/clean
 
-CMakeFiles/icsc.dir/depend: ui_widget.h
-	cd /home/romy/RTEP/Qt_cmake/ICSC111/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/romy/RTEP/Qt_cmake/ICSC111 /home/romy/RTEP/Qt_cmake/ICSC111 /home/romy/RTEP/Qt_cmake/ICSC111/build /home/romy/RTEP/Qt_cmake/ICSC111/build /home/romy/RTEP/Qt_cmake/ICSC111/build/CMakeFiles/icsc.dir/DependInfo.cmake --color=$(COLOR)
+CMakeFiles/icsc.dir/depend:
+	cd /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/icsc.dir/depend
 

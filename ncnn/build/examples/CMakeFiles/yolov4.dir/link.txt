@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/yolov4.dir/yolov4.cpp.o -o yolov4  -Wl,-rpath,/usr/local/lib/aarch64-linux-gnu ../src/libncnn.a /usr/local/lib/aarch64-linux-gnu/libopencv_highgui.so.4.7.0 /usr/local/lib/aarch64-linux-gnu/libopencv_videoio.so.4.7.0 -lgomp -lpthread -pthread /usr/local/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.7.0 /usr/local/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.7.0 /usr/local/lib/aarch64-linux-gnu/libopencv_core.so.4.7.0 
-=======
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/yolov4.dir/yolov4.cpp.o  -o yolov4 -Wl,-rpath,/usr/local/lib ../src/libncnn.a /usr/local/lib/libopencv_highgui.so.3.4.4 /usr/local/lib/libopencv_videoio.so.3.4.4 -lgomp -lpthread -pthread /usr/local/lib/libopencv_imgcodecs.so.3.4.4 /usr/local/lib/libopencv_imgproc.so.3.4.4 /usr/local/lib/libopencv_core.so.3.4.4 
->>>>>>> 45ec0ff38778d74d9c0052c0da921043f25f5677
