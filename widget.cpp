@@ -45,17 +45,16 @@ Widget::Widget(QWidget *parent)
     cur_timer->start(1000);
     connect(&restart_timer,SIGNAL(timeout()),this,SLOT(restart_window()));
 
-
+    // launch dish camera driver
     openDishCamera();
 }
 
 Widget::~Widget()
 {
-    //    camera.stop();
-    //    closeCamara();
     delete ui;
 }
 
+// show the current time on the window
 void Widget::timerUpdata()
 {
     QDateTime time = QDateTime::currentDateTime();
@@ -80,6 +79,7 @@ void Widget::restart_window()
     reboot();
 }
 
+// read dish info from database, include dish name and price 
 QStringList read_dish_database()
 {
     QFile inFile("/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/dish_database.csv");
@@ -102,27 +102,29 @@ QStringList read_dish_database()
     }
 }
 
-// dish Mat transfer to QImage
+// dish Mat transfer to QImage for display
 void Widget::dishMatImageToQt(const cv::Mat &frame)
 {
     dish_image = frame;
     QImage imag = QImage((const unsigned char*)(dish_image.data), dish_image.cols, dish_image.rows, QImage::Format_RGB888);
     imag = imag.rgbSwapped();
     QPixmap p = QPixmap::fromImage(imag);
-    dishDisplay->setPixmap(p); //dishDisplay is the label name of the dish ui
+    dishDisplay->setPixmap(p);   // dishDisplay is the label name of the dish ui
 
 }
 
+// face Mat transfer to QImage for display
 void Widget::faceMatImageToQt(const cv::Mat &frame)
 {
     face_image = frame;
     QImage imag = QImage((const unsigned char*)(face_image.data), face_image.cols, face_image.rows, QImage::Format_RGB888);
     imag = imag.rgbSwapped();
     QPixmap q = QPixmap::fromImage(imag);
-    faceDisplay->setPixmap(q); //faceDisplay is the label name of the face ui
+    faceDisplay->setPixmap(q);   // faceDisplay is the label name of the face ui
 
 }
 
+// show dish recognition result image
 void Widget::showDishResult()
 {
     QImage qImg(dst_image.data, dst_image.cols, dst_image.rows, static_cast<int>(dst_image.step), QImage::Format_RGB888);
@@ -131,6 +133,7 @@ void Widget::showDishResult()
     dishDisplay->setPixmap(r);
 }
 
+// show face recognition result image
 void Widget::showFaceResult()
 {
     QImage qImg(dst_image.data, dst_image.cols, dst_image.rows, static_cast<int>(dst_image.step), QImage::Format_RGB888);
@@ -162,17 +165,16 @@ void Widget::closeFaceCamera(){
 
 }
 
-// User need to click button to start the whole recognition process
+// user need to click button to start the whole recognition process
 void Widget::on_button_pressed()
 {
     ui->statusLb->setText("Recognizing...");
     ui->statusLb->setStyleSheet("background-color: rgb(0, 162, 232);");
     ui->statusLb->setFixedWidth(240);
-    ui->statusLb->setVisible(true);
-    //ui->button->setText("Showing dishes");
-    
+    ui->statusLb->setVisible(true);    
 }
 
+// the dish recognition process start when the button released
 void Widget::on_button_released()
 {
     ui->statusLb->setText("Recognized Successfully!");
@@ -182,7 +184,7 @@ void Widget::on_button_released()
     ui->statusLb->setFixedWidth(320);
     ui->statusLb->setAlignment(Qt::AlignCenter);
 
-    dishRecognizer(); //recognize dishes
+    dishRecognizer();   // recognize dishes in the dish camera image
 
     ui->statusHd->setText(" Recognizing...");
     ui->statusHd->setStyleSheet("background-color: rgb(0, 162, 232);");
@@ -190,33 +192,36 @@ void Widget::on_button_released()
     
     face_image = dish_image;
     
-    openFaceCamera();//the second camera can also actually be initialized at the beginning of the program
-    int Idx = faceRecognizer();  
-    //int Idx = 1;//test code output when the second camera is not plugged in
+    openFaceCamera();   // the second camera can also essentially be initialized at the beginning of the program
+    int Idx = faceRecognizer();   // recognize the user in the face camera image
+    // int Idx = 1;   // for testing code output when the second camera is not plugged in
     if (Idx == -1)
     {
         qDebug()<<"recognization failed!";
     }
     else
     {
+        // if find the user, show the success result
         qDebug()<<"recognized!";
         ui->statusHd->setText(" Face recognized!");
         ui->statusHd->setStyleSheet("background-color: rgb(111, 237, 92);");
     }
 
-    // use Idx to find the account info
+    // use Idx to find the user account info
     ui->textBrowser->setVisible(true);
     ui->statusHd_2->setText(" Making the payment...");
     ui->statusHd_2->setStyleSheet("background-color: rgb(0, 162, 232);");
     ui->statusHd_2->setVisible(true);
     if (make_payment(Idx))
     {
+        // if user's balance is enough for payment, make the payment and show the corresponding info
         closeFaceCamera(); 
         showFaceResult();
         restart_timer.start();   // if the payment is successful, refrash the window after a few seconds
     }
 }
 
+// call the dish recognition model
 void Widget::dishRecognizer()
 {
     int dishNum = 0;
@@ -251,6 +256,7 @@ void Widget::dishRecognizer()
 
 }
 
+// show the dish name, amount, price and total price
 void Widget::show_order(int* dishes_recognized, int dishNum)
 {
     // total price var
@@ -352,6 +358,7 @@ bool Widget::make_payment(int Idx)
     return true;
 }
 
+// call the face recognition model
 int Widget::faceRecognizer()
 {
     int UsrIdx = -1;
