@@ -79,7 +79,7 @@ The output should look like this:
     <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/img/WechatIMG351.png" width="500" height="500"><br>
 </p>   
 
-Demo vedio on : https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/pic/demo.gif
+Demo vedio on : https://www.instagram.com/reel/CyDyRYxN-Ie/?igshid=MzRlODBiNWFlZA==
 ![](https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/pic/demo.gif)
 
 
