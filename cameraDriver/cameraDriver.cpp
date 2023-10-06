@@ -17,7 +17,6 @@ void CameraDriver::startCapture() {
         while (!stopCapture) 
         {
             capture >> frame;
-            //cv::imshow("Camera Frame", frame);
             if (frame.empty()) {
                 std::cerr << "Error: Cannot read frame from the camera." << std::endl;
                 break;

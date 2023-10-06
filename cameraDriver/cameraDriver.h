@@ -5,8 +5,7 @@
 #include <thread>
 #include <opencv2/opencv.hpp>
 
-// 定义一个回调函数类型
-typedef void (*FrameCallback)(const cv::Mat &frame);
+typedef void (*FrameCallback)(const cv::Mat &frame); 
 
 class CameraDriver {
 public:

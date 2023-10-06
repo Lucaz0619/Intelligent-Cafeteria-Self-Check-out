@@ -40,9 +40,11 @@ public:
     static void showDishResult();
     static void showFaceResult();
 
+    // Data Processing Functions
     void show_order(int* dishes_recognized, int dishNum);
     bool make_payment(int UsrIdx);
     
+    // Dish and Face Recognition Functions
     void dishRecognizer();
     int faceRecognizer();
 
@@ -61,7 +63,6 @@ private:
     static QLabel *faceDisplay;
     static QLabel *dishDisplay;
 
-    VideoCapture cap;
     CameraDriver *cam;
     CameraDriver *cam2;
     static cv::Mat dish_image;
