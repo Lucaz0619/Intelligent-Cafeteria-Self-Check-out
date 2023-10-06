@@ -162,7 +162,7 @@ void Widget::closeFaceCamera(){
 
 }
 
-//Click button to start the recognition process
+// User need to click button to start the whole recognition process
 void Widget::on_button_pressed()
 {
     ui->statusLb->setText("Recognizing...");
