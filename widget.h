@@ -52,7 +52,7 @@ private slots:
     // use a button to trigger recognition process
     void on_button_pressed();
     void on_button_released();
-    // update window
+
     void timerUpdata(void);
     void restart_window();
 
