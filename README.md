@@ -81,6 +81,9 @@ The output should look like this:
     <img src="https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/Qt/img/WechatIMG351.png" width="500" height="500"><br>
 </p>   
 
+Demo vedio on : https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/pic/demo.gif
+![](https://github.com/Lucaz0619/Intelligent-Cafeteria-Self-Check-out/blob/main/pic/demo.gif)
+
 
 ## Contributors
 This project is developed by students of MSc Robotics and AI of the University of Glasgow, please feel free to contact us if you want to contribute!
