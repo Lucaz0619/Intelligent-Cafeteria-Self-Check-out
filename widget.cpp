@@ -151,7 +151,7 @@ void Widget::closeDishCamera(){
 }
 
 void Widget::openFaceCamera(){
-    cam2 = new CameraDriver(1);
+    cam2 = new CameraDriver(0);
     cam2 -> startCapture();
     cam2 -> processFrame(faceMatImageToQt);
 }
@@ -403,8 +403,7 @@ int Widget::faceRecognizer()
             UsrIdx = predicted;
         }
         UsrIdx = predicted;
-        cout << UsrIdx << "asdasad"<< endl;
-        //imshow("edges", frame);
+        // cout << UsrIdx << "asdasad"<< endl;
         dst_image = frame.clone();
         if (waitKey(30) >= 0)
             break;
