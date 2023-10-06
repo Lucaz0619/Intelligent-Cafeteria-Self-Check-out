@@ -1,4 +1,4 @@
-# Install script for directory: /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out
+# Install script for directory: /home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/icsc"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/icsc" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/icsc")
     file(RPATH_CHANGE
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

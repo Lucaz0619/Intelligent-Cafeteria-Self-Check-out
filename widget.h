@@ -37,7 +37,8 @@ public:
 
     static void dishMatImageToQt(const cv::Mat &frame);
     static void faceMatImageToQt(const cv::Mat &frame);
-    static void showResult();
+    static void showDishResult();
+    static void showFaceResult();
 
     void show_order(int* dishes_recognized, int dishNum);
     bool make_payment(int UsrIdx);
@@ -46,9 +47,9 @@ public:
     int faceRecognizer();
 
 private slots:
-    void on_dishRgBt_clicked();
-    void on_dishRgBt_pressed();
-    void on_dishRgBt_released();
+    // void on_button_clicked();
+    void on_button_pressed();
+    void on_button_released();
     void timerUpdata(void);
     void restart_window();
 
@@ -62,6 +63,7 @@ private:
 
     VideoCapture cap;
     CameraDriver *cam;
+    CameraDriver *cam2;
     static cv::Mat dish_image;
     static cv::Mat face_image;
     static cv::Mat dst_image;

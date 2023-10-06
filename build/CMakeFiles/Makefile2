@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out
+CMAKE_SOURCE_DIR = /home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build
+CMAKE_BINARY_DIR = /home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -75,14 +75,14 @@ clean: CMakeFiles/icsc_autogen.dir/clean
 CMakeFiles/icsc.dir/all: CMakeFiles/icsc_autogen.dir/all
 	$(MAKE) -f CMakeFiles/icsc.dir/build.make CMakeFiles/icsc.dir/depend
 	$(MAKE) -f CMakeFiles/icsc.dir/build.make CMakeFiles/icsc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target icsc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target icsc"
 .PHONY : CMakeFiles/icsc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/icsc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/icsc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles 0
 .PHONY : CMakeFiles/icsc.dir/rule
 
 # Convenience name for target.
@@ -102,14 +102,14 @@ CMakeFiles/icsc.dir/clean:
 CMakeFiles/icsc_autogen.dir/all:
 	$(MAKE) -f CMakeFiles/icsc_autogen.dir/build.make CMakeFiles/icsc_autogen.dir/depend
 	$(MAKE) -f CMakeFiles/icsc_autogen.dir/build.make CMakeFiles/icsc_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles --progress-num=7 "Built target icsc_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles --progress-num=7 "Built target icsc_autogen"
 .PHONY : CMakeFiles/icsc_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/icsc_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/icsc_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles 0
 .PHONY : CMakeFiles/icsc_autogen.dir/rule
 
 # Convenience name for target.

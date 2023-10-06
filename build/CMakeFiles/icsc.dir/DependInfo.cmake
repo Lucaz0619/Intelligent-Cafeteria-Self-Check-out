@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/cameraDriver/cameraDriver.cpp" "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.o"
-  "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/mocs_compilation.cpp" "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o"
-  "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/main.cpp" "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/main.cpp.o"
-  "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/widget.cpp" "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/widget.cpp.o"
-  "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/yolov5_lite_s.cpp" "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o"
+  "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/cameraDriver/cameraDriver.cpp" "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/cameraDriver/cameraDriver.cpp.o"
+  "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/mocs_compilation.cpp" "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/icsc_autogen/mocs_compilation.cpp.o"
+  "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/main.cpp" "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/main.cpp.o"
+  "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/widget.cpp" "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/widget.cpp.o"
+  "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/yolov5_lite_s.cpp" "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir/yolov5_lite_s/yolov5_lite_s.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,8 +25,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
   "icsc_autogen/include"
-  "/home/weijian/MyProjects/EmbededProjects/ncnn/src"
-  "/home/weijian/MyProjects/EmbededProjects/ncnn/build/src"
+  "/home/weijian/MyProjects/EmbeddedProjects/ncnn/src"
+  "/home/weijian/MyProjects/EmbeddedProjects/ncnn/build/src"
   ".././yolov5_lite_s"
   "/usr/local/include/opencv4"
   "/home/weijian/Qt/5.15.2/gcc_64/include"

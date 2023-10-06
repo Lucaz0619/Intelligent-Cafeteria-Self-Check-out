@@ -38,7 +38,7 @@ Widget::Widget(QWidget *parent)
 
     faceDisplay = new QLabel(this);
     faceDisplay->setObjectName(QString::fromUtf8("faceDisplay"));
-    faceDisplay->setGeometry(QRect(4, 5, 281, 331));
+    faceDisplay->setGeometry(QRect(740, 460, 281, 331));
     faceDisplay->setAlignment(Qt::AlignCenter);
 
     connect(cur_timer,SIGNAL(timeout()),this,SLOT(timerUpdata()));
@@ -74,7 +74,7 @@ void Widget::reboot()
 
 void Widget::restart_window()
 {
-    qDebug()<<"time out";
+    qDebug()<<"Restarting...";
     restart_timer.stop();
     qApp->processEvents();
     reboot();
@@ -82,7 +82,7 @@ void Widget::restart_window()
 
 QStringList read_dish_database()
 {
-    QFile inFile("/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/dish_database.csv");
+    QFile inFile("/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/dish_database.csv");
     QStringList lines;
 
     if (inFile.open(QIODevice::ReadOnly))
@@ -119,16 +119,24 @@ void Widget::faceMatImageToQt(const cv::Mat &frame)
     QImage imag = QImage((const unsigned char*)(face_image.data), face_image.cols, face_image.rows, QImage::Format_RGB888);
     imag = imag.rgbSwapped();
     QPixmap q = QPixmap::fromImage(imag);
-    faceDisplay->setPixmap(q); //dishDisplay is the label name of the dish ui
+    faceDisplay->setPixmap(q); //faceDisplay is the label name of the face ui
 
 }
 
-void Widget::showResult()
+void Widget::showDishResult()
 {
     QImage qImg(dst_image.data, dst_image.cols, dst_image.rows, static_cast<int>(dst_image.step), QImage::Format_RGB888);
     qImg = qImg.rgbSwapped();
     QPixmap r = QPixmap::fromImage(qImg);
     dishDisplay->setPixmap(r);
+}
+
+void Widget::showFaceResult()
+{
+    QImage qImg(dst_image.data, dst_image.cols, dst_image.rows, static_cast<int>(dst_image.step), QImage::Format_RGB888);
+    qImg = qImg.rgbSwapped();
+    QPixmap s = QPixmap::fromImage(qImg);
+    faceDisplay->setPixmap(s);
 }
 
 void Widget::openDishCamera(){
@@ -138,81 +146,73 @@ void Widget::openDishCamera(){
 }
 
 void Widget::closeDishCamera(){
-    cam -> stop();
+    cam -> stopped();
     dishDisplay->clear();
-
 }
 
 void Widget::openFaceCamera(){
-    cam = new CameraDriver(1);
-    cam -> startCapture();
-    cam -> processFrame(faceMatImageToQt);
+    cam2 = new CameraDriver(1);
+    cam2 -> startCapture();
+    cam2 -> processFrame(faceMatImageToQt);
 }
 
 void Widget::closeFaceCamera(){
-    cam -> stop();
+    cam2 -> stopped();
     faceDisplay->clear();
 
 }
 
-void Widget::on_dishRgBt_clicked()
-{
-    //qDebug("on_dishRgBt_clicked");image: url(:/pic/logo.png);
-}
-
-
-void Widget::on_dishRgBt_pressed()
+//Click button to start the recognition process
+void Widget::on_button_pressed()
 {
     ui->statusLb->setText("Recognizing...");
     ui->statusLb->setStyleSheet("background-color: rgb(0, 162, 232);");
-    ui->statusLb->setFixedWidth(240);openFaceCamera();
-    //ui->dishRgBt->setStyleSheet("image: url(:/pic/dish_demo.png);");image: url(:/pic/logo.png);
-    ui->dishRgBt->setText("Show dishes");
-    //ui->dishRgP>setPixmap(QPixmap(":/pic/dish_demo.png"));
-    ui->dishLdImg->setVisible(true);
+    ui->statusLb->setFixedWidth(240);
+    ui->statusLb->setVisible(true);
+    //ui->button->setText("Showing dishes");
+    
 }
 
-void Widget::on_dishRgBt_released()
+void Widget::on_button_released()
 {
-    ui->dishLdImg->setVisible(false);
     ui->statusLb->setText("Recognized Successfully!");
     ui->statusLb->setStyleSheet("background-color: rgb(111, 237, 92);");
-    ui->statusLb->setFixedWidth(300);
-    ui->dishRgBt->setText("Dishes recognized");
-    //takeDishPhoto();
+    ui->statusLb->setFixedWidth(240);
+    ui->statusLb->setText("Dishes recognized!");
+    ui->statusLb->setFixedWidth(320);
+    ui->statusLb->setAlignment(Qt::AlignCenter);
 
-    dishRecognizer();
+    dishRecognizer(); //recognize dishes
 
-    // open the face camera to recognize and make payment
     ui->statusHd->setText(" Recognizing...");
     ui->statusHd->setStyleSheet("background-color: rgb(0, 162, 232);");
     ui->statusHd->setVisible(true);
     
+    face_image = dish_image;
     
     openFaceCamera();//the second camera can also actually be initialized at the beginning of the program
-    int UsrIdx = faceRecognizer();  
-    //int UsrIdx = 1;//test code output when the second camera is not plugged in
-    if (UsrIdx == -1)
+    int Idx = faceRecognizer();  
+    //int Idx = 1;//test code output when the second camera is not plugged in
+    if (Idx == -1)
     {
-        qDebug()<<"recognize fail!";
+        qDebug()<<"recognization failed!";
     }
     else
     {
         qDebug()<<"recognized!";
-        //ui->faceLdImg->setVisible(false);
         ui->statusHd->setText(" Face recognized!");
         ui->statusHd->setStyleSheet("background-color: rgb(111, 237, 92);");
-        //takeFacePhoto();
     }
 
-    // use UsrIdx to find the account info
+    // use Idx to find the account info
     ui->textBrowser->setVisible(true);
     ui->statusHd_2->setText(" Making the payment...");
     ui->statusHd_2->setStyleSheet("background-color: rgb(0, 162, 232);");
     ui->statusHd_2->setVisible(true);
-    if (make_payment(UsrIdx))
+    if (make_payment(Idx))
     {
-        closeFaceCamera();   
+        closeFaceCamera(); 
+        showFaceResult();
         restart_timer.start();   // if the payment is successful, refrash the window after a few seconds
     }
 }
@@ -224,12 +224,12 @@ void Widget::dishRecognizer()
     while(dishNum < 2)
     {
         m = dish_image;
-        //cap.read(m);
+        cv::Mat resultImage;
         qDebug()<<"read the dish frame";
-        //cv::Mat m =cv::imread("captured_frame.png");
         std::vector<Object> objects;
         detect_yolov5(m, objects);
-        draw_objects(m, objects);
+        draw_objects(m, objects, &dst_image);
+
         std::vector<int> labels;
         for (auto& obj : objects)
         {
@@ -246,9 +246,8 @@ void Widget::dishRecognizer()
     show_order(dishes_recognized, dishNum);
     delete []dishes_recognized;
 
-    dst_image = m.clone();
     closeDishCamera();
-    showResult();
+    showDishResult();
 
 }
 
@@ -283,9 +282,9 @@ void Widget::show_order(int* dishes_recognized, int dishNum)
 
 }
 
-bool Widget::make_payment(int UsrIdx)
+bool Widget::make_payment(int Idx)
 {
-    QFile inFile("/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/account_database.csv");
+    QFile inFile("/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/account_database.csv");
     QStringList lines;
 
     if (inFile.open(QIODevice::ReadOnly))
@@ -297,7 +296,7 @@ bool Widget::make_payment(int UsrIdx)
             lines.push_back(stream_text.readLine());
         }
         inFile.close();
-        QString line = lines.at(UsrIdx);
+        QString line = lines.at(Idx);
         QStringList split = line.split(",");  // col
         QString name = split.at(0);
         QString accNum = split.at(1);
@@ -322,13 +321,13 @@ bool Widget::make_payment(int UsrIdx)
         ui->statusHd_2->setStyleSheet("background-color: rgb(111, 237, 92);");
 
         // update the balance info
-        QFile outFile("/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/account_database.csv");
+        QFile outFile("/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/account_database.csv");
         if (outFile.open(QIODevice::WriteOnly))
         {
             QString endl = "\n";
             for (int i = 0; i < lines.size(); i++)
             {
-                if (UsrIdx == i)
+                if (Idx == i)
                 {
                     QString new_line = name + "," + accNum + "," + QString::number(new_balance);
                     outFile.write(new_line.toStdString().c_str()); // write the new line
@@ -356,6 +355,7 @@ bool Widget::make_payment(int UsrIdx)
 int Widget::faceRecognizer()
 {
     int UsrIdx = -1;
+    int predicted = -1;
 
     map<int, string> labels;
     ifstream infile("./recognizer/labels.txt");
@@ -367,43 +367,29 @@ int Widget::faceRecognizer()
     }
 
     CascadeClassifier classifier;
-    classifier.load("/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/face_recognition/cascades/lbpcascade_frontalface.xml");
-
+    classifier.load("/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/face_recognition/cascades/lbpcascade_frontalface.xml");
     Ptr<LBPHFaceRecognizer> recognizer =  LBPHFaceRecognizer::create();
-    recognizer->read("/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/face_recognition/recognizer/embeddings.xml");
+    recognizer->read("/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/face_recognition/recognizer/embeddings.xml");
 
     Mat windowFrame;
-    //namedWindow("edges", 1);
     int numframes = 0;
     time_t timer_begin, timer_end;
     time ( &timer_begin );
+    double confidence = 0.0;
 
-    while(UsrIdx == -1)
+    while(UsrIdx == -1 && confidence < 45)
     {
         cv::Mat frame = face_image;
-        //cap.read(frame);
-        if (face_image.empty())
-        {
-        cout << "face_image is empty!" << endl;
-        return -1; // or some other error handling
-        }
-
         cvtColor(frame, windowFrame, cv::COLOR_BGR2GRAY);
         vector<Rect> faces;
         classifier.detectMultiScale(frame, faces, 1.2, 5);
-        //Mat* face_arr = new Mat[faces.size()];
-        string str;
         for (int i = 0; i < faces.size(); i++)
         {
             rectangle(frame, faces[i], Scalar(0, 255, 0));
             Mat face = windowFrame(faces[i]);
-            //face_arr[i] = face; // store all faces
-            //if (face_arr[i].empty())
-              //  continue;
-            double confidence = 0.0;
-            int predicted = recognizer->predict(face);
+            predicted = recognizer->predict(face);
             recognizer->predict(face, predicted, confidence);
-            if(labels.find(predicted) == labels.end() || confidence < 25)
+            if(labels.find(predicted) == labels.end() || confidence < 45)
             {
                 putText(frame, "Unknown", Point(faces[i].x ,faces[i].y - 5), FONT_HERSHEY_DUPLEX, 1, Scalar(0,255,0), 1);
             }
@@ -414,13 +400,16 @@ int Widget::faceRecognizer()
                 putText(frame, labels[predicted], Point(faces[i].x ,faces[i].y - 5), FONT_HERSHEY_DUPLEX, 1, Scalar(0,255,0), 1);
             }
             cout << "ID: " << predicted << " | Confidence: " << confidence << endl;
+            UsrIdx = predicted;
         }
-        //delete []face_arr;
-        numframes++;
+        UsrIdx = predicted;
+        cout << UsrIdx << "asdasad"<< endl;
         //imshow("edges", frame);
+        dst_image = frame.clone();
         if (waitKey(30) >= 0)
             break;
     }
+
     time ( &timer_end );
     double secondsElapsed = difftime(timer_end, timer_begin);
     qDebug()<<QString::number(secondsElapsed);

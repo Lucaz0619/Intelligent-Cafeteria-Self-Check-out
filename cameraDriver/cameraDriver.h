@@ -13,7 +13,7 @@ public:
     CameraDriver(int cameraIndex);
 
     void startCapture();
-    void stop();
+    void stopped();
     void processFrame(FrameCallback task);
 
 private:

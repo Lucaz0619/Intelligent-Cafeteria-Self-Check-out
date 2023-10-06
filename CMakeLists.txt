@@ -12,15 +12,14 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS Core Widgets REQUIRED)
-
 include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR})
 
 find_package(OpenCV REQUIRED core imgproc highgui face)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-set(NCNN_LIBS /home/weijian/MyProjects/EmbededProjects/ncnn/build/src/libncnn.a)
-set(NCNN_INCLUDE_DIRS /home/weijian/MyProjects/EmbededProjects/ncnn/src)
-set(NCNN_BUILD_INCLUDE_DIRS /home/weijian/MyProjects/EmbededProjects/ncnn/build/src)
+set(NCNN_LIBS /home/weijian/MyProjects/EmbeddedProjects/ncnn/build/src/libncnn.a)
+set(NCNN_INCLUDE_DIRS /home/weijian/MyProjects/EmbeddedProjects/ncnn/src)
+set(NCNN_BUILD_INCLUDE_DIRS /home/weijian/MyProjects/EmbeddedProjects/ncnn/build/src)
 include_directories(${NCNN_INCLUDE_DIRS})
 include_directories(${NCNN_BUILD_INCLUDE_DIRS})
 
@@ -36,7 +35,6 @@ set(PROJECT_SOURCES
         cameraDriver/cameraDriver.cpp
         cameraDriver/cameraDriver.h
 )
-
 
 
 find_package(OpenMP)

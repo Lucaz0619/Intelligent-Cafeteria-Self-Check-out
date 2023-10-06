@@ -1,36 +1,36 @@
 {
-	"BUILD_DIR" : "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen",
-	"CMAKE_BINARY_DIR" : "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out",
+	"BUILD_DIR" : "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen",
+	"CMAKE_BINARY_DIR" : "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out",
+	"CMAKE_SOURCE_DIR" : "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out",
 	"HEADERS" : 
 	[
 		[
-			"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/cameraDriver/cameraDriver.h",
+			"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/cameraDriver/cameraDriver.h",
 			"MU",
 			"JLNKWPNGY5/moc_cameraDriver.cpp"
 		],
 		[
-			"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/ui.h",
+			"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/ui.h",
 			"MU",
 			"EWIEGA46WW/moc_ui.cpp"
 		],
 		[
-			"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/widget.h",
+			"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp"
 		],
 		[
-			"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/yolov5_lite_s.h",
+			"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/yolov5_lite_s.h",
 			"MU",
 			"N7MLCF2ZLZ/moc_yolov5_lite_s.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -41,11 +41,11 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build",
-		"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out",
-		"/home/weijian/MyProjects/EmbededProjects/ncnn/src",
-		"/home/weijian/MyProjects/EmbededProjects/ncnn/build/src",
-		"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s",
+		"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build",
+		"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out",
+		"/home/weijian/MyProjects/EmbeddedProjects/ncnn/src",
+		"/home/weijian/MyProjects/EmbeddedProjects/ncnn/build/src",
+		"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s",
 		"/usr/local/include/opencv4",
 		"/home/weijian/Qt/5.15.2/gcc_64/include",
 		"/home/weijian/Qt/5.15.2/gcc_64/include/QtWidgets",
@@ -71,32 +71,32 @@
 		"-c",
 		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/icsc_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/weijian/Qt/5.15.2/gcc_64/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/home/weijian/Qt/5.15.2/gcc_64/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
-	"SETTINGS_FILE" : "/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/cameraDriver/cameraDriver.cpp",
+			"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/cameraDriver/cameraDriver.cpp",
 			"MU"
 		],
 		[
-			"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/main.cpp",
+			"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/main.cpp",
 			"MU"
 		],
 		[
-			"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/widget.cpp",
+			"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/widget.cpp",
 			"MU"
 		],
 		[
-			"/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/yolov5_lite_s.cpp",
+			"/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/yolov5_lite_s/yolov5_lite_s.cpp",
 			"MU"
 		]
 	],

@@ -34,7 +34,7 @@ struct Object
 
 int detect_yolov5(const cv::Mat &bgr, std::vector<Object> &objects);
 
-void draw_objects(const cv::Mat &bgr, const std::vector<Object> &objects);
+void draw_objects(const cv::Mat &bgr, const std::vector<Object> &objects, cv::Mat* outImage);
 
 #endif // YOLOV5_LITE_S_H
 

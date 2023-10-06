@@ -29,7 +29,7 @@ void CameraDriver::startCapture() {
     });
 }
 
-void CameraDriver::stop() {
+void CameraDriver::stopped() {
     stopCapture = true;
     if (captureThread.joinable()) {
         captureThread.join();

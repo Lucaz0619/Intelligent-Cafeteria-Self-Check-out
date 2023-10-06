@@ -1,8 +1,8 @@
-/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/install/strip.dir
-/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/install/local.dir
-/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/install.dir
-/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/list_install_components.dir
-/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/rebuild_cache.dir
-/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/edit_cache.dir
-/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir
-/home/weijian/MyProjects/EmbededProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc_autogen.dir
+/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/install/strip.dir
+/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/install/local.dir
+/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/install.dir
+/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/list_install_components.dir
+/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/rebuild_cache.dir
+/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/edit_cache.dir
+/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc.dir
+/home/weijian/MyProjects/EmbeddedProjects/Intelligent-Cafeteria-Self-Check-out/build/CMakeFiles/icsc_autogen.dir

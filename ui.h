@@ -1,10 +1,3 @@
-/********************************************************************************
-** Form generated from reading UI file 'widget.**
-** Created by: Qt User Interface Compiler version 5.15.2
-**
-** WARNING! All changes made in this file will be lost when recompiling UI file!
-********************************************************************************/
-
 #ifndef GUI_H
 #define GUI_H
 
@@ -41,7 +34,7 @@ public:
     QLabel *tPLb;
     QLabel *priceLb;
     QFrame *frame;
-    QPushButton *dishRgBt;
+    QPushButton *button;
     QLabel *statusLb;
 
     QLabel *dishLdImg;
@@ -150,13 +143,13 @@ public:
         frame->setGeometry(QRect(0, 40, 731, 751));
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
-        dishRgBt = new QPushButton(frame);
-        dishRgBt->setObjectName(QString::fromUtf8("dishRgBt"));
-        dishRgBt->setGeometry(QRect(0, 0, 731, 201));
+        button = new QPushButton(frame);
+        button->setObjectName(QString::fromUtf8("button"));
+        button->setGeometry(QRect(0, 0, 731, 201));
         QFont font6;
         font6.setPointSize(50);
-        dishRgBt->setFont(font6);
-        dishRgBt->setStyleSheet(QString::fromUtf8(""));
+        button->setFont(font6);
+        button->setStyleSheet(QString::fromUtf8(""));
         statusLb = new QLabel(frame);
         statusLb->setObjectName(QString::fromUtf8("statusLb"));
         statusLb->setGeometry(QRect(0, 0, 101, 51));
@@ -166,7 +159,9 @@ public:
         sizePolicy.setHeightForWidth(statusLb->sizePolicy().hasHeightForWidth());
         statusLb->setSizePolicy(sizePolicy);
         statusLb->setFont(font1);
+        statusLb->setText("Click to start");
         statusLb->setStyleSheet(QString::fromUtf8("alternate-background-color: rgb(0, 85, 127);"));
+        statusLb->setFixedWidth(240);
         statusLb->setAlignment(Qt::AlignCenter);
         dishLdImg = new QLabel(frame);
         dishLdImg->setObjectName(QString::fromUtf8("dishLdImg"));
